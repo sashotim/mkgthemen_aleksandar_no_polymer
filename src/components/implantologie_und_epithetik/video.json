@@ -1,0 +1,31 @@
+{
+    "videos": [
+        {
+            "name": "Beckenkamm Implantate",
+            "id": 0,
+            "host": "wms-avmz.klinikum.rwth-aachen.de",
+            "port": "443",
+            "path": "mkg",
+            "type": "mp4",
+            "file": "beckenkamm_implantate.mp4",
+            "playbutton_poster": "avmzplayer/assets/Play_experimentell.png",
+            "poster": "implantologie_und_epithetik/images/video18.png",
+            "cuepoints" : [
+                {
+                    "id": 0,
+                    "time": 4,
+                    "duration": 0,
+                    "caption": "Einleitung"
+                },
+                {
+                    "id": 1,
+                    "time": 95,
+                    "duration": 0,
+                    "caption": "OP"
+                }
+            ]
+        }
+        
+       
+    ]
+}

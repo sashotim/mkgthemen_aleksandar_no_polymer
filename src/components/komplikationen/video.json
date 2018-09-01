@@ -1,0 +1,79 @@
+{
+    "videos": [
+        {
+            "name": "Weisheitszahnosteotomie",
+            "id": 0,
+            "host": "wms-avmz.klinikum.rwth-aachen.de",
+            "port": "443",
+            "path": "mkg",
+            "type": "mp4",
+            "file": "komplikationen_weisheitszahnosteotomie.mp4",
+            "playbutton_poster": "avmzplayer/assets/Play_experimentell.png",
+            "poster": "komplikationen/images/video0.png",
+            "cuepoints" : [
+                {
+                    "id": 0,
+                    "time": 4,
+                    "duration": 0,
+                    "caption": "Einleitung"
+                },
+                {
+                    "id": 1,
+                    "time": 55,
+                    "duration": 0,
+                    "caption": "OP"
+                }
+            ]
+        },
+        {
+          "name": "Nervtransposition",
+          "id": 1,
+          "host": "wms-avmz.klinikum.rwth-aachen.de",
+          "port": "443",
+          "path": "mkg",
+          "type": "mp4",
+          "file": "komplikationen_nervtransposition.mp4",
+          "playbutton_poster": "avmzplayer/assets/Play_experimentell.png",
+          "poster": "komplikationen/images/video1.png",
+          "cuepoints" : [
+            {
+              "id": 0,
+              "time": 5,
+              "duration": 0,
+              "caption": "Einleitung"
+            },
+            {
+              "id": 1,
+              "time": 60,
+              "duration": 0,
+              "caption": "OP"
+            }
+          ]
+        },
+      {
+        "name": "Weisheitszahn Komplikationen",
+        "id": 2,
+        "host": "wms-avmz.klinikum.rwth-aachen.de",
+        "port": "443",
+        "path": "mkg",
+        "type": "mp4",
+        "file": "weisheitszahn_kieferhoehle.mp4",
+        "playbutton_poster": "avmzplayer/assets/Play_experimentell.png",
+        "poster": "komplikationen/images/video2.png",
+        "cuepoints" : [
+          {
+            "id": 0,
+            "time": 4,
+            "duration": 0,
+            "caption": "Einleitung"
+          },
+          {
+            "id": 1,
+            "time": 18,
+            "duration": 0,
+            "caption": "OP"
+          }
+        ]
+      }
+    ]
+}
