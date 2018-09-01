@@ -2,8 +2,10 @@ import React, { Component } from 'react';
 import Grundlagen from './components/Grundlagen'
 import MyNavbar from './components/MyNavbar';
 import {subjects} from './subjects';
+import Galerie from './components/Galerie'
 // import logo from './logo.svg';
 import './App.css';
+
 class App extends Component {
   render() {
     return (
@@ -11,7 +13,8 @@ class App extends Component {
         {/* <header className="App-header"> */}
           <MyNavbar subjects={subjects} selectedSubject={subjects[0]}></MyNavbar>
         {/* </header> */}
-        <Grundlagen subjects={subjects}></Grundlagen>
+        {/* <Grundlagen subjects={subjects}></Grundlagen> */}
+        <Galerie></Galerie>
       </div>
     );
   }
