@@ -1,24 +1,13 @@
 import React from 'react';
-import Dysgnathie from './dysgnathie/Dysgnathie';
-import { Container, Row, Col } from 'reactstrap';
-import MyImageCard from './MyImageCard';
+// import Dysgnathie from './dysgnathie/Dysgnathie';
+import { Container} from 'reactstrap';
+import MyTabs from './MyTabs';
 
 function Galerie(props) {
   return (
     <Container>
-    <Row >
-      <Col sm="4">
-        <MyImageCard></MyImageCard>
-      </Col>
-      <Col sm="4">
-        <MyImageCard></MyImageCard>
-      </Col>
-      <Col sm="4">
-        <MyImageCard></MyImageCard>
-      </Col>
-
-    </Row>
-  </Container>);
+      <MyTabs></MyTabs>
+    </Container>);
 }
 
 export default Galerie;

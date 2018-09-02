@@ -1,5 +1,5 @@
 import React from 'react';
-import Dysgnathie from './dysgnathie/Dysgnathie'
+import Entzuendungen_abszesse from './entzuendungen_abszesse/Entzuendungen_abszesse'
 import MyListGroup from './MyListGroup';
 import { Container, Row, Col } from 'reactstrap';
 
@@ -8,10 +8,10 @@ function Grundlagen(props) {
     <Container>
     <Row >
       <Col sm="4">
-        <MyListGroup chapters={props.subjects[0].chapters}></MyListGroup>
+        <MyListGroup chapters={props.subjects[1].chapters}></MyListGroup>
       </Col>
       <Col sm="8">
-        <Dysgnathie></Dysgnathie>
+        <Entzuendungen_abszesse></Entzuendungen_abszesse>
       </Col>
     </Row>
   </Container>);
