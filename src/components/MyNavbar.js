@@ -29,10 +29,11 @@ export default class MyNavbar extends React.Component {
   }
 
   render() {
-    let chosenSubject = this.props.subjects[0];
+    let chosenSubject = this.props.chosenSubject;
     let dropdownItems = [];
-    for (var i = 0; i < this.props.subjects.length; i++) {
-      dropdownItems.push(<DropdownItem key={i}>{this.props.subjects[i].title}</DropdownItem>);
+    dropdownItems.push(<DropdownItem active key={0} id='0' onClick={this.props.changeSubjectIndex}>{this.props.subjects[0].title}</DropdownItem>);
+    for (var i = 1; i < this.props.subjects.length; i++) {
+      dropdownItems.push(<DropdownItem key={i} id={i} onClick={this.props.changeSubjectIndex}>{this.props.subjects[i].title}</DropdownItem>);
     }
     return (
       <div>
@@ -43,7 +44,7 @@ export default class MyNavbar extends React.Component {
               <DropdownToggle nav caret>
                 {chosenSubject.title}
               </DropdownToggle>
-              <DropdownMenu >
+              <DropdownMenu>
                 {dropdownItems}
                 <DropdownItem divider />
                 <DropdownItem>
@@ -56,16 +57,16 @@ export default class MyNavbar extends React.Component {
           <Collapse isOpen={this.state.isOpen} navbar>
             <Nav className="ml-auto" navbar>
               <NavItem>
-                <NavLink href="/components/Grundlagen">Grundlagen</NavLink>
+                <NavLink href="#" onClick={this.props.changePage}>Grundlagen</NavLink>
               </NavItem>
               <NavItem>
-                <NavLink href="/components/">Galerie</NavLink>
+                <NavLink href="#" onClick={this.props.changePage}>Galerie</NavLink>
               </NavItem>
               <NavItem>
-                <NavLink href="/components/">Quiz</NavLink>
+                <NavLink href="#" onClick={this.props.changePage}>Quiz</NavLink>
               </NavItem>
               <NavItem>
-                <NavLink href="/components/">Lernziele</NavLink>
+                <NavLink href="#" onClick={this.props.changePage}>Lernziele</NavLink>
               </NavItem>
               {/* <UncontrolledDropdown nav inNavbar>
                 <DropdownToggle nav caret>
