@@ -1,7 +1,6 @@
 import React from 'react';
-import { Table } from 'reactstrap';
 
-function DysgnathieLernziele(props) {
+function Spezifische_infektionenLernziele(props) {
   return (
         <tbody>
 <tr>
@@ -14,7 +13,7 @@ function DysgnathieLernziele(props) {
           <tr>
 <td>Grundlage</td>
 <td>
-Der Studierende soll die Ursachen der Dysgnathien
+Der Studierende soll die Eigenschaften und das Krankheitsbild der Aktinomykose
 </td>
 <td>erklären</td>
 <td>kognitiv</td>
@@ -25,40 +24,7 @@ Der Studierende soll die Ursachen der Dysgnathien
           <tr>
 <td>Grundlage</td>
 <td>
-Der Studierende soll die Angle-Klassifikation
-</td>
-<td>anwenden</td>
-<td>psychomotorisch</td>
-<td>
-"Zahn-, Mund und Kieferheilkunde" Schwenzer, Ehrenfeld, Thieme Verlag
-</td>
-</tr>
-          <tr>
-<td>Grundlage</td>
-<td>
-Der Studierende soll die Klassifikation nach dem ANB-Winkel
-</td>
-<td>anwenden</td>
-<td>psychomotorisch</td>
-<td>
-"Zahn-, Mund und Kieferheilkunde" Schwenzer, Ehrenfeld, Thieme Verlag
-</td>
-</tr>
-          <tr>
-<td>Grundlage</td>
-<td>
-Der Studierende soll die Dysgnathieformen
-</td>
-<td>benennen</td>
-<td>kognitiv</td>
-<td>
-"Zahn-, Mund und Kieferheilkunde" Schwenzer, Ehrenfeld, Thieme Verlag
-</td>
-</tr>
-          <tr>
-<td>Grundlage</td>
-<td>
-Der Studierende soll Folgen der unbehandelten Dysgnathie
+Der Studierende soll die Eigenschaften und das Krankheitsbild der Tuberkulose
 </td>
 <td>erklären</td>
 <td>kognitiv</td>
@@ -67,9 +33,20 @@ Der Studierende soll Folgen der unbehandelten Dysgnathie
 </td>
 </tr>
           <tr>
-<td>Diagnostik</td>
+<td>Grundlage</td>
 <td>
-Der Studierende soll die diagnostischen Möglichkeiten
+Der Studierende soll die Eigenschaften und das krankheitsbild der Syphilis
+</td>
+<td>erklären</td>
+<td>kognitiv</td>
+<td>
+"Zahn-, Mund und Kieferheilkunde" Schwenzer, Ehrenfeld, Thieme Verlag
+</td>
+</tr>
+          <tr>
+<td>Symptomatik</td>
+<td>
+Der Studierende soll die Eigenschaften und das Krankheitsbild von Tetanus
 </td>
 <td>erklären</td>
 <td>kognitiv</td>
@@ -80,7 +57,7 @@ Der Studierende soll die diagnostischen Möglichkeiten
           <tr>
 <td>Therapie</td>
 <td>
-Der Studierende soll den Therapieplan einer Dysgnathie
+Der Studierende soll die Eigenschaften und das Krankheitsbild der Candidiasis
 </td>
 <td>erklären</td>
 <td>kognitiv</td>
@@ -89,20 +66,20 @@ Der Studierende soll den Therapieplan einer Dysgnathie
 </td>
 </tr>
           <tr>
-<td>Therapie</td>
+<td>Grundlage</td>
 <td>
-Der Studierende soll die allgemeinen Grundlagen der orthognathen Chirurgie
+Der Studierende soll die Eigenschaften und das Krankheitsbild der Aspergillose
 </td>
-<td>benennen</td>
+<td>erklären</td>
 <td>kognitiv</td>
 <td>
 "Zahn-, Mund und Kieferheilkunde" Schwenzer, Ehrenfeld, Thieme Verlag
 </td>
 </tr>
           <tr>
-<td>Therapie</td>
+<td>Grundlage</td>
 <td>
-Der Studierende soll die Grundlagen der chirurgischen Verfahren
+Der Studierende soll die Eigenschaften und das Krankheitsbild der Kryptokokkose
 </td>
 <td>erklären</td>
 <td>kognitiv</td>
@@ -111,8 +88,7 @@ Der Studierende soll die Grundlagen der chirurgischen Verfahren
 </td>
 </tr>
         </tbody>
-
     );
     }
 
-export default DysgnathieLernziele;
+export default Spezifische_infektionenLernziele;

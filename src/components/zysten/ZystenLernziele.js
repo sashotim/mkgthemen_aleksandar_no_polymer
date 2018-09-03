@@ -1,7 +1,6 @@
 import React from 'react';
-import { Table } from 'reactstrap';
 
-function DysgnathieLernziele(props) {
+function ZystenLernziele(props) {
   return (
         <tbody>
 <tr>
@@ -14,7 +13,7 @@ function DysgnathieLernziele(props) {
           <tr>
 <td>Grundlage</td>
 <td>
-Der Studierende soll die Ursachen der Dysgnathien
+Der Studierende soll den Unterschied einer Zyste und einer Pseudozyste
 </td>
 <td>erklären</td>
 <td>kognitiv</td>
@@ -25,10 +24,10 @@ Der Studierende soll die Ursachen der Dysgnathien
           <tr>
 <td>Grundlage</td>
 <td>
-Der Studierende soll die Angle-Klassifikation
+Der Studierende soll  die Ätiologie und Pathogenese
 </td>
-<td>anwenden</td>
-<td>psychomotorisch</td>
+<td>erklären</td>
+<td>kognitiv</td>
 <td>
 "Zahn-, Mund und Kieferheilkunde" Schwenzer, Ehrenfeld, Thieme Verlag
 </td>
@@ -36,10 +35,32 @@ Der Studierende soll die Angle-Klassifikation
           <tr>
 <td>Grundlage</td>
 <td>
-Der Studierende soll die Klassifikation nach dem ANB-Winkel
+Der Studierende soll die WHO-Klassifikation
 </td>
-<td>anwenden</td>
-<td>psychomotorisch</td>
+<td>benennen</td>
+<td>kognitiv</td>
+<td>
+"Zahn-, Mund und Kieferheilkunde" Schwenzer, Ehrenfeld, Thieme Verlag
+</td>
+</tr>
+          <tr>
+<td>Symptomatik</td>
+<td>
+Der Studierende soll die Klinik von Zysten
+</td>
+<td>erklären</td>
+<td>kognitiv</td>
+<td>
+"Zahn-, Mund und Kieferheilkunde" Schwenzer, Ehrenfeld, Thieme Verlag
+</td>
+</tr>
+          <tr>
+<td>Therapie</td>
+<td>
+Der Studierende soll Therapieoptionen
+</td>
+<td>erklären</td>
+<td>kognitiv</td>
 <td>
 "Zahn-, Mund und Kieferheilkunde" Schwenzer, Ehrenfeld, Thieme Verlag
 </td>
@@ -47,7 +68,18 @@ Der Studierende soll die Klassifikation nach dem ANB-Winkel
           <tr>
 <td>Grundlage</td>
 <td>
-Der Studierende soll die Dysgnathieformen
+Der Studierende soll die Besonderheit der Keratozyste
+</td>
+<td>erklären</td>
+<td>kognitiv</td>
+<td>
+"Zahn-, Mund und Kieferheilkunde" Schwenzer, Ehrenfeld, Thieme Verlag
+</td>
+</tr>
+          <tr>
+<td>Grundlage</td>
+<td>
+Der Studierende soll die Differentialdiagnosen einer Zyste
 </td>
 <td>benennen</td>
 <td>kognitiv</td>
@@ -58,61 +90,16 @@ Der Studierende soll die Dysgnathieformen
           <tr>
 <td>Grundlage</td>
 <td>
-Der Studierende soll Folgen der unbehandelten Dysgnathie
-</td>
-<td>erklären</td>
-<td>kognitiv</td>
-<td>
-"Zahn-, Mund und Kieferheilkunde" Schwenzer, Ehrenfeld, Thieme Verlag
-</td>
-</tr>
-          <tr>
-<td>Diagnostik</td>
-<td>
-Der Studierende soll die diagnostischen Möglichkeiten
-</td>
-<td>erklären</td>
-<td>kognitiv</td>
-<td>
-"Zahn-, Mund und Kieferheilkunde" Schwenzer, Ehrenfeld, Thieme Verlag
-</td>
-</tr>
-          <tr>
-<td>Therapie</td>
-<td>
-Der Studierende soll den Therapieplan einer Dysgnathie
-</td>
-<td>erklären</td>
-<td>kognitiv</td>
-<td>
-"Zahn-, Mund und Kieferheilkunde" Schwenzer, Ehrenfeld, Thieme Verlag
-</td>
-</tr>
-          <tr>
-<td>Therapie</td>
-<td>
-Der Studierende soll die allgemeinen Grundlagen der orthognathen Chirurgie
+Der Studierende soll die Häufigkeitsverteilung von Zysten
 </td>
 <td>benennen</td>
-<td>kognitiv</td>
-<td>
-"Zahn-, Mund und Kieferheilkunde" Schwenzer, Ehrenfeld, Thieme Verlag
-</td>
-</tr>
-          <tr>
-<td>Therapie</td>
-<td>
-Der Studierende soll die Grundlagen der chirurgischen Verfahren
-</td>
-<td>erklären</td>
 <td>kognitiv</td>
 <td>
 "Zahn-, Mund und Kieferheilkunde" Schwenzer, Ehrenfeld, Thieme Verlag
 </td>
 </tr>
         </tbody>
-
     );
     }
 
-export default DysgnathieLernziele;
+export default ZystenLernziele;

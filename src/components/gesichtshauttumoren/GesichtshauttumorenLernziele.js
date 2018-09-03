@@ -1,7 +1,6 @@
 import React from 'react';
-import { Table } from 'reactstrap';
 
-function DysgnathieLernziele(props) {
+function GesichtshauttumorenLernziele(props) {
   return (
         <tbody>
 <tr>
@@ -14,40 +13,7 @@ function DysgnathieLernziele(props) {
           <tr>
 <td>Grundlage</td>
 <td>
-Der Studierende soll die Ursachen der Dysgnathien
-</td>
-<td>erklären</td>
-<td>kognitiv</td>
-<td>
-"Zahn-, Mund und Kieferheilkunde" Schwenzer, Ehrenfeld, Thieme Verlag
-</td>
-</tr>
-          <tr>
-<td>Grundlage</td>
-<td>
-Der Studierende soll die Angle-Klassifikation
-</td>
-<td>anwenden</td>
-<td>psychomotorisch</td>
-<td>
-"Zahn-, Mund und Kieferheilkunde" Schwenzer, Ehrenfeld, Thieme Verlag
-</td>
-</tr>
-          <tr>
-<td>Grundlage</td>
-<td>
-Der Studierende soll die Klassifikation nach dem ANB-Winkel
-</td>
-<td>anwenden</td>
-<td>psychomotorisch</td>
-<td>
-"Zahn-, Mund und Kieferheilkunde" Schwenzer, Ehrenfeld, Thieme Verlag
-</td>
-</tr>
-          <tr>
-<td>Grundlage</td>
-<td>
-Der Studierende soll die Dysgnathieformen
+Der Studierende soll den Aufbau der Haut
 </td>
 <td>benennen</td>
 <td>kognitiv</td>
@@ -58,40 +24,7 @@ Der Studierende soll die Dysgnathieformen
           <tr>
 <td>Grundlage</td>
 <td>
-Der Studierende soll Folgen der unbehandelten Dysgnathie
-</td>
-<td>erklären</td>
-<td>kognitiv</td>
-<td>
-"Zahn-, Mund und Kieferheilkunde" Schwenzer, Ehrenfeld, Thieme Verlag
-</td>
-</tr>
-          <tr>
-<td>Diagnostik</td>
-<td>
-Der Studierende soll die diagnostischen Möglichkeiten
-</td>
-<td>erklären</td>
-<td>kognitiv</td>
-<td>
-"Zahn-, Mund und Kieferheilkunde" Schwenzer, Ehrenfeld, Thieme Verlag
-</td>
-</tr>
-          <tr>
-<td>Therapie</td>
-<td>
-Der Studierende soll den Therapieplan einer Dysgnathie
-</td>
-<td>erklären</td>
-<td>kognitiv</td>
-<td>
-"Zahn-, Mund und Kieferheilkunde" Schwenzer, Ehrenfeld, Thieme Verlag
-</td>
-</tr>
-          <tr>
-<td>Therapie</td>
-<td>
-Der Studierende soll die allgemeinen Grundlagen der orthognathen Chirurgie
+Der Studierende soll die Eindringtiefe nach Clark und Breslow
 </td>
 <td>benennen</td>
 <td>kognitiv</td>
@@ -102,7 +35,51 @@ Der Studierende soll die allgemeinen Grundlagen der orthognathen Chirurgie
           <tr>
 <td>Therapie</td>
 <td>
-Der Studierende soll die Grundlagen der chirurgischen Verfahren
+Der Studierende soll die Eigenschaften und Therapie von Basaliomen
+</td>
+<td>erklären</td>
+<td>kognitiv</td>
+<td>
+"Zahn-, Mund und Kieferheilkunde" Schwenzer, Ehrenfeld, Thieme Verlag
+</td>
+</tr>
+          <tr>
+<td>Therapie</td>
+<td>
+Der Studierende soll die Eigenschaften und Therapie von Plattenepithelkarzinomen
+</td>
+<td>erklären</td>
+<td>kognitiv</td>
+<td>
+"Zahn-, Mund und Kieferheilkunde" Schwenzer, Ehrenfeld, Thieme Verlag
+</td>
+</tr>
+          <tr>
+<td>Therapie</td>
+<td>
+Der Studierende soll die Eigenschaften und Therapie von Merkelzellkarzinomen
+</td>
+<td>erklären</td>
+<td>kognitiv</td>
+<td>
+"Zahn-, Mund und Kieferheilkunde" Schwenzer, Ehrenfeld, Thieme Verlag
+</td>
+</tr>
+          <tr>
+<td>Therapie</td>
+<td>
+Der Studierende soll die Eigenschaften und Therapie von Malignen Melanomen
+</td>
+<td>erklären</td>
+<td>kognitiv</td>
+<td>
+"Zahn-, Mund und Kieferheilkunde" Schwenzer, Ehrenfeld, Thieme Verlag
+</td>
+</tr>
+          <tr>
+<td>Therapie</td>
+<td>
+Der Studierende soll die Eigenschaften und Therapie von Kerathoakanthomen
 </td>
 <td>erklären</td>
 <td>kognitiv</td>
@@ -115,4 +92,4 @@ Der Studierende soll die Grundlagen der chirurgischen Verfahren
     );
     }
 
-export default DysgnathieLernziele;
+export default GesichtshauttumorenLernziele;

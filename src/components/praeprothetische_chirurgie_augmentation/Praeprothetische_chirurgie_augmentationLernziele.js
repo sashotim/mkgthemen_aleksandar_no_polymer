@@ -1,7 +1,6 @@
 import React from 'react';
-import { Table } from 'reactstrap';
 
-function DysgnathieLernziele(props) {
+function Praeprothetische_chirurgie_augmentationLernziele(props) {
   return (
         <tbody>
 <tr>
@@ -14,7 +13,7 @@ function DysgnathieLernziele(props) {
           <tr>
 <td>Grundlage</td>
 <td>
-Der Studierende soll die Ursachen der Dysgnathien
+Der Studierende soll den Unterschied zwischen präprothetischer Chirurgie und Augmentation
 </td>
 <td>erklären</td>
 <td>kognitiv</td>
@@ -25,10 +24,10 @@ Der Studierende soll die Ursachen der Dysgnathien
           <tr>
 <td>Grundlage</td>
 <td>
-Der Studierende soll die Angle-Klassifikation
+Der Studierende soll die Atrophierichtung der Kiefer und ihre Konsequenzen für die Therapie
 </td>
-<td>anwenden</td>
-<td>psychomotorisch</td>
+<td>erklären</td>
+<td>kognitiv</td>
 <td>
 "Zahn-, Mund und Kieferheilkunde" Schwenzer, Ehrenfeld, Thieme Verlag
 </td>
@@ -36,18 +35,7 @@ Der Studierende soll die Angle-Klassifikation
           <tr>
 <td>Grundlage</td>
 <td>
-Der Studierende soll die Klassifikation nach dem ANB-Winkel
-</td>
-<td>anwenden</td>
-<td>psychomotorisch</td>
-<td>
-"Zahn-, Mund und Kieferheilkunde" Schwenzer, Ehrenfeld, Thieme Verlag
-</td>
-</tr>
-          <tr>
-<td>Grundlage</td>
-<td>
-Der Studierende soll die Dysgnathieformen
+Der Studierende soll die Atrophieeinteilung nach Cawood und Howell
 </td>
 <td>benennen</td>
 <td>kognitiv</td>
@@ -56,9 +44,31 @@ Der Studierende soll die Dysgnathieformen
 </td>
 </tr>
           <tr>
+<td>Symptomatik</td>
+<td>
+Der Studierende soll die Augmentationsmaterialen und ihre Eigenschaften
+</td>
+<td>erklären</td>
+<td>kognitiv</td>
+<td>
+"Zahn-, Mund und Kieferheilkunde" Schwenzer, Ehrenfeld, Thieme Verlag
+</td>
+</tr>
+          <tr>
+<td>Therapie</td>
+<td>
+Der Studierende soll die Knochenentnahmestellen mit Vor- und Nachteilen
+</td>
+<td>erklären</td>
+<td>kognitiv</td>
+<td>
+"Zahn-, Mund und Kieferheilkunde" Schwenzer, Ehrenfeld, Thieme Verlag
+</td>
+</tr>
+          <tr>
 <td>Grundlage</td>
 <td>
-Der Studierende soll Folgen der unbehandelten Dysgnathie
+Der Studierende soll die Augmentationstechniken
 </td>
 <td>erklären</td>
 <td>kognitiv</td>
@@ -67,9 +77,9 @@ Der Studierende soll Folgen der unbehandelten Dysgnathie
 </td>
 </tr>
           <tr>
-<td>Diagnostik</td>
+<td>Grundlage</td>
 <td>
-Der Studierende soll die diagnostischen Möglichkeiten
+Der Studierende soll die Verfahren des Sinuslifts
 </td>
 <td>erklären</td>
 <td>kognitiv</td>
@@ -78,31 +88,9 @@ Der Studierende soll die diagnostischen Möglichkeiten
 </td>
 </tr>
           <tr>
-<td>Therapie</td>
+<td>Grundlage</td>
 <td>
-Der Studierende soll den Therapieplan einer Dysgnathie
-</td>
-<td>erklären</td>
-<td>kognitiv</td>
-<td>
-"Zahn-, Mund und Kieferheilkunde" Schwenzer, Ehrenfeld, Thieme Verlag
-</td>
-</tr>
-          <tr>
-<td>Therapie</td>
-<td>
-Der Studierende soll die allgemeinen Grundlagen der orthognathen Chirurgie
-</td>
-<td>benennen</td>
-<td>kognitiv</td>
-<td>
-"Zahn-, Mund und Kieferheilkunde" Schwenzer, Ehrenfeld, Thieme Verlag
-</td>
-</tr>
-          <tr>
-<td>Therapie</td>
-<td>
-Der Studierende soll die Grundlagen der chirurgischen Verfahren
+Der Studierende soll die verlagernden Eingriffe am Weichgewebe
 </td>
 <td>erklären</td>
 <td>kognitiv</td>
@@ -111,8 +99,7 @@ Der Studierende soll die Grundlagen der chirurgischen Verfahren
 </td>
 </tr>
         </tbody>
-
     );
     }
 
-export default DysgnathieLernziele;
+export default Praeprothetische_chirurgie_augmentationLernziele;

@@ -1,7 +1,6 @@
 import React from 'react';
-import { Table } from 'reactstrap';
 
-function DysgnathieLernziele(props) {
+function SpeicheldruesenLernziele(props) {
   return (
         <tbody>
 <tr>
@@ -14,7 +13,7 @@ function DysgnathieLernziele(props) {
           <tr>
 <td>Grundlage</td>
 <td>
-Der Studierende soll die Ursachen der Dysgnathien
+Der Studierende soll die Anatomie und Physiologie der Speicheldrüsen
 </td>
 <td>erklären</td>
 <td>kognitiv</td>
@@ -25,10 +24,10 @@ Der Studierende soll die Ursachen der Dysgnathien
           <tr>
 <td>Grundlage</td>
 <td>
-Der Studierende soll die Angle-Klassifikation
+Der Studierende soll  die allgemeine Diagnostik von Speicheldrüsen
 </td>
-<td>anwenden</td>
-<td>psychomotorisch</td>
+<td>erklären</td>
+<td>kognitiv</td>
 <td>
 "Zahn-, Mund und Kieferheilkunde" Schwenzer, Ehrenfeld, Thieme Verlag
 </td>
@@ -36,18 +35,7 @@ Der Studierende soll die Angle-Klassifikation
           <tr>
 <td>Grundlage</td>
 <td>
-Der Studierende soll die Klassifikation nach dem ANB-Winkel
-</td>
-<td>anwenden</td>
-<td>psychomotorisch</td>
-<td>
-"Zahn-, Mund und Kieferheilkunde" Schwenzer, Ehrenfeld, Thieme Verlag
-</td>
-</tr>
-          <tr>
-<td>Grundlage</td>
-<td>
-Der Studierende soll die Dysgnathieformen
+Der Studierende soll die verschieden Formen der Sialadenitis
 </td>
 <td>benennen</td>
 <td>kognitiv</td>
@@ -58,7 +46,7 @@ Der Studierende soll die Dysgnathieformen
           <tr>
 <td>Grundlage</td>
 <td>
-Der Studierende soll Folgen der unbehandelten Dysgnathie
+Der Studierende soll die Eigenschaften und Therapien der Sialadenitiden
 </td>
 <td>erklären</td>
 <td>kognitiv</td>
@@ -67,9 +55,9 @@ Der Studierende soll Folgen der unbehandelten Dysgnathie
 </td>
 </tr>
           <tr>
-<td>Diagnostik</td>
+<td>Grundlage</td>
 <td>
-Der Studierende soll die diagnostischen Möglichkeiten
+Der Studierende soll das Krankheitsbild der Sialadenosen
 </td>
 <td>erklären</td>
 <td>kognitiv</td>
@@ -78,9 +66,9 @@ Der Studierende soll die diagnostischen Möglichkeiten
 </td>
 </tr>
           <tr>
-<td>Therapie</td>
+<td>Grundlage</td>
 <td>
-Der Studierende soll den Therapieplan einer Dysgnathie
+Der Studierende soll das Krankheitsbild der Sialolithiasis
 </td>
 <td>erklären</td>
 <td>kognitiv</td>
@@ -89,9 +77,20 @@ Der Studierende soll den Therapieplan einer Dysgnathie
 </td>
 </tr>
           <tr>
-<td>Therapie</td>
+<td>Grundlage</td>
 <td>
-Der Studierende soll die allgemeinen Grundlagen der orthognathen Chirurgie
+Der Studierende soll die Fehlbildungen der Speicheldrüsen
+</td>
+<td>erklären</td>
+<td>kognitiv</td>
+<td>
+"Zahn-, Mund und Kieferheilkunde" Schwenzer, Ehrenfeld, Thieme Verlag
+</td>
+</tr>
+          <tr>
+<td>Grundlage</td>
+<td>
+Der Studierende soll die Einteilung der Tumoren der Speicheldrüsen
 </td>
 <td>benennen</td>
 <td>kognitiv</td>
@@ -100,9 +99,42 @@ Der Studierende soll die allgemeinen Grundlagen der orthognathen Chirurgie
 </td>
 </tr>
           <tr>
-<td>Therapie</td>
+<td>Grundlage</td>
 <td>
-Der Studierende soll die Grundlagen der chirurgischen Verfahren
+Der Studierende soll die Eigenschaften und Therapien der pleomorphen Adenome
+</td>
+<td>erklären</td>
+<td>kognitiv</td>
+<td>
+"Zahn-, Mund und Kieferheilkunde" Schwenzer, Ehrenfeld, Thieme Verlag
+</td>
+</tr>
+          <tr>
+<td>Grundlage</td>
+<td>
+Der Studierende soll die Eigenschaften und Therapie der Hämangiome
+</td>
+<td>erklären</td>
+<td>kognitiv</td>
+<td>
+"Zahn-, Mund und Kieferheilkunde" Schwenzer, Ehrenfeld, Thieme Verlag
+</td>
+</tr>
+          <tr>
+<td>Grundlage</td>
+<td>
+Der Studierende soll die Grundprinzipien der Therapie maligner Tumoren
+</td>
+<td>benennen</td>
+<td>kognitiv</td>
+<td>
+"Zahn-, Mund und Kieferheilkunde" Schwenzer, Ehrenfeld, Thieme Verlag
+</td>
+</tr>
+          <tr>
+<td>Grundlage</td>
+<td>
+Der Studierende soll das Frey-Syndrom und dessen Therapie
 </td>
 <td>erklären</td>
 <td>kognitiv</td>
@@ -111,8 +143,7 @@ Der Studierende soll die Grundlagen der chirurgischen Verfahren
 </td>
 </tr>
         </tbody>
-
     );
     }
 
-export default DysgnathieLernziele;
+export default SpeicheldruesenLernziele;

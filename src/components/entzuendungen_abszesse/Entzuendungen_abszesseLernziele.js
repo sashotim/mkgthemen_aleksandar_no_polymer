@@ -1,7 +1,6 @@
 import React from 'react';
-import { Table } from 'reactstrap';
 
-function DysgnathieLernziele(props) {
+function Entzuendungen_abszesseLernziele(props) {
   return (
         <tbody>
 <tr>
@@ -14,7 +13,7 @@ function DysgnathieLernziele(props) {
           <tr>
 <td>Grundlage</td>
 <td>
-Der Studierende soll die Ursachen der Dysgnathien
+Der Studierende soll die Ätiologie von Entzündungen
 </td>
 <td>erklären</td>
 <td>kognitiv</td>
@@ -24,11 +23,9 @@ Der Studierende soll die Ursachen der Dysgnathien
 </tr>
           <tr>
 <td>Grundlage</td>
-<td>
-Der Studierende soll die Angle-Klassifikation
-</td>
-<td>anwenden</td>
-<td>psychomotorisch</td>
+<td>Der Studierende soll die Keime zervikofazialer Infektionen </td>
+<td>benennen</td>
+<td>kognitiv</td>
 <td>
 "Zahn-, Mund und Kieferheilkunde" Schwenzer, Ehrenfeld, Thieme Verlag
 </td>
@@ -36,18 +33,7 @@ Der Studierende soll die Angle-Klassifikation
           <tr>
 <td>Grundlage</td>
 <td>
-Der Studierende soll die Klassifikation nach dem ANB-Winkel
-</td>
-<td>anwenden</td>
-<td>psychomotorisch</td>
-<td>
-"Zahn-, Mund und Kieferheilkunde" Schwenzer, Ehrenfeld, Thieme Verlag
-</td>
-</tr>
-          <tr>
-<td>Grundlage</td>
-<td>
-Der Studierende soll die Dysgnathieformen
+Der Studierende soll die Symptome von Entzündungen
 </td>
 <td>benennen</td>
 <td>kognitiv</td>
@@ -58,7 +44,7 @@ Der Studierende soll die Dysgnathieformen
           <tr>
 <td>Grundlage</td>
 <td>
-Der Studierende soll Folgen der unbehandelten Dysgnathie
+Der Studierende soll die Logenabszesse und ihre Eigenschaften
 </td>
 <td>erklären</td>
 <td>kognitiv</td>
@@ -67,9 +53,9 @@ Der Studierende soll Folgen der unbehandelten Dysgnathie
 </td>
 </tr>
           <tr>
-<td>Diagnostik</td>
+<td>Grundlage</td>
 <td>
-Der Studierende soll die diagnostischen Möglichkeiten
+Der Studierende soll die Ätiologie, Ursachen, prädisponierende Faktoren, Pathologie, das Keimspektrum und die Diagnostik von Osteomyelitis
 </td>
 <td>erklären</td>
 <td>kognitiv</td>
@@ -78,9 +64,9 @@ Der Studierende soll die diagnostischen Möglichkeiten
 </td>
 </tr>
           <tr>
-<td>Therapie</td>
+<td>Grundlage</td>
 <td>
-Der Studierende soll den Therapieplan einer Dysgnathie
+Der Studierende soll die verschiedenen Formen der Osteomyelitis
 </td>
 <td>erklären</td>
 <td>kognitiv</td>
@@ -89,22 +75,11 @@ Der Studierende soll den Therapieplan einer Dysgnathie
 </td>
 </tr>
           <tr>
-<td>Therapie</td>
+<td>Grundlage</td>
 <td>
-Der Studierende soll die allgemeinen Grundlagen der orthognathen Chirurgie
+Der Studierende soll die antiobiotische Therapie der verschiedenen Entzündungen
 </td>
 <td>benennen</td>
-<td>kognitiv</td>
-<td>
-"Zahn-, Mund und Kieferheilkunde" Schwenzer, Ehrenfeld, Thieme Verlag
-</td>
-</tr>
-          <tr>
-<td>Therapie</td>
-<td>
-Der Studierende soll die Grundlagen der chirurgischen Verfahren
-</td>
-<td>erklären</td>
 <td>kognitiv</td>
 <td>
 "Zahn-, Mund und Kieferheilkunde" Schwenzer, Ehrenfeld, Thieme Verlag
@@ -112,7 +87,8 @@ Der Studierende soll die Grundlagen der chirurgischen Verfahren
 </tr>
         </tbody>
 
+
     );
     }
 
-export default DysgnathieLernziele;
+export default Entzuendungen_abszesseLernziele;

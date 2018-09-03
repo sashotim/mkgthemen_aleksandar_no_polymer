@@ -45,7 +45,7 @@ class App extends Component {
         componentForChosenPage = <Quiz></Quiz>;
         break;
       case 'Lernziele':
-        componentForChosenPage = <Lernziele></Lernziele>;
+        componentForChosenPage = <Lernziele chosenSubjectIndex={this.state.chosenSubjectIndex}></Lernziele>;
         break;
       default:
         componentForChosenPage = <Grundlagen subjects={subjects.subjects} chosenSubjectIndex={this.state.chosenSubjectIndex}></Grundlagen>;

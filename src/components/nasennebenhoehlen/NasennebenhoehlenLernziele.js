@@ -1,7 +1,6 @@
 import React from 'react';
-import { Table } from 'reactstrap';
 
-function DysgnathieLernziele(props) {
+function NasennebenhoehlenLernziele(props) {
   return (
         <tbody>
 <tr>
@@ -14,40 +13,7 @@ function DysgnathieLernziele(props) {
           <tr>
 <td>Grundlage</td>
 <td>
-Der Studierende soll die Ursachen der Dysgnathien
-</td>
-<td>erklären</td>
-<td>kognitiv</td>
-<td>
-"Zahn-, Mund und Kieferheilkunde" Schwenzer, Ehrenfeld, Thieme Verlag
-</td>
-</tr>
-          <tr>
-<td>Grundlage</td>
-<td>
-Der Studierende soll die Angle-Klassifikation
-</td>
-<td>anwenden</td>
-<td>psychomotorisch</td>
-<td>
-"Zahn-, Mund und Kieferheilkunde" Schwenzer, Ehrenfeld, Thieme Verlag
-</td>
-</tr>
-          <tr>
-<td>Grundlage</td>
-<td>
-Der Studierende soll die Klassifikation nach dem ANB-Winkel
-</td>
-<td>anwenden</td>
-<td>psychomotorisch</td>
-<td>
-"Zahn-, Mund und Kieferheilkunde" Schwenzer, Ehrenfeld, Thieme Verlag
-</td>
-</tr>
-          <tr>
-<td>Grundlage</td>
-<td>
-Der Studierende soll die Dysgnathieformen
+Der Studierende soll die Anatomie
 </td>
 <td>benennen</td>
 <td>kognitiv</td>
@@ -58,7 +24,7 @@ Der Studierende soll die Dysgnathieformen
           <tr>
 <td>Grundlage</td>
 <td>
-Der Studierende soll Folgen der unbehandelten Dysgnathie
+Der Studierende soll  Bildgebenden Verfahren und Techniken
 </td>
 <td>erklären</td>
 <td>kognitiv</td>
@@ -67,9 +33,42 @@ Der Studierende soll Folgen der unbehandelten Dysgnathie
 </td>
 </tr>
           <tr>
-<td>Diagnostik</td>
+<td>Grundlage</td>
 <td>
-Der Studierende soll die diagnostischen Möglichkeiten
+Der Studierende soll die verschiedenen Formen der Sinusitis und ihre Eigenschaften
+</td>
+<td>erklären</td>
+<td>kognitiv</td>
+<td>
+"Zahn-, Mund und Kieferheilkunde" Schwenzer, Ehrenfeld, Thieme Verlag
+</td>
+</tr>
+          <tr>
+<td>Grundlage</td>
+<td>
+Der Studierende soll Therapieverfahren für die Sinusitis
+</td>
+<td>benennen</td>
+<td>kognitiv</td>
+<td>
+"Zahn-, Mund und Kieferheilkunde" Schwenzer, Ehrenfeld, Thieme Verlag
+</td>
+</tr>
+          <tr>
+<td>Grundlage</td>
+<td>
+Der Studierende soll Komplikation einer Sinusitis
+</td>
+<td>benennen</td>
+<td>kognitiv</td>
+<td>
+"Zahn-, Mund und Kieferheilkunde" Schwenzer, Ehrenfeld, Thieme Verlag
+</td>
+</tr>
+          <tr>
+<td>Grundlage</td>
+<td>
+Der Studierende soll die Ätiologie und Diagnostik der MAV
 </td>
 <td>erklären</td>
 <td>kognitiv</td>
@@ -80,7 +79,7 @@ Der Studierende soll die diagnostischen Möglichkeiten
           <tr>
 <td>Therapie</td>
 <td>
-Der Studierende soll den Therapieplan einer Dysgnathie
+Der Studierende soll die chirurgische Therapie der MAV
 </td>
 <td>erklären</td>
 <td>kognitiv</td>
@@ -89,9 +88,20 @@ Der Studierende soll den Therapieplan einer Dysgnathie
 </td>
 </tr>
           <tr>
-<td>Therapie</td>
+<td>Grundlage</td>
 <td>
-Der Studierende soll die allgemeinen Grundlagen der orthognathen Chirurgie
+Der Studierende soll das Krankheitsbild und die Therapie der Aspergillose
+</td>
+<td>erklären</td>
+<td>kognitiv</td>
+<td>
+"Zahn-, Mund und Kieferheilkunde" Schwenzer, Ehrenfeld, Thieme Verlag
+</td>
+</tr>
+          <tr>
+<td>Grundlage</td>
+<td>
+Der Studierende soll die Einteilung der Tumoren der NNH
 </td>
 <td>benennen</td>
 <td>kognitiv</td>
@@ -102,17 +112,16 @@ Der Studierende soll die allgemeinen Grundlagen der orthognathen Chirurgie
           <tr>
 <td>Therapie</td>
 <td>
-Der Studierende soll die Grundlagen der chirurgischen Verfahren
+Der Studierende soll Therapiemöglichkeiten der Tumoren der NNH
 </td>
-<td>erklären</td>
+<td>benennen</td>
 <td>kognitiv</td>
 <td>
 "Zahn-, Mund und Kieferheilkunde" Schwenzer, Ehrenfeld, Thieme Verlag
 </td>
 </tr>
-        </tbody>
-
+</tbody>
     );
     }
 
-export default DysgnathieLernziele;
+export default NasennebenhoehlenLernziele;
