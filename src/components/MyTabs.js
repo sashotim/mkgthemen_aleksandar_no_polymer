@@ -1,4 +1,5 @@
 import React from 'react';
+import ReactDOM from "react-dom";
 import { TabContent, TabPane, Nav, NavItem, NavLink, Row, Col, Container} from 'reactstrap';
 import classnames from 'classnames';
 import MyImageCard from './MyImageCard';
@@ -53,21 +54,21 @@ export default class MyTabs extends React.Component {
           <TabPane tabId="1">
             <Row >
               <Col sm="4">
-                <MyImageCard></MyImageCard>
+                <MyImageCard openModal={this.props.openModal} galleryContent={this.props.galleryContent}></MyImageCard>
               </Col>
             </Row>
           </TabPane>
           <TabPane tabId="2">
             <Row >
               <Col sm="4">
-                <MyImageCard></MyImageCard>
+                <MyImageCard onClick={this.props.openModal}></MyImageCard>
               </Col>
             </Row>
           </TabPane>
           <TabPane tabId="3">
             <Row >
               <Col sm="4">
-                <MyImageCard></MyImageCard>
+                <MyImageCard onClick={this.props.openModal}></MyImageCard>
               </Col>
             </Row>
           </TabPane>

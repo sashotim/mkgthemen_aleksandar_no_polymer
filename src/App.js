@@ -39,10 +39,10 @@ class App extends Component {
         componentForChosenPage = <Grundlagen subjects={subjects.subjects} chosenSubjectIndex={this.state.chosenSubjectIndex}></Grundlagen>;
         break;
       case 'Galerie':
-        componentForChosenPage = <Galerie></Galerie>;
+        componentForChosenPage = <Galerie chosenSubjectIndex={this.state.chosenSubjectIndex}></Galerie>;
         break;
       case 'Quiz':
-        componentForChosenPage = <Quiz></Quiz>;
+        componentForChosenPage = <Quiz chosenSubjectIndex={this.state.chosenSubjectIndex}></Quiz>;
         break;
       case 'Lernziele':
         componentForChosenPage = <Lernziele chosenSubjectIndex={this.state.chosenSubjectIndex}></Lernziele>;
