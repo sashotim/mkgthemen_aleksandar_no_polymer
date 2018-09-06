@@ -31,14 +31,14 @@ for i, word in enumerate(matchesTypes):
 	links[i]["type"] = typeFound
 # print(links)
 
-matchesThumbnail = re.findall('<div className="data-media-thumbnail"><img src="thumbs/klinik.jpg"></div>', filetext)
+matchesThumbnail = re.findall('thumbnail\"><img src=\".*?\">', filetext)
 for i, word in enumerate(matchesThumbnail):
-	if re.findall('["]thumb.*?["]', word)[0] != "":
-		thumbnailFound = re.findall('["]thumb.*?["]', word)[0]
-	links[i]["thumbnail"] = thumbnailFound.strip('\"')
+	if re.findall('=\".*?\"', word)[0] != "":
+		thumbnailFound = re.findall('=\".*?\"', word)[0]
+	links[i]["thumbnail"] = thumbnailFound.strip('\"').strip('=')
 # print(links)
 
-matchesImage = re.findall('<img src=".*?">[^<]', filetext)
+matchesImage = re.findall('\s<img src=\".*?\">', filetext)
 for i, word in enumerate(matchesImage):
 	if re.findall('["].*?["]', word)[0] != "":
 		imageFound = re.findall('["].*?["]', word)[0]
@@ -50,22 +50,29 @@ for i, word in enumerate(matchesTtitle):
 		titleFound = re.findall('[>].*?[<]', word)[0]
 	links[i]["title"] = titleFound.replace(">", "").replace("<", "")
 
-matchesDescription = re.findall('<div className="media-link-description">.*</div>', filetext)
-for i, word in enumerate(matchesDescription):
-	if re.findall('[>].*?[<]', word)[0] != "":
-		descriptionFound = re.findall('[>].*?[<]', word)[0]
-	links[i]["description"] = descriptionFound.replace(">", "").replace("<", "")
+matchesDescription = re.finditer(r'<div className=\"media-link-description\">(.*?\s*)*?<\/div>', filetext)
+for matchNum, match in enumerate(matchesDescription):
+    
+    descriptionFound = re.finditer('[>](.*?\s*)*?[<]', match.group())
+    for matchNum1, match1 in enumerate(descriptionFound):
+    	matchNum1 = matchNum1 + 1
+    	links[matchNum]["description"] = match1.group().replace(">", "").replace("<", "").replace('\n              ', '')
+    matchNum = matchNum + 1
+
+    # print (match.group())
+# matchesDescription = re.findall('<div className=\"media-link-description\">.*?\s*.*\s*<\/div>', filetext, re.MULTILINE)
+# for i, word in enumerate(matchesDescription):
+# 	print(matchesDescription.group())
+	# if re.findall('[>].*?\s*.*\s*[<]', word)[0] != "":
+
+	# links[matchNum]["description"] = descriptionFound.replace(">", "").replace("<", "")
 
 matchesVideoId = re.findall('media-link-video-id.*?>\d*<', filetext)
 for i, word in enumerate(matchesVideoId):
 	if re.findall('\d+', word)[0] != "":
 		descriptionFound = re.findall('\d+', word)[0]
-	links[i]["videoId"] = descriptionFound
-	print(links[i])
-
-
-
-
+	links[len(links) - len(matchesVideoId) + i]["videoId"] = descriptionFound
+	# print(links[i])
 
 with open('data.txt', 'w') as outfile:
     outfile.write(str(links))
