@@ -40,7 +40,7 @@ export default class Galerie extends React.Component {
   openModal(e) {
     this.setState({modalIsOpen: true,
                     openedObject: e.target});
-    console.log(String(DysgnathieGallery));
+    console.log(String(DysgnathieGallery.childNodes));
   }
 
   // afterOpenModal() {

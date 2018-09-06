@@ -1,1 +1,174 @@
-[{'thumbnail': 'thumbs/klinik.jpg', 'id': '1', 'image': 'images/6b_1.png', 'title': 'Distalbisslage', 'description': 'Klinisches Bild einer Klasse II Dysgnathie.', 'type': 'image'}, {'thumbnail': 'thumbs/klinik.jpg', 'id': '1', 'image': 'images/11.png', 'title': 'Klasse I', 'description': 'Neutralbissstellung', 'type': 'image'}, {'thumbnail': 'thumbs/klinik.jpg', 'id': '2', 'image': 'images/10a.png', 'title': 'Klasse II', 'description': 'Distalbisslage', 'type': 'image'}, {'thumbnail': 'thumbs/klinik.jpg', 'id': '3', 'image': 'images/1c_1.png', 'title': 'Klasse III', 'description': 'Mesialbisslage', 'type': 'image'}, {'thumbnail': 'thumbs/klinik.jpg', 'id': '4', 'image': 'images/10q_1.png', 'title': 'Neutralbisslage', 'description': 'Eugnathes Gebiss eines zuvor operierten Patienten.', 'type': 'image'}, {'thumbnail': 'thumbs/klinik.jpg', 'id': '5', 'image': 'images/4c.png', 'title': 'Distalbisslage', 'description': 'Patient mit einer Klasse II Dysgnathie.', 'type': 'image'}, {'thumbnail': 'thumbs/klinik.jpg', 'id': '6', 'image': 'images/8b.png', 'title': 'Mesialbisslage', 'description': 'Eugnathe Bisslage und harmonisches Weichgewebsprofil.', 'type': 'image'}, {'thumbnail': 'thumbs/klinik.jpg', 'id': '1', 'image': 'images/1b_1.png', 'title': 'Mesialbisslage', 'description': 'Modell mit Splint, welcher die optimale Okklusion einstellt.', 'type': 'image'}, {'thumbnail': 'thumbs/klinik.jpg', 'id': '2', 'image': 'images/10j_1.png', 'title': 'Distalbisslage', 'description': 'Sägeführung bei einer LeFort-I-Osteotomie', 'type': 'image'}, {'thumbnail': 'thumbs/klinik.jpg', 'id': '3', 'image': 'images/3p.png', 'title': 'Neutralbisslage', 'description': 'Operative Vorverlagerung des Unterkiefers', 'type': 'image'}, {'thumbnail': 'thumbs/klinik.jpg', 'id': '1', 'image': 'images/10d.png', 'title': 'Modellanalyse', 'description': 'Unterkieferrückverlagerung', 'type': 'image'}, {'thumbnail': 'thumbs/klinik.jpg', 'id': '2', 'image': 'images/10e.png', 'title': 'Modellanalyse', 'description': '', 'type': 'image'}, {'thumbnail': 'thumbs/klinik.jpg', 'id': '1', 'image': 'images/10k.png', 'title': 'LeFort-I-Osteotomie', 'description': '', 'type': 'image'}, {'thumbnail': 'thumbs/klinik.jpg', 'id': '2', 'image': 'images/10n.png', 'title': 'LeFort-I-Osteotomie', 'description': '', 'type': 'image'}, {'thumbnail': 'thumbs/klinik.jpg', 'id': '3', 'image': 'images/3b.png', 'title': 'LeFort-I-Osteotomie', 'description': '', 'type': 'image'}, {'thumbnail': 'thumbs/klinik.jpg', 'id': '4', 'image': 'images/5b.png', 'title': 'Genioplastik', 'description': '', 'type': 'image'}, {'thumbnail': 'thumbs/klinik.jpg', 'id': '5', 'image': 'images/3o.png', 'title': 'Sagittale retromolare Osteotomie', 'description': '', 'type': 'image'}, {'thumbnail': '', 'id': '6', 'image': '', 'title': 'Bilaterale sagittale split Osteotomie', 'description': '', 'type': 'video'}, {'thumbnail': '', 'id': '7', 'image': '', 'title': 'Unterkieferrückverlagerung', 'description': '', 'type': 'video'}]
+[
+  {
+    "description": "Klinisches Bild einer Klasse II Dysgnathie.",
+    "title": "Distalbisslage",
+    "id": "1",
+    "videoId": "7",
+    "thumbnail": "thumbs/klinik.jpg",
+    "type": "image",
+    "image": "images/6b_1.png"
+  },
+  {
+    "description": "Neutralbissstellung",
+    "title": "Klasse I",
+    "id": "1",
+    "videoId": "10",
+    "thumbnail": "thumbs/klinik.jpg",
+    "type": "image",
+    "image": "images/11.png"
+  },
+  {
+    "description": "Distalbisslage",
+    "title": "Klasse II",
+    "id": "2",
+    "videoId": "",
+    "thumbnail": "thumbs/klinik.jpg",
+    "type": "image",
+    "image": "images/10a.png"
+  },
+  {
+    "description": "Mesialbisslage",
+    "title": "Klasse III",
+    "id": "3",
+    "videoId": "",
+    "thumbnail": "thumbs/klinik.jpg",
+    "type": "image",
+    "image": "images/1c_1.png"
+  },
+  {
+    "description": "Eugnathes Gebiss eines zuvor operierten Patienten.",
+    "title": "Neutralbisslage",
+    "id": "4",
+    "videoId": "",
+    "thumbnail": "thumbs/klinik.jpg",
+    "type": "image",
+    "image": "images/10q_1.png"
+  },
+  {
+    "description": "Patient mit einer Klasse II Dysgnathie.",
+    "title": "Distalbisslage",
+    "id": "5",
+    "videoId": "",
+    "thumbnail": "thumbs/klinik.jpg",
+    "type": "image",
+    "image": "images/4c.png"
+  },
+  {
+    "description": "Eugnathe Bisslage und harmonisches Weichgewebsprofil.",
+    "title": "Mesialbisslage",
+    "id": "6",
+    "videoId": "",
+    "thumbnail": "thumbs/klinik.jpg",
+    "type": "image",
+    "image": "images/8b.png"
+  },
+  {
+    "description":
+      "Modell mit Splint, welcher die optimale Okklusion einstellt.",
+    "title": "Mesialbisslage",
+    "id": "1",
+    "videoId": "",
+    "thumbnail": "thumbs/klinik.jpg",
+    "type": "image",
+    "image": "images/1b_1.png"
+  },
+  {
+    "description": "Sägeführung bei einer LeFort-I-Osteotomie",
+    "title": "Distalbisslage",
+    "id": "2",
+    "videoId": "",
+    "thumbnail": "thumbs/klinik.jpg",
+    "type": "image",
+    "image": "images/10j_1.png"
+  },
+  {
+    "description": "Operative Vorverlagerung des Unterkiefers",
+    "title": "Neutralbisslage",
+    "id": "3",
+    "videoId": "",
+    "thumbnail": "thumbs/klinik.jpg",
+    "type": "image",
+    "image": "images/3p.png"
+  },
+  {
+    "description": "Unterkieferrückverlagerung",
+    "title": "Modellanalyse",
+    "id": "1",
+    "videoId": "",
+    "thumbnail": "thumbs/klinik.jpg",
+    "type": "image",
+    "image": "images/10d.png"
+  },
+  {
+    "description": "",
+    "title": "Modellanalyse",
+    "id": "2",
+    "videoId": "",
+    "thumbnail": "thumbs/klinik.jpg",
+    "type": "image",
+    "image": "images/10e.png"
+  },
+  {
+    "description": "",
+    "title": "LeFort-I-Osteotomie",
+    "id": "1",
+    "videoId": "",
+    "thumbnail": "thumbs/klinik.jpg",
+    "type": "image",
+    "image": "images/10k.png"
+  },
+  {
+    "description": "",
+    "title": "LeFort-I-Osteotomie",
+    "id": "2",
+    "videoId": "",
+    "thumbnail": "thumbs/klinik.jpg",
+    "type": "image",
+    "image": "images/10n.png"
+  },
+  {
+    "description": "",
+    "title": "LeFort-I-Osteotomie",
+    "id": "3",
+    "videoId": "",
+    "thumbnail": "thumbs/klinik.jpg",
+    "type": "image",
+    "image": "images/3b.png"
+  },
+  {
+    "description": "",
+    "title": "Genioplastik",
+    "id": "4",
+    "videoId": "",
+    "thumbnail": "thumbs/klinik.jpg",
+    "type": "image",
+    "image": "images/5b.png"
+  },
+  {
+    "description": "",
+    "title": "Sagittale retromolare Osteotomie",
+    "id": "5",
+    "videoId": "",
+    "thumbnail": "thumbs/klinik.jpg",
+    "type": "image",
+    "image": "images/3o.png"
+  },
+  {
+    "description": "",
+    "title": "Bilaterale sagittale split Osteotomie",
+    "id": "6",
+    "videoId": "",
+    "thumbnail": "",
+    "type": "video",
+    "image": ""
+  },
+  {
+    "description": "",
+    "title": "Unterkieferrückverlagerung",
+    "id": "7",
+    "videoId": "",
+    "thumbnail": "",
+    "type": "video",
+    "image": ""
+  }
+]

@@ -61,14 +61,14 @@ export default class MyTabs extends React.Component {
           <TabPane tabId="2">
             <Row >
               <Col sm="4">
-                <MyImageCard onClick={this.props.openModal}></MyImageCard>
+                <MyImageCard onClick={this.props.openModal} galleryContent={this.props.galleryContent}></MyImageCard>
               </Col>
             </Row>
           </TabPane>
           <TabPane tabId="3">
             <Row >
               <Col sm="4">
-                <MyImageCard onClick={this.props.openModal}></MyImageCard>
+                <MyImageCard onClick={this.props.openModal} galleryContent={this.props.galleryContent}></MyImageCard>
               </Col>
             </Row>
           </TabPane>
