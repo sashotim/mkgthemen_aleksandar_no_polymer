@@ -1,0 +1,163 @@
+
+    <div className="links">
+  <div data-media-id={1} data-media-type="image">
+    <div className="data-media-thumbnail">
+      <img src="thumbs/klinik.jpg" />
+    </div>
+    <img src="images/teilsch%C3%A4digung_nerv.png" />
+    <div className="media-link-title">Axonotmesis</div>
+    <div className="media-link-description">
+      Gezeigt ist eine Teilschädigung des N. alveolaris inferior.
+    </div>
+  </div>
+  <div data-media-id={2} data-media-type="image">
+    <div className="data-media-thumbnail">
+      <img src="thumbs/klinik.jpg" />
+    </div>
+    <img src="images/atherom.png" />
+    <div className="media-link-title">Abszess</div>
+    <div className="media-link-description">
+      Auf dem Bild ist eine deutliche Entzündung des Weichgewebes erkennbar. Die
+      Entzündung ist ausgehend von einer infizierten Extraktionsalveole regio
+      48.
+    </div>
+  </div>
+  <div data-media-id={3} data-media-type="image">
+    <div className="data-media-thumbnail">
+      <img src="thumbs/klinik.jpg" />
+    </div>
+    <img src="images/haematom_nach_x.png" />
+    <div className="media-link-title">Hämatom</div>
+    <div className="media-link-description">
+      Gezeigt ist eine massiven Einblutung des Mundbodens nach einer
+      Zahnextraktion.
+    </div>
+  </div>
+  <div data-media-id={4} data-media-type="image">
+    <div className="data-media-thumbnail">
+      <img src="thumbs/klinik.jpg" />
+    </div>
+    <img src="images/frakturnachzahnx.png" />
+    <div className="media-link-title">Fraktur nach Zahnextraktion</div>
+    <div className="media-link-description">
+      Im OPT sieht man in regio 038 einen Frakturspalt. Durch die Zahnextraktion
+      war der Knochen so geschwächt, dass er dem Kaudruck der Nahrungsaufnahme
+      nicht standhalten konnte.
+    </div>
+  </div>
+  <div data-media-id={5} data-media-type="video">
+    <div className="media-link-video-id">0</div>
+    <div className="media-link-title">Weisheitszahnosteotomie</div>
+    <div className="media-link-description">
+      Video zur&nbsp;Weisheitszahnosteotomie
+    </div>
+  </div>
+  <div data-media-id={6} data-media-type="video">
+    <div className="media-link-video-id">1</div>
+    <div className="media-link-title">Nervtransposition</div>
+    <div className="media-link-description">Video zur Nervtransposition</div>
+  </div>
+  <div data-media-id={7} data-media-type="video">
+    <div className="media-link-video-id">2</div>
+    <div className="media-link-title">Weisheitszahn Komplikationen</div>
+    <div className="media-link-description">
+      Video zu Weisheitszahn Komplikationen
+    </div>
+  </div>
+</div>
+      <div className="links">
+        <div data-media-id={1} data-media-type="image">
+          <div className="data-media-thumbnail">
+            <img src="thumbs/klinik.jpg" />
+          </div>
+          <img src="images/fraktur_nach_implantation.png" />
+          <div className="media-link-title">Fraktur nach Implantation</div>
+          <div className="media-link-description">
+            Im OPT ist eine Fraktur in regio 044 in unmittelbarer Nähe des
+            Implantates gezeigt.
+          </div>
+        </div>
+        <div data-media-id={2} data-media-type="image">
+          <div className="data-media-thumbnail">
+            <img src="thumbs/klinik.jpg" />
+          </div>
+          <img src="images/fraktur_nach_implantation2.png" />
+          <div className="media-link-title">Fraktur nach Implantation</div>
+          <div className="media-link-description">
+            Fraktur des Unterkiefers nach Implantation in regio 034.
+          </div>
+        </div>
+        <div data-media-id={3} data-media-type="image">
+          <div className="data-media-thumbnail">
+            <img src="thumbs/klinik.jpg" />
+          </div>
+          <img src="images/fraktur_nach_implantation3.png" />
+          <div className="media-link-title">Fraktur nach Implantation</div>
+          <div className="media-link-description">
+            Klinisches Beispiel einer Fraktur durch die Einsetzung eines Implantats.
+          </div>
+        </div>
+        <div data-media-id={4} data-media-type="image">
+          <div className="data-media-thumbnail">
+            <img src="thumbs/klinik.jpg" />
+          </div>
+          <img src="images/lostinspace.png" />
+          <div className="media-link-title">Lost in space</div>
+          <div className="media-link-description">
+            Auf dem Bild ist die Dislokation eines Implantats gezeigt, welches
+            ursprünglich in regio 036 implantiert wurde.
+          </div>
+        </div>
+        <div data-media-id={5} data-media-type="image">
+          <div className="data-media-thumbnail">
+            <img src="thumbs/klinik.jpg" />
+          </div>
+          <img src="images/lostinspace3.png" />
+          <div className="media-link-title">Lost in space</div>
+          <div className="media-link-description">
+            Gezeigt ist ein disloziertes Implantat in der Nasenhaupthöhle.
+          </div>
+        </div>
+        <div data-media-id={6} data-media-type="image">
+          <div className="data-media-thumbnail">
+            <img src="thumbs/klinik.jpg" />
+          </div>
+          <img src="images/lostinspace4.png" />
+          <div className="media-link-title">Lost in space</div>
+          <div className="media-link-description">
+            Gezeigt ist ein disloziertes Implantat in der Nasenhaupthöhle.
+          </div>
+        </div>
+        <div data-media-id={7} data-media-type="image">
+          <div className="data-media-thumbnail">
+            <img src="thumbs/klinik.jpg" />
+          </div>
+          <img src="images/lostinspace2.png" />
+          <div className="media-link-title">Lost in space</div>
+          <div className="media-link-description">
+            Implantat, welches nach einem osteoplastischen Kieferhöhlenzugang unter
+            der Schneider'schen Membran zum Vorschein kommt.
+          </div>
+        </div>
+        <div data-media-id={8} data-media-type="image">
+          <div className="data-media-thumbnail">
+            <img src="thumbs/klinik.jpg" />
+          </div>
+          <img src="images/periimplantitis_schema.png" />
+          <div className="media-link-title">Schema Periimplantitis</div>
+          <div className="media-link-description">Schema Periimplantitis</div>
+        </div>
+      </div>
+    <div className="links">
+      <div data-media-id={1} data-media-type="image">
+        <div className="data-media-thumbnail">
+          <img src="thumbs/klinik.jpg" />
+        </div>
+        <img src="images/schneiderschemembran.png" />
+        <div className="media-link-title">Perforierte Schneider'sche Membran</div>
+        <div className="media-link-description">
+          Perforierte Schneider'sche Membran bei einem osteoplastischen
+          Kieferhöhlenzugang.
+        </div>
+      </div>
+    </div>

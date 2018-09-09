@@ -1,0 +1,233 @@
+
+      <div className="links" />
+      </div>
+      <div className="links">
+        <div data-media-id="1" data-media-type="image">
+          <div className="data-media-thumbnail"><img src="images/klinik.png" />
+          </div>
+          <img src="images/strahlenpilz.png" />
+          <div className="media-link-title">Strahlenpilz</div>
+          <div className="media-link-description">
+            Mikroskopische Darstellung des Strahlenpilzes.
+          </div>
+        </div>
+        <div data-media-id="2" data-media-type="image">
+          <div className="data-media-thumbnail"><img src="images/klinik.png" />
+          </div>
+          <img src="images/aktinomykose.png" />
+          <div className="media-link-title">Aktinomykose</div>
+          <div className="media-link-description">
+            Läsion der Schleimhaut mit putriden Flüssigkeitsaustritt.
+          </div>
+        </div>
+        <div data-media-id="3" data-media-type="image">
+          <div className="data-media-thumbnail"><img src="images/klinik.png" />
+          </div>
+          <img src="images/aktinomykose2.png" />
+          <div className="media-link-title">Aktinomykose</div>
+          <div className="media-link-description">
+            Läsion der Haut, welche blau-livide verfärbt ist.
+          </div>
+        </div>
+      </div>
+      <div className="links">
+        <div data-media-id="1" data-media-type="image">
+          <div className="data-media-thumbnail"><img src="images/klinik.png" />
+          </div>
+          <img src="images/tuberculosis_ulcerosa.png" />
+          <div className="media-link-title">Tuberculosis ulcerosa</div>
+          <div className="media-link-description">
+            Ulzerierende Tuberkulose am Zungenrand rechts und Mundwinkel links.
+          </div>
+        </div>
+        <div data-media-id="2" data-media-type="image">
+          <div className="data-media-thumbnail"><img src="images/klinik.png" />
+          </div>
+          <img src="images/tuberculosis_colliquativa.png" />
+          <div className="media-link-title">Tuberculosis colliquativa</div>
+          <div className="media-link-description">
+            Hauttuberkulose mit einzelne schmerzlosen, subkutanen Knoten, die
+            miteinander konfluieren, erweichen und nach außen durchbrechen. Dabei
+            entstehen Ulzerationen mit weichen unterminierten Rändern und Fisteln.
+          </div>
+        </div>
+        <div data-media-id="3" data-media-type="image">
+          <div className="data-media-thumbnail"><img src="images/klinik.png" />
+          </div>
+          <img src="images/zellkultur.png" />
+          <div className="media-link-title">Tuberkulose</div>
+          <div className="media-link-description">
+            Mikrobiologische Zellkultur der Tuberkulose.
+          </div>
+        </div>
+        <div data-media-id="4" data-media-type="image">
+          <div className="data-media-thumbnail"><img src="images/klinik.png" />
+          </div>
+          <img src="images/mikroskopie_tbc_1.png" />
+          <div className="media-link-title">Tuberkulose</div>
+          <div className="media-link-description">
+            Mikroskopisches Präparat einer Tuberkulose mit einer
+            Ziehl-Neelsen-Färbung.
+          </div>
+        </div>
+      </div>
+      <div className="links">
+        <div data-media-id="1" data-media-type="image">
+          <div className="data-media-thumbnail"><img src="images/klinik.png" />
+          </div>
+          <img src="images/elektronenmikroskopie_lues.png" />
+          <div className="media-link-title">Lues</div>
+          <div className="media-link-description">
+            Elektronenmikroskopische Aufnnahme des Erregers Treponema pallidum.
+          </div>
+        </div>
+        <div data-media-id="2" data-media-type="image">
+          <div className="data-media-thumbnail"><img src="images/klinik.png" />
+          </div>
+          <img src="images/lupus_vulgaris.png" />
+          <div className="media-link-title">Lupus vulgaris</div>
+          <div className="media-link-description">
+            Manifestation an der Haut einer chronischen, schwer progredienten Form
+            der Reinfektionstuberkulose.
+          </div>
+        </div>
+        <div data-media-id="3" data-media-type="image">
+          <div className="data-media-thumbnail"><img src="images/klinik.png" />
+          </div>
+          <img src="images/choryza_syphilitica.png" />
+          <div className="media-link-title">Choryza syphilitica</div>
+          <div className="media-link-description">
+            Teils blutiger Schnupfen bei einem Neugeborenen.
+          </div>
+        </div>
+        <div data-media-id="4" data-media-type="image">
+          <div className="data-media-thumbnail"><img src="images/klinik.png" />
+          </div>
+          <img src="images/hornhauttr%C3%BCbung.png" />
+          <div className="media-link-title">Hornhauttrübung</div>
+          <div className="media-link-description">
+            Im Rahmen der Hutchinson'schen Trias Trübung der Hornhaut.
+          </div>
+        </div>
+        <div data-media-id="5" data-media-type="image">
+          <div className="data-media-thumbnail"><img src="images/klinik.png" />
+          </div>
+          <img src="images/t%C3%B6nnchenz%C3%A4hne.png" />
+          <div className="media-link-title">Tönnchenzähne</div>
+          <div className="media-link-description">
+            Im Rahmen der Hutchinson'schen Trias halbmondförmige Einziehungen an den
+            Oberkieferfrontzähnen und tonnenförmige Konfiguration.
+          </div>
+        </div>
+      </div>
+      <div className="links">
+        <div data-media-id="1" data-media-type="image">
+          <div className="data-media-thumbnail"><img src="images/klinik.png" />
+          </div>
+          <img src="images/clostridium_tetani.png" />
+          <div className="media-link-title">Clostridium tetani</div>
+          <div className="media-link-description">
+            Lichtmikroskopischer Nachweis von Clostridium tetani.
+          </div>
+        </div>
+        <div data-media-id="2" data-media-type="image">
+          <div className="data-media-thumbnail"><img src="images/klinik.png" />
+          </div>
+          <img src="images/risus_sardonicus2.png" />
+          <div className="media-link-title">Risus sardonicus</div>
+          <div className="media-link-description">
+            Krämpfe der Fazialismuskulatur im Rahmen einer Tetanusinfektion werden
+            als Risus sardonicus bezeichnet.Quelle:
+            http://fce-study.netdna-ssl.com/2/images/upload-flashcards/85/13/94/4851394_m.png
+          </div>
+        </div>
+        <div data-media-id="3" data-media-type="image">
+          <div className="data-media-thumbnail"><img src="images/klinik.png" />
+          </div>
+          <img src="images/risus_sardonicus.png" />
+          <div className="media-link-title">Trimus</div>
+          <div className="media-link-description">
+            Verkrampfung der Kaumuskulatur mit Kieferklemme werden bei einer
+            Tetanusinfektion als Trismus
+            bezeichnet.Quelle:&nbsp;http://jamanetwork.com/journals/jamaneurology/fullarticle/802647
+          </div>
+        </div>
+        <div data-media-id="4" data-media-type="image">
+          <div className="data-media-thumbnail"><img src="images/klinik.png" />
+          </div>
+          <img src="images/opistotonus.png" />
+          <div className="media-link-title">Opisthotonus</div>
+          <div className="media-link-description">
+            Dorsalflexion des Kopfes mit Lordose der Wirbelsäule bei der
+            Tetanusinfektion werden als Opsthotonus bezeichnet. Quelle:
+            hhttp://bestpractice.bmj.com/best-practice/monograph/220/resources/image/bp/3.html
+          </div>
+        </div>
+      </div>
+      <div className="links">
+        <div data-media-id="1" data-media-type="image">
+          <div className="data-media-thumbnail"><img src="images/klinik.png" />
+          </div>
+          <img src="images/candida_albicans.png" />
+          <div className="media-link-title">Candida albicans</div>
+          <div className="media-link-description">
+            Mikroskopische Aufnahme des Pilzes Candida albicans.
+          </div>
+        </div>
+        <div data-media-id="2" data-media-type="image">
+          <div className="data-media-thumbnail"><img src="images/klinik.png" />
+          </div>
+          <img src="images/candidiasis.png" />
+          <div className="media-link-title">Candida albicans</div>
+          <div className="media-link-description">
+            Weißlich abwischbarer Belag auf der Schleimhaut. Darunter ist die Haut
+            wie "gezuckert".
+          </div>
+        </div>
+        <div data-media-id="3" data-media-type="image">
+          <div className="data-media-thumbnail"><img src="images/klinik.png" />
+          </div>
+          <img src="images/aspergillus_fumigatus.png" />
+          <div className="media-link-title">Aspergillose</div>
+          <div className="media-link-description">
+            Aspergillus fumigatus auf einer Zellkultur.
+          </div>
+        </div>
+        <div data-media-id="4" data-media-type="image">
+          <div className="data-media-thumbnail"><img src="images/klinik.png" />
+          </div>
+          <img src="images/aspergillom.png" />
+          <div className="media-link-title">Aspergillose</div>
+          <div className="media-link-description">
+            Aspergillom der linken Kieferhöhle.
+          </div>
+        </div>
+        <div data-media-id="5" data-media-type="image">
+          <div className="data-media-thumbnail"><img src="images/klinik.png" />
+          </div>
+          <img src="images/aspergillom2.png" />
+          <div className="media-link-title">Aspergillom</div>
+          <div className="media-link-description">
+            Aspergillom der linken Kieferhöhle im CT.
+          </div>
+        </div>
+        <div data-media-id="6" data-media-type="image">
+          <div className="data-media-thumbnail"><img src="images/klinik.png" />
+          </div>
+          <img src="images/aspergillom.png" />
+          <div className="media-link-title">Aspergillom</div>
+          <div className="media-link-description">
+            Aspergillom in der linken Nasenhaupthöhle im CT.
+          </div>
+        </div>
+        <div data-media-id="7" data-media-type="image">
+          <div className="data-media-thumbnail"><img src="images/klinik.png" />
+          </div>
+          <img src="images/kryptokokkus.png" />
+          <div className="media-link-title">Kryptokokkose</div>
+          <div className="media-link-description">
+            Cryptococcus neoformans lichtmikroskopisch vergörßert auf einer
+            Zellkultur.
+          </div>
+        </div>
+      </div>

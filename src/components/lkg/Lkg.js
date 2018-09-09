@@ -2,958 +2,801 @@ import React from 'react';
 
 function Lkg(props) {
   return (
-  <div>
-        <div id="allgemeines" className="chapters">
-          <div className="chapterTitle">
-            <h3>Allgemeines</h3>
-            <hr />
-          </div>
-          <div className="content-block">
-            <ul style={{listStyleType: 'disc'}}>
-              <li>
-Lippen-Kiefer-Gaumen-Spalten treten in Mitteleuropa mit einer Häufigkeit von 1:500 Geburten auf.
-</li>
-              <li>
-Es gibt weltweit deutliche Unterschiede in der Inzidenz.
-</li>
-              <li>
-Die durchgehende LKG-Spalte tritt am häufigsten auf.
-</li>
-              <li>
-Die linke Seite ist doppelt so häufig befallen wie die rechte Seite.
-</li>
-              <li>
-Männer und Frauen sind in einem Verhältnis von 3:2 betroffen.
-</li>
-            </ul>
-            <p style={{paddingLeft: 30}}>
-<span
-className="startGallery"
-data-gallery-item={1}>
-<img
-src="thumbs/allgemein_images.png"
-alt="Allgemein Galerie" />
-</span>
-</p>
-</div>
-          <div className="links">
-            <div data-media-id={1} data-media-type="image">
-              <div className="data-media-thumbnail">
-<img src="thumbs/klinik.jpg" />
-</div>
-              <img src="images/11a.png" />
-              <div className="media-link-title">Lippen-Kiefer-Gaumen-Spalte</div>
-              <div className="media-link-description">
-Durchgehende einseitige Lippen-Kiefer-Gaumen-Spalte
-</div>
-            </div>
-            <div data-media-id={2} data-media-type="image">
-              <div className="data-media-thumbnail">
-<img src="thumbs/klinik.jpg" />
-</div>
-              <img src="images/9c.png" />
-              <div className="media-link-title">Lippenspalte</div>
-              <div className="media-link-description">
-Isoliertes einseitige Lippenspalte
-</div>
-            </div>
-            <div data-media-id={3} data-media-type="image">
-              <div className="data-media-thumbnail">
-<img src="thumbs/klinik.jpg" />
-</div>
-              <img src="images/7a.png" />
-              <div className="media-link-title">
-Doppelseitige Lippen-Kiefer-Gaumen-Spalte
-</div>
-              <div className="media-link-description">Bild einer durchgehenden doppelseitigen Lippen-Kiefer-Gaumen-Spalte.
-              </div>
-            </div>
-          </div>
+<div>
+  <div id="allgemeines" className="chapters">
+    <div className="chapterTitle">
+      <h3>Allgemeines</h3>
+      <hr />
+    </div>
+    <div className="content-block">
+      <ul style={{ listStyleType: "disc" }}>
+        <li>
+          Lippen-Kiefer-Gaumen-Spalten treten in Mitteleuropa mit einer Häufigkeit
+          von 1:500 Geburten auf.
+        </li>
+        <li>Es gibt weltweit deutliche Unterschiede in der Inzidenz.</li>
+        <li>Die durchgehende LKG-Spalte tritt am häufigsten auf.</li>
+        <li>
+          Die linke Seite ist doppelt so häufig befallen wie die rechte Seite.
+        </li>
+        <li>Männer und Frauen sind in einem Verhältnis von 3:2 betroffen.</li>
+      </ul>
+      <p style={{ paddingLeft: 30 }}>
+        <span className="startGallery" data-gallery-item={1}>
+          <img src="thumbs/allgemein_images.png" alt="Allgemein Galerie" />
+        </span>
+      </p>
+    </div>
+    <div className="links">
+      <div data-media-id={1} data-media-type="image">
+        <div className="data-media-thumbnail">
+          <img src="thumbs/klinik.jpg" />
         </div>
-        <div id="pathogenese" className="chapters">
-          <div className="chapterTitle">
-            <h3>Pathogenese</h3>
-            <hr />
-          </div>
-          <div className="content-block">
-<p>
-&nbsp;In 15-30% der Fälle sind Lippen-Kiefer-Gaumen-Spalten genetisch bedingt. In der
-              Regel beobachtet man dann ein gehäuftes Auftreten in Familien.
-</p>
-            <p>
-Abgesehen von der genetischen Komponente gibt es äußere Einflussfaktoren die eine Entstehung von
-              Lippen-Kiefer-Gaumen-Spalten positiv beeinflussen:
-</p>
-            <ul style={{listStyleType: 'disc'}}>
-              <li>
-energiereiche Strahlen
-</li>
-              <li>Chemikalien</li>
-              <li>
-Infektionen von Mutter und Kind
-</li>
-              <li>Sauerstoffmangel</li>
-              <li>Alkoholabusus</li>
-              <li>Rauchen</li>
-              <li>
-Körperlicher und psychischer Stress
-</li>
-            </ul>
-            <p>
-<span
-className="startGallery"
-data-gallery-item={1}>
-<img
-src="thumbs/einseitige_lkg_Spalte_Screenshot_1.png"
-alt="Einseitige LKG Spalte" />
-</span>
-</p>
-            <p>
-Bei der embryologischen Entwicklung gibt es zwei entscheidene Phasen, welche die Entstehung einer Spalte
-              bedingen. Die kritische teratogene Periode der Lippe ist in der 5. intrauterinen Woche:
-</p>
-            <ul style={{listStyleType: 'disc'}}>
-              <li>Die Oberlippe entsteht entwicklungsgeschichtlich aus 3 Blastemen: zwei seitliche Oberkieferwülste und
-                eine medialer Nasenwulst.
-              </li>
-              <li>Diese 3 Blasteme verschmelzen in der 5. Schwangerschaftswoche paramedian, dort wo die Philtrumkante
-                später zum liegen kommt.
-              </li>
-              <li>Es ist fraglich ob die Enstehung durch fehlende Vereinigung der Blasteme oder durch ein sekundäres
-                Auseinanderweichen bedingt ist.
-              </li>
-            </ul>
-            <p>
-Die kritische teratogene Periode des Gaumens ist in der 10. und 12. intrauterinen Woche:
-</p>
-            <ul style={{listStyleType: 'disc'}}>
-              <li>
-Der Gaumen entsteht durch eine Verschmelzung der seitlichen Oberkieferwülste.
-</li>
-              <li>Im Hartgaumenbereich verwachsen diese Wülste in der Mitte und kranial auch mit medialen Nasenfortsatz.
-              </li>
-              <li>Dementsprechend kann es im Hartgaumenbereich zu einseitigen und doppelseitigen Spaltbildungen kommen.
-              </li>
-              <li>Da der Weichgaumen nur aus den beiden seitlichen Oberkieferwülsten entsteht, kann es hier immer nur zu
-                einer mittigen Spaltbildung kommen.
-              </li>
-            </ul>
-            <p>
-<span
-className="startGallery"
-data-gallery-item={2}>
-<img
-src="thumbs/pathogenese_images.png"
-alt="Einseitige LKG Spalte Galerie" />
-</span>
-</p>
-          </div>
-          <div className="links">
-            <div data-media-id={1} data-media-type="image">
-              <div className="data-media-thumbnail">
-<img src="thumbs/klinik.jpg" />
-</div>
-              <img src="images/einseitige_lkg_Spalte_Screenshot_1.png" />
-              <div className="media-link-title">Einflussfaktoren</div>
-              <div className="media-link-description">Folgende Faktoren gelten als eine LKG-Spalte positiv beeinflussend:
-                energiereiche Strahlung, Chemikalien, Rauchen, Alkoholabusus, Sauerstoffmangel, Infektion von Mutter und
-                Kind, Stress.
-              </div>
-            </div>
-            <div data-media-id={2} data-media-type="image">
-              <div className="data-media-thumbnail">
-<img src="thumbs/klinik.jpg" />
-</div>
-              <img src="images/einseitige_lkg_Spalte_Screenshot_2.png" />
-              <div className="media-link-title">
-Embryologische Entstehung
-</div>
-              <div className="media-link-description">Beginn der 5. intrauterinen Woche, in der sich die beiden seitlichen
-                Oberkieferwülste und der mediale Nasenwulst annähern.
-              </div>
-            </div>
-            <div data-media-id={3} data-media-type="image">
-              <div className="data-media-thumbnail">
-<img src="thumbs/klinik.jpg" />
-</div>
-              <img src="images/einseitige_lkg_Spalte_Screenshot_4.png" />
-              <div className="media-link-title">
-Embryologische Entstehung
-</div>
-              <div className="media-link-description">Ende der 5. intrauterinen Woche, in der die beiden seitlichen
-                Oberkieferwülste und der mediale Nasenwulst miteinander verschmolzen sind.
-              </div>
-            </div>
-            <div data-media-id={4} data-media-type="image">
-              <div className="data-media-thumbnail">
-<img src="thumbs/klinik.jpg" />
-</div>
-              <img src="images/einseitige_lkg_Spalte_Screenshot_5.png" />
-              <div className="media-link-title">
-Embryologische Entstehung
-</div>
-              <div className="media-link-description">Beginn der 10. intrauterinen Woche, in der die beiden Oberkieferwülste
-                im Bereich des Gaumens verschmelzen.
-              </div>
-            </div>
-            <div data-media-id={5} data-media-type="image">
-              <div className="data-media-thumbnail">
-<img src="thumbs/klinik.jpg" />
-</div>
-              <img src="images/einseitige_lkg_Spalte_Screenshot_6.png" />
-              <div className="media-link-title">
-Embryologische Entstehung
-</div>
-              <div className="media-link-description">Ende der 12. intrauterinen Woche, in der die Lippen-Kiefer-Gaumen-Region
-                vollständig ausgeheilt ist.
-              </div>
-            </div>
-          </div>
-        </div>
-        <div
-id="einteilungSpaltformen"
-className="chapters">
-          <div className="chapterTitle">
-            <h3>
-Einteilung Spaltformen
-</h3>
-            <hr />
-          </div>
-          <div className="content-block">
-<p>&nbsp;</p>
-            <table
-className="table table-bordered table-striped"
-style={{fontWeight: 'bold', height: 339}}
-width={853}>
-              <tbody>
-                <tr>
-                  <td>Gruppe</td>
-                  <td>Morphologie</td>
-                </tr>
-                <tr>
-                  <td>1</td>
-                  <td>
-Lippenspalte und Lippen-Kiefer-Spalte rechts und/oder links
-</td>
-                </tr>
-                <tr>
-                  <td>2</td>
-                  <td>
-Lippen-Kiefer-Gaumen-Spalte rechts und/oder links
-</td>
-                </tr>
-                <tr>
-                  <td>3</td>
-                  <td>
-                    <p>
-Isolierte Gaumenspalten:
-</p>
-                    <p>
-im Hartgaumen rechts und/oder links, im Weichgaumen median
-</p>
-                  </td>
-                </tr>
-              </tbody>
-            </table>
-            <p>
-Cave: Kieferspalten treten nie isoliert auf!
-</p>
-            <div
-className="startGallery"
-data-gallery-item={6}>
-<img
-className="galleryPoster"
-src="thumbs/video1.png"
-/>
-              <p className="gallerieThumbDescription">
-Einseitige LKG-Spalte
-</p>
-              <img
-className="galleryPoster"
-src="thumbs/Play_experimentell.png"
-/>
-</div>
-            <p>
-<span className="startGallery">
-<img
-src="thumbs/einteilung_spaltformen_images.png"
-alt="Einteilung der Spaltformen Galerie" />
-</span>
-</p>
-</div>
-          <div className="links">
-            <div data-media-id={1} data-media-type="image">
-              <div className="data-media-thumbnail">
-<img src="thumbs/klinik.jpg" />
-</div>
-              <img src="images/1.png" />
-              <div className="media-link-title">
-Doppelseitige Lippenspalte
-</div>
-              <div className="media-link-description">
-Isolierte doppelseitige Lippenspalte
-</div>
-            </div>
-            <div data-media-id={2} data-media-type="image">
-              <div className="data-media-thumbnail">
-<img src="thumbs/klinik.jpg" />
-</div>
-              <img src="images/3.png" />
-              <div className="media-link-title">Weichgaumenspalte</div>
-              <div className="media-link-description">
-Isolierte Weichgaumenspalte
-</div>
-            </div>
-            <div data-media-id={3} data-media-type="image">
-              <div className="data-media-thumbnail">
-<img src="thumbs/klinik.jpg" />
-</div>
-              <img src="images/5.png" />
-              <div className="media-link-title">Lippenspalte</div>
-              <div className="media-link-description">
-Isolierte einseitige Lippenspalte
-</div>
-            </div>
-            <div data-media-id={4} data-media-type="image">
-              <div className="data-media-thumbnail">
-<img src="thumbs/klinik.jpg" />
-</div>
-              <img src="images/10b.png" />
-              <div className="media-link-title">Gaumenspalte</div>
-              <div className="media-link-description">
-Isolierte Gaumenspalte
-</div>
-            </div>
-            <div data-media-id={5} data-media-type="image">
-              <div className="data-media-thumbnail">
-<img src="thumbs/klinik.jpg" />
-</div>
-              <img src="images/8d.png" />
-              <div className="media-link-title">Lippen-Kiefer-Gaumen-Spalte</div>
-              <div className="media-link-description">
-Durchgehende Lippen-Kiefer-Gaumen-Spalte
-</div>
-            </div>
-            <div data-media-id={6} data-media-type="video">
-              <div className="media-link-video-id">1</div>
-              <div className="media-link-title">
-Einseitige LKG-Spalte
-</div>
-              <div className="media-link-description">
-Einseitige LKG-Spalte
-</div>
-            </div>
-          </div>
-        </div>
-        <div
-id="selteneGesichtsspalten"
-className="chapters">
-          <div className="chapterTitle">
-            <h3>
-Seltene Gesichtsspalten
-</h3>
-            <hr />
-          </div>
-          <div className="content-block">
-<p>
-Etwa 4-50 von 1 Millionen Geburten sind von selteneren Gesichtsspalten betroffen. In
-              der Regel entstehen sie in der 4. Embryonalwoche. Diese Gesichtsspalten sind sehr variabel und könnenin Form von
-              Aplasie, Defekten, Fehlanlagen, Hypoplasie bis Hyperplasie in Erscheinung treten.
-</p>
-            <p>
-Alle seltenen Gesichtsspalten können mit Lippen-Kiefer-Gaumen-Spalten kombiniert auftreten.
-</p>
-            <p>
-Die seltenen Gesichtsspalten werden in 3 klinische Grundformen eingeteilt:
-</p>
-            <ul style={{listStyleType: 'disc'}}>
-              <li>
-Mediane Gesichtsspalte <br />
-                <ul>
-                  <li>
-Betrifft v.a. mittleres und oberes Gesichtsdrittel
-</li>
-                  <li>
-Häufigste der seltenen Gesichtsspalten
-</li>
-                </ul>
-              </li>
-              <li>
-Schräge Gesichtsspalte
-                <ul>
-                  <li>
-Unterschiedliche Schweregrade
-</li>
-                  <li>
-Ein- oder doppelseitig
-</li>
-                  <li>
-Beginnen häufig im medialen Unterlidbereich, enden lateral des Philtrums
-</li>
-                </ul>
-              </li>
-              <li>
-Quere Gesichtsspalte
-                <ul>
-                  <li>
-Verläuft von Mundwinkel in die Wange in Richtung Ohr
-</li>
-                  <li>
-Betrifft Schleimhaut, Haut und Muskulatur
-</li>
-                  <li>
-Häufig Aurikularanhänge und Hypoplasien (Dysostosis mandibulofacialis)
-</li>
-                  <li>
-Spalten der Unterlippe, der Mandibula und der Zunge
-</li>
-                </ul>
-              </li>
-            </ul>
-            <p>
-<span className="startGallery">
-<img
-src="thumbs/seltene_gesichtsspalten_images.png"
-alt="Seltene Gesichtsspalten Galerie" />
-</span>
-</p>
-</div>
-          <div className="links">
-            <div data-media-id={1} data-media-type="image">
-              <div className="data-media-thumbnail">
-<img src="thumbs/klinik.jpg" />
-</div>
-              <img src="images/2c.png" />
-              <div className="media-link-title">
-Quere Gesichtsspalte
-</div>
-              <div className="media-link-description">
-Präoperatives Bild einer queren Gesichtsspalte
-</div>
-            </div>
-            <div data-media-id={2} data-media-type="image">
-              <div className="data-media-thumbnail">
-<img src="thumbs/klinik.jpg" />
-</div>
-              <img src="images/2d.png" />
-              <div className="media-link-title">
-Quere Gesichtsspalte
-</div>
-              <div className="media-link-description">
-Präoperatives Bild einer queren Gesichtsspalte
-</div>
-            </div>
-            <div data-media-id={3} data-media-type="image">
-              <div className="data-media-thumbnail">
-<img src="thumbs/klinik.jpg" />
-</div>
-              <img src="images/2e.png" />
-              <div className="media-link-title">
-Quere Gesichtsspalte
-</div>
-              <div className="media-link-description">
-Intraoperatives Bild einer queren Gesichtsspalte
-</div>
-            </div>
-            <div data-media-id={4} data-media-type="image">
-              <div className="data-media-thumbnail">
-<img src="thumbs/klinik.jpg" />
-</div>
-              <img src="images/2a.png" />
-              <div className="media-link-title">
-Quere Gesichtsspalte
-</div>
-              <div className="media-link-description">
-Quere Gesichtsspalte ca. 3 Monate postoperativ
-</div>
-            </div>
-            <div data-media-id={5} data-media-type="image">
-              <div className="data-media-thumbnail">
-<img src="thumbs/klinik.jpg" />
-</div>
-              <img src="images/2b.png" />
-              <div className="media-link-title">
-Quere Gesichtsspalte
-</div>
-              <div className="media-link-description">
-Quere Gesichtsspalte ca. 3/4 Jahr postoperativ.
-</div>
-            </div>
-          </div>
-        </div>
-        <div id="diagnostik" className="chapters">
-          <div className="chapterTitle">
-            <h3>Diagnostik</h3>
-            <hr />
-          </div>
-          <div className="content-block">
-<p>
-Die Diagnostik findet mittels Ultraschall statt.
-</p>
-            <p>
-<span className="startGallery">
-<img
-src="thumbs/diagnostik_images.png"
-alt="Diagnostik Galerie" />
-</span>
-</p>
-          </div>
-          <div className="links">
-            <div data-media-id={1} data-media-type="image">
-              <div className="data-media-thumbnail">
-<img src="thumbs/klinik.jpg" />
-</div>
-              <img src="images/12.png" />
-              <div className="media-link-title">Ultraschallbild</div>
-              <div className="media-link-description">Ultraschallbild eines ungeborenen Kindes mit einer
-                Lippen-Kiefer-Gaumen-Spalte.
-              </div>
-            </div>
-            <div data-media-id={2} data-media-type="image">
-              <div className="data-media-thumbnail">
-<img src="thumbs/klinik.jpg" />
-</div>
-              <img src="images/12b.png" />
-              <div className="media-link-title">Ultraschallbild</div>
-              <div className="media-link-description">Ultraschallbild eines ungeborenes Kindes mit einer
-                Lippen-Kiefer-Gaumen-Spalte.
-              </div>
-            </div>
-            <div data-media-id={3} data-media-type="image">
-              <div className="data-media-thumbnail">
-<img src="thumbs/klinik.jpg" />
-</div>
-              <img src="images/12c.png" />
-              <div className="media-link-title">Ultraschallbild</div>
-              <div className="media-link-description">
-Ultraschallbild eines Kindes mit Lippen-Kiefer-Gaumen-Spalte.
-</div>
-            </div>
-          </div>
-        </div>
-        <div
-id="funktionsstoerungen"
-className="chapters">
-          <div className="chapterTitle">
-            <h3>
-Funktionsstörungen durch Spalten
-</h3>
-            <hr />
-          </div>
-          <div className="content-block">
-<p>
-Alle Funktionsstörungen sind abhängig vom individuellen Ausmaß der Fehlbildung.
-</p>
-            <p>
-Zu ihnen zählen:
-</p>
-            <ul>
-              <li>
-Behinderung der Atmung bei breiten Gaumenspalten bedingt durch ein Zurückfallen der Zunge
-</li>
-              <li>Behinderung der Nahrungsaufnahme, durch fehlendes Vermögen einen Unterdruck im Mund aufzubauen um zu
-                trinken
-              </li>
-              <li>
-Belüftungsstörungen des Mittelohres
-</li>
-              <li>
-Störung der Lautbildung und des Sprechens, falls die Spalten nicht innerhalb der ersten 2 Lebensjahre
-                versorgt wird
-                <ul>
-                  <li>Rhinophonie</li>
-                  <li>
-Rhinolalia aperta
-</li>
-                </ul>
-              </li>
-              <li>
-Behinderte Belüftung der Nasenhaupthöhle, vor allem post operativ
-</li>
-              <li>
-Dentoalveoläre Fehlverzahnungen (Zahnzahl, Zahnstellung, verzögerter Zahndurchbruch)
-</li>
-              <li>
-eine Wachstumsbehinderung des Oberkiefers kann zu einer maxilläreren Retrognathie führen
-</li>
-              <li>
-häufig Mindermineralisationen des Zahnschmelzes
-</li>
-            </ul>
-          </div>
-          <div className="links" />
-        </div>
-        <div id="therapie" className="chapters">
-          <div className="chapterTitle">
-            <h3>Therapie</h3>
-            <hr />
-          </div>
-          <div className="content-block">
-<p>
-Bei der Therapie von Lippen-Kiefer-Gaumen-Spalten steht ein interdisziplinärer
-              Behandlungsauftrag im Vordergrund. Die Behandlungsziele aller beteiligten Abteilungen sind:
-</p>
-            <ul style={{listStyleType: 'disc'}}>
-              <li>
-to speak well
-</li>
-              <li>
-to look well
-</li>
-              <li>
-to eat well
-</li>
-              <li>
-to hear well
-</li>
-            </ul>
-            <p>
-Der Operationszeitpunkt ist vor allem abhängig von der Lokalisation, dem Ausprägungsgrad und die körperliche
-              Entwicklung des Patienten (ab 5kg, was in der Regel einem Alter von 3 Monaten entspricht). Des Weiteren
-              spielen die Wünsche der Eltern, die medizinisch-ärztliche Voraussetzung, das Kieferwachstum, die Dentition,
-              der Spracherwerb und die soziale Integration eine entscheidenen Rolle bei der Therapie.
-</p>
-            <p>
-Die <strong>chirurgische Therapie</strong> durchgängiger Lippen-Kiefer-Gaumen-Spalten wird in der Regel in 3
-              Schritte unterteilt:
-</p>
-            <ol>
-              <li>
-Lippenverschluss (3.-6. Lebensmonat)
-</li>
-              <li>
-Für den Verschluss des weichen und des harten Gaumens gibt es 2 Möglichkeiten:
-                <p style={{paddingLeft: 120}}>
-&nbsp;a) Verschluss des Weichgaumens mit der Lippenspaltplastik oder
-                  innerhalb des 1. Lebensjahres. Verschluss des Hartgaumens nach spontaner Verschmälerung ab dem 2.
-                  Lebensjahr.
-</p>
-                <p style={{paddingLeft: 120}}>
-b) Gemeinsamer Verschluss des Hart- und Weichgaumens oder sequentiell im
-                  Abstand von 3 Monaten zum Ende des 1. Lebensjahres.
-</p>
-              </li>
-              <li>
-Kieferspaltosteoplastik (8.-12. Lebensjahr)
-                <ul style={{listStyleType: 'disc'}}>
-                  <li>
-Knochentransplantation im Bereich der Spalte desw Alveolarfortsatzes
-</li>
-                  <li>
-primäre Osteoplastik im Säuglingsalter
-</li>
-                  <li>
-Sekundäre Osteoplastik beim Zahnwechsel
-</li>
-                  <li>
-Tertiäre Osteoplastik mit Wachstumsabschluss
-</li>
-                </ul>
-              </li>
-              <li>
-Sekundärkorrekturen (v.a. nach Abschluss des Wachstums)
-                <ul style={{listStyleType: 'disc'}}>
-                  <li>Nase</li>
-                  <li>Bisslage</li>
-                </ul>
-              </li>
-            </ol>
-            <div
-className="startGallery"
-data-gallery-item={10}>
-<img
-className="galleryPoster"
-src="thumbs/video2.png"
-/>
-              <p className="gallerieThumbDescription">Kieferspaltosteoplastik</p>
-              <img
-className="galleryPoster"
-src="thumbs/Play_experimentell.png"
-/>
-</div>
-            <p>
-<span
-className="startGallery"
-data-gallery-item={3}>
-<img
-src="thumbs/therapie_1_images.png"
-alt="Therapie Bilder Galerie" />
-</span>
-</p>
-            <p>
-Die <strong>kieferorthopädischen Therapie</strong> wird in folgende Schritte unterteilt:
-</p>
-            <ol>
-              <li>
-Trinkplatte (3.-5- Tag nach der Geburt) bis der Gaumen geschlossen ist oder sog. Latham-Apparatur
-                <ul style={{listStyleType: 'disc'}}>
-                  <li>
-Trinkfähigkeit herstellen
-</li>
-                  <li>
-Steuerung des Kieferwachstums
-</li>
-                </ul>
-              </li>
-              <li>
-Überwachung/Frühüberwachung (1.-7. Lebensjahr)
-</li>
-              <li>
-Haupthandlungsperiode (10.-18. Lebensjahr)
-</li>
-            </ol>
-            <p>
-<span
-className="startGallery"
-data-gallery-item={1}>
-<img
-src="thumbs/therapie_2_images.png"
-alt="Therapie Bilder Galerie" />
-</span>
-</p>
-            <p>
-&nbsp;Des Weiteren werden die Kinder begleitend von der <strong>HNO-Abteilung</strong> betreut:
-</p>
-            <ul>
-              <li>
-zur Inspektion des Trommelfells, Tympanogramm und Hirnstammaudiometrie
-</li>
-              <li>
-Parazentese evtl. mit Paukenröhrcheneinlage falls Schallleitungsschwerhörigkeit besteht
-</li>
-              <li>
-Logopädische Betreuung
-</li>
-            </ul>
-            <p>
-&nbsp;Bei Bedarf erfolgt durch die <strong>Logopädie</strong> eine Sprach-, Sprech-, Stimm- und
-              Schlucktherapie.
-</p>
-            <p>&nbsp;</p>
-            <p>
-<strong>
-<span style={{textDecoration: 'underline'}}>
-Operationstechniken Lippenverschluss
-</span>
-</strong>
-</p>
-            <ul>
-              <li>
-Dreiecksläppchen nach Tennison und Randall
-</li>
-              <li>
-Wellenschnitt nach Pfeiffer
-</li>
-              <li>
-Rotations-Advancement nach Millard
-</li>
-            </ul>
-            <div
-className="startGallery"
-data-gallery-item={13}>
-<img
-className="galleryPoster"
-src="thumbs/video1.png"
-/>
-              <p className="gallerieThumbDescription">
-Einseitige LKG-Spalte
-</p>
-              <img
-className="galleryPoster"
-src="thumbs/Play_experimentell.png"
-/>
-</div>
-            <div
-className="startGallery"
-data-gallery-item={9}>
-<img
-className="galleryPoster"
-src="thumbs/video0.png"
-/>
-              <p className="gallerieThumbDescription">
-Doppelseitige LKG-Spalte
-</p>
-              <img
-className="galleryPoster"
-src="thumbs/Play_experimentell.png"
-/>
-</div>
-            <p>
-Operationstechnik weicher und harter Gaumen
-</p>
-            <ul>
-              <li>Brückenlappen</li>
-              <li>Stiellappen</li>
-            </ul>
-            <div
-className="startGallery"
-data-gallery-item={12}>
-<img
-className="galleryPoster"
-src="thumbs/video3.png"
-/>
-              <p className="gallerieThumbDescription">Gaumenverschluss</p>
-              <img
-className="galleryPoster"
-src="thumbs/Play_experimentell.png"
-/>
-</div>
-            <div
-className="startGallery"
-data-gallery-item={11}>
-<img
-className="galleryPoster"
-src="thumbs/video4.png"
-/>
-              <p className="gallerieThumbDescription">
-Gaumenverschluss: Doppelseitige LKG-Spalte
-</p>
-              <img
-className="galleryPoster"
-src="thumbs/Play_experimentell.png"
-/>
-</div>
-            <p>&nbsp;</p>
-</div>
-          <div className="links">
-            <div data-media-id={1} data-media-type="image">
-              <div className="data-media-thumbnail">
-<img src="thumbs/klinik.jpg" />
-</div>
-              <img src="images/4c.png" />
-              <div className="media-link-title">Trinkplatte</div>
-              <div className="media-link-description">
-Speziell für das Kind angefertigte Trinkplatte.
-</div>
-            </div>
-            <div data-media-id={2} data-media-type="image">
-              <div className="data-media-thumbnail">
-<img src="thumbs/klinik.jpg" />
-</div>
-              <img src="images/4b.png" />
-              <div className="media-link-title">Trinkplatte</div>
-              <div className="media-link-description">Bild einer eingefügten und befestigten Trinkplatte zum Verschluss des
-                Gaumens und Steuerung des Kieferwachstums.
-              </div>
-            </div>
-            <div data-media-id={3} data-media-type="image">
-              <div className="data-media-thumbnail">
-<img src="thumbs/klinik.jpg" />
-</div>
-              <img src="images/6a.png" />
-              <div className="media-link-title">
-Lippenspalte präoperativ
-</div>
-              <div className="media-link-description">
-Präopertives Bild einer isloierten Lippenspalte
-</div>
-            </div>
-            <div data-media-id={4} data-media-type="image">
-              <div className="data-media-thumbnail">
-<img src="thumbs/klinik.jpg" />
-</div>
-              <img src="images/6b.png" />
-              <div className="media-link-title">
-Lippenspalte postoperativ
-</div>
-              <div className="media-link-description">
-Postoperatives Bild einer isolierten Lippenspalte.
-</div>
-            </div>
-            <div data-media-id={5} data-media-type="image">
-              <div className="data-media-thumbnail">
-<img src="thumbs/klinik.jpg" />
-</div>
-              <img src="images/10b.png" />
-              <div className="media-link-title">
-Präoperative Gaumenspalte
-</div>
-              <div className="media-link-description">
-Präoperatives Bild einer isolierten Gaumenspalte.
-</div>
-            </div>
-            <div data-media-id={6} data-media-type="image">
-              <div className="data-media-thumbnail">
-<img src="thumbs/klinik.jpg" />
-</div>
-              <img src="images/10a.png" />
-              <div className="media-link-title">
-Postoperative Gaumenspalte
-</div>
-              <div className="media-link-description">Unmittelbar postoperatives Bild einer mittels Stiellappen verschlossenen
-                Gaumenspalte.
-              </div>
-            </div>
-            <div data-media-id={7} data-media-type="image">
-              <div className="data-media-thumbnail">
-<img src="thumbs/klinik.jpg" />
-</div>
-              <img src="images/7b.png" />
-              <div className="media-link-title">
-Doppelseitige Lippen-Kiefer-Gaumenspalte präoperativ
-</div>
-              <div className="media-link-description">Präopertives Bild einer doppelseitigen durchgängigen
-                Lippen-Kiefer-Gaumenspalte.
-              </div>
-            </div>
-            <div data-media-id={8} data-media-type="image">
-              <div className="data-media-thumbnail">
-<img src="thumbs/klinik.jpg" />
-</div>
-              <img src="images/7d.png" />
-              <div className="media-link-title">
-Doppelseitige Lippen-Kiefer-Gaumenspalte postoperativ
-</div>
-              <div className="media-link-description">Postoperatives Bild einer durchgängigen doppelseitigen
-                Lippen-Kiefer-Gaumenspalte.
-              </div>
-            </div>
-            <div data-media-id={9} data-media-type="video">
-              <div className="media-link-video-id">0</div>
-              <div className="media-link-title">
-Doppelseitige LKG-Spalte
-</div>
-              <div className="media-link-description">
-Video zur&nbsp;Doppelseitigen LKG-Spalte
-</div>
-            </div>
-            <div data-media-id={10} data-media-type="video">
-              <div className="media-link-video-id">2</div>
-              <div className="media-link-title">Kieferspaltosteoplastik</div>
-              <div className="media-link-description">
-Video zur Kieferspaltosteoplastik
-</div>
-            </div>
-            <div data-media-id={11} data-media-type="video">
-              <div className="media-link-video-id">4</div>
-              <div className="media-link-title">
-Gaumenverschluss: Doppelseitige LKG-Spalte
-</div>
-              <div className="media-link-description">
-Video zu Gaumenverschluss: Doppelseitige LKG-Spalte
-</div>
-            </div>
-            <div data-media-id={12} data-media-type="video">
-              <div className="media-link-video-id">3</div>
-              <div className="media-link-title">Gaumenverschluss</div>
-              <div className="media-link-description">
-Video zum Gaumenverschluss
-</div>
-            </div>
-            <div data-media-id={13} data-media-type="video">
-              <div className="media-link-video-id">1</div>
-              <div className="media-link-title">
-Einseitige LKG-Spalte
-</div>
-              <div className="media-link-description">
-Einseitige LKG-Spalte
-</div>
-            </div>
-          </div>
+        <img src="images/11a.png" />
+        <div className="media-link-title">Lippen-Kiefer-Gaumen-Spalte</div>
+        <div className="media-link-description">
+          Durchgehende einseitige Lippen-Kiefer-Gaumen-Spalte
         </div>
       </div>
+      <div data-media-id={2} data-media-type="image">
+        <div className="data-media-thumbnail">
+          <img src="thumbs/klinik.jpg" />
+        </div>
+        <img src="images/9c.png" />
+        <div className="media-link-title">Lippenspalte</div>
+        <div className="media-link-description">
+          Isoliertes einseitige Lippenspalte
+        </div>
+      </div>
+      <div data-media-id={3} data-media-type="image">
+        <div className="data-media-thumbnail">
+          <img src="thumbs/klinik.jpg" />
+        </div>
+        <img src="images/7a.png" />
+        <div className="media-link-title">
+          Doppelseitige Lippen-Kiefer-Gaumen-Spalte
+        </div>
+        <div className="media-link-description">
+          Bild einer durchgehenden doppelseitigen Lippen-Kiefer-Gaumen-Spalte.
+        </div>
+      </div>
+    </div>
+  </div>;
 
-    );
-    }
+  <div id="pathogenese" className="chapters">
+    <div className="chapterTitle">
+      <h3>Pathogenese</h3>
+      <hr />
+    </div>
+    <div className="content-block">
+      <p>
+        &nbsp;In 15-30% der Fälle sind Lippen-Kiefer-Gaumen-Spalten genetisch
+        bedingt. In der Regel beobachtet man dann ein gehäuftes Auftreten in
+        Familien.
+      </p>
+      <p>
+        Abgesehen von der genetischen Komponente gibt es äußere Einflussfaktoren
+        die eine Entstehung von Lippen-Kiefer-Gaumen-Spalten positiv beeinflussen:
+      </p>
+      <ul style={{ listStyleType: "disc" }}>
+        <li>energiereiche Strahlen</li>
+        <li>Chemikalien</li>
+        <li>Infektionen von Mutter und Kind</li>
+        <li>Sauerstoffmangel</li>
+        <li>Alkoholabusus</li>
+        <li>Rauchen</li>
+        <li>Körperlicher und psychischer Stress</li>
+      </ul>
+      <p>
+        <span className="startGallery" data-gallery-item={1}>
+          <img
+            src="thumbs/einseitige_lkg_Spalte_Screenshot_1.png"
+            alt="Einseitige LKG Spalte"
+          />
+        </span>
+      </p>
+      <p>
+        Bei der embryologischen Entwicklung gibt es zwei entscheidene Phasen,
+        welche die Entstehung einer Spalte bedingen. Die kritische teratogene
+        Periode der Lippe ist in der 5. intrauterinen Woche:
+      </p>
+      <ul style={{ listStyleType: "disc" }}>
+        <li>
+          Die Oberlippe entsteht entwicklungsgeschichtlich aus 3 Blastemen: zwei
+          seitliche Oberkieferwülste und eine medialer Nasenwulst.
+        </li>
+        <li>
+          Diese 3 Blasteme verschmelzen in der 5. Schwangerschaftswoche
+          paramedian, dort wo die Philtrumkante später zum liegen kommt.
+        </li>
+        <li>
+          Es ist fraglich ob die Enstehung durch fehlende Vereinigung der Blasteme
+          oder durch ein sekundäres Auseinanderweichen bedingt ist.
+        </li>
+      </ul>
+      <p>
+        Die kritische teratogene Periode des Gaumens ist in der 10. und 12.
+        intrauterinen Woche:
+      </p>
+      <ul style={{ listStyleType: "disc" }}>
+        <li>
+          Der Gaumen entsteht durch eine Verschmelzung der seitlichen
+          Oberkieferwülste.
+        </li>
+        <li>
+          Im Hartgaumenbereich verwachsen diese Wülste in der Mitte und kranial
+          auch mit medialen Nasenfortsatz.
+        </li>
+        <li>
+          Dementsprechend kann es im Hartgaumenbereich zu einseitigen und
+          doppelseitigen Spaltbildungen kommen.
+        </li>
+        <li>
+          Da der Weichgaumen nur aus den beiden seitlichen Oberkieferwülsten
+          entsteht, kann es hier immer nur zu einer mittigen Spaltbildung kommen.
+        </li>
+      </ul>
+      <p>
+        <span className="startGallery" data-gallery-item={2}>
+          <img
+            src="thumbs/pathogenese_images.png"
+            alt="Einseitige LKG Spalte Galerie"
+          />
+        </span>
+      </p>
+    </div>
+    <div className="links">
+      <div data-media-id={1} data-media-type="image">
+        <div className="data-media-thumbnail">
+          <img src="thumbs/klinik.jpg" />
+        </div>
+        <img src="images/einseitige_lkg_Spalte_Screenshot_1.png" />
+        <div className="media-link-title">Einflussfaktoren</div>
+        <div className="media-link-description">
+          Folgende Faktoren gelten als eine LKG-Spalte positiv beeinflussend:
+          energiereiche Strahlung, Chemikalien, Rauchen, Alkoholabusus,
+          Sauerstoffmangel, Infektion von Mutter und Kind, Stress.
+        </div>
+      </div>
+      <div data-media-id={2} data-media-type="image">
+        <div className="data-media-thumbnail">
+          <img src="thumbs/klinik.jpg" />
+        </div>
+        <img src="images/einseitige_lkg_Spalte_Screenshot_2.png" />
+        <div className="media-link-title">Embryologische Entstehung</div>
+        <div className="media-link-description">
+          Beginn der 5. intrauterinen Woche, in der sich die beiden seitlichen
+          Oberkieferwülste und der mediale Nasenwulst annähern.
+        </div>
+      </div>
+      <div data-media-id={3} data-media-type="image">
+        <div className="data-media-thumbnail">
+          <img src="thumbs/klinik.jpg" />
+        </div>
+        <img src="images/einseitige_lkg_Spalte_Screenshot_4.png" />
+        <div className="media-link-title">Embryologische Entstehung</div>
+        <div className="media-link-description">
+          Ende der 5. intrauterinen Woche, in der die beiden seitlichen
+          Oberkieferwülste und der mediale Nasenwulst miteinander verschmolzen
+          sind.
+        </div>
+      </div>
+      <div data-media-id={4} data-media-type="image">
+        <div className="data-media-thumbnail">
+          <img src="thumbs/klinik.jpg" />
+        </div>
+        <img src="images/einseitige_lkg_Spalte_Screenshot_5.png" />
+        <div className="media-link-title">Embryologische Entstehung</div>
+        <div className="media-link-description">
+          Beginn der 10. intrauterinen Woche, in der die beiden Oberkieferwülste
+          im Bereich des Gaumens verschmelzen.
+        </div>
+      </div>
+      <div data-media-id={5} data-media-type="image">
+        <div className="data-media-thumbnail">
+          <img src="thumbs/klinik.jpg" />
+        </div>
+        <img src="images/einseitige_lkg_Spalte_Screenshot_6.png" />
+        <div className="media-link-title">Embryologische Entstehung</div>
+        <div className="media-link-description">
+          Ende der 12. intrauterinen Woche, in der die Lippen-Kiefer-Gaumen-Region
+          vollständig ausgeheilt ist.
+        </div>
+      </div>
+    </div>
+  </div>;
+
+  <div id="einteilungSpaltformen" className="chapters">
+    <div className="chapterTitle">
+      <h3>Einteilung Spaltformen</h3>
+      <hr />
+    </div>
+    <div className="content-block">
+      <p>&nbsp;</p>
+      <table
+        className="table table-bordered table-striped"
+        style={{ fontWeight: "bold", height: 339 }}
+        width={853}
+      >
+        <tbody>
+          <tr>
+            <td>Gruppe</td>
+            <td>Morphologie</td>
+          </tr>
+          <tr>
+            <td>1</td>
+            <td>Lippenspalte und Lippen-Kiefer-Spalte rechts und/oder links</td>
+          </tr>
+          <tr>
+            <td>2</td>
+            <td>Lippen-Kiefer-Gaumen-Spalte rechts und/oder links</td>
+          </tr>
+          <tr>
+            <td>3</td>
+            <td>
+              <p>Isolierte Gaumenspalten:</p>
+              <p>im Hartgaumen rechts und/oder links, im Weichgaumen median</p>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+      <p>Cave: Kieferspalten treten nie isoliert auf!</p>
+      <div className="startGallery" data-gallery-item={6}>
+        <img className="galleryPoster" src="thumbs/video1.png" />
+        <p className="gallerieThumbDescription">Einseitige LKG-Spalte</p>
+        <img className="galleryPoster" src="thumbs/Play_experimentell.png" />
+      </div>
+      <p>
+        <span className="startGallery">
+          <img
+            src="thumbs/einteilung_spaltformen_images.png"
+            alt="Einteilung der Spaltformen Galerie"
+          />
+        </span>
+      </p>
+    </div>
+    <div className="links">
+      <div data-media-id={1} data-media-type="image">
+        <div className="data-media-thumbnail">
+          <img src="thumbs/klinik.jpg" />
+        </div>
+        <img src="images/1.png" />
+        <div className="media-link-title">Doppelseitige Lippenspalte</div>
+        <div className="media-link-description">
+          Isolierte doppelseitige Lippenspalte
+        </div>
+      </div>
+      <div data-media-id={2} data-media-type="image">
+        <div className="data-media-thumbnail">
+          <img src="thumbs/klinik.jpg" />
+        </div>
+        <img src="images/3.png" />
+        <div className="media-link-title">Weichgaumenspalte</div>
+        <div className="media-link-description">Isolierte Weichgaumenspalte</div>
+      </div>
+      <div data-media-id={3} data-media-type="image">
+        <div className="data-media-thumbnail">
+          <img src="thumbs/klinik.jpg" />
+        </div>
+        <img src="images/5.png" />
+        <div className="media-link-title">Lippenspalte</div>
+        <div className="media-link-description">
+          Isolierte einseitige Lippenspalte
+        </div>
+      </div>
+      <div data-media-id={4} data-media-type="image">
+        <div className="data-media-thumbnail">
+          <img src="thumbs/klinik.jpg" />
+        </div>
+        <img src="images/10b.png" />
+        <div className="media-link-title">Gaumenspalte</div>
+        <div className="media-link-description">Isolierte Gaumenspalte</div>
+      </div>
+      <div data-media-id={5} data-media-type="image">
+        <div className="data-media-thumbnail">
+          <img src="thumbs/klinik.jpg" />
+        </div>
+        <img src="images/8d.png" />
+        <div className="media-link-title">Lippen-Kiefer-Gaumen-Spalte</div>
+        <div className="media-link-description">
+          Durchgehende Lippen-Kiefer-Gaumen-Spalte
+        </div>
+      </div>
+      <div data-media-id={6} data-media-type="video">
+        <div className="media-link-video-id">1</div>
+        <div className="media-link-title">Einseitige LKG-Spalte</div>
+        <div className="media-link-description">Einseitige LKG-Spalte</div>
+      </div>
+    </div>
+  </div>;
+
+  <div id="selteneGesichtsspalten" className="chapters">
+    <div className="chapterTitle">
+      <h3>Seltene Gesichtsspalten</h3>
+      <hr />
+    </div>
+    <div className="content-block">
+      <p>
+        Etwa 4-50 von 1 Millionen Geburten sind von selteneren Gesichtsspalten
+        betroffen. In der Regel entstehen sie in der 4. Embryonalwoche. Diese
+        Gesichtsspalten sind sehr variabel und könnenin Form von Aplasie,
+        Defekten, Fehlanlagen, Hypoplasie bis Hyperplasie in Erscheinung treten.
+      </p>
+      <p>
+        Alle seltenen Gesichtsspalten können mit Lippen-Kiefer-Gaumen-Spalten
+        kombiniert auftreten.
+      </p>
+      <p>
+        Die seltenen Gesichtsspalten werden in 3 klinische Grundformen eingeteilt:
+      </p>
+      <ul style={{ listStyleType: "disc" }}>
+        <li>
+          Mediane Gesichtsspalte <br />
+          <ul>
+            <li>Betrifft v.a. mittleres und oberes Gesichtsdrittel</li>
+            <li>Häufigste der seltenen Gesichtsspalten</li>
+          </ul>
+        </li>
+        <li>
+          Schräge Gesichtsspalte
+          <ul>
+            <li>Unterschiedliche Schweregrade</li>
+            <li>Ein- oder doppelseitig</li>
+            <li>
+              Beginnen häufig im medialen Unterlidbereich, enden lateral des
+              Philtrums
+            </li>
+          </ul>
+        </li>
+        <li>
+          Quere Gesichtsspalte
+          <ul>
+            <li>Verläuft von Mundwinkel in die Wange in Richtung Ohr</li>
+            <li>Betrifft Schleimhaut, Haut und Muskulatur</li>
+            <li>
+              Häufig Aurikularanhänge und Hypoplasien (Dysostosis
+              mandibulofacialis)
+            </li>
+            <li>Spalten der Unterlippe, der Mandibula und der Zunge</li>
+          </ul>
+        </li>
+      </ul>
+      <p>
+        <span className="startGallery">
+          <img
+            src="thumbs/seltene_gesichtsspalten_images.png"
+            alt="Seltene Gesichtsspalten Galerie"
+          />
+        </span>
+      </p>
+    </div>
+    <div className="links">
+      <div data-media-id={1} data-media-type="image">
+        <div className="data-media-thumbnail">
+          <img src="thumbs/klinik.jpg" />
+        </div>
+        <img src="images/2c.png" />
+        <div className="media-link-title">Quere Gesichtsspalte</div>
+        <div className="media-link-description">
+          Präoperatives Bild einer queren Gesichtsspalte
+        </div>
+      </div>
+      <div data-media-id={2} data-media-type="image">
+        <div className="data-media-thumbnail">
+          <img src="thumbs/klinik.jpg" />
+        </div>
+        <img src="images/2d.png" />
+        <div className="media-link-title">Quere Gesichtsspalte</div>
+        <div className="media-link-description">
+          Präoperatives Bild einer queren Gesichtsspalte
+        </div>
+      </div>
+      <div data-media-id={3} data-media-type="image">
+        <div className="data-media-thumbnail">
+          <img src="thumbs/klinik.jpg" />
+        </div>
+        <img src="images/2e.png" />
+        <div className="media-link-title">Quere Gesichtsspalte</div>
+        <div className="media-link-description">
+          Intraoperatives Bild einer queren Gesichtsspalte
+        </div>
+      </div>
+      <div data-media-id={4} data-media-type="image">
+        <div className="data-media-thumbnail">
+          <img src="thumbs/klinik.jpg" />
+        </div>
+        <img src="images/2a.png" />
+        <div className="media-link-title">Quere Gesichtsspalte</div>
+        <div className="media-link-description">
+          Quere Gesichtsspalte ca. 3 Monate postoperativ
+        </div>
+      </div>
+      <div data-media-id={5} data-media-type="image">
+        <div className="data-media-thumbnail">
+          <img src="thumbs/klinik.jpg" />
+        </div>
+        <img src="images/2b.png" />
+        <div className="media-link-title">Quere Gesichtsspalte</div>
+        <div className="media-link-description">
+          Quere Gesichtsspalte ca. 3/4 Jahr postoperativ.
+        </div>
+      </div>
+    </div>
+  </div>;
+
+  <div id="diagnostik" className="chapters">
+    <div className="chapterTitle">
+      <h3>Diagnostik</h3>
+      <hr />
+    </div>
+    <div className="content-block">
+      <p>Die Diagnostik findet mittels Ultraschall statt.</p>
+      <p>
+        <span className="startGallery">
+          <img src="thumbs/diagnostik_images.png" alt="Diagnostik Galerie" />
+        </span>
+      </p>
+    </div>
+    <div className="links">
+      <div data-media-id={1} data-media-type="image">
+        <div className="data-media-thumbnail">
+          <img src="thumbs/klinik.jpg" />
+        </div>
+        <img src="images/12.png" />
+        <div className="media-link-title">Ultraschallbild</div>
+        <div className="media-link-description">
+          Ultraschallbild eines ungeborenen Kindes mit einer
+          Lippen-Kiefer-Gaumen-Spalte.
+        </div>
+      </div>
+      <div data-media-id={2} data-media-type="image">
+        <div className="data-media-thumbnail">
+          <img src="thumbs/klinik.jpg" />
+        </div>
+        <img src="images/12b.png" />
+        <div className="media-link-title">Ultraschallbild</div>
+        <div className="media-link-description">
+          Ultraschallbild eines ungeborenes Kindes mit einer
+          Lippen-Kiefer-Gaumen-Spalte.
+        </div>
+      </div>
+      <div data-media-id={3} data-media-type="image">
+        <div className="data-media-thumbnail">
+          <img src="thumbs/klinik.jpg" />
+        </div>
+        <img src="images/12c.png" />
+        <div className="media-link-title">Ultraschallbild</div>
+        <div className="media-link-description">
+          Ultraschallbild eines Kindes mit Lippen-Kiefer-Gaumen-Spalte.
+        </div>
+      </div>
+    </div>
+  </div>;
+  <div id="funktionsstoerungen" className="chapters">
+    <div className="chapterTitle">
+      <h3>Funktionsstörungen durch Spalten</h3>
+      <hr />
+    </div>
+    <div className="content-block">
+      <p>
+        Alle Funktionsstörungen sind abhängig vom individuellen Ausmaß der
+        Fehlbildung.
+      </p>
+      <p>Zu ihnen zählen:</p>
+      <ul>
+        <li>
+          Behinderung der Atmung bei breiten Gaumenspalten bedingt durch ein
+          Zurückfallen der Zunge
+        </li>
+        <li>
+          Behinderung der Nahrungsaufnahme, durch fehlendes Vermögen einen
+          Unterdruck im Mund aufzubauen um zu trinken
+        </li>
+        <li>Belüftungsstörungen des Mittelohres</li>
+        <li>
+          Störung der Lautbildung und des Sprechens, falls die Spalten nicht
+          innerhalb der ersten 2 Lebensjahre versorgt wird
+          <ul>
+            <li>Rhinophonie</li>
+            <li>Rhinolalia aperta</li>
+          </ul>
+        </li>
+        <li>Behinderte Belüftung der Nasenhaupthöhle, vor allem post operativ</li>
+        <li>
+          Dentoalveoläre Fehlverzahnungen (Zahnzahl, Zahnstellung, verzögerter
+          Zahndurchbruch)
+        </li>
+        <li>
+          eine Wachstumsbehinderung des Oberkiefers kann zu einer maxilläreren
+          Retrognathie führen
+        </li>
+        <li>häufig Mindermineralisationen des Zahnschmelzes</li>
+      </ul>
+    </div>
+    <div className="links" />
+  </div>;
+
+  <div id="therapie" className="chapters">
+    <div className="chapterTitle">
+      <h3>Therapie</h3>
+      <hr />
+    </div>
+    <div className="content-block">
+      <p>
+        Bei der Therapie von Lippen-Kiefer-Gaumen-Spalten steht ein
+        interdisziplinärer Behandlungsauftrag im Vordergrund. Die Behandlungsziele
+        aller beteiligten Abteilungen sind:
+      </p>
+      <ul style={{ listStyleType: "disc" }}>
+        <li>to speak well</li>
+        <li>to look well</li>
+        <li>to eat well</li>
+        <li>to hear well</li>
+      </ul>
+      <p>
+        Der Operationszeitpunkt ist vor allem abhängig von der Lokalisation, dem
+        Ausprägungsgrad und die körperliche Entwicklung des Patienten (ab 5kg, was
+        in der Regel einem Alter von 3 Monaten entspricht). Des Weiteren spielen
+        die Wünsche der Eltern, die medizinisch-ärztliche Voraussetzung, das
+        Kieferwachstum, die Dentition, der Spracherwerb und die soziale
+        Integration eine entscheidenen Rolle bei der Therapie.
+      </p>
+      <p>
+        Die <strong>chirurgische Therapie</strong> durchgängiger
+        Lippen-Kiefer-Gaumen-Spalten wird in der Regel in 3 Schritte unterteilt:
+      </p>
+      <ol>
+        <li>Lippenverschluss (3.-6. Lebensmonat)</li>
+        <li>
+          Für den Verschluss des weichen und des harten Gaumens gibt es 2
+          Möglichkeiten:
+          <p style={{ paddingLeft: 120 }}>
+            &nbsp;a) Verschluss des Weichgaumens mit der Lippenspaltplastik oder
+            innerhalb des 1. Lebensjahres. Verschluss des Hartgaumens nach
+            spontaner Verschmälerung ab dem 2. Lebensjahr.
+          </p>
+          <p style={{ paddingLeft: 120 }}>
+            b) Gemeinsamer Verschluss des Hart- und Weichgaumens oder sequentiell
+            im Abstand von 3 Monaten zum Ende des 1. Lebensjahres.
+          </p>
+        </li>
+        <li>
+          Kieferspaltosteoplastik (8.-12. Lebensjahr)
+          <ul style={{ listStyleType: "disc" }}>
+            <li>
+              Knochentransplantation im Bereich der Spalte desw Alveolarfortsatzes
+            </li>
+            <li>primäre Osteoplastik im Säuglingsalter</li>
+            <li>Sekundäre Osteoplastik beim Zahnwechsel</li>
+            <li>Tertiäre Osteoplastik mit Wachstumsabschluss</li>
+          </ul>
+        </li>
+        <li>
+          Sekundärkorrekturen (v.a. nach Abschluss des Wachstums)
+          <ul style={{ listStyleType: "disc" }}>
+            <li>Nase</li>
+            <li>Bisslage</li>
+          </ul>
+        </li>
+      </ol>
+      <div className="startGallery" data-gallery-item={10}>
+        <img className="galleryPoster" src="thumbs/video2.png" />
+        <p className="gallerieThumbDescription">Kieferspaltosteoplastik</p>
+        <img className="galleryPoster" src="thumbs/Play_experimentell.png" />
+      </div>
+      <p>
+        <span className="startGallery" data-gallery-item={3}>
+          <img src="thumbs/therapie_1_images.png" alt="Therapie Bilder Galerie" />
+        </span>
+      </p>
+      <p>
+        Die <strong>kieferorthopädischen Therapie</strong> wird in folgende
+        Schritte unterteilt:
+      </p>
+      <ol>
+        <li>
+          Trinkplatte (3.-5- Tag nach der Geburt) bis der Gaumen geschlossen ist
+          oder sog. Latham-Apparatur
+          <ul style={{ listStyleType: "disc" }}>
+            <li>Trinkfähigkeit herstellen</li>
+            <li>Steuerung des Kieferwachstums</li>
+          </ul>
+        </li>
+        <li>Überwachung/Frühüberwachung (1.-7. Lebensjahr)</li>
+        <li>Haupthandlungsperiode (10.-18. Lebensjahr)</li>
+      </ol>
+      <p>
+        <span className="startGallery" data-gallery-item={1}>
+          <img src="thumbs/therapie_2_images.png" alt="Therapie Bilder Galerie" />
+        </span>
+      </p>
+      <p>
+        &nbsp;Des Weiteren werden die Kinder begleitend von der{" "}
+        <strong>HNO-Abteilung</strong> betreut:
+      </p>
+      <ul>
+        <li>
+          zur Inspektion des Trommelfells, Tympanogramm und Hirnstammaudiometrie
+        </li>
+        <li>
+          Parazentese evtl. mit Paukenröhrcheneinlage falls
+          Schallleitungsschwerhörigkeit besteht
+        </li>
+        <li>Logopädische Betreuung</li>
+      </ul>
+      <p>
+        &nbsp;Bei Bedarf erfolgt durch die <strong>Logopädie</strong> eine
+        Sprach-, Sprech-, Stimm- und Schlucktherapie.
+      </p>
+      <p>&nbsp;</p>
+      <p>
+        <strong>
+          <span style={{ textDecoration: "underline" }}>
+            Operationstechniken Lippenverschluss
+          </span>
+        </strong>
+      </p>
+      <ul>
+        <li>Dreiecksläppchen nach Tennison und Randall</li>
+        <li>Wellenschnitt nach Pfeiffer</li>
+        <li>Rotations-Advancement nach Millard</li>
+      </ul>
+      <div className="startGallery" data-gallery-item={13}>
+        <img className="galleryPoster" src="thumbs/video1.png" />
+        <p className="gallerieThumbDescription">Einseitige LKG-Spalte</p>
+        <img className="galleryPoster" src="thumbs/Play_experimentell.png" />
+      </div>
+      <div className="startGallery" data-gallery-item={9}>
+        <img className="galleryPoster" src="thumbs/video0.png" />
+        <p className="gallerieThumbDescription">Doppelseitige LKG-Spalte</p>
+        <img className="galleryPoster" src="thumbs/Play_experimentell.png" />
+      </div>
+      <p>Operationstechnik weicher und harter Gaumen</p>
+      <ul>
+        <li>Brückenlappen</li>
+        <li>Stiellappen</li>
+      </ul>
+      <div className="startGallery" data-gallery-item={12}>
+        <img className="galleryPoster" src="thumbs/video3.png" />
+        <p className="gallerieThumbDescription">Gaumenverschluss</p>
+        <img className="galleryPoster" src="thumbs/Play_experimentell.png" />
+      </div>
+      <div className="startGallery" data-gallery-item={11}>
+        <img className="galleryPoster" src="thumbs/video4.png" />
+        <p className="gallerieThumbDescription">
+          Gaumenverschluss: Doppelseitige LKG-Spalte
+        </p>
+        <img className="galleryPoster" src="thumbs/Play_experimentell.png" />
+      </div>
+      <p>&nbsp;</p>
+    </div>
+    <div className="links">
+      <div data-media-id={1} data-media-type="image">
+        <div className="data-media-thumbnail">
+          <img src="thumbs/klinik.jpg" />
+        </div>
+        <img src="images/4c.png" />
+        <div className="media-link-title">Trinkplatte</div>
+        <div className="media-link-description">
+          Speziell für das Kind angefertigte Trinkplatte.
+        </div>
+      </div>
+      <div data-media-id={2} data-media-type="image">
+        <div className="data-media-thumbnail">
+          <img src="thumbs/klinik.jpg" />
+        </div>
+        <img src="images/4b.png" />
+        <div className="media-link-title">Trinkplatte</div>
+        <div className="media-link-description">
+          Bild einer eingefügten und befestigten Trinkplatte zum Verschluss des
+          Gaumens und Steuerung des Kieferwachstums.
+        </div>
+      </div>
+      <div data-media-id={3} data-media-type="image">
+        <div className="data-media-thumbnail">
+          <img src="thumbs/klinik.jpg" />
+        </div>
+        <img src="images/6a.png" />
+        <div className="media-link-title">Lippenspalte präoperativ</div>
+        <div className="media-link-description">
+          Präopertives Bild einer isloierten Lippenspalte
+        </div>
+      </div>
+      <div data-media-id={4} data-media-type="image">
+        <div className="data-media-thumbnail">
+          <img src="thumbs/klinik.jpg" />
+        </div>
+        <img src="images/6b.png" />
+        <div className="media-link-title">Lippenspalte postoperativ</div>
+        <div className="media-link-description">
+          Postoperatives Bild einer isolierten Lippenspalte.
+        </div>
+      </div>
+      <div data-media-id={5} data-media-type="image">
+        <div className="data-media-thumbnail">
+          <img src="thumbs/klinik.jpg" />
+        </div>
+        <img src="images/10b.png" />
+        <div className="media-link-title">Präoperative Gaumenspalte</div>
+        <div className="media-link-description">
+          Präoperatives Bild einer isolierten Gaumenspalte.
+        </div>
+      </div>
+      <div data-media-id={6} data-media-type="image">
+        <div className="data-media-thumbnail">
+          <img src="thumbs/klinik.jpg" />
+        </div>
+        <img src="images/10a.png" />
+        <div className="media-link-title">Postoperative Gaumenspalte</div>
+        <div className="media-link-description">
+          Unmittelbar postoperatives Bild einer mittels Stiellappen verschlossenen
+          Gaumenspalte.
+        </div>
+      </div>
+      <div data-media-id={7} data-media-type="image">
+        <div className="data-media-thumbnail">
+          <img src="thumbs/klinik.jpg" />
+        </div>
+        <img src="images/7b.png" />
+        <div className="media-link-title">
+          Doppelseitige Lippen-Kiefer-Gaumenspalte präoperativ
+        </div>
+        <div className="media-link-description">
+          Präopertives Bild einer doppelseitigen durchgängigen
+          Lippen-Kiefer-Gaumenspalte.
+        </div>
+      </div>
+      <div data-media-id={8} data-media-type="image">
+        <div className="data-media-thumbnail">
+          <img src="thumbs/klinik.jpg" />
+        </div>
+        <img src="images/7d.png" />
+        <div className="media-link-title">
+          Doppelseitige Lippen-Kiefer-Gaumenspalte postoperativ
+        </div>
+        <div className="media-link-description">
+          Postoperatives Bild einer durchgängigen doppelseitigen
+          Lippen-Kiefer-Gaumenspalte.
+        </div>
+      </div>
+      <div data-media-id={9} data-media-type="video">
+        <div className="media-link-video-id">0</div>
+        <div className="media-link-title">Doppelseitige LKG-Spalte</div>
+        <div className="media-link-description">
+          Video zur&nbsp;Doppelseitigen LKG-Spalte
+        </div>
+      </div>
+      <div data-media-id={10} data-media-type="video">
+        <div className="media-link-video-id">2</div>
+        <div className="media-link-title">Kieferspaltosteoplastik</div>
+        <div className="media-link-description">
+          Video zur Kieferspaltosteoplastik
+        </div>
+      </div>
+      <div data-media-id={11} data-media-type="video">
+        <div className="media-link-video-id">4</div>
+        <div className="media-link-title">
+          Gaumenverschluss: Doppelseitige LKG-Spalte
+        </div>
+        <div className="media-link-description">
+          Video zu Gaumenverschluss: Doppelseitige LKG-Spalte
+        </div>
+      </div>
+      <div data-media-id={12} data-media-type="video">
+        <div className="media-link-video-id">3</div>
+        <div className="media-link-title">Gaumenverschluss</div>
+        <div className="media-link-description">Video zum Gaumenverschluss</div>
+      </div>
+      <div data-media-id={13} data-media-type="video">
+        <div className="media-link-video-id">1</div>
+        <div className="media-link-title">Einseitige LKG-Spalte</div>
+        <div className="media-link-description">Einseitige LKG-Spalte</div>
+      </div>
+    </div>
+  </div>;
+</div>
+
+);
+}
 
 export default Lkg;

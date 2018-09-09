@@ -1,0 +1,273 @@
+
+        <div className="links">
+          <div data-media-id="1" data-media-type="image">
+            <div className="data-media-thumbnail"><img src="images/klinik.jpg" />
+            </div>
+            <img src="images/13.png" />
+            <div className="media-link-title">Benigner Tumor</div>
+            <div className="media-link-description">Fibrom der Unterlippe</div>
+          </div>
+          <div data-media-id="2" data-media-type="image">
+            <div className="data-media-thumbnail"><img src="images/klinik.jpg" />
+            </div>
+            <img src="images/14.png" />
+            <div className="media-link-title">Maligner Tumor</div>
+            <div className="media-link-description">
+              Plattenepithelkarzinom der Unterlippe.
+            </div>
+          </div>
+          <div data-media-id="3" data-media-type="image">
+            <div className="data-media-thumbnail"><img src="images/klinik.jpg" />
+            </div>
+            <img src="images/15.png" />
+            <div className="media-link-title">Schleimhautveränderung am Planum buccale</div>
+            <div className="media-link-description">
+              Bissverletzung der linken Wange.
+            </div>
+          </div>
+        </div>
+        <div className="links">
+          <div data-media-id="1" data-media-type="image">
+            <div className="data-media-thumbnail"><img src="images/klinik.jpg" />
+            </div>
+            <img src="images/16.png" />
+            <div className="media-link-title">Zweittumor</div>
+            <div className="media-link-description">
+              Metachroner Zweittumor des Zungengrundes nach Resektion eines Tumors in
+              der Wange und Rekonstruktion mit einem Transplantat.
+            </div>
+          </div>
+          <div data-media-id="2" data-media-type="image">
+            <div className="data-media-thumbnail"><img src="images/klinik.jpg" />
+            </div>
+            <img src="images/7.png" />
+            <div className="media-link-title">Primärtumor</div>
+            <div className="media-link-description">
+              Erstmalig auftretender Tumor am Zungengrund.
+            </div>
+          </div>
+        </div>
+        <div className="links" />
+        </div>
+        <div className="links" />
+        </div>
+        <div className="links">
+          <div data-media-id="1" data-media-type="image">
+            <div className="data-media-thumbnail"><img src="images/klinik.jpg" />
+            </div>
+            <img src="images/17.png" />
+            <div className="media-link-title">CT Plattenepithelkarzinom</div>
+            <div className="media-link-description">
+              Tumor der linksseitigen Tonsillenregion mit Ausläufern in die Zunge und
+              Infiltration des Knochens.
+            </div>
+          </div>
+          <div data-media-id="2" data-media-type="image">
+            <div className="data-media-thumbnail"><img src="images/klinik.jpg" />
+            </div>
+            <img src="images/18.png" />
+            <div className="media-link-title">MRT-Plattenepithelkarzinom</div>
+            <div className="media-link-description">
+              Raumforderung des Mundbodens auf der rechten Seite mit osteolytischer
+              Destruktion des rechten Mandibulabogens.
+            </div>
+          </div>
+          <div data-media-id="3" data-media-type="image">
+            <div className="data-media-thumbnail"><img src="images/klinik.jpg" />
+            </div>
+            <img src="images/19.png" />
+            <div className="media-link-title">CT-PLattenpeithelkarzinom</div>
+            <div className="media-link-description">
+              Raumforderung im Bereich der rechten Kieferhöhle mit Destruktion des
+              Jochbeins.
+            </div>
+          </div>
+          <div data-media-id="4" data-media-type="image">
+            <div className="data-media-thumbnail"><img src="images/klinik.jpg" />
+            </div>
+            <img src="images/20.png" />
+            <div className="media-link-title">CT- Plattenepithelkarzinom</div>
+            <div className="media-link-description">
+              Linksseitige Raumforderung des Mundbodens mit Infiltration des Knochens.
+            </div>
+          </div>
+        </div>
+        <div className="links">
+          <div data-media-id="1" data-media-type="image">
+            <div className="data-media-thumbnail"><img src="images/klinik.jpg" />
+            </div>
+            <img src="images/nd1.png" />
+            <div className="media-link-title">Neck dissection</div>
+            <div className="media-link-description">
+              Hals mit der eingezeichneten Schnittführung der geplanten Neck dissection.
+            </div>
+          </div>
+          <div data-media-id="2" data-media-type="image">
+            <div className="data-media-thumbnail"><img src="images/klinik.jpg" />
+            </div>
+            <img src="images/nd2.png" />
+            <div className="media-link-title">Neck dissection</div>
+            <div className="media-link-description">
+              Eröffneter und präparierter Hals unter Schonung der V. jugularis externa.
+            </div>
+          </div>
+          <div data-media-id="3" data-media-type="image">
+            <div className="data-media-thumbnail"><img src="images/klinik.jpg" />
+            </div>
+            <img src="images/nd3.png" />
+            <div className="media-link-title">Neck dissection</div>
+            <div className="media-link-description">
+              Darstellung des Nervus accessorius intraoperativ.
+            </div>
+          </div>
+          <div data-media-id="4" data-media-type="image">
+            <div className="data-media-thumbnail"><img src="images/klinik.jpg" />
+            </div>
+            <img src="images/nd4.png" />
+            <div className="media-link-title">Neck dissection</div>
+            <div className="media-link-description">
+              Absetzen des M. sternocleidomastoideus.
+            </div>
+          </div>
+          <div data-media-id="5" data-media-type="image">
+            <div className="data-media-thumbnail"><img src="images/klinik.jpg" />
+            </div>
+            <img src="images/nd5.png" />
+            <div className="media-link-title">Neck dissection</div>
+            <div className="media-link-description">
+              Absetzten des M. sternocleidomastoideus mit einem Monopolar.
+            </div>
+          </div>
+          <div data-media-id="6" data-media-type="image">
+            <div className="data-media-thumbnail"><img src="images/klinik.jpg" />
+            </div>
+            <img src="images/nd6.png" />
+            <div className="media-link-title">Neck dissection</div>
+            <div className="media-link-description">
+              Identifikation des N. vagus und Unterbindung der V. jugularis interna.
+            </div>
+          </div>
+          <div data-media-id="7" data-media-type="image">
+            <div className="data-media-thumbnail"><img src="images/klinik.jpg" />
+            </div>
+            <img src="images/nd7.png" />
+            <div className="media-link-title">Neck dissection</div>
+            <div className="media-link-description">
+              Identifikation des N. vagus und Unterbindung der V. jugularis interna.
+            </div>
+          </div>
+          <div data-media-id="8" data-media-type="image">
+            <div className="data-media-thumbnail"><img src="images/klinik.jpg" />
+            </div>
+            <img src="images/nd8.png" />
+            <div className="media-link-title">Neck dissection</div>
+            <div className="media-link-description">
+              Präparation bis auf die tiefe Halsfaszie und Identifikation des N.
+              phrenicus.
+            </div>
+          </div>
+          <div data-media-id="9" data-media-type="image">
+            <div className="data-media-thumbnail"><img src="images/klinik.jpg" />
+            </div>
+            <img src="images/nd9.png" />
+            <div className="media-link-title">Neck dissection</div>
+            <div className="media-link-description">
+              Als nächster Schritt erfolgt das Absetzten sensibler Plexusfasern, die
+              Darstellung der Carotisbifurkation und des M. biventer.
+            </div>
+          </div>
+          <div data-media-id="10" data-media-type="image">
+            <div className="data-media-thumbnail"><img src="images/klinik.jpg" />
+            </div>
+            <img src="images/nd10.png" />
+            <div className="media-link-title">Neck dissection</div>
+            <div className="media-link-description">
+              Dann erfolgt die Unterbindung der V. jugularis an der Schädelbasis.
+            </div>
+          </div>
+          <div data-media-id="11" data-media-type="image">
+            <div className="data-media-thumbnail"><img src="images/klinik.jpg" />
+            </div>
+            <img src="images/nd11.png" />
+            <div className="media-link-title">Neck dissection</div>
+            <div className="media-link-description">
+              Dann wird die Fossa submandibularis von dorsal ausgeräumt.
+            </div>
+          </div>
+          <div data-media-id="12" data-media-type="image">
+            <div className="data-media-thumbnail"><img src="images/klinik.jpg" />
+            </div>
+            <img src="images/nd12.png" />
+            <div className="media-link-title">Neck dissection</div>
+            <div className="media-link-description">
+              Als nächstes erfolgt die Darstellung des Ramus marginalis mandibulae und
+              die Unterbindung des A. und V. facialis.
+            </div>
+          </div>
+          <div data-media-id="13" data-media-type="image">
+            <div className="data-media-thumbnail"><img src="images/klinik.jpg" />
+            </div>
+            <img src="images/nd13.png" />
+            <div className="media-link-title">Neck dissection</div>
+            <div className="media-link-description">
+              Dargestellt ist der Hals nach einer Modifizierten radikalen Neck
+              dissection Stadium II. Erhalten werden konnten der Nervus accessorius und
+              die Vena jugularis.
+            </div>
+          </div>
+          <div data-media-id="14" data-media-type="image">
+            <div className="data-media-thumbnail"><img src="images/klinik.jpg" />
+            </div>
+            <img src="images/2b.png" />
+            <div className="media-link-title">Radialistransplantat</div>
+            <div className="media-link-description">
+              Zustand nach Tumorresektion im Oberkiefer und Rekonstruktion der
+              Weichgewebe mit einem Radialistransplantat.
+            </div>
+          </div>
+          <div data-media-id="15" data-media-type="image">
+            <div className="data-media-thumbnail"><img src="images/klinik.jpg" />
+            </div>
+            <img src="images/2e.png" />
+            <div className="media-link-title">Eingeheiltes Radialistransplantat</div>
+            <div className="media-link-description">
+              Bild eines eingeheilten Radialistransplantats, dass 3 Monate zuvor
+              eingebracht wurde.
+            </div>
+          </div>
+          <div data-media-id="16" data-media-type="image">
+            <div className="data-media-thumbnail"><img src="images/klinik.jpg" />
+            </div>
+            <img src="images/2k.png" />
+            <div className="media-link-title">Beckentransplantat</div>
+            <div className="media-link-description">
+              Bild eines eingebrachten und festgeschraubten Beckentransplantats, welches
+              computer-assistiert rekonstruiert wurde. Bei diesem Patienten wurde der
+              Tumor im Oberkiefer 6 Monate zuvor entfernt und das Weichgewebe zunächst
+              mit einem Radialislappen gedeckt.
+            </div>
+          </div>
+          <div data-media-id="17" data-media-type="image">
+            <div className="data-media-thumbnail"><img src="images/klinik.jpg" />
+            </div>
+            <img src="images/2dd.png" />
+            <div className="media-link-title">Patient vor und nach Fibulatransplantation</div>
+            <div className="media-link-description">
+              Patient vor und nach Rekonstruktion des Oberkiefers mit einer Fibula nach
+              einer Tumorresektion.
+            </div>
+          </div>
+          <div data-media-id="18" data-media-type="video">
+            <div className="media-link-video-id">8</div>
+            <div className="media-link-title">Beckenkammtransplantat</div>
+            <div className="media-link-description">
+              Hebung eines mikrochirurgischen Beckenkammtransplantats zur Rekonstruktion
+              des Unterkiefers.
+            </div>
+          </div>
+          <div data-media-id="19" data-media-type="video">
+            <div className="media-link-video-id">10</div>
+            <div className="media-link-title">Neck Dissection</div>
+            <div className="media-link-description">Neck Dissection</div>
+          </div>
+        </div>

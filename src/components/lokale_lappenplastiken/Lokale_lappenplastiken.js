@@ -2,913 +2,775 @@ import React from 'react';
 
 function Lokale_lappenplastiken(props) {
   return (
-  <div>
-        <div id="grundlagen" className="chapters">
-<div className="chapterTitle">
-            <h3>Grundlagen</h3>
-            <hr />
-          </div>
-<div className="content-block">
-<p>
-<span style={{textDecoration: 'underline'}}>
-Hautspannungslinien =RSTL (relaxed skin tension lines)
-</span>
-<br />
-Die Hautspannungslinien resultieren aus der <strong>Orientierung der Kollagenfasern</strong> der Haut. Im Alter manifestieren sie sich als Falten und Runzeln.<br />Senkrecht zu ihnen besteht die maximale Dehnbarkeit der Haut, die auch als LME (=<strong>Lines of maximal extensibility)</strong> bezeichnet werden. Dementsprechenden sollte bei Hautexzisionen und Wundverschlüssen möglichst auf eine Parallelität zu den RSTL geachtet werden, sodass eine minimale Spannung auf die Wunde resultiert.
-</p>
-            <div
-className="startGallery imageContainer"
-data-gallery-item={1}>
-<img
-src="thumbs/hautspannungslinien-enzykloppädie-dermatologie.png"
-/>
-</div>
-            <p>
-<br />
-<span style={{textDecoration: 'underline'}}>
-Ästhetische Einheiten
-</span>
-<br />
-Die Haut des Gesichts wird in ästhetische Einheiten mit <strong>unterschiedlichen charakteristischen Eigenschaften</strong>. Diese Eigenschaften sind Abhängig von:
-</p>
-            <ul>
-              <li>Dicke</li>
-              <li>
-Menge an subkutanem Fett
-</li>
-              <li>
-Adhärenz an der unterliegenden Faszie bzw. dem SMAS (superficial musculo-aponeurotic system)
-</li>
-              <li>Farbe</li>
-              <li>Haarwuchs</li>
-            </ul>
-            <p>
-Die einzelne ästhetische Einheiten sind voneinander durch Grate und Einziehungen getrennt.<br />Die beste Ergebnisse bei Defektdeckung können mit Lappen aus der gleichen ästhetischen Einheit wie der Defekt selbst erzielt werden.
-</p>
-            <p>&nbsp;</p>
-            <div
-className="startGallery imageContainer"
-data-gallery-item={2}>
-<img src="thumbs/aesthetischeeinheiten.png" />
-</div>
-</div>
-          <div className="links">
-<div data-media-id={1} data-media-type="image">
-<div className="data-media-thumbnail">
-<img src="images/klinik.jpg" />
-</div>
-<img src="images/hautspannungslinien-enzyklopp%C3%A4die-dermatologie.png" />
-<div className="media-link-title">Hautspannungslinien</div>
-<div className="media-link-description">
-Quelle: http://www.enzyklopaedie-dermatologie.de/artikel?id=15811
-</div>
-</div>
-<div data-media-id={2} data-media-type="image">
-<div className="data-media-thumbnail">
-<img src="images/klinik.jpg" />
-</div>
-<img src="images/aesthetischeeinheiten.png" />
-<div className="media-link-title">
-Ästhetische Einheiten
-</div>
-<div className="media-link-description">
-Ästhetische Einheiten des Gesichts
-</div>
-</div>
-</div>
-</div>
-<div
-id="lokalelappenplastiken"
-className="chapters">
-<div className="chapterTitle">
-            <h3>
-Lokale Lappenplastiken
-</h3>
-            <hr />
-          </div>
-<div className="content-block">
-<p>
-<br />
-<strong>
-Lokale Lappenplastiken
-</strong> gehören zur Gruppe der <strong>Stiellappenplastiken</strong>. Bei einer Stiellappenplastik ist der Lappen über eine Gewebsbrücke (=Stiel) mit der Umgebung verbunden.
-</p>
-            <p>
-Bei der Planung einer lokalen Lappenplastik müssen die <strong>Hautspannungslinien und ästhetischen Einheiten</strong> berücksichtig werden. Prinzipiell gilt:
-</p>
-            <ul>
-              <li>
-Verschluss des Defekts möglichst primär im Verlauf der Spannungslinien
-</li>
-              <li>
-Möglichst wenige ästhetische Einheiten einbeziehen
-</li>
-            </ul>
-            <p>
-<br />
-Das am besten geeignete Hautmaterial ist abhängig von:
-</p>
-            <ul>
-              <li>
-Art und Ausmaß des benötigten Gewebes
-</li>
-              <li>
-Hautfarbe und Hauttextur
-</li>
-              <li>
-Behaarung im Bereich der Empfängerstelle
-</li>
-            </ul>
-            <p>
-Meistens haben Hautlappen aus der <strong>unmittelbaren Umgebung</strong> die <strong>optimale Hautfarbe und Textur</strong> für den Defekt. <br />In der Regel sind für jeden Defektverschluss eine Vielzahl verschiedener Lappenplastiken möglich. Die Methode mit den geringsten sekundären Effekten ist zu bevorzugen und selbstverständlich sollte die ausgewählte Methode vom Operateur beherrscht werden. Es sollte vermieden werden unbehaarte Defektstellen mit behaarter Haut zu decken, da dies sehr auffällig und für die Patienten störend ist.
-</p>
-            <p>
-<br />
-Hautlappen sind im Grunde Variationen und Kombinationen geometrischer Figuren. Bei vielen Defekten sind Kombinationen aus unterschiedlichen Techniken notwendig. Als Operateur sollte man die Algorithmen kennen und diese einsetzen können.
-</p>
-            <p>
-Bei nahezu allen Hautlappen ist eine mehr oder weniger ausgedehnte Gewebemobilisation über den eigentlichen Lappen hinaus erforderlich. Eine suffiziente Mobilisation ist meist entscheidender als Art des Lappens zur Defektdeckung.
-</p>
-            <p>&nbsp;</p>
-            <p>
-<br />
-Grundsätzlich gibt es zwei verschieden Typen:
-</p>
-            <p>
-<br />
-1. einfacher Hautlappen = <strong>
-„random pattern flap“
-</strong>
-</p>
-            <ul>
-              <li>
-zufällige, netzartige Gefäßversorgung über subpapillären, kapillären Gefäßplexus -&gt; kein Hauptgefäß
-</li>
-              <li>
-muskulokutanes Gefäßnetz: Perforatoren der Segmente, Muskelarterien verzweigen sich in Subkutis und Haut
-</li>
-              <li>
-ca. 2-3:1 Länge : Breite (keine allgemeine Gültigkeit, abhängig von Eigenschaften der im Stiel verlaufenden Gefäße)
-</li>
-            </ul>
-            <p>
-<br />
-2. Arterienlappen = <strong>
-„axial pattern flap“
-</strong>
-</p>
-            <ul>
-              <li>
-wird durch ein zentrales Gefäß ernährt
-                <ul>
-                  <li>
-Hauptarterie und Begleitvene(n) oder ihre Äste durchdringen aus der Tiefe in die Faszie und verzweigen sich im subkutanen Fettgewebe und der Haut
-</li>
-                </ul>
-              </li>
-              <li>
-ca. 5:1 Länge : Breite (keine allgemeine Gültigkeit, abhängig von Eigenschaften der im Stiel verlaufenden Gefäße)
-</li>
-              <li>
-Beispiele:
-                <ul>
-                  <li>
-Indischer Lappen/ Stirnlappen -&gt; Gefäßstiel A. supratrochlearis
-</li>
-                  <li>
-Glabellalappen, „Marchac-Lappen“ -&gt; Gefäßstiel A. angularis
-</li>
-                  <li>
-Deltopectorallapen „Bakamijan-Flap“ -&gt; Gefäßstiel R. mammarii der A. thoracica interna
-</li>
-                  <li>
-„Kiteflap“ -&gt; basal gestielt über Perforatorgefäße
-</li>
-                  <li>
-Submental Island Flap -&gt; A. submentalis
-</li>
-                </ul>
-              </li>
-            </ul>
-            <p>&nbsp;</p>
-            <div
-className="startGallery"
-data-gallery-item={14}>
-<img
-className="galleryPoster"
-src="thumbs/video15.png"
-/>
-              <p className="gallerieThumbDescription">Islandflap</p>
-              <img
-className="galleryPoster"
-src="thumbs/Play_experimentell.png"
-/>
-</div>
-            <p>
-<br />
-Es gibt drei verschiedene Lappentechniken:
-</p>
-            <p>
-<br />
-<span style={{textDecoration: 'underline'}}>
-1. Verschiebelappen
-</span>
-</p>
-            <p>
-Der Verschiebelappen ist die einfachste Form des lokalen Hautlappens. Hier wird der Gewebebereich unterminiert und verschoben. Man unterscheidet zwischen V-Y-Plastiken, Z-Plastiken und U- bzw. H-Plastiken.
-</p>
-            <p>
-Die Z-Plastik ist eine häufig verwendete und universell einsetzbare Methode. <br />Sie weist folgende Eigenschaften auf:
-</p>
-            <ul>
-              <li>
-Doppelte, dreieckförmige Transpositionslappen, welche gegeneinander versetzt werden
-</li>
-              <li>
-Verlängerung der Strecke auf Kosten der Breite
-</li>
-              <li>
-Lappenverlagerung verlängert des Hautareal in der Mittellinie um bis zu 75% und verändert den Narbenverlauf
-</li>
-              <li>
-Ausmaß der Narbenverlängerung hängt vom Winkel zwischen den Lappen und der Narbenlängsachse ab
-</li>
-              <li>
-Bei längeren Narben: multiple Z-Plastiken hintereinander
-</li>
-            </ul>
-            <div
-className="startGallery imageContainer"
-data-gallery-item={1}>
-<img
-src="thumbs/lappelplastiken_images.png"
-/>
-</div>
-            <p>
-<br />
-<span style={{textDecoration: 'underline'}}>
-2. Rotationslappen
-</span>
-</p>
-            <p>
-Rotationslappen stellen das Grundprinzip vieler verwendeter Hautlappen im Gesicht und am Hals dar. Bei größeren Defekten kommen auch doppelte Rotationslappen zum Einsatz. Der Rotationslappen weist folgende Eigenschaften auf:
-</p>
-            <ul>
-              <li>
-Rotation eines Hautbereichs nach Unterminierung
-</li>
-              <li>
-Bogen von 180°
-</li>
-              <li>
-Basis ~ doppelt so breit wie Defekt
-</li>
-              <li>
-Exzision eines BUROW-Dreiecks an der Lappenbasis zur besseren Mobilisation und Ästhetik
-<br />
-<br />
-</li>
-            </ul>
-            <div
-className="startGallery imageContainer"
-data-gallery-item={3}>
-<img src="thumbs/marchac1.png" />
-</div>
-            <p>
-<br />
-<span style={{textDecoration: 'underline'}}>
-3. Transpositionslappen
-</span>
-</p>
-            <p>
-Transpositionslappen gelangen mit ähnlicher Bewegung wie Rotationslappen zum Defekt.<br />Sie werden nicht nur in horizontaler, sondern auch in vertikaler Richtung verschoben und überspringen zwischengeschaltete Hautflächen. Der S-Lappen ist die einfachste Form des Transpositionslappens. <br />Es gibt zwei Modifikationen:
-</p>
-            <ul>
-              <li>
-Rautenlappen nach Limberg
-</li>
-              <li>
-Doppelter Transpositionslappen = Bilobed Flap
-                <ul>
-                  <li>
-Besteht aus zwei Transpositionslappen -&gt; Winkel zwischen Lappenachsen und zwischen der Achse des 2. Lappens und der Defektachse jeweils 90°
-</li>
-                  <li>
-Erlaubt Verlagerung eines relativ großen Gewebeareals über 180° -&gt; Lappenstiele werden jeweils um 90° gedreht
-</li>
-                  <li>
-Spenderlappen jeweils 20% kleiner als zu verschließender Defekt
-</li>
-                  <li>
-Relativ große, auffällige Narbe in drei Richtungen
-</li>
-                  <li>
-Bedarfsorientierte Modifikation der klassischen Technik -&gt; Anpassung der Winkel etc.
-</li>
-                </ul>
-              </li>
-            </ul>
-            <div
-className="startGallery imageContainer"
-data-gallery-item={8}>
-<img src="thumbs/transpositionslappen1.png" />
-</div>
-<p />
-            <div
-className="startGallery"
-data-gallery-item={12}>
-<img
-className="galleryPoster"
-src="thumbs/video12.png"
-/>
-              <p className="gallerieThumbDescription">
-Bilobed Flap
-</p>
-              <img className="galleryPoster" />
-</div>
-</div>
-<div className="links">
-<div data-media-id={1} data-media-type="image">
-<div className="data-media-thumbnail">
-<img src="images/klinik.jpg" />
-</div>
-<img src="images/h-lappen1.png" />
-<div className="media-link-title">H-Lappen</div>
-<div className="media-link-description">
-Geplante Schnittführung des H-Lappens.
-</div>
-</div>
-<div data-media-id={2} data-media-type="image">
-<div className="data-media-thumbnail">
-<img src="images/klinik.jpg" />
-</div>
-<img src="images/h-lappen2.png" />
-<div className="media-link-title">H-Lappen</div>
-<div className="media-link-description">
-Operatives Ergebnis des H-Lappens.
-</div>
-</div>
-<div data-media-id={3} data-media-type="image">
-<div className="data-media-thumbnail">
-<img src="images/klinik.jpg" />
-</div>
-<img src="images/marchac1.png" />
-<div className="media-link-title">Marchac-Lappen</div>
-<div className="media-link-description">
-Basaliom auf der Nasenspitze.
-</div>
-</div>
-<div data-media-id={4} data-media-type="image">
-<div className="data-media-thumbnail">
-<img src="images/klinik.jpg" />
-</div>
-<img src="images/marchac2.png" />
-<div className="media-link-title">Marchac-Lappen</div>
-<div className="media-link-description">Geplante Schnittführung des Marchac-Lappens zur Defektdeckung der
-                Nasenspitze.
-              </div>
-</div>
-<div data-media-id={5} data-media-type="image">
-<div className="data-media-thumbnail">
-<img src="images/klinik.jpg" />
-</div>
-<img src="images/marchac3.png" />
-<div className="media-link-title">Marchac-Lappen</div>
-<div className="media-link-description">Durchtrennung der Haut entlang der zurvor geplanten Schnittführung.
-              </div>
-</div>
-<div data-media-id={6} data-media-type="image">
-<div className="data-media-thumbnail">
-<img src="images/klinik.jpg" />
-</div>
-<img src="images/marchac4.png" />
-<div className="media-link-title">Marchac-Lappen</div>
-<div className="media-link-description">
-Präparation und Mobilisation des Marchaclappens.
-</div>
-</div>
-<div data-media-id={7} data-media-type="image">
-<div className="data-media-thumbnail">
-<img src="images/klinik.jpg" />
-</div>
-<img src="images/marchac5.png" />
-<div className="media-link-title">Marchac-Lappen</div>
-<div className="media-link-description">
-Postoperatives Ergebnis des Marchac-Lappens.
-</div>
-</div>
-<div data-media-id={8} data-media-type="image">
-<div className="data-media-thumbnail">
-<img src="images/klinik.jpg" />
-</div>
-<img src="images/rhomboidlappen1.png" />
-<div className="media-link-title">Rhomboid-Lappen</div>
-<div className="media-link-description">
-Defekt und geplante Schnittführung mittels eines Rhomboid-Lappens.
-</div>
-</div>
-<div data-media-id={9} data-media-type="image">
-<div className="data-media-thumbnail">
-<img src="images/klinik.jpg" />
-</div>
-<img src="images/rhomboidlappen2.png" />
-<div className="media-link-title">Rhomboid-Lappen</div>
-<div className="media-link-description">
-Präparation und Mobilisation des Rhomboid-Lappens.
-</div>
-</div>
-<div data-media-id={10} data-media-type="image">
-<div className="data-media-thumbnail">
-<img src="images/klinik.jpg" />
-</div>
-<img src="images/rhomboidlappen3.png" />
-<div className="media-link-title">Rhomboid-Lappen</div>
-<div className="media-link-description">
-Postoperatives Ergebnis des Rhomboid-Lappens nach Einheilung.
-</div>
-</div>
-<div data-media-id={11} data-media-type="image">
-<div className="data-media-thumbnail">
-<img src="images/klinik.jpg" />
-</div>
-<img src="images/bilobed-flap1.png" />
-<div className="media-link-title">
-Bilobed Flap
-</div>
-<div className="media-link-description">Geplante Schnittführung im Sinne eines Bilobed Flaps zur Defektdeckung
-                an der Nase.
-              </div>
-</div>
-<div data-media-id={12} data-media-type="image">
-<div className="data-media-thumbnail">
-<img src="images/klinik.jpg" />
-</div>
-<img src="images/bilobed-flap2.png" />
-<div className="media-link-title">
-Bilobed Flap
-</div>
-<div className="media-link-description">
-Postoperatives Ergebnis der Defektdeckung mit einem Bilobed Flap.
-</div>
-</div>
-<div data-media-id={13} data-media-type="video">
-<div className="media-link-video-id">12</div>
-<div className="media-link-title">
-Bilobed Flap
-</div>
-<div className="media-link-description">
-Video zu Bilobed Flap
-</div>
-</div>
-<div data-media-id={14} data-media-type="video">
-<div className="media-link-video-id">15</div>
-<div className="media-link-title">Islandflap</div>
-<div className="media-link-description">Islandflap</div>
-</div>
-</div>
-</div>
-<div id="fernlappen" className="chapters">
-<div className="chapterTitle">
-            <h3>Fernlappen</h3>
-            <hr />
-          </div>
-<div className="content-block">
-<p>
-Fernlappen gehören ebenfalls zur Gruppe der Stiellappenplastiken. Sie werden
-              heutzutage nur noch <strong>selten verwendet</strong>, da sie eine erhebliche Komorbidität an der Entnahmestelle
-              und der Präparation des Stielbetts aufweisen. Oft ist die Defektregion nicht primär zu erreichen, sodass ein
-              Vorgehen in mehreren Schritten notwendig ist. Ästhetisch sind diese Lappen meist ungünstig, da sie sich in
-              Textur und Farbe stark vom umgebenden gewebe unterscheiden.
-</p>
-            <div
-className="startGallery imageContainer"
-data-gallery-item={1}>
-<img src="thumbs/fernlappen.png" />
-</div>
-          </div>
-<div className="links">
-<div data-media-id={1} data-media-type="image">
-<div className="data-media-thumbnail">
-<img src="images/klinik.jpg" />
-</div>
-<img src="images/fernlappen.png" />
-<div className="media-link-title">Fernlappen</div>
-<div className="media-link-description">Dargestellt ist ein Rundstiellappen. Die hier abgebildete Basis kann
-                nach einigen Wochen der Einheilung durchtrennt werden.
-              </div>
-</div>
-</div>
-</div>
-<div id="freietransplantate" className="chapters">
-<div className="chapterTitle">
-            <h3>
-Freie Transplantate
-</h3>
-            <hr />
-          </div>
-<div className="content-block">
-<p>
-Bei den freien Transplantaten unterscheidet man zwischen avaskulären, freien Hauttransplantaten und mikrochirurgischen Lappen.
-</p>
-            <p>
-<br />
-<span style={{textDecoration: 'underline'}}>
-Freie Hauttransplantate
-</span>
-</p>
-            <p>
-1. <strong>
-reiner Epidermislappen
-</strong>
-</p>
-            <ul>
-              <li>
-wurde nach seinem Erstbeschreiber Karl Thiersch benannt
-</li>
-              <li>
-0,2-0,25 mm dick
-</li>
-              <li>
-Neigung zu Ulzerationen und Schrumpfung bis zu 50%
-</li>
-              <li>
-Indikation: temporärer Hautersatz bei Verbrennung
-</li>
-            </ul>
-            <p>
-<br />
-2. <strong>Spalthauttransplantat</strong>
-</p>
-            <ul>
-              <li>
-Korium wird „gespalten“
-</li>
-              <li>
-0,3-0,5 mm oder 0,55-0,75 mm dick
-</li>
-              <li>
-Unterscheidung zwischen oberflächlichen, mitteldicken und dreiviertel-Spalthautlappen
-</li>
-              <li>
-Entnahmestelle: Ober- oder Unterschenkel (heilen sekundär)
-</li>
-              <li>
-Nachteile:
-                <ul>
-                  <li>
-Schrumpfung bis zu 30%
-</li>
-                  <li>
-Farbe unberechenbar (Hyper- + Hypopigmentierungen)
-</li>
-                  <li>
-Meist andere Textur als umgebendes Gewebe
-</li>
-                  <li>
-Ästhetisch meist ungünstiger als Vollhauttransplantat
-</li>
-                </ul>
-              </li>
-              <li>
-Vorteile:
-                <ul>
-                  <li>
-Einfach zu entnehmen (Dermatom), anspruchslos
-</li>
-                  <li>
-unproblematische Einheilung
-</li>
-                  <li>
-gute funktionelle Ergebnisse
-</li>
-                  <li>
-wiederkehrende Sensibilität
-</li>
-                  <li>
-viele potentielle Entnahmestellen
-</li>
-                  <li>
-mehrmalige Entnahme an der gleichen Stelle möglich
-</li>
-                </ul>
-              </li>
-              <li>
-Anwendungsgebiet:
-                <ul>
-                  <li>
-Ersatz von Haut und Schleimhaut (Stirn, Wange, Kopfhaut, Nasenrücken, Augenlider, Auskleidung von Augenhöhle, Mundhöhle)
-</li>
-                  <li>
-Abdeckung der Wundfläche und Entnahmestelle bei mikrochirurgischen Lappen
-</li>
-                  <li>
-Großflächige Wunden
-</li>
-                </ul>
-              </li>
-              <li>
-Entnahmestellen: Gesäß, Außen- und Vorderseite des Oberschenkels, bei kleineren Transplantaten Außenseite des Oberarms
-</li>
-              <li>
-Überknüpfverband sorgt für gute Einheilung, da der Aufpressdruck Hämatome und Serome vermeidet
-</li>
-            </ul>
-            <p>
-<br />
-3. <strong>Vollhauttransplantat</strong>
-</p>
-            <ul>
-              <li>
-Epidermis und Korium wird komplett entnommen
-</li>
-              <li>
-0,8-1,1 mm dick
-</li>
-              <li>
-Entnahmestellen: Oberarminnenseite, Leiste, retroaurikulär (wird primär verschlossen), supraklavikulär, Unterarm
-</li>
-              <li>
-Indikation: mechanisch beanspruchte Transplantatlager (Hand, Gelenke), sichtbare Areale (Hals, Gesicht)
-</li>
-              <li>
-Vorteile:
-                <ul>
-                  <li>
-Schrumpfung deutlich geringer als beim Spalthauttransplantat
-</li>
-                  <li>
-Behält ursprüngliche Farbe
-</li>
-                  <li>
-Gute Konsistenz und Farbübereinstimmung
-</li>
-                </ul>
-              </li>
-              <li>
-Nachteile:
-                <ul>
-                  <li>
-Einheilung mit mehr Komplikationen behaftet als Spalthaut
-</li>
-                  <li>
-Benötigt gut durchblutete Unterfläche (am besten Granulationsgewebe)
-</li>
-                  <li>
-Limitierte Spenderareale
-</li>
-                </ul>
-              </li>
-            </ul>
-            <p>&nbsp;</p>
-            <p>
-<span style={{textDecoration: 'underline'}}>
-Mikrochirurgische Transplantate
-</span>
-</p>
-            <p>
-Bei mikrochirurgischen Transplantaten wird das <strong>Transplantat mit seinem ernährendem Blutgefäßsystem&nbsp;</strong>(Arterie, Vene und zwischengeschaltetem Kapillarbett) verpflanzt. <br />Nachteil dieser Vorgehensweise ist, dass teilweise erhebliche Komorbidität an der Entnahmestelle und bei der Päparation der Anschlussgefäße entstehen. Auch ästhetisch sind mikrochirurgische Transplantate meist ungünstig, da sie sich vom umgebenden Gewebe in Farbe und Textur unterscheiden. Außerdem sind meist mehrere Lappenanpassungen erforderlich, bis eine optimale Passung erreicht ist.
-</p>
-            <p>
-Dementsprechend sind mikrochrurgische Transplantate bei großen, nicht primär verschließbaren Defekten indiziert.
-</p>
-            <p>Weitere Informationen siehe Modul <a href="#/mikrochirurgie/index.html" target="_blank">Mikrochirurgie</a>.</p>
-</div>
-<div className="links" />
-</div>
-<div id="gewebeexpansion" className="chapters">
-<div className="chapterTitle">
-            <h3>Gewebeexpansion</h3>
-            <hr />
-          </div>
-<div className="content-block">
-<p>
-Eine <strong>Dehnung des Gewebes</strong> bzw. der Haut in der Defektumgebung kann mit Hilfe eines so genannten Expanders erreicht werden.<br />Der Expander ist ein flexibler, dehnbarer Kunststoffbehälter. Er wurde erstmals von MORESTIN (1913) angewendet und anschließend von NEUMANN (1957) verbreitet.
-</p>
-            <p>
-<br />
-Über eine Inzision werden Hautexpander und Injektionsport in die Defektnähe implantiert (z.B. unter die Subkutis). Idealerweise liegt der Expander auf einer <strong>festen Oberfläche</strong>, wie zum Beispiel Kalotte, Nacken oder Stirn.<br />Dann wird über Zeitraum von ca. 6 Wochen der Expander <strong>sukzessive mit NaCl-Lösung gefüllt</strong>. Bei der Implantation sollte das Füllvolumen etwa 10% des Expandervolumens betragen. Anschließend wird alle 4-7 Tage Kochsalz injiziert, bis das Zielvolumen erreicht ist. Indikator für das individuelle Zielvolumen sind Schmerzen und eine blasse Haut. Durch den Einsatz der Gewebeexpansion kann die Haut die doppelte Größe erreicht werden. <br />
-<br />
-Indikationen für Gewebeexpander sind:
-</p>
-            <ul>
-              <li>
-Große Defekte, die primär nicht mit lokalen Lappen verschlossen werden können (insbesondere Skalpdefekte: sehr schlecht mobilisierbar)
-</li>
-              <li>
-Wenn sichtbare Narben an der Spenderstelle vermieden werden sollen (einfacher Verschluss, keine aufwendigen Inzisionen)
-</li>
-            </ul>
-            <p>
-<br />
-Mögliche Komplikationen sind:
-</p>
-            <ul>
-              <li>
-Am häufigsten: Freilegung und Abstoßung des Expanders -&gt; Implantat zu nahe an der Inzisionsstelle, Vorbestrahlung, zu schnelle Expansion, zu großes Gesamtvolumen
-</li>
-              <li>
-Infektion der Expanderumgebung
-</li>
-              <li>
-Dislokation des Expanders, was zu einer Verformung der Spenderregion oder Kompression wichtiger Strukturen (A. carotis, V. jugularis, Trachea) führen
-</li>
-            </ul>
-            <p>&nbsp;</p>
-            <div
-className="startGallery imageContainer"
-data-gallery-item={1}>
-<img src="thumbs/expander.png" />
-</div>
-</div>
-<div className="links">
-<div data-media-id={1} data-media-type="image">
-<div className="data-media-thumbnail">
-<img src="images/klinik.jpg" />
-</div>
-<img src="images/expander.png" />
-<div className="media-link-title">Hautexpander</div>
-<div className="media-link-description">
-Abgebildet ist das System eines Hautexpanders.
-</div>
-</div>
-<div data-media-id={2} data-media-type="image">
-<div className="data-media-thumbnail">
-<img src="images/klinik.jpg" />
-</div>
-<img src="images/expander2.png" />
-<div className="media-link-title">Hautexpander</div>
-<div className="media-link-description">Postoperatives Ergebnis nach Implantation eines Hautexpanders. Sobald
-                die Haut suffizient verheilt ist, kann mit der Befüllung des Expanders begonnen werden.
-              </div>
-</div>
-<div data-media-id={3} data-media-type="image">
-<div className="data-media-thumbnail">
-<img src="images/klinik.jpg" />
-</div>
-<img src="images/expander1.png" />
-<div className="media-link-title">Hautexpander</div>
-<div className="media-link-description">
-Lager mit eingefügtem Expander im Bereich der Wange.
-</div>
-</div>
-</div>
-</div>
-<div
-id="lippenrekonstruktion"
-className="chapters">
-<div className="chapterTitle">
-            <h3>Lippenrekonstruktion</h3>
-            <hr />
-          </div>
-<div className="content-block">
-<p>
-Zur Rekonstruktion von Lippen gibt es verschieden Möglichkeiten:
-</p>
-            <p>
-<span style={{textDecoration: 'underline'}}>Abbé-Lappen</span>
-</p>
-            <ul>
-              <li>
-An A. labialis gestielter Lappen
-</li>
-              <li>
-Meist Unterlippenersatz
-</li>
-              <li>
-Lappenstieldurchtrennung erforderlich
-</li>
-            </ul>
-            <p>&nbsp;</p>
-            <p>
-<span style={{textDecoration: 'underline'}}>Estlander-Plastik</span>
-</p>
-            <ul>
-              <li>
-An A. labialis gestielter Lappen
-</li>
-              <li>
-Mundwinkelregion betroffen
-</li>
-              <li>
-Nur ein Eingriff
-</li>
-            </ul>
-            <p>&nbsp;</p>
-            <p>
-<span style={{textDecoration: 'underline'}}>Bernhard-Fries-Plastik</span>
-</p>
-            <ul>
-              <li>
-Komplexe Technik
-</li>
-              <li>
-Verschiebe- und Transpositionslappen
-</li>
-              <li>
-Zur (sub)totalen Unterlippenrekonstruktion
-</li>
-            </ul>
-            <div
-className="startGallery imageContainer"
-data-gallery-item={1}>
-<img
-src="thumbs/bernhard-fries-plastik_images.png"
-/>
-</div>
-            <p>
-<span style={{textDecoration: 'underline'}}>Zungenlappen</span>
-</p>
-            <ul>
-              <li>
-Ersatz des Lippenrots
-</li>
-              <li>
-Stiel muss durchtrennt werden
-</li>
-              <li>
-Zungenschleimhaut imponiert im Verlauf häufig exakt wie Lippenrot
-</li>
-              <li>
-Alternativ: Transpositionslappen der Wangenschleimhaut als Lippenrot
-</li>
-            </ul>
-          </div>
-<div className="links">
-<div data-media-id={1} data-media-type="image">
-<div className="data-media-thumbnail">
-<img src="images/klinik.jpg" />
-</div>
-<img src="images/bernhard-fries1.png" />
-<div className="media-link-title">Bernhard-Fries-Plastik</div>
-<div className="media-link-description">
-Plattenepithelkarzinom der Unterlippe.
-</div>
-</div>
-<div data-media-id={2} data-media-type="image">
-<div className="data-media-thumbnail">
-<img src="images/klinik.jpg" />
-</div>
-<img src="images/bernhard-fries2.png" />
-<div className="media-link-title">Bernhard-Fries-Plastik</div>
-<div className="media-link-description">Geplante Schnittführung der operativen Entfernung des
-                Plattenepithelkarzinoms.
-              </div>
-</div>
-<div data-media-id={3} data-media-type="image">
-<div className="data-media-thumbnail">
-<img src="images/klinik.jpg" />
-</div>
-<img src="images/bernhard-fries3.png" />
-<div className="media-link-title">Bernhard-Fries-Plastik</div>
-<div className="media-link-description">Defekt nach Entfernung des Plattenepithelkarzinoms mit
-                Sicherheitsabstand.
-              </div>
-</div>
-<div data-media-id={4} data-media-type="image">
-<div className="data-media-thumbnail">
-<img src="images/klinik.jpg" />
-</div>
-<img src="images/bernhard-fries4.png" />
-<div className="media-link-title">Bernhard-Fries-Plastik</div>
-<div className="media-link-description">
-Geplante Schnittführung zur Deckung des Defekts.
-</div>
-</div>
-<div data-media-id={5} data-media-type="image">
-<div className="data-media-thumbnail">
-<img src="images/klinik.jpg" />
-</div>
-<img src="images/bernhard-fries5.png" />
-<div className="media-link-title">Bernhard-Fries-Plastik</div>
-<div className="media-link-description">
-Präparation nd Mobilisation des Gewebes.
-</div>
-</div>
-<div data-media-id={6} data-media-type="image">
-<div className="data-media-thumbnail">
-<img src="images/klinik.jpg" />
-</div>
-<img src="images/bernhard-fries6.png" />
-<div className="media-link-title">Bernhard-Fries-Plastik</div>
-<div className="media-link-description">
-Präparation und Mobilisation des Gewebes zur suffizienten Deckung.
-</div>
-</div>
-<div data-media-id={7} data-media-type="image">
-<div className="data-media-thumbnail">
-<img src="images/klinik.jpg" />
-</div>
-<img src="images/bernhard-fries7.png" />
-<div className="media-link-title">Bernhard-Fries-Plastik</div>
-<div className="media-link-description">
-Postoperatives Ergebnis nach Deckung des Defekts.
-</div>
-</div>
-</div>
-</div>
+  <div>  
+    <div id="lokalelappenplastiken" className="chapters">
+      <div className="chapterTitle">
+        <h3>Lokale Lappenplastiken</h3>
+        <hr />
       </div>
+      <div className="content-block">
+        <p>
+          <br />
+          <strong>Lokale Lappenplastiken</strong> gehören zur Gruppe der{" "}
+          <strong>Stiellappenplastiken</strong>. Bei einer Stiellappenplastik ist
+          der Lappen über eine Gewebsbrücke (=Stiel) mit der Umgebung verbunden.
+        </p>
+        <p>
+          Bei der Planung einer lokalen Lappenplastik müssen die{" "}
+          <strong>Hautspannungslinien und ästhetischen Einheiten</strong>{" "}
+          berücksichtig werden. Prinzipiell gilt:
+        </p>
+        <ul>
+          <li>
+            Verschluss des Defekts möglichst primär im Verlauf der Spannungslinien
+          </li>
+          <li>Möglichst wenige ästhetische Einheiten einbeziehen</li>
+        </ul>
+        <p>
+          <br />
+          Das am besten geeignete Hautmaterial ist abhängig von:
+        </p>
+        <ul>
+          <li>Art und Ausmaß des benötigten Gewebes</li>
+          <li>Hautfarbe und Hauttextur</li>
+          <li>Behaarung im Bereich der Empfängerstelle</li>
+        </ul>
+        <p>
+          Meistens haben Hautlappen aus der <strong>unmittelbaren Umgebung</strong>{" "}
+          die <strong>optimale Hautfarbe und Textur</strong> für den Defekt. <br />In
+          der Regel sind für jeden Defektverschluss eine Vielzahl verschiedener
+          Lappenplastiken möglich. Die Methode mit den geringsten sekundären
+          Effekten ist zu bevorzugen und selbstverständlich sollte die ausgewählte
+          Methode vom Operateur beherrscht werden. Es sollte vermieden werden
+          unbehaarte Defektstellen mit behaarter Haut zu decken, da dies sehr
+          auffällig und für die Patienten störend ist.
+        </p>
+        <p>
+          <br />
+          Hautlappen sind im Grunde Variationen und Kombinationen geometrischer
+          Figuren. Bei vielen Defekten sind Kombinationen aus unterschiedlichen
+          Techniken notwendig. Als Operateur sollte man die Algorithmen kennen und
+          diese einsetzen können.
+        </p>
+        <p>
+          Bei nahezu allen Hautlappen ist eine mehr oder weniger ausgedehnte
+          Gewebemobilisation über den eigentlichen Lappen hinaus erforderlich. Eine
+          suffiziente Mobilisation ist meist entscheidender als Art des Lappens zur
+          Defektdeckung.
+        </p>
+        <p>&nbsp;</p>
+        <p>
+          <br />
+          Grundsätzlich gibt es zwei verschieden Typen:
+        </p>
+        <p>
+          <br />
+          1. einfacher Hautlappen = <strong>„random pattern flap“</strong>
+        </p>
+        <ul>
+          <li>
+            zufällige, netzartige Gefäßversorgung über subpapillären, kapillären
+            Gefäßplexus -&gt; kein Hauptgefäß
+          </li>
+          <li>
+            muskulokutanes Gefäßnetz: Perforatoren der Segmente, Muskelarterien
+            verzweigen sich in Subkutis und Haut
+          </li>
+          <li>
+            ca. 2-3:1 Länge : Breite (keine allgemeine Gültigkeit, abhängig von
+            Eigenschaften der im Stiel verlaufenden Gefäße)
+          </li>
+        </ul>
+        <p>
+          <br />
+          2. Arterienlappen = <strong>„axial pattern flap“</strong>
+        </p>
+        <ul>
+          <li>
+            wird durch ein zentrales Gefäß ernährt
+            <ul>
+              <li>
+                Hauptarterie und Begleitvene(n) oder ihre Äste durchdringen aus der
+                Tiefe in die Faszie und verzweigen sich im subkutanen Fettgewebe und
+                der Haut
+              </li>
+            </ul>
+          </li>
+          <li>
+            ca. 5:1 Länge : Breite (keine allgemeine Gültigkeit, abhängig von
+            Eigenschaften der im Stiel verlaufenden Gefäße)
+          </li>
+          <li>
+            Beispiele:
+            <ul>
+              <li>
+                Indischer Lappen/ Stirnlappen -&gt; Gefäßstiel A. supratrochlearis
+              </li>
+              <li>
+                Glabellalappen, „Marchac-Lappen“ -&gt; Gefäßstiel A. angularis
+              </li>
+              <li>
+                Deltopectorallapen „Bakamijan-Flap“ -&gt; Gefäßstiel R. mammarii der
+                A. thoracica interna
+              </li>
+              <li>„Kiteflap“ -&gt; basal gestielt über Perforatorgefäße</li>
+              <li>Submental Island Flap -&gt; A. submentalis</li>
+            </ul>
+          </li>
+        </ul>
+        <p>&nbsp;</p>
+        <div className="startGallery" data-gallery-item={14}>
+          <img className="galleryPoster" src="thumbs/video15.png" />
+          <p className="gallerieThumbDescription">Islandflap</p>
+          <img className="galleryPoster" src="thumbs/Play_experimentell.png" />
+        </div>
+        <p>
+          <br />
+          Es gibt drei verschiedene Lappentechniken:
+        </p>
+        <p>
+          <br />
+          <span style={{ textDecoration: "underline" }}>1. Verschiebelappen</span>
+        </p>
+        <p>
+          Der Verschiebelappen ist die einfachste Form des lokalen Hautlappens. Hier
+          wird der Gewebebereich unterminiert und verschoben. Man unterscheidet
+          zwischen V-Y-Plastiken, Z-Plastiken und U- bzw. H-Plastiken.
+        </p>
+        <p>
+          Die Z-Plastik ist eine häufig verwendete und universell einsetzbare
+          Methode. <br />Sie weist folgende Eigenschaften auf:
+        </p>
+        <ul>
+          <li>
+            Doppelte, dreieckförmige Transpositionslappen, welche gegeneinander
+            versetzt werden
+          </li>
+          <li>Verlängerung der Strecke auf Kosten der Breite</li>
+          <li>
+            Lappenverlagerung verlängert des Hautareal in der Mittellinie um bis zu
+            75% und verändert den Narbenverlauf
+          </li>
+          <li>
+            Ausmaß der Narbenverlängerung hängt vom Winkel zwischen den Lappen und
+            der Narbenlängsachse ab
+          </li>
+          <li>Bei längeren Narben: multiple Z-Plastiken hintereinander</li>
+        </ul>
+        <div className="startGallery imageContainer" data-gallery-item={1}>
+          <img src="thumbs/lappelplastiken_images.png" />
+        </div>
+        <p>
+          <br />
+          <span style={{ textDecoration: "underline" }}>2. Rotationslappen</span>
+        </p>
+        <p>
+          Rotationslappen stellen das Grundprinzip vieler verwendeter Hautlappen im
+          Gesicht und am Hals dar. Bei größeren Defekten kommen auch doppelte
+          Rotationslappen zum Einsatz. Der Rotationslappen weist folgende
+          Eigenschaften auf:
+        </p>
+        <ul>
+          <li>Rotation eines Hautbereichs nach Unterminierung</li>
+          <li>Bogen von 180°</li>
+          <li>Basis ~ doppelt so breit wie Defekt</li>
+          <li>
+            Exzision eines BUROW-Dreiecks an der Lappenbasis zur besseren
+            Mobilisation und Ästhetik
+            <br />
+            <br />
+          </li>
+        </ul>
+        <div className="startGallery imageContainer" data-gallery-item={3}>
+          <img src="thumbs/marchac1.png" />
+        </div>
+        <p>
+          <br />
+          <span style={{ textDecoration: "underline" }}>
+            3. Transpositionslappen
+          </span>
+        </p>
+        <p>
+          Transpositionslappen gelangen mit ähnlicher Bewegung wie Rotationslappen
+          zum Defekt.<br />Sie werden nicht nur in horizontaler, sondern auch in
+          vertikaler Richtung verschoben und überspringen zwischengeschaltete
+          Hautflächen. Der S-Lappen ist die einfachste Form des
+          Transpositionslappens. <br />Es gibt zwei Modifikationen:
+        </p>
+        <ul>
+          <li>Rautenlappen nach Limberg</li>
+          <li>
+            Doppelter Transpositionslappen = Bilobed Flap
+            <ul>
+              <li>
+                Besteht aus zwei Transpositionslappen -&gt; Winkel zwischen
+                Lappenachsen und zwischen der Achse des 2. Lappens und der
+                Defektachse jeweils 90°
+              </li>
+              <li>
+                Erlaubt Verlagerung eines relativ großen Gewebeareals über 180°
+                -&gt; Lappenstiele werden jeweils um 90° gedreht
+              </li>
+              <li>
+                Spenderlappen jeweils 20% kleiner als zu verschließender Defekt
+              </li>
+              <li>Relativ große, auffällige Narbe in drei Richtungen</li>
+              <li>
+                Bedarfsorientierte Modifikation der klassischen Technik -&gt;
+                Anpassung der Winkel etc.
+              </li>
+            </ul>
+          </li>
+        </ul>
+        <div className="startGallery imageContainer" data-gallery-item={8}>
+          <img src="thumbs/transpositionslappen1.png" />
+        </div>
+        <p />
+        <div className="startGallery" data-gallery-item={12}>
+          <img className="galleryPoster" src="thumbs/video12.png" />
+          <p className="gallerieThumbDescription">Bilobed Flap</p>
+          <img className="galleryPoster" />
+        </div>
+      </div>
+      <div className="links">
+        <div data-media-id={1} data-media-type="image">
+          <div className="data-media-thumbnail">
+            <img src="images/klinik.jpg" />
+          </div>
+          <img src="images/h-lappen1.png" />
+          <div className="media-link-title">H-Lappen</div>
+          <div className="media-link-description">
+            Geplante Schnittführung des H-Lappens.
+          </div>
+        </div>
+        <div data-media-id={2} data-media-type="image">
+          <div className="data-media-thumbnail">
+            <img src="images/klinik.jpg" />
+          </div>
+          <img src="images/h-lappen2.png" />
+          <div className="media-link-title">H-Lappen</div>
+          <div className="media-link-description">
+            Operatives Ergebnis des H-Lappens.
+          </div>
+        </div>
+        <div data-media-id={3} data-media-type="image">
+          <div className="data-media-thumbnail">
+            <img src="images/klinik.jpg" />
+          </div>
+          <img src="images/marchac1.png" />
+          <div className="media-link-title">Marchac-Lappen</div>
+          <div className="media-link-description">
+            Basaliom auf der Nasenspitze.
+          </div>
+        </div>
+        <div data-media-id={4} data-media-type="image">
+          <div className="data-media-thumbnail">
+            <img src="images/klinik.jpg" />
+          </div>
+          <img src="images/marchac2.png" />
+          <div className="media-link-title">Marchac-Lappen</div>
+          <div className="media-link-description">
+            Geplante Schnittführung des Marchac-Lappens zur Defektdeckung der
+            Nasenspitze.
+          </div>
+        </div>
+        <div data-media-id={5} data-media-type="image">
+          <div className="data-media-thumbnail">
+            <img src="images/klinik.jpg" />
+          </div>
+          <img src="images/marchac3.png" />
+          <div className="media-link-title">Marchac-Lappen</div>
+          <div className="media-link-description">
+            Durchtrennung der Haut entlang der zurvor geplanten Schnittführung.
+          </div>
+        </div>
+        <div data-media-id={6} data-media-type="image">
+          <div className="data-media-thumbnail">
+            <img src="images/klinik.jpg" />
+          </div>
+          <img src="images/marchac4.png" />
+          <div className="media-link-title">Marchac-Lappen</div>
+          <div className="media-link-description">
+            Präparation und Mobilisation des Marchaclappens.
+          </div>
+        </div>
+        <div data-media-id={7} data-media-type="image">
+          <div className="data-media-thumbnail">
+            <img src="images/klinik.jpg" />
+          </div>
+          <img src="images/marchac5.png" />
+          <div className="media-link-title">Marchac-Lappen</div>
+          <div className="media-link-description">
+            Postoperatives Ergebnis des Marchac-Lappens.
+          </div>
+        </div>
+        <div data-media-id={8} data-media-type="image">
+          <div className="data-media-thumbnail">
+            <img src="images/klinik.jpg" />
+          </div>
+          <img src="images/rhomboidlappen1.png" />
+          <div className="media-link-title">Rhomboid-Lappen</div>
+          <div className="media-link-description">
+            Defekt und geplante Schnittführung mittels eines Rhomboid-Lappens.
+          </div>
+        </div>
+        <div data-media-id={9} data-media-type="image">
+          <div className="data-media-thumbnail">
+            <img src="images/klinik.jpg" />
+          </div>
+          <img src="images/rhomboidlappen2.png" />
+          <div className="media-link-title">Rhomboid-Lappen</div>
+          <div className="media-link-description">
+            Präparation und Mobilisation des Rhomboid-Lappens.
+          </div>
+        </div>
+        <div data-media-id={10} data-media-type="image">
+          <div className="data-media-thumbnail">
+            <img src="images/klinik.jpg" />
+          </div>
+          <img src="images/rhomboidlappen3.png" />
+          <div className="media-link-title">Rhomboid-Lappen</div>
+          <div className="media-link-description">
+            Postoperatives Ergebnis des Rhomboid-Lappens nach Einheilung.
+          </div>
+        </div>
+        <div data-media-id={11} data-media-type="image">
+          <div className="data-media-thumbnail">
+            <img src="images/klinik.jpg" />
+          </div>
+          <img src="images/bilobed-flap1.png" />
+          <div className="media-link-title">Bilobed Flap</div>
+          <div className="media-link-description">
+            Geplante Schnittführung im Sinne eines Bilobed Flaps zur Defektdeckung
+            an der Nase.
+          </div>
+        </div>
+        <div data-media-id={12} data-media-type="image">
+          <div className="data-media-thumbnail">
+            <img src="images/klinik.jpg" />
+          </div>
+          <img src="images/bilobed-flap2.png" />
+          <div className="media-link-title">Bilobed Flap</div>
+          <div className="media-link-description">
+            Postoperatives Ergebnis der Defektdeckung mit einem Bilobed Flap.
+          </div>
+        </div>
+        <div data-media-id={13} data-media-type="video">
+          <div className="media-link-video-id">12</div>
+          <div className="media-link-title">Bilobed Flap</div>
+          <div className="media-link-description">Video zu Bilobed Flap</div>
+        </div>
+        <div data-media-id={14} data-media-type="video">
+          <div className="media-link-video-id">15</div>
+          <div className="media-link-title">Islandflap</div>
+          <div className="media-link-description">Islandflap</div>
+        </div>
+      </div>
+    </div>;
 
-    );
-    }
+    <div id="fernlappen" className="chapters">
+      <div className="chapterTitle">
+        <h3>Fernlappen</h3>
+        <hr />
+      </div>
+      <div className="content-block">
+        <p>
+          Fernlappen gehören ebenfalls zur Gruppe der Stiellappenplastiken. Sie
+          werden heutzutage nur noch <strong>selten verwendet</strong>, da sie eine
+          erhebliche Komorbidität an der Entnahmestelle und der Präparation des
+          Stielbetts aufweisen. Oft ist die Defektregion nicht primär zu erreichen,
+          sodass ein Vorgehen in mehreren Schritten notwendig ist. Ästhetisch sind
+          diese Lappen meist ungünstig, da sie sich in Textur und Farbe stark vom
+          umgebenden gewebe unterscheiden.
+        </p>
+        <div className="startGallery imageContainer" data-gallery-item={1}>
+          <img src="thumbs/fernlappen.png" />
+        </div>
+      </div>
+      <div className="links">
+        <div data-media-id={1} data-media-type="image">
+          <div className="data-media-thumbnail">
+            <img src="images/klinik.jpg" />
+          </div>
+          <img src="images/fernlappen.png" />
+          <div className="media-link-title">Fernlappen</div>
+          <div className="media-link-description">
+            Dargestellt ist ein Rundstiellappen. Die hier abgebildete Basis kann
+            nach einigen Wochen der Einheilung durchtrennt werden.
+          </div>
+        </div>
+      </div>
+    </div>;
+
+    <div id="freietransplantate" className="chapters">
+      <div className="chapterTitle">
+        <h3>Freie Transplantate</h3>
+        <hr />
+      </div>
+      <div className="content-block">
+        <p>
+          Bei den freien Transplantaten unterscheidet man zwischen avaskulären,
+          freien Hauttransplantaten und mikrochirurgischen Lappen.
+        </p>
+        <p>
+          <br />
+          <span style={{ textDecoration: "underline" }}>
+            Freie Hauttransplantate
+          </span>
+        </p>
+        <p>
+          1. <strong>reiner Epidermislappen</strong>
+        </p>
+        <ul>
+          <li>wurde nach seinem Erstbeschreiber Karl Thiersch benannt</li>
+          <li>0,2-0,25 mm dick</li>
+          <li>Neigung zu Ulzerationen und Schrumpfung bis zu 50%</li>
+          <li>Indikation: temporärer Hautersatz bei Verbrennung</li>
+        </ul>
+        <p>
+          <br />
+          2. <strong>Spalthauttransplantat</strong>
+        </p>
+        <ul>
+          <li>Korium wird „gespalten“</li>
+          <li>0,3-0,5 mm oder 0,55-0,75 mm dick</li>
+          <li>
+            Unterscheidung zwischen oberflächlichen, mitteldicken und
+            dreiviertel-Spalthautlappen
+          </li>
+          <li>Entnahmestelle: Ober- oder Unterschenkel (heilen sekundär)</li>
+          <li>
+            Nachteile:
+            <ul>
+              <li>Schrumpfung bis zu 30%</li>
+              <li>Farbe unberechenbar (Hyper- + Hypopigmentierungen)</li>
+              <li>Meist andere Textur als umgebendes Gewebe</li>
+              <li>Ästhetisch meist ungünstiger als Vollhauttransplantat</li>
+            </ul>
+          </li>
+          <li>
+            Vorteile:
+            <ul>
+              <li>Einfach zu entnehmen (Dermatom), anspruchslos</li>
+              <li>unproblematische Einheilung</li>
+              <li>gute funktionelle Ergebnisse</li>
+              <li>wiederkehrende Sensibilität</li>
+              <li>viele potentielle Entnahmestellen</li>
+              <li>mehrmalige Entnahme an der gleichen Stelle möglich</li>
+            </ul>
+          </li>
+          <li>
+            Anwendungsgebiet:
+            <ul>
+              <li>
+                Ersatz von Haut und Schleimhaut (Stirn, Wange, Kopfhaut,
+                Nasenrücken, Augenlider, Auskleidung von Augenhöhle, Mundhöhle)
+              </li>
+              <li>
+                Abdeckung der Wundfläche und Entnahmestelle bei mikrochirurgischen
+                Lappen
+              </li>
+              <li>Großflächige Wunden</li>
+            </ul>
+          </li>
+          <li>
+            Entnahmestellen: Gesäß, Außen- und Vorderseite des Oberschenkels, bei
+            kleineren Transplantaten Außenseite des Oberarms
+          </li>
+          <li>
+            Überknüpfverband sorgt für gute Einheilung, da der Aufpressdruck
+            Hämatome und Serome vermeidet
+          </li>
+        </ul>
+        <p>
+          <br />
+          3. <strong>Vollhauttransplantat</strong>
+        </p>
+        <ul>
+          <li>Epidermis und Korium wird komplett entnommen</li>
+          <li>0,8-1,1 mm dick</li>
+          <li>
+            Entnahmestellen: Oberarminnenseite, Leiste, retroaurikulär (wird primär
+            verschlossen), supraklavikulär, Unterarm
+          </li>
+          <li>
+            Indikation: mechanisch beanspruchte Transplantatlager (Hand, Gelenke),
+            sichtbare Areale (Hals, Gesicht)
+          </li>
+          <li>
+            Vorteile:
+            <ul>
+              <li>Schrumpfung deutlich geringer als beim Spalthauttransplantat</li>
+              <li>Behält ursprüngliche Farbe</li>
+              <li>Gute Konsistenz und Farbübereinstimmung</li>
+            </ul>
+          </li>
+          <li>
+            Nachteile:
+            <ul>
+              <li>Einheilung mit mehr Komplikationen behaftet als Spalthaut</li>
+              <li>
+                Benötigt gut durchblutete Unterfläche (am besten Granulationsgewebe)
+              </li>
+              <li>Limitierte Spenderareale</li>
+            </ul>
+          </li>
+        </ul>
+        <p>&nbsp;</p>
+        <p>
+          <span style={{ textDecoration: "underline" }}>
+            Mikrochirurgische Transplantate
+          </span>
+        </p>
+        <p>
+          Bei mikrochirurgischen Transplantaten wird das{" "}
+          <strong>Transplantat mit seinem ernährendem Blutgefäßsystem&nbsp;</strong>(Arterie,
+          Vene und zwischengeschaltetem Kapillarbett) verpflanzt. <br />Nachteil
+          dieser Vorgehensweise ist, dass teilweise erhebliche Komorbidität an der
+          Entnahmestelle und bei der Päparation der Anschlussgefäße entstehen. Auch
+          ästhetisch sind mikrochirurgische Transplantate meist ungünstig, da sie
+          sich vom umgebenden Gewebe in Farbe und Textur unterscheiden. Außerdem
+          sind meist mehrere Lappenanpassungen erforderlich, bis eine optimale
+          Passung erreicht ist.
+        </p>
+        <p>
+          Dementsprechend sind mikrochrurgische Transplantate bei großen, nicht
+          primär verschließbaren Defekten indiziert.
+        </p>
+        <p>
+          Weitere Informationen siehe Modul{" "}
+          <a href="#/mikrochirurgie/index.html" target="_blank">
+            Mikrochirurgie
+          </a>.
+        </p>
+      </div>
+      <div className="links" />
+    </div>;
+
+    <div id="gewebeexpansion" className="chapters">
+      <div className="chapterTitle">
+        <h3>Gewebeexpansion</h3>
+        <hr />
+      </div>
+      <div className="content-block">
+        <p>
+          Eine <strong>Dehnung des Gewebes</strong> bzw. der Haut in der
+          Defektumgebung kann mit Hilfe eines so genannten Expanders erreicht
+          werden.<br />Der Expander ist ein flexibler, dehnbarer Kunststoffbehälter.
+          Er wurde erstmals von MORESTIN (1913) angewendet und anschließend von
+          NEUMANN (1957) verbreitet.
+        </p>
+        <p>
+          <br />
+          Über eine Inzision werden Hautexpander und Injektionsport in die
+          Defektnähe implantiert (z.B. unter die Subkutis). Idealerweise liegt der
+          Expander auf einer <strong>festen Oberfläche</strong>, wie zum Beispiel
+          Kalotte, Nacken oder Stirn.<br />Dann wird über Zeitraum von ca. 6 Wochen
+          der Expander <strong>sukzessive mit NaCl-Lösung gefüllt</strong>. Bei der
+          Implantation sollte das Füllvolumen etwa 10% des Expandervolumens
+          betragen. Anschließend wird alle 4-7 Tage Kochsalz injiziert, bis das
+          Zielvolumen erreicht ist. Indikator für das individuelle Zielvolumen sind
+          Schmerzen und eine blasse Haut. Durch den Einsatz der Gewebeexpansion kann
+          die Haut die doppelte Größe erreicht werden. <br />
+          <br />
+          Indikationen für Gewebeexpander sind:
+        </p>
+        <ul>
+          <li>
+            Große Defekte, die primär nicht mit lokalen Lappen verschlossen werden
+            können (insbesondere Skalpdefekte: sehr schlecht mobilisierbar)
+          </li>
+          <li>
+            Wenn sichtbare Narben an der Spenderstelle vermieden werden sollen
+            (einfacher Verschluss, keine aufwendigen Inzisionen)
+          </li>
+        </ul>
+        <p>
+          <br />
+          Mögliche Komplikationen sind:
+        </p>
+        <ul>
+          <li>
+            Am häufigsten: Freilegung und Abstoßung des Expanders -&gt; Implantat zu
+            nahe an der Inzisionsstelle, Vorbestrahlung, zu schnelle Expansion, zu
+            großes Gesamtvolumen
+          </li>
+          <li>Infektion der Expanderumgebung</li>
+          <li>
+            Dislokation des Expanders, was zu einer Verformung der Spenderregion
+            oder Kompression wichtiger Strukturen (A. carotis, V. jugularis,
+            Trachea) führen
+          </li>
+        </ul>
+        <p>&nbsp;</p>
+        <div className="startGallery imageContainer" data-gallery-item={1}>
+          <img src="thumbs/expander.png" />
+        </div>
+      </div>
+      <div className="links">
+        <div data-media-id={1} data-media-type="image">
+          <div className="data-media-thumbnail">
+            <img src="images/klinik.jpg" />
+          </div>
+          <img src="images/expander.png" />
+          <div className="media-link-title">Hautexpander</div>
+          <div className="media-link-description">
+            Abgebildet ist das System eines Hautexpanders.
+          </div>
+        </div>
+        <div data-media-id={2} data-media-type="image">
+          <div className="data-media-thumbnail">
+            <img src="images/klinik.jpg" />
+          </div>
+          <img src="images/expander2.png" />
+          <div className="media-link-title">Hautexpander</div>
+          <div className="media-link-description">
+            Postoperatives Ergebnis nach Implantation eines Hautexpanders. Sobald
+            die Haut suffizient verheilt ist, kann mit der Befüllung des Expanders
+            begonnen werden.
+          </div>
+        </div>
+        <div data-media-id={3} data-media-type="image">
+          <div className="data-media-thumbnail">
+            <img src="images/klinik.jpg" />
+          </div>
+          <img src="images/expander1.png" />
+          <div className="media-link-title">Hautexpander</div>
+          <div className="media-link-description">
+            Lager mit eingefügtem Expander im Bereich der Wange.
+          </div>
+        </div>
+      </div>
+    </div>;
+
+    <div id="lippenrekonstruktion" className="chapters">
+      <div className="chapterTitle">
+        <h3>Lippenrekonstruktion</h3>
+        <hr />
+      </div>
+      <div className="content-block">
+        <p>Zur Rekonstruktion von Lippen gibt es verschieden Möglichkeiten:</p>
+        <p>
+          <span style={{ textDecoration: "underline" }}>Abbé-Lappen</span>
+        </p>
+        <ul>
+          <li>An A. labialis gestielter Lappen</li>
+          <li>Meist Unterlippenersatz</li>
+          <li>Lappenstieldurchtrennung erforderlich</li>
+        </ul>
+        <p>&nbsp;</p>
+        <p>
+          <span style={{ textDecoration: "underline" }}>Estlander-Plastik</span>
+        </p>
+        <ul>
+          <li>An A. labialis gestielter Lappen</li>
+          <li>Mundwinkelregion betroffen</li>
+          <li>Nur ein Eingriff</li>
+        </ul>
+        <p>&nbsp;</p>
+        <p>
+          <span style={{ textDecoration: "underline" }}>
+            Bernhard-Fries-Plastik
+          </span>
+        </p>
+        <ul>
+          <li>Komplexe Technik</li>
+          <li>Verschiebe- und Transpositionslappen</li>
+          <li>Zur (sub)totalen Unterlippenrekonstruktion</li>
+        </ul>
+        <div className="startGallery imageContainer" data-gallery-item={1}>
+          <img src="thumbs/bernhard-fries-plastik_images.png" />
+        </div>
+        <p>
+          <span style={{ textDecoration: "underline" }}>Zungenlappen</span>
+        </p>
+        <ul>
+          <li>Ersatz des Lippenrots</li>
+          <li>Stiel muss durchtrennt werden</li>
+          <li>Zungenschleimhaut imponiert im Verlauf häufig exakt wie Lippenrot</li>
+          <li>
+            Alternativ: Transpositionslappen der Wangenschleimhaut als Lippenrot
+          </li>
+        </ul>
+      </div>
+      <div className="links">
+        <div data-media-id={1} data-media-type="image">
+          <div className="data-media-thumbnail">
+            <img src="images/klinik.jpg" />
+          </div>
+          <img src="images/bernhard-fries1.png" />
+          <div className="media-link-title">Bernhard-Fries-Plastik</div>
+          <div className="media-link-description">
+            Plattenepithelkarzinom der Unterlippe.
+          </div>
+        </div>
+        <div data-media-id={2} data-media-type="image">
+          <div className="data-media-thumbnail">
+            <img src="images/klinik.jpg" />
+          </div>
+          <img src="images/bernhard-fries2.png" />
+          <div className="media-link-title">Bernhard-Fries-Plastik</div>
+          <div className="media-link-description">
+            Geplante Schnittführung der operativen Entfernung des
+            Plattenepithelkarzinoms.
+          </div>
+        </div>
+        <div data-media-id={3} data-media-type="image">
+          <div className="data-media-thumbnail">
+            <img src="images/klinik.jpg" />
+          </div>
+          <img src="images/bernhard-fries3.png" />
+          <div className="media-link-title">Bernhard-Fries-Plastik</div>
+          <div className="media-link-description">
+            Defekt nach Entfernung des Plattenepithelkarzinoms mit
+            Sicherheitsabstand.
+          </div>
+        </div>
+        <div data-media-id={4} data-media-type="image">
+          <div className="data-media-thumbnail">
+            <img src="images/klinik.jpg" />
+          </div>
+          <img src="images/bernhard-fries4.png" />
+          <div className="media-link-title">Bernhard-Fries-Plastik</div>
+          <div className="media-link-description">
+            Geplante Schnittführung zur Deckung des Defekts.
+          </div>
+        </div>
+        <div data-media-id={5} data-media-type="image">
+          <div className="data-media-thumbnail">
+            <img src="images/klinik.jpg" />
+          </div>
+          <img src="images/bernhard-fries5.png" />
+          <div className="media-link-title">Bernhard-Fries-Plastik</div>
+          <div className="media-link-description">
+            Präparation nd Mobilisation des Gewebes.
+          </div>
+        </div>
+        <div data-media-id={6} data-media-type="image">
+          <div className="data-media-thumbnail">
+            <img src="images/klinik.jpg" />
+          </div>
+          <img src="images/bernhard-fries6.png" />
+          <div className="media-link-title">Bernhard-Fries-Plastik</div>
+          <div className="media-link-description">
+            Präparation und Mobilisation des Gewebes zur suffizienten Deckung.
+          </div>
+        </div>
+        <div data-media-id={7} data-media-type="image">
+          <div className="data-media-thumbnail">
+            <img src="images/klinik.jpg" />
+          </div>
+          <img src="images/bernhard-fries7.png" />
+          <div className="media-link-title">Bernhard-Fries-Plastik</div>
+          <div className="media-link-description">
+            Postoperatives Ergebnis nach Deckung des Defekts.
+          </div>
+        </div>
+      </div>
+    </div>;
+  </div>
+
+);
+}
 
 export default Lokale_lappenplastiken;

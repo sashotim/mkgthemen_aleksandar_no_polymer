@@ -1,0 +1,323 @@
+
+        <div className="links">
+          <div data-media-id="1" data-media-type="video">
+            <div className="media-link-video-id">15</div>
+            <div className="media-link-title">Anastomose</div>
+            <div className="media-link-description">Anastomose</div>
+          </div>
+        </div>
+        <div className="links">
+          <div data-media-id="1" data-media-type="image">
+            <div className="data-media-thumbnail"><img src="images/klinik.jpg" />
+            </div>
+            <img src="images/allen.png" />
+            <div className="media-link-title">Allen-Test</div>
+            <div className="media-link-description">Normal durchblutete Hand.</div>
+          </div>
+          <div data-media-id="2" data-media-type="image">
+            <div className="data-media-thumbnail"><img src="images/klinik.jpg" />
+            </div>
+            <img src="images/allen1.png" />
+            <div className="media-link-title">Allen-Test</div>
+            <div className="media-link-description">
+              Abdrücken der A. radialis und A. ulnaris.
+            </div>
+          </div>
+          <div data-media-id="3" data-media-type="image">
+            <div className="data-media-thumbnail"><img src="images/klinik.jpg" />
+            </div>
+            <img src="images/allen2.png" />
+            <div className="media-link-title">Allen-Test</div>
+            <div className="media-link-description">
+              Unter Abdrücken der A. radialis wird nur die ulnare Hälfte der Hand von
+              der A. ulnaris versorgt. Das bedeutet, dass hier der Arcus palmaris
+              nicht durchgängig ist. Der Test ist positiv.
+            </div>
+          </div>
+          <div data-media-id="4" data-media-type="image">
+            <div className="data-media-thumbnail"><img src="images/klinik.jpg" />
+            </div>
+            <img src="images/dsd_7202.png" />
+            <div className="media-link-title">Radialis-Lappen</div>
+            <div className="media-link-description">
+              Präparation des Radilaislappens.
+            </div>
+          </div>
+          <div data-media-id="5" data-media-type="image">
+            <div className="data-media-thumbnail"><img src="images/klinik.jpg" />
+            </div>
+            <img src="images/dsd_7370.png" />
+            <div className="media-link-title">Radialis-Lappen</div>
+            <div className="media-link-description">
+              Komplett gehobener Radialis-Lappen vor Durchtrennung der Gefäße.
+            </div>
+          </div>
+          <div data-media-id="6" data-media-type="image">
+            <div className="data-media-thumbnail"><img src="images/klinik.jpg" />
+            </div>
+            <img src="images/dsd_7378.png" />
+            <div className="media-link-title">Radialis-Lappen</div>
+            <div className="media-link-description">
+              Situs nach Entfernung des Radilais-Lappens. Der Defekt kann nun mit
+              Spalt- oder Vollhaut gedeckt werden.
+            </div>
+          </div>
+          <div data-media-id="7" data-media-type="image">
+            <div className="data-media-thumbnail"><img src="images/klinik.jpg" />
+            </div>
+            <img src="images/dsd_7382.png" />
+            <div className="media-link-title">Radialis-Lappen</div>
+            <div className="media-link-description">
+              Gehobener Radialis-Lappen vor dem mikrochirurgischen Anschluss.
+            </div>
+          </div>
+          <div data-media-id="8" data-media-type="image">
+            <div className="data-media-thumbnail"><img src="images/klinik.jpg" />
+            </div>
+            <img src="images/radialis.png" />
+            <div className="media-link-title">Radialis-Lappen</div>
+            <div className="media-link-description">
+              Transplantierter Radialis-Lappen am Weich- bzw. Hartgaumen.
+            </div>
+          </div>
+        </div>
+        <div className="links" />
+        </div>
+        <div className="links">
+          <div data-media-id="1" data-media-type="image">
+            <div className="data-media-thumbnail"><img src="images/klinik.jpg" />
+            </div>
+            <img src="images/lateraler_oberarm-lappen.png" />
+            <div className="media-link-title">Lateraler Oberarmlappen</div>
+            <div className="media-link-description">
+              Schematische Darstellung der Schnittführung des lateralen
+              Oberarmlappens.
+            </div>
+          </div>
+          <div data-media-id="2" data-media-type="image">
+            <div className="data-media-thumbnail"><img src="images/klinik.jpg" />
+            </div>
+            <img src="images/lateraler_oberarm-lappen2.png" />
+            <div className="media-link-title">Lateraler Oberarmlappen</div>
+            <div className="media-link-description">
+              Gehobenes Transplantat vor Absetzten des Gefäßsstiels.
+            </div>
+          </div>
+        </div>
+        <div className="links" />
+        </div>
+        <div className="links">
+          <div data-media-id="1" data-media-type="image">
+            <div className="data-media-thumbnail"><img src="images/klinik.jpg" />
+            </div>
+            <img src="images/dsc_2730.png" />
+            <div className="media-link-title">Rectus-Abdominis-Lappen</div>
+            <div className="media-link-description">
+              Präparation der oberen Schichten des Rectus-Abdominis-Lappens.
+            </div>
+          </div>
+          <div data-media-id="2" data-media-type="image">
+            <div className="data-media-thumbnail"><img src="images/klinik.jpg" />
+            </div>
+            <img src="images/dsc_2837.png" />
+            <div className="media-link-title">Rectus-Abdominis-Lappen</div>
+            <div className="media-link-description">
+              Präparation der Unterseite des Lappens. Sichtbar sind die versorgenden
+              Gefäße des Transplantats.
+            </div>
+          </div>
+          <div data-media-id="3" data-media-type="image">
+            <div className="data-media-thumbnail"><img src="images/klinik.jpg" />
+            </div>
+            <img src="images/dsc_2938.png" />
+            <div className="media-link-title">Rectus-Abdominis-Lappen</div>
+            <div className="media-link-description">
+              Vollständig gehobenes Transplantat bevor die versorgenden Gefäße
+              abgesetzt sind.
+            </div>
+          </div>
+          <div data-media-id="4" data-media-type="image">
+            <div className="data-media-thumbnail"><img src="images/klinik.jpg" />
+            </div>
+            <img src="images/dsc_2963.png" />
+            <div className="media-link-title">Rectus-Abdominis-Lappen</div>
+            <div className="media-link-description">
+              Entferntes Transplantat und teilweise verschlossenes Transplantatlager.
+            </div>
+          </div>
+          <div data-media-id="5" data-media-type="video">
+            <div className="media-link-video-id">16</div>
+            <div className="media-link-title">Rectus Abdominis Lappen</div>
+            <div className="media-link-description">Rectus Abdominis Lappen</div>
+          </div>
+        </div>
+        <div className="links">
+          <div data-media-id="1" data-media-type="image">
+            <div className="data-media-thumbnail"><img src="images/klinik.jpg" />
+            </div>
+            <img src="images/alt1.png" />
+            <div className="media-link-title">ALT-Lappen</div>
+            <div className="media-link-description">
+              Eingezeichnete Schnittführung zur Hebung des Transplantats.
+            </div>
+          </div>
+          <div data-media-id="2" data-media-type="image">
+            <div className="data-media-thumbnail"><img src="images/klinik.jpg" />
+            </div>
+            <img src="images/alt2.png" />
+            <div className="media-link-title">ALT-Lappen</div>
+            <div className="media-link-description">
+              Gehobener ALT-Lappen vor Absetzen der Gefäße.
+            </div>
+          </div>
+        </div>
+        <div className="links" />
+        </div>
+        <div className="links">
+          <div data-media-id="1" data-media-type="image">
+            <div className="data-media-thumbnail"><img src="images/klinik.jpg" />
+            </div>
+            <img src="images/scapula.png" />
+            <div className="media-link-title">Scapula-Transplantat</div>
+            <div className="media-link-description">
+              Schematische Darstellung eines gehobenen Scapula-Transplantats.
+            </div>
+          </div>
+        </div>
+        <div className="links">
+          <div data-media-id="1" data-media-type="image">
+            <div className="data-media-thumbnail"><img src="images/klinik.jpg" />
+            </div>
+            <img src="images/fibula1.png" />
+            <div className="media-link-title">Fibula-Transplantat</div>
+            <div className="media-link-description">
+              Eingezeichnete Schnittführung für das Fibula-Transplantat.
+            </div>
+          </div>
+          <div data-media-id="2" data-media-type="image">
+            <div className="data-media-thumbnail"><img src="images/klinik.jpg" />
+            </div>
+            <img src="images/fibula2.png" />
+            <div className="media-link-title">Fibula-Transplantat</div>
+            <div className="media-link-description">
+              Gehobenes Fibula-Transplantat vor Absetzten der Gefäße.
+            </div>
+          </div>
+          <div data-media-id="3" data-media-type="image">
+            <div className="data-media-thumbnail"><img src="images/klinik.jpg" />
+            </div>
+            <img src="images/fibula3.png" />
+            <div className="media-link-title">Fibula-Transplantat</div>
+            <div className="media-link-description">
+              In den Defekt eingefügtes Fibula-Transplantat.
+            </div>
+          </div>
+        </div>
+        <div className="links">
+          <div data-media-id="1" data-media-type="image">
+            <div className="data-media-thumbnail"><img src="images/klinik.jpg" />
+            </div>
+            <img src="images/becken1.png" />
+            <div className="media-link-title">Beckenkamm-Transplantat</div>
+            <div className="media-link-description">
+              Präparation der oberflächlichen Hautschicht bis zur Darstellung des
+              Gefäßstiels.
+            </div>
+          </div>
+          <div data-media-id="2" data-media-type="image">
+            <div className="data-media-thumbnail"><img src="images/klinik.jpg" />
+            </div>
+            <img src="images/becken2.png" />
+            <div className="media-link-title">Beckenkamm-Transplantat</div>
+            <div className="media-link-description">
+              Darstellung des Beckens und der Gefäße für das Beckenkamm-Transplantat.
+            </div>
+          </div>
+          <div data-media-id="3" data-media-type="image">
+            <div className="data-media-thumbnail"><img src="images/klinik.jpg" />
+            </div>
+            <img src="images/becken3.png" />
+            <div className="media-link-title">Beckenkamm-Transplantat</div>
+            <div className="media-link-description">
+              Gehobenes Beckenkamm-Transplantat vor Absetzten des Gefäßstiels.
+            </div>
+          </div>
+          <div data-media-id="4" data-media-type="image">
+            <div className="data-media-thumbnail"><img src="images/klinik.jpg" />
+            </div>
+            <img src="images/becken4.png" />
+            <div className="media-link-title">Beckenkamm-Transplantat</div>
+            <div className="media-link-description">
+              Transplantiertes Beckenkammtransplantat im Defekbereich des
+              Unterkiefers.
+            </div>
+          </div>
+          <div data-media-id="5" data-media-type="video">
+            <div className="media-link-video-id">11</div>
+            <div className="media-link-title">Beckenkamm Implantate</div>
+            <div className="media-link-description">
+              Video zu Beckenkammtransplantat
+            </div>
+          </div>
+          <div data-media-id="6" data-media-type="video">
+            <div className="media-link-video-id">17</div>
+            <div className="media-link-title">Rekonstruktion Mittelgesicht</div>
+            <div className="media-link-description">Rekonstruktion Mittelgesicht</div>
+          </div>
+          <div data-media-id="7" data-media-type="video">
+            <div className="media-link-video-id">18</div>
+            <div className="media-link-title">Metallentfernung Beckenkammtransplantat</div>
+            <div className="media-link-description">
+              Metallentfernung Beckenkammtransplantat
+            </div>
+          </div>
+          <div data-media-id="8" data-media-type="video">
+            <div className="media-link-video-id">19</div>
+            <div className="media-link-title">Implantatfreilegung + Vestibulumplastik Beckenkammtransplantat</div>
+            <div className="media-link-description">
+              Implantatfreilegung + Vestibulumplastik Beckenkammtransplantat
+            </div>
+          </div>
+          <div data-media-id="9" data-media-type="video">
+            <div className="media-link-video-id">20</div>
+            <div className="media-link-title">Beckenkamm mit Kiefergelenk</div>
+            <div className="media-link-description">Beckenkamm mit Kiefergelenk</div>
+          </div>
+          <div data-media-id="10" data-media-type="video">
+            <div className="media-link-video-id">21</div>
+            <div className="media-link-title">Totalendoprothese Kiefergelenk</div>
+            <div className="media-link-description">
+              Totalendoprothese Kiefergelenk
+            </div>
+          </div>
+        </div>
+        <div className="links">
+          <div data-media-id="1" data-media-type="image">
+            <div className="data-media-thumbnail"><img src="images/klinik.jpg" />
+            </div>
+            <img src="images/dsd_7404.png" />
+            <div className="media-link-title">Soleus-Lappen</div>
+            <div className="media-link-description">
+              Darstellung der Perorator-Gefäße am Unterschenkel.
+            </div>
+          </div>
+          <div data-media-id="2" data-media-type="image">
+            <div className="data-media-thumbnail"><img src="images/klinik.jpg" />
+            </div>
+            <img src="images/dsd_7477.png" />
+            <div className="media-link-title">Soleus-Lappen</div>
+            <div className="media-link-description">
+              Vollständig gehobener Perforator-Lappen vor Durchtrennung des
+              Gefäßstiels.
+            </div>
+          </div>
+          <div data-media-id="3" data-media-type="image">
+            <div className="data-media-thumbnail"><img src="images/klinik.jpg" />
+            </div>
+            <img src="images/dsd_7493.png" />
+            <div className="media-link-title">Soleus-Lappen</div>
+            <div className="media-link-description">
+              Perforator-Lappen und Entnahmestelle nach Lappenstieldurchtrennung.
+            </div>
+          </div>
+        </div>

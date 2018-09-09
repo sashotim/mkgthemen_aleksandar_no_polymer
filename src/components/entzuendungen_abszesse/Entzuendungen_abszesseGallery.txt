@@ -1,0 +1,138 @@
+<div>
+        <div className="links" />
+        </div>
+        <div className="links">
+          <div data-media-id={1} data-media-type="image">
+            <div className="data-media-thumbnail">
+              <img src="images/klinik.jpg" />
+            </div>
+            <img src="images/butoi_a._230277_d01_2014.06.07-02.png" />
+            <div className="media-link-title">Entzündungszeichen</div>
+            <div className="media-link-description">
+              Klassiche Entzündungszeichen bei einem submandibulären Abszess:
+              Rötung und Schwellung. Außerdem gab der Patient Schmerzen an und
+              die Haut war überwärmt.
+            </div>
+          </div>
+        </div>
+        <div className="links" />
+        </div>
+        <div className="links">
+          <div data-media-id={1} data-media-type="image">
+            <div className="data-media-thumbnail">
+              <img src="images/klinik.jpg" />
+            </div>
+            <img src="images/parotisabszess.png" />
+            <div className="media-link-title">Abszess Glandula parotis</div>
+            <div className="media-link-description">
+              Abszess der Glandula parotis.
+            </div>
+          </div>
+          <div data-media-id={2} data-media-type="image">
+            <div className="data-media-thumbnail">
+              <img src="images/klinik.jpg" />
+            </div>
+            <img src="images/perimandibul%C3%A4rerabszess1.png" />
+            <div className="media-link-title">Perimandibulärer Abszess</div>
+            <div className="media-link-description">
+              Perimandibulärer Abszess
+            </div>
+          </div>
+          <div data-media-id={3} data-media-type="image">
+            <div className="data-media-thumbnail">
+              <img src="images/klinik.jpg" />
+            </div>
+            <img src="images/sanduhrenph%C3%A4nomen.png" />
+            <div className="media-link-title">Abszess der Temporalisloge</div>
+            <div className="media-link-description">Temporaler Abszess</div>
+          </div>
+          <div data-media-id={4} data-media-type="image">
+            <div className="data-media-thumbnail">
+              <img src="images/klinik.jpg" />
+            </div>
+            <img src="images/perimandibul%C3%A4rerabszess2.png" />
+            <div className="media-link-title">
+              Perimandibulärer Abszess postoperativ
+            </div>
+            <div className="media-link-description">
+              Eröffneter perimandibulärer Abszess mit Einlage von 3 Röhrchen,
+              welche durch Sicherheitsnadeln fixiert sind.
+            </div>
+          </div>
+          <div data-media-id={5} data-media-type="image">
+            <div className="data-media-thumbnail">
+              <img src="images/klinik.jpg" />
+            </div>
+            <img src="images/fossacanina_1.png" />
+            <div className="media-link-title">Abszess der Fossa canina</div>
+            <div className="media-link-description">
+              Abzess der Fossa canina
+            </div>
+          </div>
+          <div data-media-id={6} data-media-type="image">
+            <div className="data-media-thumbnail">
+              <img src="images/klinik.jpg" />
+            </div>
+            <img src="images/submandibul%C3%A4rerabszess.png" />
+            <div className="media-link-title">Submandibulärer Abszess</div>
+            <div className="media-link-description">
+              Submandibulärer Abszess
+            </div>
+          </div>
+        </div>
+      </div>
+        <div className="links">
+          <div data-media-id={1} data-media-type="image">
+            <div className="data-media-thumbnail">
+              <img src="images/klinik.jpg" />
+            </div>
+            <img src="images/phlegmone_1.png" />
+            <div className="media-link-title">Phlegmone</div>
+            <div className="media-link-description">
+              Phlegmonöse Entzündung des Mittelgesichts.
+            </div>
+          </div>
+        </div>
+        <div className="links">
+          <div data-media-id={1} data-media-type="image">
+            <div className="data-media-thumbnail">
+              <img src="images/klinik.jpg" />
+            </div>
+            <img src="images/bronj.png" />
+            <div className="media-link-title">
+              Bisphosphonat-assoziierte Nekrose des Unterkiefers
+            </div>
+            <div className="media-link-description">
+              Bisphosphonat-assoziierte Nekrose in regio 036 und 044-048.
+            </div>
+          </div>
+        </div>
+          <div className="links">
+            <div data-media-id={1} data-media-type="image">
+              <div className="data-media-thumbnail">
+                <img src="images/klinik.jpg" />
+              </div>
+              <img src="images/abszess_extraoraler_zugang.png" />
+              <div className="media-link-title">Perimandibulärer Abszess</div>
+              <div className="media-link-description">
+                Von extraoral eröffneter perimandibulärer Abszess.
+              </div>
+            </div>
+          </div>
+        <div className="links">
+          <div data-media-id={1} data-media-type="video">
+            <div className="media-link-video-id">0</div>
+            <div className="media-link-title">Abszess</div>
+            <div className="media-link-description">Abszess</div>
+          </div>
+          <div data-media-id={2} data-media-type="image">
+            <div className="data-media-thumbnail">
+              <img src="images/klinik.jpg" />
+            </div>
+            <img src="images/abszess_extraoraler_zugang.png" />
+            <div className="media-link-title">Perimandibulärer Abszess</div>
+            <div className="media-link-description">
+              Von extraoral eröffneter perimandibulärer Abszess
+            </div>
+          </div>
+        </div>

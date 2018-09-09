@@ -1,0 +1,172 @@
+
+        <div className="links">
+          <div data-media-id="1" data-media-type="image">
+            <div className="data-media-thumbnail"><img src="images/klinik.jpg" />
+            </div>
+            <img src="images/speicheldruesen.png" />
+            <div className="media-link-title">Speicheldrüsen</div>
+            <div className="media-link-description" />
+          </div>
+        </div>
+        <div className="links" />
+        </div>
+        <div className="links">
+          <div data-media-id="1" data-media-type="image">
+            <div className="data-media-thumbnail"><img src="images/klinik.jpg" />
+            </div>
+            <img src="images/retentionszyste.png" />
+            <div className="media-link-title">Retentionszyste</div>
+            <div className="media-link-description">
+              Retentionszyste im Bereich des vorderen Mundbodens.
+            </div>
+          </div>
+        </div>
+        <div className="links">
+          <div data-media-id="1" data-media-type="image">
+            <div className="data-media-thumbnail"><img src="images/klinik.jpg" />
+            </div>
+            <img src="images/parotitis.png" />
+            <div className="media-link-title">Parotitis</div>
+            <div className="media-link-description">
+              Entzündung der rechten Speicheldrüse mit deutlicher Schwellung
+              präauriculär.
+            </div>
+          </div>
+        </div>
+        <div className="links" />
+        </div>
+        <div className="links">
+          <div data-media-id="1" data-media-type="image">
+            <div className="data-media-thumbnail"><img src="images/klinik.jpg" />
+            </div>
+            <img src="images/sialolithiasis_(entwicklung_spiechelstein).png" />
+            <div className="media-link-title">Operative Entfernung eines Spiechelsteins</div>
+            <div className="media-link-description">
+              Operative Entwicklung des Speichelsteins im Bereich des Ausführungsgangs
+              der Glandula submandibularis.
+            </div>
+          </div>
+          <div data-media-id="2" data-media-type="image">
+            <div className="data-media-thumbnail"><img src="images/klinik.jpg" />
+            </div>
+            <img src="images/speichelstein.png" />
+            <div className="media-link-title">Speichelstein</div>
+            <div className="media-link-description">
+              Speichelstein der Glandula submandibularis.
+            </div>
+          </div>
+          <div data-media-id="3" data-media-type="image">
+            <div className="data-media-thumbnail"><img src="images/klinik.jpg" />
+            </div>
+            <img src="images/sialolithiasis_(sondierung_ausf%C3%BCrhungsgang).png" />
+            <div className="media-link-title">Sondierung Wharton-Gang</div>
+            <div className="media-link-description">
+              Sondierung des Ausführungsgangs der Glandula submandibularis beim
+              Vorliegen eines Speichelsteins.
+            </div>
+          </div>
+        </div>
+        <div className="links">
+          <div data-media-id="1" data-media-type="image">
+            <div className="data-media-thumbnail"><img src="images/klinik.jpg" />
+            </div>
+            <img src="images/parotidektomie1.png" />
+            <div className="media-link-title">Parotidektomie</div>
+            <div className="media-link-description">
+              Eingezeichnete Schnittführung für eine laterale Parotidektomie.
+            </div>
+          </div>
+          <div data-media-id="2" data-media-type="image">
+            <div className="data-media-thumbnail"><img src="images/klinik.jpg" />
+            </div>
+            <img src="images/parotidektomie2.png" />
+            <div className="media-link-title">Parotidektomie</div>
+            <div className="media-link-description">
+              Präparation des Zugangs zur Glandula parotis.
+            </div>
+          </div>
+          <div data-media-id="3" data-media-type="image">
+            <div className="data-media-thumbnail"><img src="images/klinik.jpg" />
+            </div>
+            <img src="images/parotidektomie3.png" />
+            <div className="media-link-title">Parotidektomie</div>
+            <div className="media-link-description">
+              Vollständige laterale Parotidektomie mit Darstellung des N. facialis.
+            </div>
+          </div>
+          <div data-media-id="4" data-media-type="image">
+            <div className="data-media-thumbnail"><img src="images/klinik.jpg" />
+            </div>
+            <img src="images/parotidektomie4.png" />
+            <div className="media-link-title">Parotidektomie</div>
+            <div className="media-link-description">
+              Verschluss der Haut nach Parotidektomie.
+            </div>
+          </div>
+          <div data-media-id="5" data-media-type="video">
+            <div className="media-link-video-id">13</div>
+            <div className="media-link-title">Parotidektomie</div>
+            <div className="media-link-description">Video zu Parodektomie</div>
+          </div>
+        </div>
+        <div className="links">
+          <div data-media-id="1" data-media-type="image">
+            <div className="data-media-thumbnail"><img src="images/klinik.jpg" />
+            </div>
+            <img src="images/frey1.png" />
+            <div className="media-link-title">Jod-Stärke-Test nach Minor</div>
+            <div className="media-link-description">Auftragen der Jodlösung.</div>
+          </div>
+          <div data-media-id="2" data-media-type="image">
+            <div className="data-media-thumbnail"><img src="images/klinik.jpg" />
+            </div>
+            <img src="images/frey3.png" />
+            <div className="media-link-title">Jof-Stärke-Test nach Minor</div>
+            <div className="media-link-description">Auftragen des Stärkemehls.</div>
+          </div>
+          <div data-media-id="3" data-media-type="image">
+            <div className="data-media-thumbnail"><img src="images/klinik.jpg" />
+            </div>
+            <img src="images/frey5.png" />
+            <div className="media-link-title">Jod-Stärke-Test nach Minor</div>
+            <div className="media-link-description">
+              Sekretagoge Stimulation durch Essen eines Apfels.
+            </div>
+          </div>
+          <div data-media-id="4" data-media-type="image">
+            <div className="data-media-thumbnail"><img src="images/klinik.jpg" />
+            </div>
+            <img src="images/frey6.png" />
+            <div className="media-link-title">Jod-Stärke-Test nach Minor</div>
+            <div className="media-link-description">
+              Farbliche Markierung des betroffenen Areals.
+            </div>
+          </div>
+          <div data-media-id="5" data-media-type="image">
+            <div className="data-media-thumbnail"><img src="images/klinik.jpg" />
+            </div>
+            <img src="images/frey7.png" />
+            <div className="media-link-title">Jod-Stärke-Test nach Minor</div>
+            <div className="media-link-description">
+              Markierung des Ausbreitungsgebiets mit einem Stift.
+            </div>
+          </div>
+          <div data-media-id="6" data-media-type="image">
+            <div className="data-media-thumbnail"><img src="images/klinik.jpg" />
+            </div>
+            <img src="images/frey8.png" />
+            <div className="media-link-title">Jod-Stärke-Test nach Minor</div>
+            <div className="media-link-description">
+              Säuberung des Areals von Jod und dem Stärkemehl.
+            </div>
+          </div>
+          <div data-media-id="7" data-media-type="image">
+            <div className="data-media-thumbnail"><img src="images/klinik.jpg" />
+            </div>
+            <img src="images/frey10.png" />
+            <div className="media-link-title">Jod-Stärke-test nach Minor</div>
+            <div className="media-link-description">
+              Subkutane Injektion von Botulinumtoxin A im betroffen Hautareal.
+            </div>
+          </div>
+        </div>

@@ -1,0 +1,317 @@
+
+      <div className="links" />
+      </div>
+      <div className="links" />
+      </div>
+      <div className="links" />
+      </div>
+      <div className="links">
+        <div data-media-id="1" data-media-type="image">
+          <div className="data-media-thumbnail"><img src="images/klinik.jpg" />
+          </div>
+          <img src="images/10a.png" />
+          <div className="media-link-title">Kongenitale Ranula</div>
+          <div className="media-link-description">
+            Kongenitale Ranula im Bereich des vorderen Mundbodens bei einem Kind.
+          </div>
+        </div>
+        <div data-media-id="2" data-media-type="image">
+          <div className="data-media-thumbnail"><img src="images/klinik.jpg" />
+          </div>
+          <img src="images/10b.png" />
+          <div className="media-link-title">Kongenitale Ranula</div>
+          <div className="media-link-description">
+            Kongenitale Ranula im bereich des vorderen Mundbodens bei einem Kind.
+            Die Pinzette hält hier den Zystensack.
+          </div>
+        </div>
+        <div data-media-id="3" data-media-type="image">
+          <div className="data-media-thumbnail"><img src="images/klinik.jpg" />
+          </div>
+          <img src="images/10c.png" />
+          <div className="media-link-title">Kongenitale Ranula</div>
+          <div className="media-link-description">
+            Die Ranula hat einen Durchmesser von ca. 6 mm.
+          </div>
+        </div>
+        <div data-media-id="4" data-media-type="image">
+          <div className="data-media-thumbnail"><img src="images/klinik.jpg" />
+          </div>
+          <img src="images/10d.png" />
+          <div className="media-link-title">Kongenitale Ranula</div>
+          <div className="media-link-description">
+            Vorderer Mundboden nach Entfernung der Ranula.
+          </div>
+        </div>
+        <div data-media-id="5" data-media-type="image">
+          <div className="data-media-thumbnail"><img src="images/klinik.jpg" />
+          </div>
+          <img src="images/10e.png" />
+          <div className="media-link-title">Kongenitale Ranula</div>
+          <div className="media-link-description">
+            Mit resorbierbaren Nahtmaterial verschlossener Mundboden nach Entfernung
+            der Ranula.
+          </div>
+        </div>
+      </div>
+      <div className="links" />
+      </div>
+      <div className="links">
+        <div data-media-id="1" data-media-type="image">
+          <div className="data-media-thumbnail"><img src="images/klinik.jpg" />
+          </div>
+          <img src="images/6.png" />
+          <div className="media-link-title">Asymmetrie des Gesichts</div>
+          <div className="media-link-description">
+            Asymmetrie des Gesichts bedingt durch eine Zyste im Unterkiefer.
+          </div>
+        </div>
+        <div data-media-id="2" data-media-type="image">
+          <div className="data-media-thumbnail"><img src="images/klinik.jpg" />
+          </div>
+          <img src="images/1c.png" />
+          <div className="media-link-title">Knochenauftreibung</div>
+          <div className="media-link-description">
+            Knochenauftreibung des Unterkiefers, welche durch eine Zyste bedingt
+            ist.
+          </div>
+        </div>
+        <div data-media-id="3" data-media-type="image">
+          <div className="data-media-thumbnail"><img src="images/klinik.jpg" />
+          </div>
+          <img src="images/4a.png" />
+          <div className="media-link-title">Knochenauftreibung</div>
+          <div className="media-link-description">
+            Knochenauftreibung im Bereich der Unterkieferfrontzähne, welche durch
+            eine Zyste bedingt ist.
+          </div>
+        </div>
+      </div>
+      <div className="links">
+        <div data-media-id="1" data-media-type="image">
+          <div className="data-media-thumbnail"><img src="images/klinik.jpg" />
+          </div>
+          <img src="images/12d.png" />
+          <div className="media-link-title">OPT</div>
+          <div className="media-link-description">Follikuläre Zyste regio 37</div>
+        </div>
+        <div data-media-id="2" data-media-type="image">
+          <div className="data-media-thumbnail"><img src="images/klinik.jpg" />
+          </div>
+          <img src="images/13.png" />
+          <div className="media-link-title">OPT</div>
+          <div className="media-link-description">Radikuläre Zyste regio 35-42</div>
+        </div>
+        <div data-media-id="3" data-media-type="image">
+          <div className="data-media-thumbnail"><img src="images/klinik.jpg" />
+          </div>
+          <img src="images/1c.png" />
+          <div className="media-link-title">Knochenauftreibung</div>
+          <div className="media-link-description">
+            Knochenauftreibung des Unterkiefers, welche durch eine Zyste bedingt
+            ist. Die Zyste ist hier bereits eröffnet.
+          </div>
+        </div>
+        <div data-media-id="4" data-media-type="image">
+          <div className="data-media-thumbnail"><img src="images/klinik.jpg" />
+          </div>
+          <img src="images/4a.png" />
+          <div className="media-link-title">Knochenauftreibung</div>
+          <div className="media-link-description">
+            Aufgetriebener Knochen im Bereich der Unterkieferfront, welcher durch
+            eine Zyste bedingt ist.
+          </div>
+        </div>
+        <div data-media-id="5" data-media-type="image">
+          <div className="data-media-thumbnail"><img src="images/klinik.jpg" />
+          </div>
+          <img src="images/6.png" />
+          <div className="media-link-title">Asymmetrie des Gesichts</div>
+          <div className="media-link-description">
+            Durch eine Zyste bedingte Asymmetrie des Gesichts.
+          </div>
+        </div>
+      </div>
+      <div className="links">
+        <div data-media-id="1" data-media-type="image">
+          <div className="data-media-thumbnail"><img src="images/klinik.jpg" />
+          </div>
+          <img src="images/14.png" />
+          <div className="media-link-title">Zentrales Riesenzellgranulom</div>
+          <div className="media-link-description">
+            Zentrales Riesenzellgranulom, welches bis in die linke Kieferhöhle
+            hinein ragt.
+          </div>
+        </div>
+        <div data-media-id="2" data-media-type="image">
+          <div className="data-media-thumbnail"><img src="images/klinik.jpg" />
+          </div>
+          <img src="images/15a.png" />
+          <div className="media-link-title">Odontogenes Myxom</div>
+          <div className="media-link-description">
+            Odontogenes Myxom im Bereich des Oberkiefers.
+          </div>
+        </div>
+        <div data-media-id="3" data-media-type="image">
+          <div className="data-media-thumbnail"><img src="images/klinik.jpg" />
+          </div>
+          <img src="images/15b.png" />
+          <div className="media-link-title">Odontogenes Myxom</div>
+          <div className="media-link-description">
+            Odontogenes Myxom im Bereich des Oberkiefers.
+          </div>
+        </div>
+        <div data-media-id="4" data-media-type="image">
+          <div className="data-media-thumbnail"><img src="images/klinik.jpg" />
+          </div>
+          <img src="images/15c.png" />
+          <div className="media-link-title">Odontogenes Myxom</div>
+          <div className="media-link-description">
+            Odontogenes Myxom im Bereich des Oberkiefers.
+          </div>
+        </div>
+        <div data-media-id="5" data-media-type="image">
+          <div className="data-media-thumbnail"><img src="images/klinik.jpg" />
+          </div>
+          <img src="images/16.png" />
+          <div className="media-link-title">Ameloblastom</div>
+          <div className="media-link-description">Ameloblastom regio 34-36.</div>
+        </div>
+      </div>
+      <div className="links">
+        <div data-media-id="1" data-media-type="image">
+          <div className="data-media-thumbnail"><img src="images/klinik.jpg" />
+          </div>
+          <img src="images/6c.png" />
+          <div className="media-link-title">Oberkieferzyste regio 13-23</div>
+          <div className="media-link-description">
+            In diesem Bild ist der Operationssitus mit der eröffneten Zyste
+            dargestellt. Der Zystenbalg ist hier bereits vollständig entfernt.
+          </div>
+        </div>
+        <div data-media-id="2" data-media-type="image">
+          <div className="data-media-thumbnail"><img src="images/klinik.jpg" />
+          </div>
+          <img src="images/6d.png" />
+          <div className="media-link-title">Zyste mit kortikospngiösen Material</div>
+          <div className="media-link-description">
+            Nach vollständiger Darstellung der Zyste wurde sie mit dem, vom Becken
+            entnommenen, kortikospngiösen Knochen aufgefüllt.
+          </div>
+        </div>
+        <div data-media-id="3" data-media-type="image">
+          <div className="data-media-thumbnail"><img src="images/klinik.jpg" />
+          </div>
+          <img src="images/6a.png" />
+          <div className="media-link-title">CT</div>
+          <div className="media-link-description">
+            In der Computertomographie ist das Zystenlumen und das verdrängende
+            Wachstum deutlich zu erkennen.
+          </div>
+        </div>
+
+      </div>
+      <div className="links">
+        <div data-media-id="1" data-media-type="image">
+          <div className="data-media-thumbnail"><img src="images/klinik.jpg" />
+          </div>
+          <img src="images/1.png" />
+          <div className="media-link-title">Kortikospongiöses Transplantat Tibia</div>
+          <div className="media-link-description">
+            Zu sehen ist der obere Teil des Unterschenkels mit den markierten
+            Landmarken und der eingezeichneten Schnittführung.
+          </div>
+        </div>
+        <div data-media-id="2" data-media-type="image">
+          <div className="data-media-thumbnail"><img src="images/klinik.jpg" />
+          </div>
+          <img src="images/2.png" />
+          <div className="media-link-title">Kortikospongiöses Transplantat Tibia</div>
+          <div className="media-link-description">
+            Durchtrennung der Haut entlang der Schnittführung.
+          </div>
+        </div>
+        <div data-media-id="3" data-media-type="image">
+          <div className="data-media-thumbnail"><img src="images/klinik.jpg" />
+          </div>
+          <img src="images/6e_1.png" />
+          <div className="media-link-title">Kortikospongiöses Material Becken</div>
+          <div className="media-link-description">
+            Dargestellt ist hier das entnommene kortikospongiöse Material vom
+            Beckenkamm bevor es im Bereich der Zyste transplantiert wird.
+          </div>
+        </div>
+        <div data-media-id="4" data-media-type="image">
+          <div className="data-media-thumbnail"><img src="images/klinik.jpg" />
+          </div>
+          <img src="images/3.png" />
+          <div className="media-link-title">Kortikospongiöses Transplantat Tibia</div>
+          <div className="media-link-description">
+            Entnahme der fettreichen Spongiosa mit einem scharfen Löffel.
+          </div>
+        </div>
+        <div data-media-id="5" data-media-type="image">
+          <div className="data-media-thumbnail"><img src="images/klinik.jpg" />
+          </div>
+          <img src="images/4.png" />
+          <div className="media-link-title">Kortikospongiöses Transplantat Tibia</div>
+          <div className="media-link-description">
+            Tibia nach Entfernung der Spongiosa.
+          </div>
+        </div>
+        <div data-media-id="6" data-media-type="image">
+          <div className="data-media-thumbnail"><img src="images/klinik.jpg" />
+          </div>
+          <img src="images/6_1.png" />
+          <div className="media-link-title">Kortikospongiöses Transplantat Tibia</div>
+          <div className="media-link-description">
+            Mehrschichtichter Verschluss der Haut über der Knochenentnahmestelle.
+          </div>
+        </div>
+        <div data-media-id="7" data-media-type="image">
+          <div className="data-media-thumbnail"><img src="images/klinik.jpg" />
+          </div>
+          <img src="images/7.png" />
+          <div className="media-link-title">Kortikospongiöses Transplantat Tibia</div>
+          <div className="media-link-description">
+            Verbleibende Narbe einige Monate nach der Operation.
+          </div>
+        </div>
+      </div>
+      <div className="links">
+        <div data-media-id="1" data-media-type="image">
+          <div className="data-media-thumbnail"><img src="images/klinik.jpg" />
+          </div>
+          <img src="images/11.png" />
+          <div className="media-link-title">Keratozyste OPT</div>
+          <div className="media-link-description">
+            Keratozystischer Tumor regio 48.
+          </div>
+        </div>
+        <div data-media-id="2" data-media-type="image">
+          <div className="data-media-thumbnail"><img src="images/klinik.jpg" />
+          </div>
+          <img src="images/12.png" />
+          <div className="media-link-title">Keratozyste DVT</div>
+          <div className="media-link-description">
+            Keratozystischer Tumor regio 48.
+          </div>
+        </div>
+        <div data-media-id="4" data-media-type="video">
+          <div className="media-link-video-id">9</div>
+          <div className="media-link-title">Zyste</div>
+          <div className="media-link-description">
+            Operative Versorgung einer Zyste
+          </div>
+        </div>
+        <div data-media-id="5" data-media-type="video">
+          <div className="media-link-video-id">10</div>
+          <div className="media-link-title">Follikuläre Zyste</div>
+          <div className="media-link-description">Follikuläre Zyste</div>
+        </div>
+        <div data-media-id="6" data-media-type="video">
+          <div className="media-link-video-id">11</div>
+          <div className="media-link-title">Zystektomie</div>
+          <div className="media-link-description">Zystektomie</div>
+        </div>
+      </div>

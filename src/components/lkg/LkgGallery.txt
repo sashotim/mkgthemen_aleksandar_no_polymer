@@ -1,0 +1,329 @@
+
+    <div className="links">
+      <div data-media-id="1" data-media-type="image">
+        <div className="data-media-thumbnail"><img src="thumbs/klinik.jpg" />
+        </div>
+        <img src="images/11a.png" />
+        <div className="media-link-title">Lippen-Kiefer-Gaumen-Spalte</div>
+        <div className="media-link-description">
+          Durchgehende einseitige Lippen-Kiefer-Gaumen-Spalte
+        </div>
+      </div>
+      <div data-media-id="2" data-media-type="image">
+        <div className="data-media-thumbnail"><img src="thumbs/klinik.jpg" />
+        </div>
+        <img src="images/9c.png" />
+        <div className="media-link-title">Lippenspalte</div>
+        <div className="media-link-description">
+          Isoliertes einseitige Lippenspalte
+        </div>
+      </div>
+      <div data-media-id="3" data-media-type="image">
+        <div className="data-media-thumbnail"><img src="thumbs/klinik.jpg" />
+        </div>
+        <img src="images/7a.png" />
+        <div className="media-link-title">
+          Doppelseitige Lippen-Kiefer-Gaumen-Spalte
+        </div>
+        <div className="media-link-description">
+          Bild einer durchgehenden doppelseitigen Lippen-Kiefer-Gaumen-Spalte.
+        </div>
+      </div>
+    </div>
+    <div className="links">
+      <div data-media-id="1" data-media-type="image">
+        <div className="data-media-thumbnail"><img src="thumbs/klinik.jpg" />
+        </div>
+        <img src="images/einseitige_lkg_Spalte_Screenshot_1.png" />
+        <div className="media-link-title">Einflussfaktoren</div>
+        <div className="media-link-description">
+          Folgende Faktoren gelten als eine LKG-Spalte positiv beeinflussend:
+          energiereiche Strahlung, Chemikalien, Rauchen, Alkoholabusus,
+          Sauerstoffmangel, Infektion von Mutter und Kind, Stress.
+        </div>
+      </div>
+      <div data-media-id="2" data-media-type="image">
+        <div className="data-media-thumbnail"><img src="thumbs/klinik.jpg" />
+        </div>
+        <img src="images/einseitige_lkg_Spalte_Screenshot_2.png" />
+        <div className="media-link-title">Embryologische Entstehung</div>
+        <div className="media-link-description">
+          Beginn der 5. intrauterinen Woche, in der sich die beiden seitlichen
+          Oberkieferwülste und der mediale Nasenwulst annähern.
+        </div>
+      </div>
+      <div data-media-id="3" data-media-type="image">
+        <div className="data-media-thumbnail"><img src="thumbs/klinik.jpg" />
+        </div>
+        <img src="images/einseitige_lkg_Spalte_Screenshot_4.png" />
+        <div className="media-link-title">Embryologische Entstehung</div>
+        <div className="media-link-description">
+          Ende der 5. intrauterinen Woche, in der die beiden seitlichen
+          Oberkieferwülste und der mediale Nasenwulst miteinander verschmolzen
+          sind.
+        </div>
+      </div>
+      <div data-media-id="4" data-media-type="image">
+        <div className="data-media-thumbnail"><img src="thumbs/klinik.jpg" />
+        </div>
+        <img src="images/einseitige_lkg_Spalte_Screenshot_5.png" />
+        <div className="media-link-title">Embryologische Entstehung</div>
+        <div className="media-link-description">
+          Beginn der 10. intrauterinen Woche, in der die beiden Oberkieferwülste
+          im Bereich des Gaumens verschmelzen.
+        </div>
+      </div>
+      <div data-media-id="5" data-media-type="image">
+        <div className="data-media-thumbnail"><img src="thumbs/klinik.jpg" />
+        </div>
+        <img src="images/einseitige_lkg_Spalte_Screenshot_6.png" />
+        <div className="media-link-title">Embryologische Entstehung</div>
+        <div className="media-link-description">
+          Ende der 12. intrauterinen Woche, in der die Lippen-Kiefer-Gaumen-Region
+          vollständig ausgeheilt ist.
+        </div>
+      </div>
+    </div>
+    <div className="links">
+      <div data-media-id="1" data-media-type="image">
+        <div className="data-media-thumbnail"><img src="thumbs/klinik.jpg" />
+        </div>
+        <img src="images/1.png" />
+        <div className="media-link-title">Doppelseitige Lippenspalte</div>
+        <div className="media-link-description">
+          Isolierte doppelseitige Lippenspalte
+        </div>
+      </div>
+      <div data-media-id="2" data-media-type="image">
+        <div className="data-media-thumbnail"><img src="thumbs/klinik.jpg" />
+        </div>
+        <img src="images/3.png" />
+        <div className="media-link-title">Weichgaumenspalte</div>
+        <div className="media-link-description">Isolierte Weichgaumenspalte</div>
+      </div>
+      <div data-media-id="3" data-media-type="image">
+        <div className="data-media-thumbnail"><img src="thumbs/klinik.jpg" />
+        </div>
+        <img src="images/5.png" />
+        <div className="media-link-title">Lippenspalte</div>
+        <div className="media-link-description">
+          Isolierte einseitige Lippenspalte
+        </div>
+      </div>
+      <div data-media-id="4" data-media-type="image">
+        <div className="data-media-thumbnail"><img src="thumbs/klinik.jpg" />
+        </div>
+        <img src="images/10b.png" />
+        <div className="media-link-title">Gaumenspalte</div>
+        <div className="media-link-description">Isolierte Gaumenspalte</div>
+      </div>
+      <div data-media-id="5" data-media-type="image">
+        <div className="data-media-thumbnail"><img src="thumbs/klinik.jpg" />
+        </div>
+        <img src="images/8d.png" />
+        <div className="media-link-title">Lippen-Kiefer-Gaumen-Spalte</div>
+        <div className="media-link-description">
+          Durchgehende Lippen-Kiefer-Gaumen-Spalte
+        </div>
+      </div>
+      <div data-media-id="6" data-media-type="video">
+        <div className="media-link-video-id">1</div>
+        <div className="media-link-title">Einseitige LKG-Spalte</div>
+        <div className="media-link-description">Einseitige LKG-Spalte</div>
+      </div>
+    </div>
+    <div className="links">
+      <div data-media-id="1" data-media-type="image">
+        <div className="data-media-thumbnail"><img src="thumbs/klinik.jpg" />
+        </div>
+        <img src="images/2c.png" />
+        <div className="media-link-title">Quere Gesichtsspalte</div>
+        <div className="media-link-description">
+          Präoperatives Bild einer queren Gesichtsspalte
+        </div>
+      </div>
+      <div data-media-id="2" data-media-type="image">
+        <div className="data-media-thumbnail"><img src="thumbs/klinik.jpg" />
+        </div>
+        <img src="images/2d.png" />
+        <div className="media-link-title">Quere Gesichtsspalte</div>
+        <div className="media-link-description">
+          Präoperatives Bild einer queren Gesichtsspalte
+        </div>
+      </div>
+      <div data-media-id="3" data-media-type="image">
+        <div className="data-media-thumbnail"><img src="thumbs/klinik.jpg" />
+        </div>
+        <img src="images/2e.png" />
+        <div className="media-link-title">Quere Gesichtsspalte</div>
+        <div className="media-link-description">
+          Intraoperatives Bild einer queren Gesichtsspalte
+        </div>
+      </div>
+      <div data-media-id="4" data-media-type="image">
+        <div className="data-media-thumbnail"><img src="thumbs/klinik.jpg" />
+        </div>
+        <img src="images/2a.png" />
+        <div className="media-link-title">Quere Gesichtsspalte</div>
+        <div className="media-link-description">
+          Quere Gesichtsspalte ca. 3 Monate postoperativ
+        </div>
+      </div>
+      <div data-media-id="5" data-media-type="image">
+        <div className="data-media-thumbnail"><img src="thumbs/klinik.jpg" />
+        </div>
+        <img src="images/2b.png" />
+        <div className="media-link-title">Quere Gesichtsspalte</div>
+        <div className="media-link-description">
+          Quere Gesichtsspalte ca. 3/4 Jahr postoperativ.
+        </div>
+      </div>
+    </div>
+    <div className="links">
+      <div data-media-id="1" data-media-type="image">
+        <div className="data-media-thumbnail"><img src="thumbs/klinik.jpg" />
+        </div>
+        <img src="images/12.png" />
+        <div className="media-link-title">Ultraschallbild</div>
+        <div className="media-link-description">
+          Ultraschallbild eines ungeborenen Kindes mit einer
+          Lippen-Kiefer-Gaumen-Spalte.
+        </div>
+      </div>
+      <div data-media-id="2" data-media-type="image">
+        <div className="data-media-thumbnail"><img src="thumbs/klinik.jpg" />
+        </div>
+        <img src="images/12b.png" />
+        <div className="media-link-title">Ultraschallbild</div>
+        <div className="media-link-description">
+          Ultraschallbild eines ungeborenes Kindes mit einer
+          Lippen-Kiefer-Gaumen-Spalte.
+        </div>
+      </div>
+      <div data-media-id="3" data-media-type="image">
+        <div className="data-media-thumbnail"><img src="thumbs/klinik.jpg" />
+        </div>
+        <img src="images/12c.png" />
+        <div className="media-link-title">Ultraschallbild</div>
+        <div className="media-link-description">
+          Ultraschallbild eines Kindes mit Lippen-Kiefer-Gaumen-Spalte.
+        </div>
+      </div>
+    </div>
+    <div className="links" />
+    </div>
+    <div className="links">
+      <div data-media-id="1" data-media-type="image">
+        <div className="data-media-thumbnail"><img src="thumbs/klinik.jpg" />
+        </div>
+        <img src="images/4c.png" />
+        <div className="media-link-title">Trinkplatte</div>
+        <div className="media-link-description">
+          Speziell für das Kind angefertigte Trinkplatte.
+        </div>
+      </div>
+      <div data-media-id="2" data-media-type="image">
+        <div className="data-media-thumbnail"><img src="thumbs/klinik.jpg" />
+        </div>
+        <img src="images/4b.png" />
+        <div className="media-link-title">Trinkplatte</div>
+        <div className="media-link-description">
+          Bild einer eingefügten und befestigten Trinkplatte zum Verschluss des
+          Gaumens und Steuerung des Kieferwachstums.
+        </div>
+      </div>
+      <div data-media-id="3" data-media-type="image">
+        <div className="data-media-thumbnail"><img src="thumbs/klinik.jpg" />
+        </div>
+        <img src="images/6a.png" />
+        <div className="media-link-title">Lippenspalte präoperativ</div>
+        <div className="media-link-description">
+          Präopertives Bild einer isloierten Lippenspalte
+        </div>
+      </div>
+      <div data-media-id="4" data-media-type="image">
+        <div className="data-media-thumbnail"><img src="thumbs/klinik.jpg" />
+        </div>
+        <img src="images/6b.png" />
+        <div className="media-link-title">Lippenspalte postoperativ</div>
+        <div className="media-link-description">
+          Postoperatives Bild einer isolierten Lippenspalte.
+        </div>
+      </div>
+      <div data-media-id="5" data-media-type="image">
+        <div className="data-media-thumbnail"><img src="thumbs/klinik.jpg" />
+        </div>
+        <img src="images/10b.png" />
+        <div className="media-link-title">Präoperative Gaumenspalte</div>
+        <div className="media-link-description">
+          Präoperatives Bild einer isolierten Gaumenspalte.
+        </div>
+      </div>
+      <div data-media-id="6" data-media-type="image">
+        <div className="data-media-thumbnail"><img src="thumbs/klinik.jpg" />
+        </div>
+        <img src="images/10a.png" />
+        <div className="media-link-title">Postoperative Gaumenspalte</div>
+        <div className="media-link-description">
+          Unmittelbar postoperatives Bild einer mittels Stiellappen verschlossenen
+          Gaumenspalte.
+        </div>
+      </div>
+      <div data-media-id="7" data-media-type="image">
+        <div className="data-media-thumbnail"><img src="thumbs/klinik.jpg" />
+        </div>
+        <img src="images/7b.png" />
+        <div className="media-link-title">
+          Doppelseitige Lippen-Kiefer-Gaumenspalte präoperativ
+        </div>
+        <div className="media-link-description">
+          Präopertives Bild einer doppelseitigen durchgängigen
+          Lippen-Kiefer-Gaumenspalte.
+        </div>
+      </div>
+      <div data-media-id="8" data-media-type="image">
+        <div className="data-media-thumbnail"><img src="thumbs/klinik.jpg" />
+        </div>
+        <img src="images/7d.png" />
+        <div className="media-link-title">
+          Doppelseitige Lippen-Kiefer-Gaumenspalte postoperativ
+        </div>
+        <div className="media-link-description">
+          Postoperatives Bild einer durchgängigen doppelseitigen
+          Lippen-Kiefer-Gaumenspalte.
+        </div>
+      </div>
+      <div data-media-id="9" data-media-type="video">
+        <div className="media-link-video-id">0</div>
+        <div className="media-link-title">Doppelseitige LKG-Spalte</div>
+        <div className="media-link-description">
+          Video zur&nbsp;Doppelseitigen LKG-Spalte
+        </div>
+      </div>
+      <div data-media-id="10" data-media-type="video">
+        <div className="media-link-video-id">2</div>
+        <div className="media-link-title">Kieferspaltosteoplastik</div>
+        <div className="media-link-description">
+          Video zur Kieferspaltosteoplastik
+        </div>
+      </div>
+      <div data-media-id="11" data-media-type="video">
+        <div className="media-link-video-id">4</div>
+        <div className="media-link-title">
+          Gaumenverschluss: Doppelseitige LKG-Spalte
+        </div>
+        <div className="media-link-description">
+          Video zu Gaumenverschluss: Doppelseitige LKG-Spalte
+        </div>
+      </div>
+      <div data-media-id="12" data-media-type="video">
+        <div className="media-link-video-id">3</div>
+        <div className="media-link-title">Gaumenverschluss</div>
+        <div className="media-link-description">Video zum Gaumenverschluss</div>
+      </div>
+      <div data-media-id="13" data-media-type="video">
+        <div className="media-link-video-id">1</div>
+        <div className="media-link-title">Einseitige LKG-Spalte</div>
+        <div className="media-link-description">Einseitige LKG-Spalte</div>
+      </div>
+    </div>

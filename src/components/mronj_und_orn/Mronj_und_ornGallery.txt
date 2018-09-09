@@ -1,0 +1,242 @@
+
+  <div className="links" />
+  </div>
+  <div className="links" />
+  </div>
+<div className="links">
+  <div data-media-id="1" data-media-type="image">
+    <div className="data-media-thumbnail"><img src="thumbs/klinik.jpg" />
+    </div>
+    <img src="images/stadium1b.png" />
+    <div className="media-link-title">Stadium I</div>
+    <div className="media-link-description">Freiliegender Knochen regio 17</div>
+  </div>
+  <div data-media-id="2" data-media-type="image">
+    <div className="data-media-thumbnail"><img src="thumbs/klinik.jpg" />
+    </div>
+    <img src="images/stadium_1.png" />
+    <div className="media-link-title">Stadium I</div>
+    <div className="media-link-description">
+      Entzündliche Schleimhaut mir freiliegendem Knochen regio 026.
+    </div>
+  </div>
+  <div data-media-id="3" data-media-type="image">
+    <div className="data-media-thumbnail"><img src="thumbs/klinik.jpg" />
+    </div>
+    <img src="images/stadium_1c.png" />
+    <div className="media-link-title">Stadium I</div>
+    <div className="media-link-description">
+      Freiliegender asymptomatischer Knochen regio 014.
+    </div>
+  </div>
+  <div data-media-id="4" data-media-type="image">
+    <div className="data-media-thumbnail"><img src="thumbs/klinik.jpg" />
+    </div>
+    <img src="images/stadium_1d.png" />
+    <div className="media-link-title">Stadium I</div>
+    <div className="media-link-description">
+      Freliegender Knochen lingual regio 016.
+    </div>
+  </div>
+  <div data-media-id="5" data-media-type="image">
+    <div className="data-media-thumbnail"><img src="thumbs/klinik.jpg" />
+    </div>
+    <img src="images/stadium_1e.png" />
+    <div className="media-link-title">Stadium I</div>
+    <div className="media-link-description">
+      Freliegender Knochen regio 044.
+    </div>
+  </div>
+  <div data-media-id="6" data-media-type="image">
+    <div className="data-media-thumbnail"><img src="thumbs/klinik.jpg" />
+    </div>
+    <img src="images/stadium1e.png" />
+    <div className="media-link-title">Stadium I</div>
+    <div className="media-link-description">Putrider Ausfluss regio 035.</div>
+  </div>
+  <div data-media-id="7" data-media-type="image">
+    <div className="data-media-thumbnail"><img src="thumbs/klinik.jpg" />
+    </div>
+    <img src="images/stadium_1f.png" />
+    <div className="media-link-title">Stadium I</div>
+    <div className="media-link-description">
+      Freiliegender Knochen regio 045.
+    </div>
+  </div>
+  <div data-media-id="8" data-media-type="image">
+    <div className="data-media-thumbnail"><img src="thumbs/klinik.jpg" />
+    </div>
+    <img src="images/stadium1g.png" />
+    <div className="media-link-title">Stadium I</div>
+    <div className="media-link-description">
+      Freiliegender Knochen lingual regio 036.
+    </div>
+  </div>
+  <div data-media-id="9" data-media-type="image">
+    <div className="data-media-thumbnail"><img src="thumbs/klinik.jpg" />
+    </div>
+    <img src="images/stadium_2.png" />
+    <div className="media-link-title">Stadium II</div>
+    <div className="media-link-description">
+      Freiliegender, infizierter Knochen regio 046.
+    </div>
+  </div>
+  <div data-media-id="10" data-media-type="image">
+    <div className="data-media-thumbnail"><img src="thumbs/klinik.jpg" />
+    </div>
+    <img src="images/stadium2b.png" />
+    <div className="media-link-title">Stadium II</div>
+    <div className="media-link-description">
+      Freiliegender infizierter Knochen regio 035-037.
+    </div>
+  </div>
+  <div data-media-id="11" data-media-type="image">
+    <div className="data-media-thumbnail"><img src="thumbs/klinik.jpg" />
+    </div>
+    <img src="images/stadium_2c.png" />
+    <div className="media-link-title">Stadium II</div>
+    <div className="media-link-description">
+      Entfernter Knochensequester regio 035-037.
+    </div>
+  </div>
+  <div data-media-id="12" data-media-type="image">
+    <div className="data-media-thumbnail"><img src="thumbs/klinik.jpg" />
+    </div>
+    <img src="images/stadium3.png" />
+    <div className="media-link-title">Stadium III</div>
+    <div className="media-link-description">
+      Zirkulär freiliegender Knochen im Unterkiefer.
+    </div>
+  </div>
+  <div data-media-id="13" data-media-type="image">
+    <div className="data-media-thumbnail"><img src="thumbs/klinik.jpg" />
+    </div>
+    <img src="images/stadium3b.png" />
+    <div className="media-link-title">Stadium III</div>
+    <div className="media-link-description">
+      Darstellung einer pathologische Fraktur bei ausgeprägter MRONJ über einen
+      submandibulären Zugang.
+    </div>
+  </div>
+  <div data-media-id="14" data-media-type="image">
+    <div className="data-media-thumbnail"><img src="thumbs/klinik.jpg" />
+    </div>
+    <img src="images/stadium3c.png" />
+    <div className="media-link-title">Stadium III</div>
+    <div className="media-link-description">
+      Freiliegender und infizierter Knochen regio 34-37.
+    </div>
+  </div>
+  <div data-media-id="15" data-media-type="image">
+    <div className="data-media-thumbnail"><img src="thumbs/klinik.jpg" />
+    </div>
+    <img src="images/stadium_3c.png" />
+    <div className="media-link-title">Stadium III</div>
+    <div className="media-link-description">
+      Nach extraoral perforierter Fistelgang.
+    </div>
+  </div>
+  <div data-media-id="16" data-media-type="image">
+    <div className="data-media-thumbnail"><img src="thumbs/klinik.jpg" />
+    </div>
+    <img src="images/stadium_3d.png" />
+    <div className="media-link-title">Stadium III</div>
+    <div className="media-link-description">
+      Stark destruierter und infizierter Unterkieferknochen im 3. Quadranten.
+    </div>
+  </div>
+  <div data-media-id="17" data-media-type="image">
+    <div className="data-media-thumbnail"><img src="thumbs/klinik.jpg" />
+    </div>
+    <img src="images/unterkieferkastenresektion.png" />
+    <div className="media-link-title">Unterkieferkastenresektion</div>
+    <div className="media-link-description">
+      Unterkieferkastenresektion eines nekrotischen Unterkieferabschnitts.
+    </div>
+  </div>
+  <div data-media-id="18" data-media-type="image">
+    <div className="data-media-thumbnail"><img src="thumbs/klinik.jpg" />
+    </div>
+    <img src="images/rekonstruktion_2.png" />
+    <div className="media-link-title">Unterkieferkastenresektion</div>
+    <div className="media-link-description">
+      Rekonstruktion mittels mikrovaskulären Beckenkammtransplantat nach
+      Unterkieferkastenresektion.
+    </div>
+  </div>
+  <div data-media-id="19" data-media-type="image">
+    <div className="data-media-thumbnail"><img src="thumbs/klinik.jpg" />
+    </div>
+    <img src="images/fluoreszenz1.png" />
+    <div className="media-link-title">Fluoreszenz</div>
+    <div className="media-link-description">
+      Intraoperative Darstellung des nekrotischen Knochenareals am aufsteigendem
+      Unterkieferast.
+    </div>
+  </div>
+  <div data-media-id="20" data-media-type="image">
+    <div className="data-media-thumbnail"><img src="thumbs/klinik.jpg" />
+    </div>
+    <img src="images/fluoreszenz2.png" />
+    <div className="media-link-title">Fluoreszenz</div>
+    <div className="media-link-description">
+      Nach präoperative Tetrazyklin-Gabe, intraoperative Darstellung des
+      nekrotischen knochengewebes durch Fluoreszenzlicht.
+    </div>
+  </div>;
+  <div data-media-id="21" data-media-type="video">
+    <div className="media-link-video-id">10</div>
+    <div className="media-link-title">Dekortikation bei MRONJ</div>
+    <div className="media-link-description">Dekortikation bei MRONJ</div>
+  </div>;
+</div>
+  <div className="links">
+    <div data-media-id="1" data-media-type="image">
+      <div className="data-media-thumbnail"><img src="thumbs/klinik.jpg" />
+      </div>
+      <img src="images/img_9221.png" />
+      <div className="media-link-title">Infizierte ORN</div>
+      <div className="media-link-description">
+        Infizierte ORN des Oberkiefers.
+      </div>
+    </div>
+    <div data-media-id="2" data-media-type="image">
+      <div className="data-media-thumbnail"><img src="thumbs/klinik.jpg" />
+      </div>
+      <img src="images/infizierte_orn.png" />
+      <div className="media-link-title">Infizierte ORN</div>
+      <div className="media-link-description">
+        Infizierte ORN des Unterkiefers.
+      </div>
+    </div>
+    <div data-media-id="3" data-media-type="image">
+      <div className="data-media-thumbnail"><img src="thumbs/klinik.jpg" />
+      </div>
+      <img src="images/pathologische_fraktur.png" />
+      <div className="media-link-title">Pathologische Fraktur</div>
+      <div className="media-link-description">
+        Pathologische Fraktur des Unterkiefers nach Osteoradionekrose des
+        Unterkiefers im 4. Quadranten.
+      </div>
+    </div>
+    <div data-media-id="4" data-media-type="image">
+      <div className="data-media-thumbnail"><img src="thumbs/klinik.jpg" />
+      </div>
+      <img src="images/mikrochirurgische_rekonstruktion.png" />
+      <div className="media-link-title">Mikrochirurgische Rekonstruktion</div>
+      <div className="media-link-description">
+        Mikrochirurgische Rekonstruktion des Unterkiefers nach einer
+        pathologischen Fraktur nach Osteoradionekrose.
+      </div>
+    </div>
+    <div data-media-id="5" data-media-type="image">
+      <div className="data-media-thumbnail"><img src="thumbs/klinik.jpg" />
+      </div>
+      <img src="images/osteomyelitis.png" />
+      <div className="media-link-title">OPT</div>
+      <div className="media-link-description">
+        Deutlich erkennbare Osteolysen des Unterkiefers im 4. Quadranten bei
+        einer Kiefernekrose.
+      </div>
+    </div>
+  </div>

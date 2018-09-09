@@ -18,14 +18,20 @@ export default class MyImageCard extends React.Component {
   // }
   render() {
   //   console.log(this.props.galleryContent);
-  return (
-    <div>
-      <Card inverse onClick={this.props.openModal}>
-        <CardImg width="100%" src="https://placeholdit.imgix.net/~text?txtsize=33&txt=318%C3%97270&w=318&h=270&bg=333333&txtclr=666666" alt="Card image cap" />
+  let listOfMedia = [];
+  for (var i = 0; i < this.props.galleryContent.media.length; i++) {
+    listOfMedia.push(
+      <Card inverse onClick={this.props.openModal} key={i}>
+        <CardImg width="100%" src={this.props.galleryContent.media[i].image} alt="" key={i} id={this.props.galleryContent.media[i].id} />
         <CardImgOverlay>
-          <CardTitle>Card Title</CardTitle>
+          <CardTitle>{this.props.galleryContent.media[i].title}</CardTitle>
         </CardImgOverlay>
       </Card>
+    )
+  }
+  return (
+     <div>
+      {listOfMedia}
     </div>
   );
 }

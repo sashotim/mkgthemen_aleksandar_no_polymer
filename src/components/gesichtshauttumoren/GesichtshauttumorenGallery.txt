@@ -1,0 +1,138 @@
+
+  <div className="links">
+    <div data-media-id={1} data-media-type="image">
+      <div className="data-media-thumbnail">
+        <img src="images/klinik.jpg" />
+      </div>
+      <img src="images/clark.png" />
+      <div className="media-link-title">
+        Eindringtiefe nach Clark und Tumordicke nach Breslow
+      </div>
+      <div className="media-link-description">
+        Eindringtiefe nach Clark und Tumordicke nach Breslow
+      </div>
+    </div>
+  </div>
+  <div className="links">
+    <div data-media-id={1} data-media-type="image">
+      <div className="data-media-thumbnail">
+        <img src="images/klinik.jpg" />
+      </div>
+      <img src="images/basaliom-nodul%C3%A4r.png" />
+      <div className="media-link-title">Basaliom</div>
+      <div className="media-link-description">
+        Noduläres Basaliom auf dem linken Nasenflügel.
+      </div>
+    </div>
+    <div data-media-id={2} data-media-type="image">
+      <div className="data-media-thumbnail">
+        <img src="images/klinik.jpg" />
+      </div>
+      <img src="images/basaliom-pigmentiert.png" />
+      <div className="media-link-title">Basaliom</div>
+      <div className="media-link-description">Pigmentiertes Basaliom</div>
+    </div>
+  </div>
+  <div className="links">
+    <div data-media-id={1} data-media-type="image">
+      <div className="data-media-thumbnail">
+        <img src="images/klinik.jpg" />
+      </div>
+      <img src="images/bernhard-fries1.png" />
+      <div className="media-link-title">Plattenepithelkarzinom</div>
+      <div className="media-link-description">
+        Plattenepithelkarzinom der Unterlippe
+      </div>
+    </div>
+    <div data-media-id={2} data-media-type="image">
+      <div className="data-media-thumbnail">
+        <img src="images/klinik.jpg" />
+      </div>
+      <img src="images/peca.png" />
+      <div className="media-link-title">Plattenepithelkarzinom</div>
+      <div className="media-link-description">
+        Plattenepithelkarzinom im Bereich des Weichgaumens.
+      </div>
+    </div>
+    <div data-media-id={3} data-media-type="image">
+      <div className="data-media-thumbnail">
+        <img src="images/klinik.jpg" />
+      </div>
+      <img src="images/peca.png" />
+      <div className="media-link-title">Plattenepithelkarzinom</div>
+      <div className="media-link-description">
+        Plattenpepithelkarzinom des Mundbodens.
+      </div>
+    </div>
+  </div>
+  <div className="links">
+    <div data-media-id={1} data-media-type="image">
+      <div className="data-media-thumbnail">
+        <img src="images/klinik.jpg" />
+      </div>
+      <img src="images/merkelzellkrazinom.png" />
+      <div className="media-link-title">Merkelzellkarzinom</div>
+      <div className="media-link-description">
+        Merkelzellkarzinom präauriculär links.
+      </div>
+    </div>
+  </div>
+  <div className="links">
+    <div data-media-id={1} data-media-type="image">
+      <div className="data-media-thumbnail">
+        <img src="images/klinik.jpg" />
+      </div>
+      <img src="images/mm-lentigo_maligna.png" />
+      <div className="media-link-title">Malignes Melanom</div>
+      <div className="media-link-description">
+        Lentigo maligna Melanom im Bereich der Stirn.
+      </div>
+    </div>
+    <div data-media-id={2} data-media-type="image">
+      <div className="data-media-thumbnail">
+        <img src="images/klinik.jpg" />
+      </div>
+      <img src="images/mm-schleimhaut.png" />
+      <div className="media-link-title">Malignes Melanom</div>
+      <div className="media-link-description">
+        Schleimhautmelanom auf dem Alveolarforsatz regio 25/26.
+      </div>
+    </div>
+    <div data-media-id={3} data-media-type="image">
+      <div className="data-media-thumbnail">
+        <img src="images/klinik.jpg" />
+      </div>
+      <img src="images/mm-superfiziell_spreitend.png" />
+      <div className="media-link-title">Malignes Melanom</div>
+      <div className="media-link-description">
+        Superfiziell spreitendes malignes Melanom der Haut.
+      </div>
+    </div>
+  </div>
+  <div className="links">
+    <div data-media-id={1} data-media-type="image">
+      <div className="data-media-thumbnail">
+        <img src="images/klinik.jpg" />
+      </div>
+      <img src="images/kerathoakanthom.png" />
+      <div className="media-link-title">Kerathoakanthom</div>
+      <div className="media-link-description">
+        Keratoakanthom dorsal auf der dorsalen Seite des Ohres.
+      </div>
+    </div>
+    <div data-media-id={2} data-media-type="image">
+      <div className="data-media-thumbnail">
+        <img src="images/klinik.jpg" />
+      </div>
+      <img src="images/kerathoakanthom_(2).png" />
+      <div className="media-link-title">Keratoakanthom</div>
+      <div className="media-link-description">Keratoakanthom der Stirn.</div>
+    </div>
+  </div>
+  <div className="links">
+    <div data-media-id={1} data-media-type="video">
+      <div className="media-link-video-id">12</div>
+      <div className="media-link-title">Bilobed Flap</div>
+      <div className="media-link-description">Video zu Bilobed Flap</div>
+    </div>
+  </div>

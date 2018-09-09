@@ -1,0 +1,243 @@
+
+      <div className="links">
+        <div data-media-id="1" data-media-type="image">
+          <div className="data-media-thumbnail"><img src="images/klinik.jpg" />
+          </div>
+          <img src="images/schema.png" />
+          <div className="media-link-title">Nasennebenhöhlen</div>
+          <div className="media-link-description">
+            Schematische Darstellung der Nasennebenhöhlen - Quelle:
+            http://nasen-zentrum.de/wp-content/uploads/sites/3/2013/07/nasennebenho%CC%88hlen.png
+          </div>
+        </div>
+      </div>
+      <div className="links">
+        <div data-media-id="1" data-media-type="image">
+          <div className="data-media-thumbnail"><img src="images/klinik.jpg" />
+          </div>
+          <img src="images/nnh1.png" />
+          <div className="media-link-title">Panoramaschichtaufnahme</div>
+          <div className="media-link-description">
+            Deutlicher knöcherner Defekt am Oberkiefer rechts.
+          </div>
+        </div>
+        <div data-media-id="2" data-media-type="image">
+          <div className="data-media-thumbnail"><img src="images/klinik.jpg" />
+          </div>
+          <img src="images/nnh2.png" />
+          <div className="media-link-title">Nasennebenhöhlenaufnahme</div>
+          <div className="media-link-description">
+            Konventionelle Röntgenaufnahme der Nasennebenhöhlen.
+          </div>
+        </div>
+        <div data-media-id="3" data-media-type="image">
+          <div className="data-media-thumbnail"><img src="images/klinik.jpg" />
+          </div>
+          <img src="images/ct_nnh.png" />
+          <div className="media-link-title">Computertomographie</div>
+          <div className="media-link-description">
+            Raumforderung der linken Kieferhöhle.
+          </div>
+        </div>
+        <div data-media-id="4" data-media-type="image">
+          <div className="data-media-thumbnail"><img src="images/klinik.jpg" />
+          </div>
+          <img src="images/ct_tumor_nnh.png" />
+          <div className="media-link-title">Computertomographie</div>
+          <div className="media-link-description">
+            Raumforderung der linken Kieferhöhle
+          </div>
+        </div>
+        <div data-media-id="5" data-media-type="image">
+          <div className="data-media-thumbnail"><img src="images/klinik.jpg" />
+          </div>
+          <img src="images/mrt-kieferh%C3%B6hle.png" />
+          <div className="media-link-title">Magnetresonanztomographie</div>
+          <div className="media-link-description">
+            Narbige Veränderungen der rechten Kieferhöhle bei einem Kind.
+          </div>
+        </div>
+      </div>
+      <div className="links">
+        <div data-media-id="1" data-media-type="image">
+          <div className="data-media-thumbnail"><img src="images/klinik.jpg" />
+          </div>
+          <img src="images/orbitaphlegmone.png" />
+          <div className="media-link-title">Orbitaphlegmone</div>
+          <div className="media-link-description">
+            Orbitaphlegmone des linken Auges.
+          </div>
+        </div>
+      </div>
+      <div className="links">
+        <div data-media-id="1" data-media-type="image">
+          <div className="data-media-thumbnail"><img src="images/klinik.jpg" />
+          </div>
+          <img src="images/mukoperiostlappen.png" />
+          <div className="media-link-title">Mukoperiostlappen</div>
+          <div className="media-link-description">
+            Schematische Zeichnung des Verschlusses mit einem Mukoperiostlappen.
+          </div>
+        </div>
+        <div data-media-id="2" data-media-type="image">
+          <div className="data-media-thumbnail"><img src="images/klinik.jpg" />
+          </div>
+          <img src="images/mukoperiostlappen2.png" />
+          <div className="media-link-title">Mukoperiostlappen</div>
+          <div className="media-link-description">
+            Mobilisation eines Mukoperiostlappens in regio 026.
+          </div>
+        </div>
+        <div data-media-id="3" data-media-type="image">
+          <div className="data-media-thumbnail"><img src="images/klinik.jpg" />
+          </div>
+          <img src="images/mukoperiostlappen3.png" />
+          <div className="media-link-title">Mukoperiostlappen</div>
+          <div className="media-link-description">
+            Schlitzung der Periostes zur Verlängerung des Mukoperiostlappens.
+          </div>
+        </div>
+        <div data-media-id="4" data-media-type="image">
+          <div className="data-media-thumbnail"><img src="images/klinik.jpg" />
+          </div>
+          <img src="images/mukoperiostlappen4.png" />
+          <div className="media-link-title">Mukoperiostlappen</div>
+          <div className="media-link-description">
+            Der Mukoperiostlappen ist nun ausreichend dimensioniert um den Defekt zu
+            decken.
+          </div>
+        </div>
+        <div data-media-id="5" data-media-type="image">
+          <div className="data-media-thumbnail"><img src="images/klinik.jpg" />
+          </div>
+          <img src="images/mukoperiostlappen5.png" />
+          <div className="media-link-title">Mukoperiostlappen</div>
+          <div className="media-link-description">
+            Eingenähter Mukoperiostlappen, welcher den Defekt in regio 026
+            vollständig deckt.
+          </div>
+        </div>
+        <div data-media-id="6" data-media-type="image">
+          <div className="data-media-thumbnail"><img src="images/klinik.jpg" />
+          </div>
+          <img src="images/mukoperiostlappen6.png" />
+          <div className="media-link-title">Mukoperiostlappen</div>
+          <div className="media-link-description">
+            Operatives Ergebnis nach 4 Wochen Einheilung.
+          </div>
+        </div>
+        <div data-media-id="7" data-media-type="image">
+          <div className="data-media-thumbnail"><img src="images/klinik.jpg" />
+          </div>
+          <img src="images/palatinaler_schwenklappen.png" />
+          <div className="media-link-title">Palatinallappen</div>
+          <div className="media-link-description">
+            Schematische Zeichnung eines Palatinallappens zur Defektdeckung in regio
+            026.
+          </div>
+        </div>
+        <div data-media-id="8" data-media-type="image">
+          <div className="data-media-thumbnail"><img src="images/klinik.jpg" />
+          </div>
+          <img src="images/palatinaler_schwenklappen3.png" />
+          <div className="media-link-title">Palatinallappen</div>
+          <div className="media-link-description">
+            Unmittelbar postoperatives Ergebnis eines Palatinallappens nach
+            Schwenkung in regio 024 und 025.
+          </div>
+        </div>
+        <div data-media-id="9" data-media-type="image">
+          <div className="data-media-thumbnail"><img src="images/klinik.jpg" />
+          </div>
+          <img src="images/wangenlappen.png" />
+          <div className="media-link-title">Wangenlappen</div>
+          <div className="media-link-description">
+            Schematische Zeichnung eines Wangenlappens zur Defektdeckung in regio
+            026.
+          </div>
+        </div>
+      </div>
+      <div className="links">
+        <div data-media-id="1" data-media-type="image">
+          <div className="data-media-thumbnail"><img src="images/klinik.jpg" />
+          </div>
+          <img src="images/antrumempyem.png" />
+          <div className="media-link-title">Antrumempyem</div>
+          <div className="media-link-description">
+            Verschattung der linken Kieferhöhle.
+          </div>
+        </div>
+      </div>
+      <div className="links">
+        <div data-media-id="1" data-media-type="image">
+          <div className="data-media-thumbnail"><img src="images/klinik.jpg" />
+          </div>
+          <img src="images/aspergillose.png" />
+          <div className="media-link-title">Aspergillom</div>
+          <div className="media-link-description">
+            Röntgendichte Struktur in der Kieferhöhle links.
+          </div>
+        </div>
+      </div>
+      <div className="links">
+        <div data-media-id="1" data-media-type="image">
+          <div className="data-media-thumbnail"><img src="images/klinik.jpg" />
+          </div>
+          <img src="images/1.png" />
+          <div className="media-link-title">Knochendeckelmethode nach Lindorf</div>
+          <div className="media-link-description">
+            Über einen Schnitt der Gingiva im Vestibulum wird die knöcherne
+            Vorderwand dargestellt.
+          </div>
+        </div>
+        <div data-media-id="2" data-media-type="image">
+          <div className="data-media-thumbnail"><img src="images/klinik.jpg" />
+          </div>
+          <img src="images/2.png" />
+          <div className="media-link-title">Knochendeckelmethode nach Lindorf</div>
+          <div className="media-link-description">
+            Das knöcherne Fenster, mit sich schräg nach außen erweiternden
+            Knochenoberflächen, wurde angelegt.
+          </div>
+        </div>
+        <div data-media-id="3" data-media-type="image">
+          <div className="data-media-thumbnail"><img src="images/klinik.jpg" />
+          </div>
+          <img src="images/3.png" />
+          <div className="media-link-title">Knochendeckelmethode nach Lindorf</div>
+          <div className="media-link-description">
+            Der Knochendeckel kann nun angehoben werden, sodass der
+            Fremdkörper/Tumor aus der Kieferhöhle entfernt werden kann.
+          </div>
+        </div>
+        <div data-media-id="4" data-media-type="image">
+          <div className="data-media-thumbnail"><img src="images/klinik.jpg" />
+          </div>
+          <img src="images/5.png" />
+          <div className="media-link-title">Knochendeckelmethode nach Lindorf</div>
+          <div className="media-link-description">
+            Nach erfolgreicher Entfernung des Fremdkörpers/Tumors wird der
+            Knochendeckel zurück in seine ursprüngliche Position gebracht und über
+            kleine Bohrungen festgenäht. Eine Befestigung mit Metallplatten wäre
+            auch möglich, würde dann aber eine zweite Operation zur Metallentfernung
+            mit sich ziehen.&nbsp;
+          </div>
+        </div>
+        <div data-media-id="5" data-media-type="image">
+          <div className="data-media-thumbnail"><img src="images/klinik.jpg" />
+          </div>
+          <img src="images/6.png" />
+          <div className="media-link-title">Knochendeckelmethode nach Lindorf</div>
+          <div className="media-link-description">
+            Speicheldichter Verschluss der Schleimhaut über dem Knochendeckel nach
+            Lindorf.
+          </div>
+        </div>
+        <div data-media-id="6" data-media-type="video">
+          <div className="media-link-video-id">15</div>
+          <div className="media-link-title">Komplikationen Weisheitszahnosteotomie</div>
+          <div className="media-link-description">
+            Komplikationen Weisheitszahnosteotomie
+          </div>
+        </div>
+      </div>
