@@ -61,9 +61,7 @@ export default class Galerie extends React.Component {
         ZystenGallery
     ],
       listOfMedia: DysgnathieGallery.media,
-      activeTab: '1',
-      imageIndexList: [],
-      videoIndexList: []
+      activeTab: '1'
     };
 
     this.openModal = this.openModal.bind(this);
@@ -75,11 +73,11 @@ export default class Galerie extends React.Component {
   }
   openModal(e) {
     this.setState({modalIsOpen: true,
-                    openedObject: this.state.galleryContent[this.props.chosenSubjectIndex].media[e.target.id],
-                    nextObject: this.state.galleryContent[this.props.chosenSubjectIndex].media[parseInt(e.target.id, 10)+1],
-                    previousObject: this.state.galleryContent[this.props.chosenSubjectIndex].media[parseInt(e.target.id, 10)-1],
+                    openedObject: this.state.listOfMedia[parseInt(e.target.id, 10)],
+                    nextObject: this.state.listOfMedia[parseInt(e.target.id, 10)+1],
+                    previousObject: this.state.listOfMedia[parseInt(e.target.id, 10)-1],
                     openedObjectIndex: parseInt(e.target.id, 10)});
-    console.log(e.target.id);
+
   }
 
   // afterOpenModal() {
@@ -92,18 +90,23 @@ export default class Galerie extends React.Component {
   }
 
   previousObjectHandler() {
-    this.setState({openedObject: this.state.previousObject,
-                    openedObjectIndex: mod((parseInt(this.state.openedObjectIndex, 10) - 1), this.state.galleryContent[this.props.chosenSubjectIndex].media.length),
-                    nextObject: this.state.galleryContent[this.props.chosenSubjectIndex].media[parseInt(this.state.openedObjectIndex, 10)-1],
-                    previousObject: this.state.galleryContent[this.props.chosenSubjectIndex].media[parseInt(this.state.openedObjectIndex, 10)+1],
-                  });
+    this.setState({openedObjectIndex: mod((parseInt(this.state.openedObjectIndex, 10) - 1), this.state.listOfMedia.length)}, ()=>{
+        this.setState({
+          openedObject: this.state.listOfMedia[this.state.openedObjectIndex],
+          nextObject: this.state.listOfMedia[mod((parseInt(this.state.openedObjectIndex, 10) + 1), this.state.listOfMedia.length)],
+          previousObject: this.state.listOfMedia[mod((parseInt(this.state.openedObjectIndex, 10) - 1), this.state.listOfMedia.length)]
+        })
+    });
   }
+
   nextObjectHandler() {
-    this.setState({openedObject: this.state.nextObject,
-                    openedObjectIndex: mod((parseInt(this.state.openedObjectIndex, 10) + 1), this.state.galleryContent[this.props.chosenSubjectIndex].media.length),
-                    nextObject: this.state.galleryContent[this.props.chosenSubjectIndex].media[parseInt(this.state.openedObjectIndex, 10)-1],
-                    previousObject: this.state.galleryContent[this.props.chosenSubjectIndex].media[parseInt(this.state.openedObjectIndex, 10)+1],
-                  });
+    this.setState({openedObjectIndex: mod((parseInt(this.state.openedObjectIndex, 10) + 1), this.state.listOfMedia.length)}, ()=>{
+        this.setState({
+          openedObject: this.state.listOfMedia[this.state.openedObjectIndex],
+          nextObject: this.state.listOfMedia[mod((parseInt(this.state.openedObjectIndex, 10) + 1), this.state.listOfMedia.length)],
+          previousObject: this.state.listOfMedia[mod((parseInt(this.state.openedObjectIndex, 10) - 1), this.state.listOfMedia.length)]
+        })
+    });
   }
 
   chooseTabHandler(tab, e) {
@@ -114,36 +117,26 @@ export default class Galerie extends React.Component {
     }
     let images = [];
     let videos = [];
-    this.setState({imageIndexList: []},()=>{
-      this.setState({videoIndexList: []}, ()=>{
         for (var i = 0; i < this.state.galleryContent[this.props.chosenSubjectIndex].media.length; i++) {
           if (this.state.galleryContent[this.props.chosenSubjectIndex].media[i].type === "image") {
-            this.setState({imageIndexList: this.state.imageIndexList.push(i)});
             images.push(this.state.galleryContent[this.props.chosenSubjectIndex].media[i]);
           } else if (this.state.galleryContent[this.props.chosenSubjectIndex].media[i].type === "video") {
-            this.setState({videoIndexList: this.state.videoIndexList.push(i)});
             videos.push(this.state.galleryContent[this.props.chosenSubjectIndex].media[i]);
           }
         }
-      });
-    });
-
-    // console.log(this.state.imageIndexList);
-    // console.log(this.state.videoIndexList);
-    switch (tab) {
-      case '1':
-        this.setState({listOfMedia: this.state.galleryContent[this.props.chosenSubjectIndex].media})
-        break;
-      case '2':
-        this.setState({listOfMedia: videos})
-        break;
-      case '3':
-        this.setState({listOfMedia: images})
-        break;
-      default:
-        this.setState({listOfMedia: this.state.galleryContent[this.props.chosenSubjectIndex].media})
-
-    }
+        switch (tab) {
+          case '1':
+            this.setState({listOfMedia: this.state.galleryContent[this.props.chosenSubjectIndex].media})
+            break;
+          case '2':
+            this.setState({listOfMedia: videos})
+            break;
+          case '3':
+            this.setState({listOfMedia: images})
+            break;
+          default:
+            this.setState({listOfMedia: this.state.galleryContent[this.props.chosenSubjectIndex].media})
+          }
   }
 
 
@@ -155,17 +148,13 @@ export default class Galerie extends React.Component {
     return (
       <Container>
         <MyTabs openModal={this.openModal}
-          galleryContent={this.state.galleryContent[this.props.chosenSubjectIndex].media}
+          galleryContent={this.state.listOfMedia}
           activeTab={this.state.activeTab}
           chooseTabHandler={this.chooseTabHandler}
           listOfMedia={this.state.listOfMedia}
-          imageIndexList={this.state.imageIndexList}
-          videoIndexList={this.state.videoIndexList}
-          wholeIndexList={indexList}
           ></MyTabs>
         <Modal
           isOpen={this.state.modalIsOpen}
-          // onAfterOpen={this.afterOpenModal}
           onRequestClose={this.closeModal}
         >
           <div id="overlayContent">
