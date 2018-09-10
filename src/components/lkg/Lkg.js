@@ -23,16 +23,16 @@ function Lkg(props) {
       </ul>
       <p style={{ paddingLeft: 30 }}>
         <span className="startGallery" data-gallery-item={1}>
-          <img src="thumbs/allgemein_images.png" alt="Allgemein Galerie" />
+          <img src="thumbs/allgemein_images.png" alt="Allgemein Galerie"/>
         </span>
       </p>
     </div>
     <div className="links">
       <div data-media-id={1} data-media-type="image">
         <div className="data-media-thumbnail">
-          <img src="thumbs/klinik.jpg" />
+          <img src="thumbs/klinik.jpg" alt=""/>
         </div>
-        <img src="images/11a.png" />
+        <img src="images/11a.png" alt=""/>
         <div className="media-link-title">Lippen-Kiefer-Gaumen-Spalte</div>
         <div className="media-link-description">
           Durchgehende einseitige Lippen-Kiefer-Gaumen-Spalte
@@ -40,9 +40,9 @@ function Lkg(props) {
       </div>
       <div data-media-id={2} data-media-type="image">
         <div className="data-media-thumbnail">
-          <img src="thumbs/klinik.jpg" />
+          <img src="thumbs/klinik.jpg" alt=""/>
         </div>
-        <img src="images/9c.png" />
+        <img src="images/9c.png" alt=""/>
         <div className="media-link-title">Lippenspalte</div>
         <div className="media-link-description">
           Isoliertes einseitige Lippenspalte
@@ -50,9 +50,9 @@ function Lkg(props) {
       </div>
       <div data-media-id={3} data-media-type="image">
         <div className="data-media-thumbnail">
-          <img src="thumbs/klinik.jpg" />
+          <img src="thumbs/klinik.jpg" alt=""/>
         </div>
-        <img src="images/7a.png" />
+        <img src="images/7a.png" alt=""/>
         <div className="media-link-title">
           Doppelseitige Lippen-Kiefer-Gaumen-Spalte
         </div>
@@ -148,9 +148,9 @@ function Lkg(props) {
     <div className="links">
       <div data-media-id={1} data-media-type="image">
         <div className="data-media-thumbnail">
-          <img src="thumbs/klinik.jpg" />
+          <img src="thumbs/klinik.jpg" alt=""/>
         </div>
-        <img src="images/einseitige_lkg_Spalte_Screenshot_1.png" />
+        <img src="images/einseitige_lkg_Spalte_Screenshot_1.png" alt=""/>
         <div className="media-link-title">Einflussfaktoren</div>
         <div className="media-link-description">
           Folgende Faktoren gelten als eine LKG-Spalte positiv beeinflussend:
@@ -160,9 +160,9 @@ function Lkg(props) {
       </div>
       <div data-media-id={2} data-media-type="image">
         <div className="data-media-thumbnail">
-          <img src="thumbs/klinik.jpg" />
+          <img src="thumbs/klinik.jpg" alt=""/>
         </div>
-        <img src="images/einseitige_lkg_Spalte_Screenshot_2.png" />
+        <img src="images/einseitige_lkg_Spalte_Screenshot_2.png" alt=""/>
         <div className="media-link-title">Embryologische Entstehung</div>
         <div className="media-link-description">
           Beginn der 5. intrauterinen Woche, in der sich die beiden seitlichen
@@ -171,9 +171,9 @@ function Lkg(props) {
       </div>
       <div data-media-id={3} data-media-type="image">
         <div className="data-media-thumbnail">
-          <img src="thumbs/klinik.jpg" />
+          <img src="thumbs/klinik.jpg" alt=""/>
         </div>
-        <img src="images/einseitige_lkg_Spalte_Screenshot_4.png" />
+        <img src="images/einseitige_lkg_Spalte_Screenshot_4.png" alt=""/>
         <div className="media-link-title">Embryologische Entstehung</div>
         <div className="media-link-description">
           Ende der 5. intrauterinen Woche, in der die beiden seitlichen
@@ -183,9 +183,9 @@ function Lkg(props) {
       </div>
       <div data-media-id={4} data-media-type="image">
         <div className="data-media-thumbnail">
-          <img src="thumbs/klinik.jpg" />
+          <img src="thumbs/klinik.jpg" alt=""/>
         </div>
-        <img src="images/einseitige_lkg_Spalte_Screenshot_5.png" />
+        <img src="images/einseitige_lkg_Spalte_Screenshot_5.png" alt=""/>
         <div className="media-link-title">Embryologische Entstehung</div>
         <div className="media-link-description">
           Beginn der 10. intrauterinen Woche, in der die beiden Oberkieferwülste
@@ -194,9 +194,9 @@ function Lkg(props) {
       </div>
       <div data-media-id={5} data-media-type="image">
         <div className="data-media-thumbnail">
-          <img src="thumbs/klinik.jpg" />
+          <img src="thumbs/klinik.jpg" alt=""/>
         </div>
-        <img src="images/einseitige_lkg_Spalte_Screenshot_6.png" />
+        <img src="images/einseitige_lkg_Spalte_Screenshot_6.png" alt=""/>
         <div className="media-link-title">Embryologische Entstehung</div>
         <div className="media-link-description">
           Ende der 12. intrauterinen Woche, in der die Lippen-Kiefer-Gaumen-Region
@@ -242,9 +242,9 @@ function Lkg(props) {
       </table>
       <p>Cave: Kieferspalten treten nie isoliert auf!</p>
       <div className="startGallery" data-gallery-item={6}>
-        <img className="galleryPoster" src="thumbs/video1.png" />
+        <img className="galleryPoster" src="thumbs/video1.png" alt=""/>
         <p className="gallerieThumbDescription">Einseitige LKG-Spalte</p>
-        <img className="galleryPoster" src="thumbs/Play_experimentell.png" />
+      <img className="galleryPoster" src="thumbs/Play_experimentell.png" alt=""/>
       </div>
       <p>
         <span className="startGallery">
@@ -258,9 +258,9 @@ function Lkg(props) {
     <div className="links">
       <div data-media-id={1} data-media-type="image">
         <div className="data-media-thumbnail">
-          <img src="thumbs/klinik.jpg" />
+          <img src="thumbs/klinik.jpg" alt=""/>
         </div>
-        <img src="images/1.png" />
+        <img src="images/1.png" alt=""/>
         <div className="media-link-title">Doppelseitige Lippenspalte</div>
         <div className="media-link-description">
           Isolierte doppelseitige Lippenspalte
@@ -268,17 +268,17 @@ function Lkg(props) {
       </div>
       <div data-media-id={2} data-media-type="image">
         <div className="data-media-thumbnail">
-          <img src="thumbs/klinik.jpg" />
+          <img src="thumbs/klinik.jpg" alt=""/>
         </div>
-        <img src="images/3.png" />
+        <img src="images/3.png" alt=""/>
         <div className="media-link-title">Weichgaumenspalte</div>
         <div className="media-link-description">Isolierte Weichgaumenspalte</div>
       </div>
       <div data-media-id={3} data-media-type="image">
         <div className="data-media-thumbnail">
-          <img src="thumbs/klinik.jpg" />
+          <img src="thumbs/klinik.jpg" alt=""/>
         </div>
-        <img src="images/5.png" />
+        <img src="images/5.png" alt=""/>
         <div className="media-link-title">Lippenspalte</div>
         <div className="media-link-description">
           Isolierte einseitige Lippenspalte
@@ -286,17 +286,17 @@ function Lkg(props) {
       </div>
       <div data-media-id={4} data-media-type="image">
         <div className="data-media-thumbnail">
-          <img src="thumbs/klinik.jpg" />
+          <img src="thumbs/klinik.jpg" alt=""/>
         </div>
-        <img src="images/10b.png" />
+        <img src="images/10b.png" alt=""/>
         <div className="media-link-title">Gaumenspalte</div>
         <div className="media-link-description">Isolierte Gaumenspalte</div>
       </div>
       <div data-media-id={5} data-media-type="image">
         <div className="data-media-thumbnail">
-          <img src="thumbs/klinik.jpg" />
+          <img src="thumbs/klinik.jpg" alt=""/>
         </div>
-        <img src="images/8d.png" />
+        <img src="images/8d.png" alt=""/>
         <div className="media-link-title">Lippen-Kiefer-Gaumen-Spalte</div>
         <div className="media-link-description">
           Durchgehende Lippen-Kiefer-Gaumen-Spalte
@@ -373,9 +373,9 @@ function Lkg(props) {
     <div className="links">
       <div data-media-id={1} data-media-type="image">
         <div className="data-media-thumbnail">
-          <img src="thumbs/klinik.jpg" />
+          <img src="thumbs/klinik.jpg" alt=""/>
         </div>
-        <img src="images/2c.png" />
+        <img src="images/2c.png" alt=""/>
         <div className="media-link-title">Quere Gesichtsspalte</div>
         <div className="media-link-description">
           Präoperatives Bild einer queren Gesichtsspalte
@@ -383,9 +383,9 @@ function Lkg(props) {
       </div>
       <div data-media-id={2} data-media-type="image">
         <div className="data-media-thumbnail">
-          <img src="thumbs/klinik.jpg" />
+          <img src="thumbs/klinik.jpg" alt=""/>
         </div>
-        <img src="images/2d.png" />
+        <img src="images/2d.png" alt=""/>
         <div className="media-link-title">Quere Gesichtsspalte</div>
         <div className="media-link-description">
           Präoperatives Bild einer queren Gesichtsspalte
@@ -393,9 +393,9 @@ function Lkg(props) {
       </div>
       <div data-media-id={3} data-media-type="image">
         <div className="data-media-thumbnail">
-          <img src="thumbs/klinik.jpg" />
+          <img src="thumbs/klinik.jpg" alt=""/>
         </div>
-        <img src="images/2e.png" />
+        <img src="images/2e.png" alt=""/>
         <div className="media-link-title">Quere Gesichtsspalte</div>
         <div className="media-link-description">
           Intraoperatives Bild einer queren Gesichtsspalte
@@ -403,9 +403,9 @@ function Lkg(props) {
       </div>
       <div data-media-id={4} data-media-type="image">
         <div className="data-media-thumbnail">
-          <img src="thumbs/klinik.jpg" />
+          <img src="thumbs/klinik.jpg" alt=""/>
         </div>
-        <img src="images/2a.png" />
+        <img src="images/2a.png" alt=""/>
         <div className="media-link-title">Quere Gesichtsspalte</div>
         <div className="media-link-description">
           Quere Gesichtsspalte ca. 3 Monate postoperativ
@@ -413,9 +413,9 @@ function Lkg(props) {
       </div>
       <div data-media-id={5} data-media-type="image">
         <div className="data-media-thumbnail">
-          <img src="thumbs/klinik.jpg" />
+          <img src="thumbs/klinik.jpg" alt=""/>
         </div>
-        <img src="images/2b.png" />
+        <img src="images/2b.png" alt=""/>
         <div className="media-link-title">Quere Gesichtsspalte</div>
         <div className="media-link-description">
           Quere Gesichtsspalte ca. 3/4 Jahr postoperativ.
@@ -440,9 +440,9 @@ function Lkg(props) {
     <div className="links">
       <div data-media-id={1} data-media-type="image">
         <div className="data-media-thumbnail">
-          <img src="thumbs/klinik.jpg" />
+          <img src="thumbs/klinik.jpg" alt=""/>
         </div>
-        <img src="images/12.png" />
+        <img src="images/12.png" alt=""/>
         <div className="media-link-title">Ultraschallbild</div>
         <div className="media-link-description">
           Ultraschallbild eines ungeborenen Kindes mit einer
@@ -451,9 +451,9 @@ function Lkg(props) {
       </div>
       <div data-media-id={2} data-media-type="image">
         <div className="data-media-thumbnail">
-          <img src="thumbs/klinik.jpg" />
+          <img src="thumbs/klinik.jpg" alt=""/>
         </div>
-        <img src="images/12b.png" />
+        <img src="images/12b.png" alt=""/>
         <div className="media-link-title">Ultraschallbild</div>
         <div className="media-link-description">
           Ultraschallbild eines ungeborenes Kindes mit einer
@@ -462,9 +462,9 @@ function Lkg(props) {
       </div>
       <div data-media-id={3} data-media-type="image">
         <div className="data-media-thumbnail">
-          <img src="thumbs/klinik.jpg" />
+          <img src="thumbs/klinik.jpg" alt=""/>
         </div>
-        <img src="images/12c.png" />
+        <img src="images/12c.png" alt=""/>
         <div className="media-link-title">Ultraschallbild</div>
         <div className="media-link-description">
           Ultraschallbild eines Kindes mit Lippen-Kiefer-Gaumen-Spalte.
@@ -580,9 +580,9 @@ function Lkg(props) {
         </li>
       </ol>
       <div className="startGallery" data-gallery-item={10}>
-        <img className="galleryPoster" src="thumbs/video2.png" />
+        <img className="galleryPoster" src="thumbs/video2.png" alt=""/>
         <p className="gallerieThumbDescription">Kieferspaltosteoplastik</p>
-        <img className="galleryPoster" src="thumbs/Play_experimentell.png" />
+      <img className="galleryPoster" src="thumbs/Play_experimentell.png" alt=""/>
       </div>
       <p>
         <span className="startGallery" data-gallery-item={3}>
@@ -642,14 +642,14 @@ function Lkg(props) {
         <li>Rotations-Advancement nach Millard</li>
       </ul>
       <div className="startGallery" data-gallery-item={13}>
-        <img className="galleryPoster" src="thumbs/video1.png" />
+        <img className="galleryPoster" src="thumbs/video1.png" alt=""/>
         <p className="gallerieThumbDescription">Einseitige LKG-Spalte</p>
-        <img className="galleryPoster" src="thumbs/Play_experimentell.png" />
+      <img className="galleryPoster" src="thumbs/Play_experimentell.png" alt=""/>
       </div>
       <div className="startGallery" data-gallery-item={9}>
-        <img className="galleryPoster" src="thumbs/video0.png" />
+        <img className="galleryPoster" src="thumbs/video0.png" alt=""/>
         <p className="gallerieThumbDescription">Doppelseitige LKG-Spalte</p>
-        <img className="galleryPoster" src="thumbs/Play_experimentell.png" />
+      <img className="galleryPoster" src="thumbs/Play_experimentell.png" alt=""/>
       </div>
       <p>Operationstechnik weicher und harter Gaumen</p>
       <ul>
@@ -657,25 +657,25 @@ function Lkg(props) {
         <li>Stiellappen</li>
       </ul>
       <div className="startGallery" data-gallery-item={12}>
-        <img className="galleryPoster" src="thumbs/video3.png" />
+        <img className="galleryPoster" src="thumbs/video3.png" alt=""/>
         <p className="gallerieThumbDescription">Gaumenverschluss</p>
-        <img className="galleryPoster" src="thumbs/Play_experimentell.png" />
+      <img className="galleryPoster" src="thumbs/Play_experimentell.png" alt=""/>
       </div>
       <div className="startGallery" data-gallery-item={11}>
-        <img className="galleryPoster" src="thumbs/video4.png" />
+        <img className="galleryPoster" src="thumbs/video4.png" alt=""/>
         <p className="gallerieThumbDescription">
           Gaumenverschluss: Doppelseitige LKG-Spalte
         </p>
-        <img className="galleryPoster" src="thumbs/Play_experimentell.png" />
+        <img className="galleryPoster" src="thumbs/Play_experimentell.png" alt=""/>
       </div>
       <p>&nbsp;</p>
     </div>
     <div className="links">
       <div data-media-id={1} data-media-type="image">
         <div className="data-media-thumbnail">
-          <img src="thumbs/klinik.jpg" />
+          <img src="thumbs/klinik.jpg" alt=""/>
         </div>
-        <img src="images/4c.png" />
+        <img src="images/4c.png" alt=""/>
         <div className="media-link-title">Trinkplatte</div>
         <div className="media-link-description">
           Speziell für das Kind angefertigte Trinkplatte.
@@ -683,9 +683,9 @@ function Lkg(props) {
       </div>
       <div data-media-id={2} data-media-type="image">
         <div className="data-media-thumbnail">
-          <img src="thumbs/klinik.jpg" />
+          <img src="thumbs/klinik.jpg" alt=""/>
         </div>
-        <img src="images/4b.png" />
+        <img src="images/4b.png" alt=""/>
         <div className="media-link-title">Trinkplatte</div>
         <div className="media-link-description">
           Bild einer eingefügten und befestigten Trinkplatte zum Verschluss des
@@ -694,9 +694,9 @@ function Lkg(props) {
       </div>
       <div data-media-id={3} data-media-type="image">
         <div className="data-media-thumbnail">
-          <img src="thumbs/klinik.jpg" />
+          <img src="thumbs/klinik.jpg" alt=""/>
         </div>
-        <img src="images/6a.png" />
+        <img src="images/6a.png" alt=""/>
         <div className="media-link-title">Lippenspalte präoperativ</div>
         <div className="media-link-description">
           Präopertives Bild einer isloierten Lippenspalte
@@ -704,9 +704,9 @@ function Lkg(props) {
       </div>
       <div data-media-id={4} data-media-type="image">
         <div className="data-media-thumbnail">
-          <img src="thumbs/klinik.jpg" />
+          <img src="thumbs/klinik.jpg" alt=""/>
         </div>
-        <img src="images/6b.png" />
+        <img src="images/6b.png" alt=""/>
         <div className="media-link-title">Lippenspalte postoperativ</div>
         <div className="media-link-description">
           Postoperatives Bild einer isolierten Lippenspalte.
@@ -714,9 +714,9 @@ function Lkg(props) {
       </div>
       <div data-media-id={5} data-media-type="image">
         <div className="data-media-thumbnail">
-          <img src="thumbs/klinik.jpg" />
+          <img src="thumbs/klinik.jpg" alt=""/>
         </div>
-        <img src="images/10b.png" />
+        <img src="images/10b.png" alt=""/>
         <div className="media-link-title">Präoperative Gaumenspalte</div>
         <div className="media-link-description">
           Präoperatives Bild einer isolierten Gaumenspalte.
@@ -724,9 +724,9 @@ function Lkg(props) {
       </div>
       <div data-media-id={6} data-media-type="image">
         <div className="data-media-thumbnail">
-          <img src="thumbs/klinik.jpg" />
+          <img src="thumbs/klinik.jpg" alt=""/>
         </div>
-        <img src="images/10a.png" />
+        <img src="images/10a.png" alt=""/>
         <div className="media-link-title">Postoperative Gaumenspalte</div>
         <div className="media-link-description">
           Unmittelbar postoperatives Bild einer mittels Stiellappen verschlossenen
@@ -735,9 +735,9 @@ function Lkg(props) {
       </div>
       <div data-media-id={7} data-media-type="image">
         <div className="data-media-thumbnail">
-          <img src="thumbs/klinik.jpg" />
+          <img src="thumbs/klinik.jpg" alt=""/>
         </div>
-        <img src="images/7b.png" />
+        <img src="images/7b.png" alt=""/>
         <div className="media-link-title">
           Doppelseitige Lippen-Kiefer-Gaumenspalte präoperativ
         </div>
@@ -748,9 +748,9 @@ function Lkg(props) {
       </div>
       <div data-media-id={8} data-media-type="image">
         <div className="data-media-thumbnail">
-          <img src="thumbs/klinik.jpg" />
+          <img src="thumbs/klinik.jpg" alt=""/>
         </div>
-        <img src="images/7d.png" />
+        <img src="images/7d.png" alt=""/>
         <div className="media-link-title">
           Doppelseitige Lippen-Kiefer-Gaumenspalte postoperativ
         </div>

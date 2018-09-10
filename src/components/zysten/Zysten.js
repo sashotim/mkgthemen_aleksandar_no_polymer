@@ -202,7 +202,7 @@ function Zysten(props) {
         </table>
         <p />
         <div className="startGallery imageContainer" data-gallery-item={1}>
-          <img src="thumbs/who_images.png" />
+          <img src="thumbs/who_images.png" alt=""/>
         </div>
         {/*<div class="imageContainer"><img src="thumbs/who_images.png"></div>*/}
         <p />
@@ -210,9 +210,9 @@ function Zysten(props) {
       <div className="links">
         <div data-media-id={1} data-media-type="image">
           <div className="data-media-thumbnail">
-            <img src="images/klinik.jpg" />
+            <img src="images/klinik.jpg" alt=""/>
           </div>
-          <img src="images/10a.png" />
+          <img src="images/10a.png" alt=""/>
           <div className="media-link-title">Kongenitale Ranula</div>
           <div className="media-link-description">
             Kongenitale Ranula im Bereich des vorderen Mundbodens bei einem Kind.
@@ -220,9 +220,9 @@ function Zysten(props) {
         </div>
         <div data-media-id={2} data-media-type="image">
           <div className="data-media-thumbnail">
-            <img src="images/klinik.jpg" />
+            <img src="images/klinik.jpg" alt=""/>
           </div>
-          <img src="images/10b.png" />
+          <img src="images/10b.png" alt=""/>
           <div className="media-link-title">Kongenitale Ranula</div>
           <div className="media-link-description">
             Kongenitale Ranula im bereich des vorderen Mundbodens bei einem Kind.
@@ -231,9 +231,9 @@ function Zysten(props) {
         </div>
         <div data-media-id={3} data-media-type="image">
           <div className="data-media-thumbnail">
-            <img src="images/klinik.jpg" />
+            <img src="images/klinik.jpg" alt=""/>
           </div>
-          <img src="images/10c.png" />
+          <img src="images/10c.png" alt=""/>
           <div className="media-link-title">Kongenitale Ranula</div>
           <div className="media-link-description">
             Die Ranula hat einen Durchmesser von ca. 6 mm.
@@ -241,9 +241,9 @@ function Zysten(props) {
         </div>
         <div data-media-id={4} data-media-type="image">
           <div className="data-media-thumbnail">
-            <img src="images/klinik.jpg" />
+            <img src="images/klinik.jpg" alt=""/>
           </div>
-          <img src="images/10d.png" />
+          <img src="images/10d.png" alt=""/>
           <div className="media-link-title">Kongenitale Ranula</div>
           <div className="media-link-description">
             Vorderer Mundboden nach Entfernung der Ranula.
@@ -251,9 +251,9 @@ function Zysten(props) {
         </div>
         <div data-media-id={5} data-media-type="image">
           <div className="data-media-thumbnail">
-            <img src="images/klinik.jpg" />
+            <img src="images/klinik.jpg" alt=""/>
           </div>
-          <img src="images/10e.png" />
+          <img src="images/10e.png" alt=""/>
           <div className="media-link-title">Kongenitale Ranula</div>
           <div className="media-link-description">
             Mit resorbierbaren Nahtmaterial verschlossener Mundboden nach Entfernung
@@ -301,7 +301,7 @@ function Zysten(props) {
           </tbody>
         </table>
         <div>
-          <img src="thumbs/haeufigkeiten.png" />
+          <img src="thumbs/haeufigkeiten.png" alt=""/>
         </div>
       </div>
       <div className="links" />
@@ -354,15 +354,15 @@ function Zysten(props) {
           </li>
         </ul>
         <div className="startGallery imageContainer">
-          <img src="thumbs/klinik_images.png" />
+          <img src="thumbs/klinik_images.png" alt=""/>
         </div>
       </div>
       <div className="links">
         <div data-media-id={1} data-media-type="image">
           <div className="data-media-thumbnail">
-            <img src="images/klinik.jpg" />
+            <img src="images/klinik.jpg" alt=""/>
           </div>
-          <img src="images/6.png" />
+          <img src="images/6.png" alt=""/>
           <div className="media-link-title">Asymmetrie des Gesichts</div>
           <div className="media-link-description">
             Asymmetrie des Gesichts bedingt durch eine Zyste im Unterkiefer.
@@ -370,9 +370,9 @@ function Zysten(props) {
         </div>
         <div data-media-id={2} data-media-type="image">
           <div className="data-media-thumbnail">
-            <img src="images/klinik.jpg" />
+            <img src="images/klinik.jpg" alt=""/>
           </div>
-          <img src="images/1c.png" />
+          <img src="images/1c.png" alt=""/>
           <div className="media-link-title">Knochenauftreibung</div>
           <div className="media-link-description">
             Knochenauftreibung des Unterkiefers, welche durch eine Zyste bedingt
@@ -381,9 +381,9 @@ function Zysten(props) {
         </div>
         <div data-media-id={3} data-media-type="image">
           <div className="data-media-thumbnail">
-            <img src="images/klinik.jpg" />
+            <img src="images/klinik.jpg" alt=""/>
           </div>
-          <img src="images/4a.png" />
+          <img src="images/4a.png" alt=""/>
           <div className="media-link-title">Knochenauftreibung</div>
           <div className="media-link-description">
             Knochenauftreibung im Bereich der Unterkieferfrontzähne, welche durch
@@ -435,31 +435,31 @@ function Zysten(props) {
           <li>Radikuläre Zyste Zystenlumen befindet sich um den Apex des Zahnes</li>
         </ul>
         <div className="startGallery imageContainer">
-          <img src="thumbs/diagnostik_images.png" />
+          <img src="thumbs/diagnostik_images.png" alt=""/>
         </div>
       </div>
       <div className="links">
         <div data-media-id={1} data-media-type="image">
           <div className="data-media-thumbnail">
-            <img src="images/klinik.jpg" />
+            <img src="images/klinik.jpg" alt=""/>
           </div>
-          <img src="images/12d.png" />
+          <img src="images/12d.png" alt=""/>
           <div className="media-link-title">OPT</div>
           <div className="media-link-description">Follikuläre Zyste regio 37</div>
         </div>
         <div data-media-id={2} data-media-type="image">
           <div className="data-media-thumbnail">
-            <img src="images/klinik.jpg" />
+            <img src="images/klinik.jpg" alt=""/>
           </div>
-          <img src="images/13.png" />
+          <img src="images/13.png" alt=""/>
           <div className="media-link-title">OPT</div>
           <div className="media-link-description">Radikuläre Zyste regio 35-42</div>
         </div>
         <div data-media-id={3} data-media-type="image">
           <div className="data-media-thumbnail">
-            <img src="images/klinik.jpg" />
+            <img src="images/klinik.jpg" alt=""/>
           </div>
-          <img src="images/1c.png" />
+          <img src="images/1c.png" alt=""/>
           <div className="media-link-title">Knochenauftreibung</div>
           <div className="media-link-description">
             Knochenauftreibung des Unterkiefers, welche durch eine Zyste bedingt
@@ -468,9 +468,9 @@ function Zysten(props) {
         </div>
         <div data-media-id={4} data-media-type="image">
           <div className="data-media-thumbnail">
-            <img src="images/klinik.jpg" />
+            <img src="images/klinik.jpg" alt=""/>
           </div>
-          <img src="images/4a.png" />
+          <img src="images/4a.png" alt=""/>
           <div className="media-link-title">Knochenauftreibung</div>
           <div className="media-link-description">
             Aufgetriebener Knochen im Bereich der Unterkieferfront, welcher durch
@@ -479,9 +479,9 @@ function Zysten(props) {
         </div>
         <div data-media-id={5} data-media-type="image">
           <div className="data-media-thumbnail">
-            <img src="images/klinik.jpg" />
+            <img src="images/klinik.jpg" alt=""/>
           </div>
-          <img src="images/6.png" />
+          <img src="images/6.png" alt=""/>
           <div className="media-link-title">Asymmetrie des Gesichts</div>
           <div className="media-link-description">
             Durch eine Zyste bedingte Asymmetrie des Gesichts.
@@ -514,15 +514,15 @@ function Zysten(props) {
           konvex begrenzt ist.
         </p>
         <p className="imageContainer startGallery">
-          <img src="thumbs/differentialdiagnose_images.png" />
+          <img src="thumbs/differentialdiagnose_images.png" alt=""/>
         </p>
       </div>
       <div className="links">
         <div data-media-id={1} data-media-type="image">
           <div className="data-media-thumbnail">
-            <img src="images/klinik.jpg" />
+            <img src="images/klinik.jpg" alt=""/>
           </div>
-          <img src="images/14.png" />
+          <img src="images/14.png" alt=""/>
           <div className="media-link-title">Zentrales Riesenzellgranulom</div>
           <div className="media-link-description">
             Zentrales Riesenzellgranulom, welches bis in die linke Kieferhöhle
@@ -531,9 +531,9 @@ function Zysten(props) {
         </div>
         <div data-media-id={2} data-media-type="image">
           <div className="data-media-thumbnail">
-            <img src="images/klinik.jpg" />
+            <img src="images/klinik.jpg" alt=""/>
           </div>
-          <img src="images/15a.png" />
+          <img src="images/15a.png" alt=""/>
           <div className="media-link-title">Odontogenes Myxom</div>
           <div className="media-link-description">
             Odontogenes Myxom im Bereich des Oberkiefers.
@@ -541,9 +541,9 @@ function Zysten(props) {
         </div>
         <div data-media-id={3} data-media-type="image">
           <div className="data-media-thumbnail">
-            <img src="images/klinik.jpg" />
+            <img src="images/klinik.jpg" alt=""/>
           </div>
-          <img src="images/15b.png" />
+          <img src="images/15b.png" alt=""/>
           <div className="media-link-title">Odontogenes Myxom</div>
           <div className="media-link-description">
             Odontogenes Myxom im Bereich des Oberkiefers.
@@ -551,9 +551,9 @@ function Zysten(props) {
         </div>
         <div data-media-id={4} data-media-type="image">
           <div className="data-media-thumbnail">
-            <img src="images/klinik.jpg" />
+            <img src="images/klinik.jpg" alt=""/>
           </div>
-          <img src="images/15c.png" />
+          <img src="images/15c.png" alt=""/>
           <div className="media-link-title">Odontogenes Myxom</div>
           <div className="media-link-description">
             Odontogenes Myxom im Bereich des Oberkiefers.
@@ -561,9 +561,9 @@ function Zysten(props) {
         </div>
         <div data-media-id={5} data-media-type="image">
           <div className="data-media-thumbnail">
-            <img src="images/klinik.jpg" />
+            <img src="images/klinik.jpg" alt=""/>
           </div>
-          <img src="images/16.png" />
+          <img src="images/16.png" alt=""/>
           <div className="media-link-title">Ameloblastom</div>
           <div className="media-link-description">Ameloblastom regio 34-36.</div>
         </div>
@@ -734,32 +734,32 @@ function Zysten(props) {
           <li>Fensterung der Zyste zur Kieferhöhle</li>
         </ul>
         <div className="startGallery" data-gallery-item={4}>
-          <img className="galleryPoster" src="thumbs/video9.png" />
+          <img className="galleryPoster" src="thumbs/video9.png" alt=""/>
           <p className="gallerieThumbDescription">aneurysmatische Zyste</p>
-          <img className="galleryPoster" src="thumbs/Play_experimentell.png" />
+        <img className="galleryPoster" src="thumbs/Play_experimentell.png" alt=""/>
         </div>
         <div className="startGallery" data-gallery-item={5}>
-          <img className="galleryPoster" src="thumbs/video10.png" />
+          <img className="galleryPoster" src="thumbs/video10.png" alt=""/>
           <p className="gallerieThumbDescription">Follikuläre Zyste</p>
-          <img className="galleryPoster" src="thumbs/Play_experimentell.png" />
+        <img className="galleryPoster" src="thumbs/Play_experimentell.png" alt=""/>
         </div>
         <div className="startGallery" data-gallery-item={6}>
-          <img className="galleryPoster" src="thumbs/video11.png" />
+          <img className="galleryPoster" src="thumbs/video11.png" alt=""/>
           <p className="gallerieThumbDescription">Zystektomie</p>
-          <img className="galleryPoster" src="thumbs/Play_experimentell.png" />
+        <img className="galleryPoster" src="thumbs/Play_experimentell.png" alt=""/>
         </div>
         <p>
           <span className="startGallery imageContainer">
-            <img src="thumbs/therapie_images.png" />
+            <img src="thumbs/therapie_images.png" alt=""/>
           </span>
         </p>
       </div>
       <div className="links">
         <div data-media-id={1} data-media-type="image">
           <div className="data-media-thumbnail">
-            <img src="images/klinik.jpg" />
+            <img src="images/klinik.jpg" alt=""/>
           </div>
-          <img src="images/6c.png" />
+          <img src="images/6c.png" alt=""/>
           <div className="media-link-title">Oberkieferzyste regio 13-23</div>
           <div className="media-link-description">
             In diesem Bild ist der Operationssitus mit der eröffneten Zyste
@@ -768,9 +768,9 @@ function Zysten(props) {
         </div>
         <div data-media-id={2} data-media-type="image">
           <div className="data-media-thumbnail">
-            <img src="images/klinik.jpg" />
+            <img src="images/klinik.jpg" alt=""/>
           </div>
-          <img src="images/6d.png" />
+          <img src="images/6d.png" alt=""/>
           <div className="media-link-title">
             Zyste mit kortikospngiösen Material
           </div>
@@ -781,9 +781,9 @@ function Zysten(props) {
         </div>
         <div data-media-id={3} data-media-type="image">
           <div className="data-media-thumbnail">
-            <img src="images/klinik.jpg" />
+            <img src="images/klinik.jpg" alt=""/>
           </div>
-          <img src="images/6a.png" />
+          <img src="images/6a.png" alt=""/>
           <div className="media-link-title">CT</div>
           <div className="media-link-description">
             In der Computertomographie ist das Zystenlumen und das verdrängende
@@ -826,15 +826,15 @@ function Zysten(props) {
           <li>Ramus ascendens der Mandibula</li>
         </ul>
         <div className="startGallery imageContainer">
-          <img src="thumbs/kortiko_images.png" />
+          <img src="thumbs/kortiko_images.png" alt=""/>
         </div>
       </div>
       <div className="links">
         <div data-media-id={1} data-media-type="image">
           <div className="data-media-thumbnail">
-            <img src="images/klinik.jpg" />
+            <img src="images/klinik.jpg" alt=""/>
           </div>
-          <img src="images/1.png" />
+          <img src="images/1.png" alt=""/>
           <div className="media-link-title">
             Kortikospongiöses Transplantat Tibia
           </div>
@@ -845,9 +845,9 @@ function Zysten(props) {
         </div>
         <div data-media-id={2} data-media-type="image">
           <div className="data-media-thumbnail">
-            <img src="images/klinik.jpg" />
+            <img src="images/klinik.jpg" alt=""/>
           </div>
-          <img src="images/2.png" />
+          <img src="images/2.png" alt=""/>
           <div className="media-link-title">
             Kortikospongiöses Transplantat Tibia
           </div>
@@ -857,9 +857,9 @@ function Zysten(props) {
         </div>
         <div data-media-id={3} data-media-type="image">
           <div className="data-media-thumbnail">
-            <img src="images/klinik.jpg" />
+            <img src="images/klinik.jpg" alt=""/>
           </div>
-          <img src="images/6e_1.png" />
+          <img src="images/6e_1.png" alt=""/>
           <div className="media-link-title">Kortikospongiöses Material Becken</div>
           <div className="media-link-description">
             Dargestellt ist hier das entnommene kortikospongiöse Material vom
@@ -868,9 +868,9 @@ function Zysten(props) {
         </div>
         <div data-media-id={4} data-media-type="image">
           <div className="data-media-thumbnail">
-            <img src="images/klinik.jpg" />
+            <img src="images/klinik.jpg" alt=""/>
           </div>
-          <img src="images/3.png" />
+          <img src="images/3.png" alt=""/>
           <div className="media-link-title">
             Kortikospongiöses Transplantat Tibia
           </div>
@@ -880,9 +880,9 @@ function Zysten(props) {
         </div>
         <div data-media-id={5} data-media-type="image">
           <div className="data-media-thumbnail">
-            <img src="images/klinik.jpg" />
+            <img src="images/klinik.jpg" alt=""/>
           </div>
-          <img src="images/4.png" />
+          <img src="images/4.png" alt=""/>
           <div className="media-link-title">
             Kortikospongiöses Transplantat Tibia
           </div>
@@ -892,9 +892,9 @@ function Zysten(props) {
         </div>
         <div data-media-id={6} data-media-type="image">
           <div className="data-media-thumbnail">
-            <img src="images/klinik.jpg" />
+            <img src="images/klinik.jpg" alt=""/>
           </div>
-          <img src="images/6_1.png" />
+          <img src="images/6_1.png" alt=""/>
           <div className="media-link-title">
             Kortikospongiöses Transplantat Tibia
           </div>
@@ -904,9 +904,9 @@ function Zysten(props) {
         </div>
         <div data-media-id={7} data-media-type="image">
           <div className="data-media-thumbnail">
-            <img src="images/klinik.jpg" />
+            <img src="images/klinik.jpg" alt=""/>
           </div>
-          <img src="images/7.png" />
+          <img src="images/7.png" alt=""/>
           <div className="media-link-title">
             Kortikospongiöses Transplantat Tibia
           </div>
@@ -948,15 +948,15 @@ function Zysten(props) {
           Anomalien und Verkalkung der Falx cerebri) assoziiert.
         </p>
         <div className="startGallery imageContainer">
-          <img src="thumbs/keratozyste_images.png" />
+          <img src="thumbs/keratozyste_images.png" alt=""/>
         </div>
       </div>
       <div className="links">
         <div data-media-id={1} data-media-type="image">
           <div className="data-media-thumbnail">
-            <img src="images/klinik.jpg" />
+            <img src="images/klinik.jpg" alt=""/>
           </div>
-          <img src="images/11.png" />
+          <img src="images/11.png" alt=""/>
           <div className="media-link-title">Keratozyste OPT</div>
           <div className="media-link-description">
             Keratozystischer Tumor regio 48.
@@ -964,9 +964,9 @@ function Zysten(props) {
         </div>
         <div data-media-id={2} data-media-type="image">
           <div className="data-media-thumbnail">
-            <img src="images/klinik.jpg" />
+            <img src="images/klinik.jpg" alt=""/>
           </div>
-          <img src="images/12.png" />
+          <img src="images/12.png" alt=""/>
           <div className="media-link-title">Keratozyste DVT</div>
           <div className="media-link-description">
             Keratozystischer Tumor regio 48.

@@ -19,7 +19,7 @@ function Kraniosynostosen(props) {
     <p>&nbsp;</p>;
     <p>
       <span className="startGallery" data-gallery-item={1}>
-        <img src="thumbs/1_1.png" alt="Definition" />
+        <img src="thumbs/1_1.png" alt="Definition"/>
       </span>
     </p>;
     <p>&nbsp;</p>;
@@ -58,13 +58,13 @@ function Kraniosynostosen(props) {
 
     <p>
       <span className="startGallery" data-gallery-item={2}>
-        <img src="thumbs/2.png" alt="Anatomie Schädelnähte kranial" />
+        <img src="thumbs/2.png" alt="Anatomie Schädelnähte kranial"/>
       </span>
     </p>;
 
     <p>
       <span className="startGallery" data-gallery-item={3}>
-        <img src="thumbs/3_1.png" alt="Anatomie Schädelnähte lateral" />
+        <img src="thumbs/3_1.png" alt="Anatomie Schädelnähte lateral"/>
       </span>
     </p>;
 
@@ -137,13 +137,13 @@ function Kraniosynostosen(props) {
 
     <p>
       <span className="startGallery" data-gallery-item={5}>
-        <img src="thumbs/hypertelorismus%2520klein.png" alt="Hypertelorismus" />
+        <img src="thumbs/hypertelorismus%2520klein.png" alt="Hypertelorismus"/>
       </span>
     </p>;
 
     <p>
       <span className="startGallery" data-gallery-item={6}>
-        <img src="thumbs/hypotelorismus%2520klein.png" alt="Hypotelorismus" />
+        <img src="thumbs/hypotelorismus%2520klein.png" alt="Hypotelorismus"/>
       </span>
     </p>;
 
@@ -151,9 +151,9 @@ function Kraniosynostosen(props) {
     <div className="links">
       <div data-media-id={1} data-media-type="image">
         <div className="data-media-thumbnail">
-          <img src="thumbs/klinik.png" />
+          <img src="thumbs/klinik.png" alt=""/>
         </div>
-        <img src="images/1_1.png" />
+        <img src="images/1_1.png" alt=""/>
         <div className="media-link-title">Definition&nbsp;</div>
         <div className="media-link-description">
           Die rote Linie trennt das Viszero- vom Neurokranium.&nbsp;
@@ -161,9 +161,9 @@ function Kraniosynostosen(props) {
       </div>
       <div data-media-id={2} data-media-type="image">
         <div className="data-media-thumbnail">
-          <img src="thumbs/klinik.png" />
+          <img src="thumbs/klinik.png" alt=""/>
         </div>
-        <img src="images/2.png" />
+        <img src="images/2.png" alt=""/>
         <div className="media-link-title">Anatomie Schädelnähte</div>
         <div className="media-link-description">
           Anatomie des Schädelnähte von kranial.
@@ -171,9 +171,9 @@ function Kraniosynostosen(props) {
       </div>
       <div data-media-id={3} data-media-type="image">
         <div className="data-media-thumbnail">
-          <img src="thumbs/klinik.png" />
+          <img src="thumbs/klinik.png" alt=""/>
         </div>
-        <img src="images/3_1.png" />
+        <img src="images/3_1.png" alt=""/>
         <div className="media-link-title">Anatomie Schädelnähte</div>
         <div className="media-link-description">
           Anatomie des Schädelnähte von lateral.
@@ -181,25 +181,25 @@ function Kraniosynostosen(props) {
       </div>
       <div data-media-id={4} data-media-type="image">
         <div className="data-media-thumbnail">
-          <img src="thumbs/klinik.png" />
+          <img src="thumbs/klinik.png" alt=""/>
         </div>
-        <img src="images/normal%2520klein.png" />
+        <img src="images/normal%2520klein.png" alt=""/>
         <div className="media-link-title">Augenabstand</div>
         <div className="media-link-description">Normaler Augenabstand.</div>
       </div>
       <div data-media-id={5} data-media-type="image">
         <div className="data-media-thumbnail">
-          <img src="thumbs/klinik.png" />
+          <img src="thumbs/klinik.png" alt=""/>
         </div>
-        <img src="images/hypertelorismus%2520klein.png" />
+        <img src="images/hypertelorismus%2520klein.png" alt=""/>
         <div className="media-link-title">Hypertelorismus</div>
         <div className="media-link-description">Vergrößerter Augenabstand</div>
       </div>
       <div data-media-id={6} data-media-type="image">
         <div className="data-media-thumbnail">
-          <img src="thumbs/klinik.png" />
+          <img src="thumbs/klinik.png" alt=""/>
         </div>
-        <img src="images/hypotelorismus%2520klein.png" />
+        <img src="images/hypotelorismus%2520klein.png" alt=""/>
         <div className="media-link-title">Hypotelorismus</div>
         <div className="media-link-description">Verkleinerter Augenabstand</div>
       </div>
@@ -289,7 +289,7 @@ function Kraniosynostosen(props) {
       <p>&nbsp;</p>
       <p>
         <span className="startGallery" data-gallery-item={1}>
-          <img src="thumbs/schiefkopf_images.png" alt="Fehlbildungen" />
+          <img src="thumbs/schiefkopf_images.png" alt="Fehlbildungen"/>
         </span>
       </p>
       <p>
@@ -402,7 +402,7 @@ function Kraniosynostosen(props) {
       <p>&nbsp;</p>
       <p>
         <span className="startGallery" data-gallery-item={5}>
-          <img src="thumbs/trigonozephalus_images.png" alt="Fehlbildungen 2" />
+          <img src="thumbs/trigonozephalus_images.png" alt="Fehlbildungen 2"/>
         </span>
       </p>
       <p>
@@ -450,41 +450,41 @@ function Kraniosynostosen(props) {
     <div className="links">
       <div data-media-id={1} data-media-type="image">
         <div className="data-media-thumbnail">
-          <img src="thumbs/klinik.png" />
+          <img src="thumbs/klinik.png" alt=""/>
         </div>
-        <img src="images/schiefkopf.png" />
+        <img src="images/schiefkopf.png" alt=""/>
         <div className="media-link-title">Fehlbildungen</div>
         <div className="media-link-description">Schiefkopf von oben.</div>
       </div>
       <div data-media-id={2} data-media-type="image">
         <div className="data-media-thumbnail">
-          <img src="thumbs/klinik.png" />
+          <img src="thumbs/klinik.png" alt=""/>
         </div>
-        <img src="images/kurzkopf.png" />
+        <img src="images/kurzkopf.png" alt=""/>
         <div className="media-link-title">Fehlbildungen</div>
         <div className="media-link-description">Kurzkopf von oben.</div>
       </div>
       <div data-media-id={3} data-media-type="image">
         <div className="data-media-thumbnail">
-          <img src="thumbs/klinik.png" />
+          <img src="thumbs/klinik.png" alt=""/>
         </div>
-        <img src="images/schief-kurzkopf.png" />
+        <img src="images/schief-kurzkopf.png" alt=""/>
         <div className="media-link-title">Fehlbildungen</div>
         <div className="media-link-description">Schief-Kurzkopf von oben.</div>
       </div>
       <div data-media-id={4} data-media-type="image">
         <div className="data-media-thumbnail">
-          <img src="thumbs/klinik.png" />
+          <img src="thumbs/klinik.png" alt=""/>
         </div>
-        <img src="images/windschiefer_kopf.png" />
+        <img src="images/windschiefer_kopf.png" alt=""/>
         <div className="media-link-title">Fehlbildungen</div>
         <div className="media-link-description">Windschiefer Kopf von oben.</div>
       </div>
       <div data-media-id={5} data-media-type="image">
         <div className="data-media-thumbnail">
-          <img src="thumbs/klinik.png" />
+          <img src="thumbs/klinik.png" alt=""/>
         </div>
-        <img src="images/trigonozephalus.png" />
+        <img src="images/trigonozephalus.png" alt=""/>
         <div className="media-link-title">Fehlbildungen</div>
         <div className="media-link-description">
           Trigonozephalus von oben.&nbsp;
@@ -492,9 +492,9 @@ function Kraniosynostosen(props) {
       </div>
       <div data-media-id={6} data-media-type="image">
         <div className="data-media-thumbnail">
-          <img src="thumbs/klinik.png" />
+          <img src="thumbs/klinik.png" alt=""/>
         </div>
-        <img src="images/trigonozephalus2.png" />
+        <img src="images/trigonozephalus2.png" alt=""/>
         <div className="media-link-title">Fehlbildungen</div>
         <div className="media-link-description">
           Knöcherner Schädel eines Trigonozephalus.
@@ -502,33 +502,33 @@ function Kraniosynostosen(props) {
       </div>
       <div data-media-id={7} data-media-type="image">
         <div className="data-media-thumbnail">
-          <img src="thumbs/klinik.png" />
+          <img src="thumbs/klinik.png" alt=""/>
         </div>
-        <img src="images/brachzephalus.png" />
+        <img src="images/brachzephalus.png" alt=""/>
         <div className="media-link-title">Fehlbildungen</div>
         <div className="media-link-description">Brachyzephalus von der Seite.</div>
       </div>
       <div data-media-id={8} data-media-type="image">
         <div className="data-media-thumbnail">
-          <img src="thumbs/klinik.png" />
+          <img src="thumbs/klinik.png" alt=""/>
         </div>
-        <img src="images/brachzephalus2.png" />
+        <img src="images/brachzephalus2.png" alt=""/>
         <div className="media-link-title">Fehlbildungen</div>
         <div className="media-link-description">Brachyzephalus von vorne.</div>
       </div>
       <div data-media-id={9} data-media-type="image">
         <div className="data-media-thumbnail">
-          <img src="thumbs/klinik.png" />
+          <img src="thumbs/klinik.png" alt=""/>
         </div>
-        <img src="images/skaphozephalus.png" />
+        <img src="images/skaphozephalus.png" alt=""/>
         <div className="media-link-title">Skaphozephalus</div>
         <div className="media-link-description">Skaphozephalus von oben.</div>
       </div>
       <div data-media-id={10} data-media-type="image">
         <div className="data-media-thumbnail">
-          <img src="thumbs/klinik.png" />
+          <img src="thumbs/klinik.png" alt=""/>
         </div>
-        <img src="images/skaphozephalus2.png" />
+        <img src="images/skaphozephalus2.png" alt=""/>
         <div className="media-link-title">Fehlbildungen</div>
         <div className="media-link-description">
           Skaphozephalus von der Seite.&nbsp;
@@ -536,17 +536,17 @@ function Kraniosynostosen(props) {
       </div>
       <div data-media-id={11} data-media-type="image">
         <div className="data-media-thumbnail">
-          <img src="thumbs/klinik.png" />
+          <img src="thumbs/klinik.png" alt=""/>
         </div>
-        <img src="images/plagiozephalus.png" />
+        <img src="images/plagiozephalus.png" alt=""/>
         <div className="media-link-title">Fehlbildungen</div>
         <div className="media-link-description">Plagiozephalus von vorne.</div>
       </div>
       <div data-media-id={12} data-media-type="image">
         <div className="data-media-thumbnail">
-          <img src="thumbs/klinik.png" />
+          <img src="thumbs/klinik.png" alt=""/>
         </div>
-        <img src="images/plagiozephalus2.png" />
+        <img src="images/plagiozephalus2.png" alt=""/>
         <div className="media-link-title">Fehlbildungen</div>
         <div className="media-link-description">
           Schädel eines Plagiozephalus.&nbsp;
@@ -554,17 +554,17 @@ function Kraniosynostosen(props) {
       </div>
       <div data-media-id={13} data-media-type="image">
         <div className="data-media-thumbnail">
-          <img src="thumbs/klinik.png" />
+          <img src="thumbs/klinik.png" alt=""/>
         </div>
-        <img src="images/oxyzephalus.png" />
+        <img src="images/oxyzephalus.png" alt=""/>
         <div className="media-link-title">Fehlbildungen</div>
         <div className="media-link-description">Oxyzephalus von der Seite.</div>
       </div>
       <div data-media-id={14} data-media-type="image">
         <div className="data-media-thumbnail">
-          <img src="thumbs/klinik.png" />
+          <img src="thumbs/klinik.png" alt=""/>
         </div>
-        <img src="images/fehlbildungen.png" />
+        <img src="images/fehlbildungen.png" alt=""/>
         <div className="media-link-title">Fehlbildungen</div>
         <div className="media-link-description">
           a) Trigonozephalusb) Plagiozephalusc) Oxyzephalusd) Brachyzephaluse)
@@ -691,7 +691,7 @@ function Kraniosynostosen(props) {
       </ul>
       <p>
         <span className="startGallery" data-gallery-item={1}>
-          <img src="thumbs/therapie1_images.png" alt="Therapie" />
+          <img src="thumbs/therapie1_images.png" alt="Therapie"/>
         </span>
       </p>
       <p>&nbsp;</p>
@@ -731,9 +731,9 @@ function Kraniosynostosen(props) {
     <div className="links">
       <div data-media-id={1} data-media-type="image">
         <div className="data-media-thumbnail">
-          <img src="thumbs/klinik.png" />
+          <img src="thumbs/klinik.png" alt=""/>
         </div>
-        <img src="images/therapie1.png" />
+        <img src="images/therapie1.png" alt=""/>
         <div className="media-link-title">Therapie</div>
         <div className="media-link-description">
           Freigelegter Schädelknochen mit eingezeichneter Schnittführung.&nbsp;
@@ -741,9 +741,9 @@ function Kraniosynostosen(props) {
       </div>
       <div data-media-id={2} data-media-type="image">
         <div className="data-media-thumbnail">
-          <img src="thumbs/klinik.png" />
+          <img src="thumbs/klinik.png" alt=""/>
         </div>
-        <img src="images/therapie2.png" />
+        <img src="images/therapie2.png" alt=""/>
         <div className="media-link-title">Therapie</div>
         <div className="media-link-description">
           Laterale Trepanation des Schädels.
@@ -751,9 +751,9 @@ function Kraniosynostosen(props) {
       </div>
       <div data-media-id={3} data-media-type="image">
         <div className="data-media-thumbnail">
-          <img src="thumbs/klinik.png" />
+          <img src="thumbs/klinik.png" alt=""/>
         </div>
-        <img src="images/therapie3.png" />
+        <img src="images/therapie3.png" alt=""/>
         <div className="media-link-title">Therapie</div>
         <div className="media-link-description">
           Duradissektion und Kraniotomie des frontalen Knochendeckels.&nbsp;
@@ -761,9 +761,9 @@ function Kraniosynostosen(props) {
       </div>
       <div data-media-id={4} data-media-type="image">
         <div className="data-media-thumbnail">
-          <img src="thumbs/klinik.png" />
+          <img src="thumbs/klinik.png" alt=""/>
         </div>
-        <img src="images/therapie4.png" />
+        <img src="images/therapie4.png" alt=""/>
         <div className="media-link-title">Therapie</div>
         <div className="media-link-description">
           Freiliegende Dura mater nach vollständiger Lösung und Entfernung des
@@ -772,9 +772,9 @@ function Kraniosynostosen(props) {
       </div>
       <div data-media-id={5} data-media-type="image">
         <div className="data-media-thumbnail">
-          <img src="thumbs/klinik.png" />
+          <img src="thumbs/klinik.png" alt=""/>
         </div>
-        <img src="images/therapie5.png" />
+        <img src="images/therapie5.png" alt=""/>
         <div className="media-link-title">Therapie</div>
         <div className="media-link-description">
           Herausgelöste Stücke des Schädelknochens.&nbsp;
@@ -782,9 +782,9 @@ function Kraniosynostosen(props) {
       </div>
       <div data-media-id={6} data-media-type="image">
         <div className="data-media-thumbnail">
-          <img src="thumbs/klinik.png" />
+          <img src="thumbs/klinik.png" alt=""/>
         </div>
-        <img src="images/therapie6.png" />
+        <img src="images/therapie6.png" alt=""/>
         <div className="media-link-title">Therapie</div>
         <div className="media-link-description">
           Fräsen von kleinen Rillen an der inneren Kortikalis&nbsp;zur Ausformung
@@ -793,9 +793,9 @@ function Kraniosynostosen(props) {
       </div>
       <div data-media-id={7} data-media-type="image">
         <div className="data-media-thumbnail">
-          <img src="thumbs/klinik.png" />
+          <img src="thumbs/klinik.png" alt=""/>
         </div>
-        <img src="images/therapie7.png" />
+        <img src="images/therapie7.png" alt=""/>
         <div className="media-link-title">Therapie</div>
         <div className="media-link-description">
           Einlagerung des angepassten und geschwächten Knochendeckels sowie Fixation
@@ -804,9 +804,9 @@ function Kraniosynostosen(props) {
       </div>
       <div data-media-id={8} data-media-type="image">
         <div className="data-media-thumbnail">
-          <img src="thumbs/klinik.png" />
+          <img src="thumbs/klinik.png" alt=""/>
         </div>
-        <img src="images/therapie8.png" />
+        <img src="images/therapie8.png" alt=""/>
         <div className="media-link-title">Therapie&nbsp;</div>
         <div className="media-link-description">
           Vollständige Reposition und Fixierung des Knochendeckels.&nbsp;
@@ -857,7 +857,7 @@ function Kraniosynostosen(props) {
         <p>&nbsp;</p>
         <p>
           <span className="startGallery" data-gallery-item={1}>
-            <img src="thumbs/morbus_crouzon.png" alt="Morbus Crouzon" />
+            <img src="thumbs/morbus_crouzon.png" alt="Morbus Crouzon"/>
           </span>
         </p>
         <p>
@@ -887,7 +887,7 @@ function Kraniosynostosen(props) {
         </p>
         <p>
           <span className="startGallery" data-gallery-item={2}>
-            <img src="thumbs/apert1_images.png" alt="Apert" />
+            <img src="thumbs/apert1_images.png" alt="Apert"/>
           </span>
         </p>
         <p>
@@ -924,7 +924,7 @@ function Kraniosynostosen(props) {
         </p>
         <p>
           <span className="startGallery" data-gallery-item={6}>
-            <img src="thumbs/pfeiffer(typ2).png" alt="Pfeiffer" />
+            <img src="thumbs/pfeiffer(typ2).png" alt="Pfeiffer"/>
           </span>
         </p>
         <p>&nbsp;</p>
@@ -954,49 +954,49 @@ function Kraniosynostosen(props) {
       <div className="links">
         <div data-media-id={1} data-media-type="image">
           <div className="data-media-thumbnail">
-            <img src="thumbs/klinik.png" />
+            <img src="thumbs/klinik.png" alt=""/>
           </div>
-          <img src="images/morbus_crouzon.png" />
+          <img src="images/morbus_crouzon.png" alt=""/>
           <div className="media-link-title">Syndromale Erkrankungen</div>
           <div className="media-link-description">Morbus Crouzon</div>
         </div>
         <div data-media-id={2} data-media-type="image">
           <div className="data-media-thumbnail">
-            <img src="thumbs/klinik.png" />
+            <img src="thumbs/klinik.png" alt=""/>
           </div>
-          <img src="images/apert1.png" />
+          <img src="images/apert1.png" alt=""/>
           <div className="media-link-title">Syndromale Erkrankungen</div>
           <div className="media-link-description">Apert-Syndrom</div>
         </div>
         <div data-media-id={3} data-media-type="image">
           <div className="data-media-thumbnail">
-            <img src="thumbs/klinik.png" />
+            <img src="thumbs/klinik.png" alt=""/>
           </div>
-          <img src="images/apert2.png" />
+          <img src="images/apert2.png" alt=""/>
           <div className="media-link-title">Syndromale Erkrankungen</div>
           <div className="media-link-description">Apert-Syndrom</div>
         </div>
         <div data-media-id={4} data-media-type="image">
           <div className="data-media-thumbnail">
-            <img src="thumbs/klinik.png" />
+            <img src="thumbs/klinik.png" alt=""/>
           </div>
-          <img src="images/apert3.png" />
+          <img src="images/apert3.png" alt=""/>
           <div className="media-link-title">Syndromale Erkrankungen</div>
           <div className="media-link-description">Apert-Syndrom</div>
         </div>
         <div data-media-id={5} data-media-type="image">
           <div className="data-media-thumbnail">
-            <img src="thumbs/klinik.png" />
+            <img src="thumbs/klinik.png" alt=""/>
           </div>
-          <img src="images/apert4.png" />
+          <img src="images/apert4.png" alt=""/>
           <div className="media-link-title">Syndromale Erkrankungen</div>
           <div className="media-link-description">Apert-Syndrom</div>
         </div>
         <div data-media-id={6} data-media-type="image">
           <div className="data-media-thumbnail">
-            <img src="thumbs/klinik.png" />
+            <img src="thumbs/klinik.png" alt=""/>
           </div>
-          <img src="images/pfeiffer(typ2).png" />
+          <img src="images/pfeiffer(typ2).png" alt=""/>
           <div className="media-link-title">Syndromale Erkrankungen</div>
           <div className="media-link-description">
             Kleeblatt-Schädel beim Pfeiffer-Syndrom.

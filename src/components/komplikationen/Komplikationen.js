@@ -50,7 +50,7 @@ function Komplikationen(props) {
         alt="Weisheitszahnextraktion"
       />
       <p className="gallerieThumbDescription">Weisheitszahnextraktion</p>
-      <img className="galleryPoster" src="thumbs/Play_experimentell.png" />
+    <img className="galleryPoster" src="thumbs/Play_experimentell.png" alt=""/>
     </div>;
 
     <p>
@@ -118,7 +118,7 @@ function Komplikationen(props) {
     </ul>;
 
     <div className="startGallery imageContainer" data-gallery-item={1}>
-      <img src="thumbs/teilschädigung_nerv.png" alt="Axonotmesis" />
+      <img src="thumbs/teilschädigung_nerv.png" alt="Axonotmesis"/>
     </div>;
 
     <p>&nbsp;</p>;
@@ -244,7 +244,7 @@ function Komplikationen(props) {
         alt="Nervtransposition"
       />
       <p className="gallerieThumbDescription">Nervtransposition</p>
-      <img className="galleryPoster" src="thumbs/Play_experimentell.png" />
+    <img className="galleryPoster" src="thumbs/Play_experimentell.png" alt=""/>
     </div>;
 
                 <p>&nbsp;</p>
@@ -275,7 +275,7 @@ function Komplikationen(props) {
     </ul>;
 
     <div className="startGallery imageContainer" data-gallery-item={2}>
-      <img src="thumbs/atherom.png" alt="Abszess" />
+      <img src="thumbs/atherom.png" alt="Abszess"/>
     </div>;
     <p>
       Im Falle einer Abszessbildung gilt auch heute noch der Grundsatz "ubi pus, ibi
@@ -370,9 +370,9 @@ function Komplikationen(props) {
     </p>
                 <p>&nbsp;</p>
     <div className="startGallery" data-gallery-item={7}>
-      <img className="galleryPoster" src="thumbs/video2.png" />
+      <img className="galleryPoster" src="thumbs/video2.png" alt=""/>
       <p className="gallerieThumbDescription">Weisheitszahn Komplikationen</p>
-      <img className="galleryPoster" src="thumbs/Play_experimentell.png" />
+    <img className="galleryPoster" src="thumbs/Play_experimentell.png" alt=""/>
     </div>;
 
 
@@ -396,9 +396,9 @@ function Komplikationen(props) {
     <div className="links">
                 <div data-media-id={1} data-media-type="image">
                   <div className="data-media-thumbnail">
-    <img src="thumbs/klinik.jpg" />
+    <img src="thumbs/klinik.jpg" alt=""/>
     </div>
-                  <img src="images/teilsch%C3%A4digung_nerv.png" />
+                  <img src="images/teilsch%C3%A4digung_nerv.png" alt=""/>
                   <div className="media-link-title">Axonotmesis</div>
                   <div className="media-link-description">
     Gezeigt ist eine Teilschädigung des N. alveolaris inferior.
@@ -406,9 +406,9 @@ function Komplikationen(props) {
                 </div>
                 <div data-media-id={2} data-media-type="image">
                   <div className="data-media-thumbnail">
-    <img src="thumbs/klinik.jpg" />
+    <img src="thumbs/klinik.jpg" alt=""/>
     </div>
-                  <img src="images/atherom.png" />
+                  <img src="images/atherom.png" alt=""/>
                   <div className="media-link-title">Abszess</div>
                   <div className="media-link-description">Auf dem Bild ist eine deutliche Entzündung des Weichgewebes erkennbar.
                     Die Entzündung ist ausgehend von einer infizierten Extraktionsalveole regio 48.
@@ -416,9 +416,9 @@ function Komplikationen(props) {
                 </div>
                 <div data-media-id={3} data-media-type="image">
                   <div className="data-media-thumbnail">
-    <img src="thumbs/klinik.jpg" />
+    <img src="thumbs/klinik.jpg" alt=""/>
     </div>
-                  <img src="images/haematom_nach_x.png" />
+                  <img src="images/haematom_nach_x.png" alt=""/>
                   <div className="media-link-title">Hämatom</div>
                   <div className="media-link-description">Gezeigt ist eine massiven Einblutung des Mundbodens nach einer
                     Zahnextraktion.
@@ -426,9 +426,9 @@ function Komplikationen(props) {
                 </div>
                 <div data-media-id={4} data-media-type="image">
                   <div className="data-media-thumbnail">
-    <img src="thumbs/klinik.jpg" />
+    <img src="thumbs/klinik.jpg" alt=""/>
     </div>
-                  <img src="images/frakturnachzahnx.png" />
+                  <img src="images/frakturnachzahnx.png" alt=""/>
                   <div className="media-link-title">
     Fraktur nach Zahnextraktion
     </div>
@@ -559,7 +559,7 @@ function Komplikationen(props) {
           </li>
         </ul>
         <div className="startGallery imageContainer" data-gallery-item={4}>
-          <img src="thumbs/lostinspace_images.png" alt="Lost in Space" />
+          <img src="thumbs/lostinspace_images.png" alt="Lost in Space"/>
         </div>
         <p>&nbsp;</p>
         <p>
@@ -580,9 +580,9 @@ function Komplikationen(props) {
       <div className="links">
         <div data-media-id={1} data-media-type="image">
           <div className="data-media-thumbnail">
-            <img src="thumbs/klinik.jpg" />
+            <img src="thumbs/klinik.jpg" alt=""/>
           </div>
-          <img src="images/fraktur_nach_implantation.png" />
+          <img src="images/fraktur_nach_implantation.png" alt=""/>
           <div className="media-link-title">Fraktur nach Implantation</div>
           <div className="media-link-description">
             Im OPT ist eine Fraktur in regio 044 in unmittelbarer Nähe des
@@ -591,9 +591,9 @@ function Komplikationen(props) {
         </div>
         <div data-media-id={2} data-media-type="image">
           <div className="data-media-thumbnail">
-            <img src="thumbs/klinik.jpg" />
+            <img src="thumbs/klinik.jpg" alt=""/>
           </div>
-          <img src="images/fraktur_nach_implantation2.png" />
+          <img src="images/fraktur_nach_implantation2.png" alt=""/>
           <div className="media-link-title">Fraktur nach Implantation</div>
           <div className="media-link-description">
             Fraktur des Unterkiefers nach Implantation in regio 034.
@@ -601,9 +601,9 @@ function Komplikationen(props) {
         </div>
         <div data-media-id={3} data-media-type="image">
           <div className="data-media-thumbnail">
-            <img src="thumbs/klinik.jpg" />
+            <img src="thumbs/klinik.jpg" alt=""/>
           </div>
-          <img src="images/fraktur_nach_implantation3.png" />
+          <img src="images/fraktur_nach_implantation3.png" alt=""/>
           <div className="media-link-title">Fraktur nach Implantation</div>
           <div className="media-link-description">
             Klinisches Beispiel einer Fraktur durch die Einsetzung eines Implantats.
@@ -611,9 +611,9 @@ function Komplikationen(props) {
         </div>
         <div data-media-id={4} data-media-type="image">
           <div className="data-media-thumbnail">
-            <img src="thumbs/klinik.jpg" />
+            <img src="thumbs/klinik.jpg" alt=""/>
           </div>
-          <img src="images/lostinspace.png" />
+          <img src="images/lostinspace.png" alt=""/>
           <div className="media-link-title">Lost in space</div>
           <div className="media-link-description">
             Auf dem Bild ist die Dislokation eines Implantats gezeigt, welches
@@ -622,9 +622,9 @@ function Komplikationen(props) {
         </div>
         <div data-media-id={5} data-media-type="image">
           <div className="data-media-thumbnail">
-            <img src="thumbs/klinik.jpg" />
+            <img src="thumbs/klinik.jpg" alt=""/>
           </div>
-          <img src="images/lostinspace3.png" />
+          <img src="images/lostinspace3.png" alt=""/>
           <div className="media-link-title">Lost in space</div>
           <div className="media-link-description">
             Gezeigt ist ein disloziertes Implantat in der Nasenhaupthöhle.
@@ -632,9 +632,9 @@ function Komplikationen(props) {
         </div>
         <div data-media-id={6} data-media-type="image">
           <div className="data-media-thumbnail">
-            <img src="thumbs/klinik.jpg" />
+            <img src="thumbs/klinik.jpg" alt=""/>
           </div>
-          <img src="images/lostinspace4.png" />
+          <img src="images/lostinspace4.png" alt=""/>
           <div className="media-link-title">Lost in space</div>
           <div className="media-link-description">
             Gezeigt ist ein disloziertes Implantat in der Nasenhaupthöhle.
@@ -642,9 +642,9 @@ function Komplikationen(props) {
         </div>
         <div data-media-id={7} data-media-type="image">
           <div className="data-media-thumbnail">
-            <img src="thumbs/klinik.jpg" />
+            <img src="thumbs/klinik.jpg" alt=""/>
           </div>
-          <img src="images/lostinspace2.png" />
+          <img src="images/lostinspace2.png" alt=""/>
           <div className="media-link-title">Lost in space</div>
           <div className="media-link-description">
             Implantat, welches nach einem osteoplastischen Kieferhöhlenzugang unter
@@ -653,9 +653,9 @@ function Komplikationen(props) {
         </div>
         <div data-media-id={8} data-media-type="image">
           <div className="data-media-thumbnail">
-            <img src="thumbs/klinik.jpg" />
+            <img src="thumbs/klinik.jpg" alt=""/>
           </div>
-          <img src="images/periimplantitis_schema.png" />
+          <img src="images/periimplantitis_schema.png" alt=""/>
           <div className="media-link-title">Schema Periimplantitis</div>
           <div className="media-link-description">Schema Periimplantitis</div>
         </div>
@@ -697,9 +697,9 @@ function Komplikationen(props) {
     <div className="links">
       <div data-media-id={1} data-media-type="image">
         <div className="data-media-thumbnail">
-          <img src="thumbs/klinik.jpg" />
+          <img src="thumbs/klinik.jpg" alt=""/>
         </div>
-        <img src="images/schneiderschemembran.png" />
+        <img src="images/schneiderschemembran.png" alt=""/>
         <div className="media-link-title">Perforierte Schneider'sche Membran</div>
         <div className="media-link-description">
           Perforierte Schneider'sche Membran bei einem osteoplastischen

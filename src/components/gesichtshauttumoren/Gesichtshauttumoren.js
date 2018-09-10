@@ -68,9 +68,9 @@ function Gesichtshauttumoren(props) {
   <div className="links">
     <div data-media-id={1} data-media-type="image">
       <div className="data-media-thumbnail">
-        <img src="images/klinik.jpg" />
+        <img src="images/klinik.jpg" alt=""/>
       </div>
-      <img src="images/clark.png" />
+      <img src="images/clark.png" alt=""/>
       <div className="media-link-title">
         Eindringtiefe nach Clark und Tumordicke nach Breslow
       </div>
@@ -262,9 +262,9 @@ function Gesichtshauttumoren(props) {
   <div className="links">
     <div data-media-id={1} data-media-type="image">
       <div className="data-media-thumbnail">
-        <img src="images/klinik.jpg" />
+        <img src="images/klinik.jpg" alt=""/>
       </div>
-      <img src="images/basaliom-nodul%C3%A4r.png" />
+      <img src="images/basaliom-nodul%C3%A4r.png" alt=""/>
       <div className="media-link-title">Basaliom</div>
       <div className="media-link-description">
         Noduläres Basaliom auf dem linken Nasenflügel.
@@ -272,9 +272,9 @@ function Gesichtshauttumoren(props) {
     </div>
     <div data-media-id={2} data-media-type="image">
       <div className="data-media-thumbnail">
-        <img src="images/klinik.jpg" />
+        <img src="images/klinik.jpg" alt=""/>
       </div>
-      <img src="images/basaliom-pigmentiert.png" />
+      <img src="images/basaliom-pigmentiert.png" alt=""/>
       <div className="media-link-title">Basaliom</div>
       <div className="media-link-description">Pigmentiertes Basaliom</div>
     </div>
@@ -344,7 +344,7 @@ function Gesichtshauttumoren(props) {
     </p>
     <p>
       <span className="startGallery" data-gallery-item={2}>
-        <img src="thumbs/peca.png" alt="Einseitige LKG Spalte Galerie" />
+        <img src="thumbs/peca.png" alt="Einseitige LKG Spalte Galerie"/>
       </span>
     </p>
     <p>
@@ -368,9 +368,9 @@ function Gesichtshauttumoren(props) {
   <div className="links">
     <div data-media-id={1} data-media-type="image">
       <div className="data-media-thumbnail">
-        <img src="images/klinik.jpg" />
+        <img src="images/klinik.jpg" alt=""/>
       </div>
-      <img src="images/bernhard-fries1.png" />
+      <img src="images/bernhard-fries1.png" alt=""/>
       <div className="media-link-title">Plattenepithelkarzinom</div>
       <div className="media-link-description">
         Plattenepithelkarzinom der Unterlippe
@@ -378,9 +378,9 @@ function Gesichtshauttumoren(props) {
     </div>
     <div data-media-id={2} data-media-type="image">
       <div className="data-media-thumbnail">
-        <img src="images/klinik.jpg" />
+        <img src="images/klinik.jpg" alt=""/>
       </div>
-      <img src="images/peca.png" />
+      <img src="images/peca.png" alt=""/>
       <div className="media-link-title">Plattenepithelkarzinom</div>
       <div className="media-link-description">
         Plattenepithelkarzinom im Bereich des Weichgaumens.
@@ -388,9 +388,9 @@ function Gesichtshauttumoren(props) {
     </div>
     <div data-media-id={3} data-media-type="image">
       <div className="data-media-thumbnail">
-        <img src="images/klinik.jpg" />
+        <img src="images/klinik.jpg" alt=""/>
       </div>
-      <img src="images/peca.png" />
+      <img src="images/peca.png" alt=""/>
       <div className="media-link-title">Plattenepithelkarzinom</div>
       <div className="media-link-description">
         Plattenpepithelkarzinom des Mundbodens.
@@ -428,7 +428,7 @@ function Gesichtshauttumoren(props) {
       <li>Metastasiert v.a. lymphogen</li>
     </ul>
     <div className="startGallery imageContainer" data-gallery-item={1}>
-      <img src="thumbs/merkelzellkrazinom.png" />
+      <img src="thumbs/merkelzellkrazinom.png" alt=""/>
     </div>
     <p>
       <br />
@@ -452,9 +452,9 @@ function Gesichtshauttumoren(props) {
   <div className="links">
     <div data-media-id={1} data-media-type="image">
       <div className="data-media-thumbnail">
-        <img src="images/klinik.jpg" />
+        <img src="images/klinik.jpg" alt=""/>
       </div>
-      <img src="images/merkelzellkrazinom.png" />
+      <img src="images/merkelzellkrazinom.png" alt=""/>
       <div className="media-link-title">Merkelzellkarzinom</div>
       <div className="media-link-description">
         Merkelzellkarzinom präauriculär links.
@@ -566,7 +566,7 @@ function Gesichtshauttumoren(props) {
     </ul>
     <p>&nbsp;</p>
     <div className="startGallery imageContainer" data-gallery-item={1}>
-      <img src="thumbs/malignemelanome_images.png" />
+      <img src="thumbs/malignemelanome_images.png" alt=""/>
     </div>
     <p>&nbsp;</p>
     <p>
@@ -771,9 +771,9 @@ function Gesichtshauttumoren(props) {
   <div className="links">
     <div data-media-id={1} data-media-type="image">
       <div className="data-media-thumbnail">
-        <img src="images/klinik.jpg" />
+        <img src="images/klinik.jpg" alt=""/>
       </div>
-      <img src="images/mm-lentigo_maligna.png" />
+      <img src="images/mm-lentigo_maligna.png" alt=""/>
       <div className="media-link-title">Malignes Melanom</div>
       <div className="media-link-description">
         Lentigo maligna Melanom im Bereich der Stirn.
@@ -781,9 +781,9 @@ function Gesichtshauttumoren(props) {
     </div>
     <div data-media-id={2} data-media-type="image">
       <div className="data-media-thumbnail">
-        <img src="images/klinik.jpg" />
+        <img src="images/klinik.jpg" alt=""/>
       </div>
-      <img src="images/mm-schleimhaut.png" />
+      <img src="images/mm-schleimhaut.png" alt=""/>
       <div className="media-link-title">Malignes Melanom</div>
       <div className="media-link-description">
         Schleimhautmelanom auf dem Alveolarforsatz regio 25/26.
@@ -791,9 +791,9 @@ function Gesichtshauttumoren(props) {
     </div>
     <div data-media-id={3} data-media-type="image">
       <div className="data-media-thumbnail">
-        <img src="images/klinik.jpg" />
+        <img src="images/klinik.jpg" alt=""/>
       </div>
-      <img src="images/mm-superfiziell_spreitend.png" />
+      <img src="images/mm-superfiziell_spreitend.png" alt=""/>
       <div className="media-link-title">Malignes Melanom</div>
       <div className="media-link-description">
         Superfiziell spreitendes malignes Melanom der Haut.
@@ -834,7 +834,7 @@ function Gesichtshauttumoren(props) {
     </ul>
     <p>&nbsp;</p>
     <div className="startGallery imageContainer" data-gallery-item={1}>
-      <img src="thumbs/kerathoakanthom.png" />
+      <img src="thumbs/kerathoakanthom.png" alt=""/>
     </div>
     <p>&nbsp;</p>
     <p>
@@ -850,9 +850,9 @@ function Gesichtshauttumoren(props) {
   <div className="links">
     <div data-media-id={1} data-media-type="image">
       <div className="data-media-thumbnail">
-        <img src="images/klinik.jpg" />
+        <img src="images/klinik.jpg" alt=""/>
       </div>
-      <img src="images/kerathoakanthom.png" />
+      <img src="images/kerathoakanthom.png" alt=""/>
       <div className="media-link-title">Kerathoakanthom</div>
       <div className="media-link-description">
         Keratoakanthom dorsal auf der dorsalen Seite des Ohres.
@@ -860,9 +860,9 @@ function Gesichtshauttumoren(props) {
     </div>
     <div data-media-id={2} data-media-type="image">
       <div className="data-media-thumbnail">
-        <img src="images/klinik.jpg" />
+        <img src="images/klinik.jpg" alt=""/>
       </div>
-      <img src="images/kerathoakanthom_(2).png" />
+      <img src="images/kerathoakanthom_(2).png" alt=""/>
       <div className="media-link-title">Keratoakanthom</div>
       <div className="media-link-description">Keratoakanthom der Stirn.</div>
     </div>
@@ -880,9 +880,9 @@ function Gesichtshauttumoren(props) {
       angestrebt.
     </p>
     <div className="startGallery" data-gallery-item={1}>
-      <img className="galleryPoster" src="thumbs/video12.png" />
+      <img className="galleryPoster" src="thumbs/video12.png" alt=""/>
       <p className="gallerieThumbDescription">Bilobed-Flap</p>
-      <img className="galleryPoster" src="thumbs/Play_experimentell.png" />
+    <img className="galleryPoster" src="thumbs/Play_experimentell.png" alt=""/>
     </div>
     <p>
       Ist der Defekt zu groß, muss eine mirkochirurgische Rekonstruktion in

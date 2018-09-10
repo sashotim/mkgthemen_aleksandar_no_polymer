@@ -2,7 +2,7 @@ import React from 'react';
 
 function Lokale_lappenplastiken(props) {
   return (
-  <div>  
+  <div>
     <div id="lokalelappenplastiken" className="chapters">
       <div className="chapterTitle">
         <h3>Lokale Lappenplastiken</h3>
@@ -120,9 +120,9 @@ function Lokale_lappenplastiken(props) {
         </ul>
         <p>&nbsp;</p>
         <div className="startGallery" data-gallery-item={14}>
-          <img className="galleryPoster" src="thumbs/video15.png" />
+          <img className="galleryPoster" src="thumbs/video15.png" alt=""/>
           <p className="gallerieThumbDescription">Islandflap</p>
-          <img className="galleryPoster" src="thumbs/Play_experimentell.png" />
+        <img className="galleryPoster" src="thumbs/Play_experimentell.png" alt=""/>
         </div>
         <p>
           <br />
@@ -158,7 +158,7 @@ function Lokale_lappenplastiken(props) {
           <li>Bei längeren Narben: multiple Z-Plastiken hintereinander</li>
         </ul>
         <div className="startGallery imageContainer" data-gallery-item={1}>
-          <img src="thumbs/lappelplastiken_images.png" />
+          <img src="thumbs/lappelplastiken_images.png" alt=""/>
         </div>
         <p>
           <br />
@@ -182,7 +182,7 @@ function Lokale_lappenplastiken(props) {
           </li>
         </ul>
         <div className="startGallery imageContainer" data-gallery-item={3}>
-          <img src="thumbs/marchac1.png" />
+          <img src="thumbs/marchac1.png" alt=""/>
         </div>
         <p>
           <br />
@@ -223,21 +223,21 @@ function Lokale_lappenplastiken(props) {
           </li>
         </ul>
         <div className="startGallery imageContainer" data-gallery-item={8}>
-          <img src="thumbs/transpositionslappen1.png" />
+          <img src="thumbs/transpositionslappen1.png" alt=""/>
         </div>
         <p />
         <div className="startGallery" data-gallery-item={12}>
-          <img className="galleryPoster" src="thumbs/video12.png" />
+          <img className="galleryPoster" src="thumbs/video12.png" alt=""/>
           <p className="gallerieThumbDescription">Bilobed Flap</p>
-          <img className="galleryPoster" />
+        <img className="galleryPoster" alt=""/>
         </div>
       </div>
       <div className="links">
         <div data-media-id={1} data-media-type="image">
           <div className="data-media-thumbnail">
-            <img src="images/klinik.jpg" />
+            <img src="images/klinik.jpg" alt=""/>
           </div>
-          <img src="images/h-lappen1.png" />
+          <img src="images/h-lappen1.png" alt=""/>
           <div className="media-link-title">H-Lappen</div>
           <div className="media-link-description">
             Geplante Schnittführung des H-Lappens.
@@ -245,9 +245,9 @@ function Lokale_lappenplastiken(props) {
         </div>
         <div data-media-id={2} data-media-type="image">
           <div className="data-media-thumbnail">
-            <img src="images/klinik.jpg" />
+            <img src="images/klinik.jpg" alt=""/>
           </div>
-          <img src="images/h-lappen2.png" />
+          <img src="images/h-lappen2.png" alt=""/>
           <div className="media-link-title">H-Lappen</div>
           <div className="media-link-description">
             Operatives Ergebnis des H-Lappens.
@@ -255,9 +255,9 @@ function Lokale_lappenplastiken(props) {
         </div>
         <div data-media-id={3} data-media-type="image">
           <div className="data-media-thumbnail">
-            <img src="images/klinik.jpg" />
+            <img src="images/klinik.jpg" alt=""/>
           </div>
-          <img src="images/marchac1.png" />
+          <img src="images/marchac1.png" alt=""/>
           <div className="media-link-title">Marchac-Lappen</div>
           <div className="media-link-description">
             Basaliom auf der Nasenspitze.
@@ -265,9 +265,9 @@ function Lokale_lappenplastiken(props) {
         </div>
         <div data-media-id={4} data-media-type="image">
           <div className="data-media-thumbnail">
-            <img src="images/klinik.jpg" />
+            <img src="images/klinik.jpg" alt=""/>
           </div>
-          <img src="images/marchac2.png" />
+          <img src="images/marchac2.png" alt=""/>
           <div className="media-link-title">Marchac-Lappen</div>
           <div className="media-link-description">
             Geplante Schnittführung des Marchac-Lappens zur Defektdeckung der
@@ -276,9 +276,9 @@ function Lokale_lappenplastiken(props) {
         </div>
         <div data-media-id={5} data-media-type="image">
           <div className="data-media-thumbnail">
-            <img src="images/klinik.jpg" />
+            <img src="images/klinik.jpg" alt=""/>
           </div>
-          <img src="images/marchac3.png" />
+          <img src="images/marchac3.png" alt=""/>
           <div className="media-link-title">Marchac-Lappen</div>
           <div className="media-link-description">
             Durchtrennung der Haut entlang der zurvor geplanten Schnittführung.
@@ -286,9 +286,9 @@ function Lokale_lappenplastiken(props) {
         </div>
         <div data-media-id={6} data-media-type="image">
           <div className="data-media-thumbnail">
-            <img src="images/klinik.jpg" />
+            <img src="images/klinik.jpg" alt=""/>
           </div>
-          <img src="images/marchac4.png" />
+          <img src="images/marchac4.png" alt=""/>
           <div className="media-link-title">Marchac-Lappen</div>
           <div className="media-link-description">
             Präparation und Mobilisation des Marchaclappens.
@@ -296,9 +296,9 @@ function Lokale_lappenplastiken(props) {
         </div>
         <div data-media-id={7} data-media-type="image">
           <div className="data-media-thumbnail">
-            <img src="images/klinik.jpg" />
+            <img src="images/klinik.jpg" alt=""/>
           </div>
-          <img src="images/marchac5.png" />
+          <img src="images/marchac5.png" alt=""/>
           <div className="media-link-title">Marchac-Lappen</div>
           <div className="media-link-description">
             Postoperatives Ergebnis des Marchac-Lappens.
@@ -306,9 +306,9 @@ function Lokale_lappenplastiken(props) {
         </div>
         <div data-media-id={8} data-media-type="image">
           <div className="data-media-thumbnail">
-            <img src="images/klinik.jpg" />
+            <img src="images/klinik.jpg" alt=""/>
           </div>
-          <img src="images/rhomboidlappen1.png" />
+          <img src="images/rhomboidlappen1.png" alt=""/>
           <div className="media-link-title">Rhomboid-Lappen</div>
           <div className="media-link-description">
             Defekt und geplante Schnittführung mittels eines Rhomboid-Lappens.
@@ -316,9 +316,9 @@ function Lokale_lappenplastiken(props) {
         </div>
         <div data-media-id={9} data-media-type="image">
           <div className="data-media-thumbnail">
-            <img src="images/klinik.jpg" />
+            <img src="images/klinik.jpg" alt=""/>
           </div>
-          <img src="images/rhomboidlappen2.png" />
+          <img src="images/rhomboidlappen2.png" alt=""/>
           <div className="media-link-title">Rhomboid-Lappen</div>
           <div className="media-link-description">
             Präparation und Mobilisation des Rhomboid-Lappens.
@@ -326,9 +326,9 @@ function Lokale_lappenplastiken(props) {
         </div>
         <div data-media-id={10} data-media-type="image">
           <div className="data-media-thumbnail">
-            <img src="images/klinik.jpg" />
+            <img src="images/klinik.jpg" alt=""/>
           </div>
-          <img src="images/rhomboidlappen3.png" />
+          <img src="images/rhomboidlappen3.png" alt=""/>
           <div className="media-link-title">Rhomboid-Lappen</div>
           <div className="media-link-description">
             Postoperatives Ergebnis des Rhomboid-Lappens nach Einheilung.
@@ -336,9 +336,9 @@ function Lokale_lappenplastiken(props) {
         </div>
         <div data-media-id={11} data-media-type="image">
           <div className="data-media-thumbnail">
-            <img src="images/klinik.jpg" />
+            <img src="images/klinik.jpg" alt=""/>
           </div>
-          <img src="images/bilobed-flap1.png" />
+          <img src="images/bilobed-flap1.png" alt=""/>
           <div className="media-link-title">Bilobed Flap</div>
           <div className="media-link-description">
             Geplante Schnittführung im Sinne eines Bilobed Flaps zur Defektdeckung
@@ -347,9 +347,9 @@ function Lokale_lappenplastiken(props) {
         </div>
         <div data-media-id={12} data-media-type="image">
           <div className="data-media-thumbnail">
-            <img src="images/klinik.jpg" />
+            <img src="images/klinik.jpg" alt=""/>
           </div>
-          <img src="images/bilobed-flap2.png" />
+          <img src="images/bilobed-flap2.png" alt=""/>
           <div className="media-link-title">Bilobed Flap</div>
           <div className="media-link-description">
             Postoperatives Ergebnis der Defektdeckung mit einem Bilobed Flap.
@@ -384,15 +384,15 @@ function Lokale_lappenplastiken(props) {
           umgebenden gewebe unterscheiden.
         </p>
         <div className="startGallery imageContainer" data-gallery-item={1}>
-          <img src="thumbs/fernlappen.png" />
+          <img src="thumbs/fernlappen.png" alt=""/>
         </div>
       </div>
       <div className="links">
         <div data-media-id={1} data-media-type="image">
           <div className="data-media-thumbnail">
-            <img src="images/klinik.jpg" />
+            <img src="images/klinik.jpg" alt=""/>
           </div>
-          <img src="images/fernlappen.png" />
+          <img src="images/fernlappen.png" alt=""/>
           <div className="media-link-title">Fernlappen</div>
           <div className="media-link-description">
             Dargestellt ist ein Rundstiellappen. Die hier abgebildete Basis kann
@@ -604,15 +604,15 @@ function Lokale_lappenplastiken(props) {
         </ul>
         <p>&nbsp;</p>
         <div className="startGallery imageContainer" data-gallery-item={1}>
-          <img src="thumbs/expander.png" />
+          <img src="thumbs/expander.png" alt=""/>
         </div>
       </div>
       <div className="links">
         <div data-media-id={1} data-media-type="image">
           <div className="data-media-thumbnail">
-            <img src="images/klinik.jpg" />
+            <img src="images/klinik.jpg" alt=""/>
           </div>
-          <img src="images/expander.png" />
+          <img src="images/expander.png" alt=""/>
           <div className="media-link-title">Hautexpander</div>
           <div className="media-link-description">
             Abgebildet ist das System eines Hautexpanders.
@@ -620,9 +620,9 @@ function Lokale_lappenplastiken(props) {
         </div>
         <div data-media-id={2} data-media-type="image">
           <div className="data-media-thumbnail">
-            <img src="images/klinik.jpg" />
+            <img src="images/klinik.jpg" alt=""/>
           </div>
-          <img src="images/expander2.png" />
+          <img src="images/expander2.png" alt=""/>
           <div className="media-link-title">Hautexpander</div>
           <div className="media-link-description">
             Postoperatives Ergebnis nach Implantation eines Hautexpanders. Sobald
@@ -632,9 +632,9 @@ function Lokale_lappenplastiken(props) {
         </div>
         <div data-media-id={3} data-media-type="image">
           <div className="data-media-thumbnail">
-            <img src="images/klinik.jpg" />
+            <img src="images/klinik.jpg" alt=""/>
           </div>
-          <img src="images/expander1.png" />
+          <img src="images/expander1.png" alt=""/>
           <div className="media-link-title">Hautexpander</div>
           <div className="media-link-description">
             Lager mit eingefügtem Expander im Bereich der Wange.
@@ -679,7 +679,7 @@ function Lokale_lappenplastiken(props) {
           <li>Zur (sub)totalen Unterlippenrekonstruktion</li>
         </ul>
         <div className="startGallery imageContainer" data-gallery-item={1}>
-          <img src="thumbs/bernhard-fries-plastik_images.png" />
+          <img src="thumbs/bernhard-fries-plastik_images.png" alt=""/>
         </div>
         <p>
           <span style={{ textDecoration: "underline" }}>Zungenlappen</span>
@@ -696,9 +696,9 @@ function Lokale_lappenplastiken(props) {
       <div className="links">
         <div data-media-id={1} data-media-type="image">
           <div className="data-media-thumbnail">
-            <img src="images/klinik.jpg" />
+            <img src="images/klinik.jpg" alt=""/>
           </div>
-          <img src="images/bernhard-fries1.png" />
+          <img src="images/bernhard-fries1.png" alt=""/>
           <div className="media-link-title">Bernhard-Fries-Plastik</div>
           <div className="media-link-description">
             Plattenepithelkarzinom der Unterlippe.
@@ -706,9 +706,9 @@ function Lokale_lappenplastiken(props) {
         </div>
         <div data-media-id={2} data-media-type="image">
           <div className="data-media-thumbnail">
-            <img src="images/klinik.jpg" />
+            <img src="images/klinik.jpg" alt=""/>
           </div>
-          <img src="images/bernhard-fries2.png" />
+          <img src="images/bernhard-fries2.png" alt=""/>
           <div className="media-link-title">Bernhard-Fries-Plastik</div>
           <div className="media-link-description">
             Geplante Schnittführung der operativen Entfernung des
@@ -717,9 +717,9 @@ function Lokale_lappenplastiken(props) {
         </div>
         <div data-media-id={3} data-media-type="image">
           <div className="data-media-thumbnail">
-            <img src="images/klinik.jpg" />
+            <img src="images/klinik.jpg" alt=""/>
           </div>
-          <img src="images/bernhard-fries3.png" />
+          <img src="images/bernhard-fries3.png" alt=""/>
           <div className="media-link-title">Bernhard-Fries-Plastik</div>
           <div className="media-link-description">
             Defekt nach Entfernung des Plattenepithelkarzinoms mit
@@ -728,9 +728,9 @@ function Lokale_lappenplastiken(props) {
         </div>
         <div data-media-id={4} data-media-type="image">
           <div className="data-media-thumbnail">
-            <img src="images/klinik.jpg" />
+            <img src="images/klinik.jpg" alt=""/>
           </div>
-          <img src="images/bernhard-fries4.png" />
+          <img src="images/bernhard-fries4.png" alt=""/>
           <div className="media-link-title">Bernhard-Fries-Plastik</div>
           <div className="media-link-description">
             Geplante Schnittführung zur Deckung des Defekts.
@@ -738,9 +738,9 @@ function Lokale_lappenplastiken(props) {
         </div>
         <div data-media-id={5} data-media-type="image">
           <div className="data-media-thumbnail">
-            <img src="images/klinik.jpg" />
+            <img src="images/klinik.jpg" alt=""/>
           </div>
-          <img src="images/bernhard-fries5.png" />
+          <img src="images/bernhard-fries5.png" alt=""/>
           <div className="media-link-title">Bernhard-Fries-Plastik</div>
           <div className="media-link-description">
             Präparation nd Mobilisation des Gewebes.
@@ -748,9 +748,9 @@ function Lokale_lappenplastiken(props) {
         </div>
         <div data-media-id={6} data-media-type="image">
           <div className="data-media-thumbnail">
-            <img src="images/klinik.jpg" />
+            <img src="images/klinik.jpg" alt=""/>
           </div>
-          <img src="images/bernhard-fries6.png" />
+          <img src="images/bernhard-fries6.png" alt=""/>
           <div className="media-link-title">Bernhard-Fries-Plastik</div>
           <div className="media-link-description">
             Präparation und Mobilisation des Gewebes zur suffizienten Deckung.
@@ -758,9 +758,9 @@ function Lokale_lappenplastiken(props) {
         </div>
         <div data-media-id={7} data-media-type="image">
           <div className="data-media-thumbnail">
-            <img src="images/klinik.jpg" />
+            <img src="images/klinik.jpg" alt=""/>
           </div>
-          <img src="images/bernhard-fries7.png" />
+          <img src="images/bernhard-fries7.png" alt=""/>
           <div className="media-link-title">Bernhard-Fries-Plastik</div>
           <div className="media-link-description">
             Postoperatives Ergebnis nach Deckung des Defekts.

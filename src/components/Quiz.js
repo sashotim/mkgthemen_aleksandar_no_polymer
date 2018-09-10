@@ -1,6 +1,5 @@
 import React from 'react';
-import { Container, Row, Col } from 'reactstrap';
-import MyTabs from './MyTabs';
+import { Container} from 'reactstrap';
 import DysgnathieQuiz from './dysgnathie/DysgnathieQuiz.js'
 
 function Quiz(props) {

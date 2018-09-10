@@ -1,5 +1,5 @@
 import React from 'react';
-import ReactDOM from "react-dom";
+// import ReactDOM from "react-dom";
 import { TabContent, TabPane, Nav, NavItem, NavLink, Row, Col, Container} from 'reactstrap';
 import classnames from 'classnames';
 import MyImageCard from './MyImageCard';
@@ -22,6 +22,18 @@ export default class MyTabs extends React.Component {
     }
   }
   render() {
+    let images = [];
+    let videos = [];
+    for (var i = 0; i < this.props.galleryContent.media.length; i++) {
+      if (this.props.galleryContent.media[i].type === "image") {
+        images.push(this.props.galleryContent.media[i]);
+      } else if (this.props.galleryContent.media[i].type === "video") {
+        videos.push(this.props.galleryContent.media[i]);
+      }
+    }
+    // console.log(images);
+    // console.log(videos);
+    // console.log(this.props.galleryContent.media);
     return (
       <Container>
         <Nav tabs>
@@ -54,21 +66,21 @@ export default class MyTabs extends React.Component {
           <TabPane tabId="1">
             <Row >
               <Col sm="4">
-                <MyImageCard openModal={this.props.openModal} galleryContent={this.props.galleryContent}></MyImageCard>
+                <MyImageCard openModal={this.props.openModal} galleryContent={this.props.galleryContent.media}></MyImageCard>
               </Col>
             </Row>
           </TabPane>
           <TabPane tabId="2">
             <Row >
               <Col sm="4">
-                <MyImageCard onClick={this.props.openModal} galleryContent={this.props.galleryContent}></MyImageCard>
+                <MyImageCard onClick={this.props.openModal} galleryContent={videos}></MyImageCard>
               </Col>
             </Row>
           </TabPane>
           <TabPane tabId="3">
             <Row >
               <Col sm="4">
-                <MyImageCard onClick={this.props.openModal} galleryContent={this.props.galleryContent}></MyImageCard>
+                <MyImageCard onClick={this.props.openModal} galleryContent={images}></MyImageCard>
               </Col>
             </Row>
           </TabPane>

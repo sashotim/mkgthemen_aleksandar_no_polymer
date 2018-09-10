@@ -26,16 +26,16 @@ function Nasennebenhoehlen(props) {
         </ul>
         <p>
           <span className="startGallery" data-gallery-item={1}>
-            <img src="thumbs/schema.png" alt="Schema NNH" />
+            <img src="thumbs/schema.png" alt="Schema NNH"/>
           </span>
         </p>
       </div>
       <div className="links">
         <div data-media-id={1} data-media-type="image">
           <div className="data-media-thumbnail">
-            <img src="images/klinik.jpg" />
+            <img src="images/klinik.jpg" alt=""/>
           </div>
-          <img src="images/schema.png" />
+          <img src="images/schema.png" alt=""/>
           <div className="media-link-title">Nasennebenhöhlen</div>
           <div className="media-link-description">
             Schematische Darstellung der Nasennebenhöhlen - Quelle:
@@ -128,16 +128,16 @@ function Nasennebenhoehlen(props) {
         </ul>
         <p>
           <span className="startGallery" data-gallery-item={1}>
-            <img src="thumbs/nnh1_images.png" alt="Panoramaschichtaufnahme" />
+            <img src="thumbs/nnh1_images.png" alt="Panoramaschichtaufnahme"/>
           </span>
         </p>
       </div>
       <div className="links">
         <div data-media-id={1} data-media-type="image">
           <div className="data-media-thumbnail">
-            <img src="images/klinik.jpg" />
+            <img src="images/klinik.jpg" alt=""/>
           </div>
-          <img src="images/nnh1.png" />
+          <img src="images/nnh1.png" alt=""/>
           <div className="media-link-title">Panoramaschichtaufnahme</div>
           <div className="media-link-description">
             Deutlicher knöcherner Defekt am Oberkiefer rechts.
@@ -145,9 +145,9 @@ function Nasennebenhoehlen(props) {
         </div>
         <div data-media-id={2} data-media-type="image">
           <div className="data-media-thumbnail">
-            <img src="images/klinik.jpg" />
+            <img src="images/klinik.jpg" alt=""/>
           </div>
-          <img src="images/nnh2.png" />
+          <img src="images/nnh2.png" alt=""/>
           <div className="media-link-title">Nasennebenhöhlenaufnahme</div>
           <div className="media-link-description">
             Konventionelle Röntgenaufnahme der Nasennebenhöhlen.
@@ -155,9 +155,9 @@ function Nasennebenhoehlen(props) {
         </div>
         <div data-media-id={3} data-media-type="image">
           <div className="data-media-thumbnail">
-            <img src="images/klinik.jpg" />
+            <img src="images/klinik.jpg" alt=""/>
           </div>
-          <img src="images/ct_nnh.png" />
+          <img src="images/ct_nnh.png" alt=""/>
           <div className="media-link-title">Computertomographie</div>
           <div className="media-link-description">
             Raumforderung der linken Kieferhöhle.
@@ -165,9 +165,9 @@ function Nasennebenhoehlen(props) {
         </div>
         <div data-media-id={4} data-media-type="image">
           <div className="data-media-thumbnail">
-            <img src="images/klinik.jpg" />
+            <img src="images/klinik.jpg" alt=""/>
           </div>
-          <img src="images/ct_tumor_nnh.png" />
+          <img src="images/ct_tumor_nnh.png" alt=""/>
           <div className="media-link-title">Computertomographie</div>
           <div className="media-link-description">
             Raumforderung der linken Kieferhöhle
@@ -175,9 +175,9 @@ function Nasennebenhoehlen(props) {
         </div>
         <div data-media-id={5} data-media-type="image">
           <div className="data-media-thumbnail">
-            <img src="images/klinik.jpg" />
+            <img src="images/klinik.jpg" alt=""/>
           </div>
-          <img src="images/mrt-kieferh%C3%B6hle.png" />
+          <img src="images/mrt-kieferh%C3%B6hle.png" alt=""/>
           <div className="media-link-title">Magnetresonanztomographie</div>
           <div className="media-link-description">
             Narbige Veränderungen der rechten Kieferhöhle bei einem Kind.
@@ -384,7 +384,7 @@ function Nasennebenhoehlen(props) {
         <p>&nbsp;</p>
         <p>
           <span className="startGallery" data-gallery-item={1}>
-            <img src="thumbs/orbitaphlegmone.png" alt="Orbitaphlegmone" />
+            <img src="thumbs/orbitaphlegmone.png" alt="Orbitaphlegmone"/>
           </span>
         </p>
         <p>&nbsp;</p>
@@ -392,9 +392,9 @@ function Nasennebenhoehlen(props) {
       <div className="links">
         <div data-media-id={1} data-media-type="image">
           <div className="data-media-thumbnail">
-            <img src="images/klinik.jpg" />
+            <img src="images/klinik.jpg" alt=""/>
           </div>
-          <img src="images/orbitaphlegmone.png" />
+          <img src="images/orbitaphlegmone.png" alt=""/>
           <div className="media-link-title">Orbitaphlegmone</div>
           <div className="media-link-description">
             Orbitaphlegmone des linken Auges.
@@ -473,9 +473,9 @@ function Nasennebenhoehlen(props) {
       <div className="links">
         <div data-media-id={1} data-media-type="image">
           <div className="data-media-thumbnail">
-            <img src="images/klinik.jpg" />
+            <img src="images/klinik.jpg" alt=""/>
           </div>
-          <img src="images/mukoperiostlappen.png" />
+          <img src="images/mukoperiostlappen.png" alt=""/>
           <div className="media-link-title">Mukoperiostlappen</div>
           <div className="media-link-description">
             Schematische Zeichnung des Verschlusses mit einem Mukoperiostlappen.
@@ -483,9 +483,9 @@ function Nasennebenhoehlen(props) {
         </div>
         <div data-media-id={2} data-media-type="image">
           <div className="data-media-thumbnail">
-            <img src="images/klinik.jpg" />
+            <img src="images/klinik.jpg" alt=""/>
           </div>
-          <img src="images/mukoperiostlappen2.png" />
+          <img src="images/mukoperiostlappen2.png" alt=""/>
           <div className="media-link-title">Mukoperiostlappen</div>
           <div className="media-link-description">
             Mobilisation eines Mukoperiostlappens in regio 026.
@@ -493,9 +493,9 @@ function Nasennebenhoehlen(props) {
         </div>
         <div data-media-id={3} data-media-type="image">
           <div className="data-media-thumbnail">
-            <img src="images/klinik.jpg" />
+            <img src="images/klinik.jpg" alt=""/>
           </div>
-          <img src="images/mukoperiostlappen3.png" />
+          <img src="images/mukoperiostlappen3.png" alt=""/>
           <div className="media-link-title">Mukoperiostlappen</div>
           <div className="media-link-description">
             Schlitzung der Periostes zur Verlängerung des Mukoperiostlappens.
@@ -503,9 +503,9 @@ function Nasennebenhoehlen(props) {
         </div>
         <div data-media-id={4} data-media-type="image">
           <div className="data-media-thumbnail">
-            <img src="images/klinik.jpg" />
+            <img src="images/klinik.jpg" alt=""/>
           </div>
-          <img src="images/mukoperiostlappen4.png" />
+          <img src="images/mukoperiostlappen4.png" alt=""/>
           <div className="media-link-title">Mukoperiostlappen</div>
           <div className="media-link-description">
             Der Mukoperiostlappen ist nun ausreichend dimensioniert um den Defekt zu
@@ -514,9 +514,9 @@ function Nasennebenhoehlen(props) {
         </div>
         <div data-media-id={5} data-media-type="image">
           <div className="data-media-thumbnail">
-            <img src="images/klinik.jpg" />
+            <img src="images/klinik.jpg" alt=""/>
           </div>
-          <img src="images/mukoperiostlappen5.png" />
+          <img src="images/mukoperiostlappen5.png" alt=""/>
           <div className="media-link-title">Mukoperiostlappen</div>
           <div className="media-link-description">
             Eingenähter Mukoperiostlappen, welcher den Defekt in regio 026
@@ -525,9 +525,9 @@ function Nasennebenhoehlen(props) {
         </div>
         <div data-media-id={6} data-media-type="image">
           <div className="data-media-thumbnail">
-            <img src="images/klinik.jpg" />
+            <img src="images/klinik.jpg" alt=""/>
           </div>
-          <img src="images/mukoperiostlappen6.png" />
+          <img src="images/mukoperiostlappen6.png" alt=""/>
           <div className="media-link-title">Mukoperiostlappen</div>
           <div className="media-link-description">
             Operatives Ergebnis nach 4 Wochen Einheilung.
@@ -535,9 +535,9 @@ function Nasennebenhoehlen(props) {
         </div>
         <div data-media-id={7} data-media-type="image">
           <div className="data-media-thumbnail">
-            <img src="images/klinik.jpg" />
+            <img src="images/klinik.jpg" alt=""/>
           </div>
-          <img src="images/palatinaler_schwenklappen.png" />
+          <img src="images/palatinaler_schwenklappen.png" alt=""/>
           <div className="media-link-title">Palatinallappen</div>
           <div className="media-link-description">
             Schematische Zeichnung eines Palatinallappens zur Defektdeckung in regio
@@ -546,9 +546,9 @@ function Nasennebenhoehlen(props) {
         </div>
         <div data-media-id={8} data-media-type="image">
           <div className="data-media-thumbnail">
-            <img src="images/klinik.jpg" />
+            <img src="images/klinik.jpg" alt=""/>
           </div>
-          <img src="images/palatinaler_schwenklappen3.png" />
+          <img src="images/palatinaler_schwenklappen3.png" alt=""/>
           <div className="media-link-title">Palatinallappen</div>
           <div className="media-link-description">
             Unmittelbar postoperatives Ergebnis eines Palatinallappens nach
@@ -557,9 +557,9 @@ function Nasennebenhoehlen(props) {
         </div>
         <div data-media-id={9} data-media-type="image">
           <div className="data-media-thumbnail">
-            <img src="images/klinik.jpg" />
+            <img src="images/klinik.jpg" alt=""/>
           </div>
-          <img src="images/wangenlappen.png" />
+          <img src="images/wangenlappen.png" alt=""/>
           <div className="media-link-title">Wangenlappen</div>
           <div className="media-link-description">
             Schematische Zeichnung eines Wangenlappens zur Defektdeckung in regio
@@ -590,7 +590,7 @@ function Nasennebenhoehlen(props) {
         </ul>
         <p>
           <span className="startGallery" data-gallery-item={1}>
-            <img src="thumbs/antrumempyem.png" alt="Antrumempyem" />
+            <img src="thumbs/antrumempyem.png" alt="Antrumempyem"/>
           </span>
         </p>
         <p>&nbsp;</p>
@@ -598,9 +598,9 @@ function Nasennebenhoehlen(props) {
       <div className="links">
         <div data-media-id={1} data-media-type="image">
           <div className="data-media-thumbnail">
-            <img src="images/klinik.jpg" />
+            <img src="images/klinik.jpg" alt=""/>
           </div>
-          <img src="images/antrumempyem.png" />
+          <img src="images/antrumempyem.png" alt=""/>
           <div className="media-link-title">Antrumempyem</div>
           <div className="media-link-description">
             Verschattung der linken Kieferhöhle.
@@ -626,7 +626,7 @@ function Nasennebenhoehlen(props) {
         </p>
         <p>
           <span className="startGallery" data-gallery-item={1}>
-            <img src="thumbs/aspergillose.png" alt="Aspergillose" />
+            <img src="thumbs/aspergillose.png" alt="Aspergillose"/>
           </span>
         </p>
         <p>
@@ -647,9 +647,9 @@ function Nasennebenhoehlen(props) {
       <div className="links">
         <div data-media-id={1} data-media-type="image">
           <div className="data-media-thumbnail">
-            <img src="images/klinik.jpg" />
+            <img src="images/klinik.jpg" alt=""/>
           </div>
-          <img src="images/aspergillose.png" />
+          <img src="images/aspergillose.png" alt=""/>
           <div className="media-link-title">Aspergillom</div>
           <div className="media-link-description">
             Röntgendichte Struktur in der Kieferhöhle links.
@@ -770,9 +770,9 @@ function Nasennebenhoehlen(props) {
           </span>
         </p>
         <div className="startGallery" data-gallery-item={6}>
-          <img className="galleryPoster" src="thumbs/video15.png" />
+          <img className="galleryPoster" src="thumbs/video15.png" alt=""/>
           <p className="gallerieThumbDescription">Weisheitszahn Komplikationen</p>
-          <img className="galleryPoster" src="thumbs/Play_experimentell.png" />
+        <img className="galleryPoster" src="thumbs/Play_experimentell.png" alt=""/>
         </div>
         <p>&nbsp;</p>
         <p>&nbsp;</p>
@@ -785,9 +785,9 @@ function Nasennebenhoehlen(props) {
       <div className="links">
         <div data-media-id={1} data-media-type="image">
           <div className="data-media-thumbnail">
-            <img src="images/klinik.jpg" />
+            <img src="images/klinik.jpg" alt=""/>
           </div>
-          <img src="images/1.png" />
+          <img src="images/1.png" alt=""/>
           <div className="media-link-title">Knochendeckelmethode nach Lindorf</div>
           <div className="media-link-description">
             Über einen Schnitt der Gingiva im Vestibulum wird die knöcherne
@@ -796,9 +796,9 @@ function Nasennebenhoehlen(props) {
         </div>
         <div data-media-id={2} data-media-type="image">
           <div className="data-media-thumbnail">
-            <img src="images/klinik.jpg" />
+            <img src="images/klinik.jpg" alt=""/>
           </div>
-          <img src="images/2.png" />
+          <img src="images/2.png" alt=""/>
           <div className="media-link-title">Knochendeckelmethode nach Lindorf</div>
           <div className="media-link-description">
             Das knöcherne Fenster, mit sich schräg nach außen erweiternden
@@ -807,9 +807,9 @@ function Nasennebenhoehlen(props) {
         </div>
         <div data-media-id={3} data-media-type="image">
           <div className="data-media-thumbnail">
-            <img src="images/klinik.jpg" />
+            <img src="images/klinik.jpg" alt=""/>
           </div>
-          <img src="images/3.png" />
+          <img src="images/3.png" alt=""/>
           <div className="media-link-title">Knochendeckelmethode nach Lindorf</div>
           <div className="media-link-description">
             Der Knochendeckel kann nun angehoben werden, sodass der
@@ -818,9 +818,9 @@ function Nasennebenhoehlen(props) {
         </div>
         <div data-media-id={4} data-media-type="image">
           <div className="data-media-thumbnail">
-            <img src="images/klinik.jpg" />
+            <img src="images/klinik.jpg" alt=""/>
           </div>
-          <img src="images/5.png" />
+          <img src="images/5.png" alt=""/>
           <div className="media-link-title">Knochendeckelmethode nach Lindorf</div>
           <div className="media-link-description">
             Nach erfolgreicher Entfernung des Fremdkörpers/Tumors wird der
@@ -832,9 +832,9 @@ function Nasennebenhoehlen(props) {
         </div>
         <div data-media-id={5} data-media-type="image">
           <div className="data-media-thumbnail">
-            <img src="images/klinik.jpg" />
+            <img src="images/klinik.jpg" alt=""/>
           </div>
-          <img src="images/6.png" />
+          <img src="images/6.png" alt=""/>
           <div className="media-link-title">Knochendeckelmethode nach Lindorf</div>
           <div className="media-link-description">
             Speicheldichter Verschluss der Schleimhaut über dem Knochendeckel nach

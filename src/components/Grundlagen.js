@@ -3,20 +3,20 @@ import MyListGroup from './MyListGroup';
 import { Container, Row, Col } from 'reactstrap';
 
 import Dysgnathie from './dysgnathie/Dysgnathie';
-import Entzuendungen_abszesse from './entzuendungen_abszesse/Entzuendungen_abszesse';
+import EntzuendungenAbszesse from './entzuendungen_abszesse/Entzuendungen_abszesse';
 import Gesichtshauttumoren from './gesichtshauttumoren/Gesichtshauttumoren';
-import Implantologie_und_epithetik from './implantologie_und_epithetik/Implantologie_und_epithetik';
+import ImplantologieUndEpithetik from './implantologie_und_epithetik/Implantologie_und_epithetik';
 import Komplikationen from './komplikationen/Komplikationen';
 import Kraniosynostosen from './kraniosynostosen/Kraniosynostosen';
 import Lkg from './lkg/Lkg';
-import Lokale_lappenplastiken from './lokale_lappenplastiken/Lokale_lappenplastiken';
+import LokaleLappenplastiken from './lokale_lappenplastiken/Lokale_lappenplastiken';
 import Mikrochirurgie from './mikrochirurgie/Mikrochirurgie';
-import Mronj_und_orn from './mronj_und_orn/Mronj_und_orn';
+import MronjUndOrn from './mronj_und_orn/Mronj_und_orn';
 import Nasennebenhoehlen from './nasennebenhoehlen/Nasennebenhoehlen';
-import Odontogene_tumoren from './odontogene_tumoren/Odontogene_tumoren';
-import Praeprothetische_chirurgie_augmentation from './praeprothetische_chirurgie_augmentation/Praeprothetische_chirurgie_augmentation';
+import OdontogeneTumoren from './odontogene_tumoren/Odontogene_tumoren';
+import PraeprothetischeChirurgieAugmentation from './praeprothetische_chirurgie_augmentation/Praeprothetische_chirurgie_augmentation';
 import Speicheldruesen from './speicheldruesen/Speicheldruesen';
-import Spezifische_infektionen from './spezifische_infektionen/Spezifische_infektionen';
+import SpezifischeInfektionen from './spezifische_infektionen/Spezifische_infektionen';
 import Trauma from './trauma/Trauma';
 import Tumoren from './tumoren/Tumoren';
 import Zysten from './zysten/Zysten';
@@ -24,20 +24,20 @@ import Zysten from './zysten/Zysten';
 function Grundlagen(props) {
   const subjectsContent = [
     <Dysgnathie></Dysgnathie>,
-    <Entzuendungen_abszesse></Entzuendungen_abszesse>,
+    <EntzuendungenAbszesse></EntzuendungenAbszesse>,
     <Gesichtshauttumoren></Gesichtshauttumoren>,
-    <Implantologie_und_epithetik></Implantologie_und_epithetik>,
+    <ImplantologieUndEpithetik></ImplantologieUndEpithetik>,
     <Komplikationen></Komplikationen>,
     <Kraniosynostosen></Kraniosynostosen>,
     <Lkg></Lkg>,
-    <Lokale_lappenplastiken></Lokale_lappenplastiken>,
+    <LokaleLappenplastiken></LokaleLappenplastiken>,
     <Mikrochirurgie></Mikrochirurgie>,
-    <Mronj_und_orn></Mronj_und_orn>,
+    <MronjUndOrn></MronjUndOrn>,
     <Nasennebenhoehlen></Nasennebenhoehlen>,
-    <Odontogene_tumoren></Odontogene_tumoren>,
-    <Praeprothetische_chirurgie_augmentation></Praeprothetische_chirurgie_augmentation>,
+    <OdontogeneTumoren></OdontogeneTumoren>,
+    <PraeprothetischeChirurgieAugmentation></PraeprothetischeChirurgieAugmentation>,
     <Speicheldruesen></Speicheldruesen>,
-    <Spezifische_infektionen></Spezifische_infektionen>,
+    <SpezifischeInfektionen></SpezifischeInfektionen>,
     <Trauma></Trauma>,
     <Tumoren></Tumoren>,
     <Zysten></Zysten>

@@ -92,15 +92,15 @@ function Praeprothetische_chirurgie_augmentation(props) {
       <br />
     </p>
     <div className="startGallery imageContainer" data-gallery-item={1}>
-      <img src="thumbs/abbildung_images.png" />
+      <img src="thumbs/abbildung_images.png" alt=""/>
     </div>
   </div>
   <div className="links">
     <div data-media-id={1} data-media-type="image">
       <div className="data-media-thumbnail">
-        <img src="images/klinik.jpg" />
+        <img src="images/klinik.jpg" alt=""/>
       </div>
-      <img src="images/1.png" />
+      <img src="images/1.png" alt=""/>
       <div className="media-link-title">
         Klassifikation nach Cawood und Howell
       </div>
@@ -108,9 +108,9 @@ function Praeprothetische_chirurgie_augmentation(props) {
     </div>
     <div data-media-id={2} data-media-type="image">
       <div className="data-media-thumbnail">
-        <img src="images/klinik.jpg" />
+        <img src="images/klinik.jpg" alt=""/>
       </div>
-      <img src="images/2.png" />
+      <img src="images/2.png" alt=""/>
       <div className="media-link-title">
         Klassifikation nach Cawood und Howell
       </div>
@@ -118,9 +118,9 @@ function Praeprothetische_chirurgie_augmentation(props) {
     </div>
     <div data-media-id={3} data-media-type="image">
       <div className="data-media-thumbnail">
-        <img src="images/klinik.jpg" />
+        <img src="images/klinik.jpg" alt=""/>
       </div>
-      <img src="images/3.png" />
+      <img src="images/3.png" alt=""/>
       <div className="media-link-title">
         Klassifikation nach Cawood und Howell
       </div>
@@ -128,9 +128,9 @@ function Praeprothetische_chirurgie_augmentation(props) {
     </div>
     <div data-media-id={4} data-media-type="image">
       <div className="data-media-thumbnail">
-        <img src="images/klinik.jpg" />
+        <img src="images/klinik.jpg" alt=""/>
       </div>
-      <img src="images/4.png" />
+      <img src="images/4.png" alt=""/>
       <div className="media-link-title">
         Klassifikation nach Cawood und Howell
       </div>
@@ -138,9 +138,9 @@ function Praeprothetische_chirurgie_augmentation(props) {
     </div>
     <div data-media-id={5} data-media-type="image">
       <div className="data-media-thumbnail">
-        <img src="images/klinik.jpg" />
+        <img src="images/klinik.jpg" alt=""/>
       </div>
-      <img src="images/5.png" />
+      <img src="images/5.png" alt=""/>
       <div className="media-link-title">
         Klassifikation nach Cawood und Howell
       </div>
@@ -148,9 +148,9 @@ function Praeprothetische_chirurgie_augmentation(props) {
     </div>
     <div data-media-id={6} data-media-type="image">
       <div className="data-media-thumbnail">
-        <img src="images/klinik.jpg" />
+        <img src="images/klinik.jpg" alt=""/>
       </div>
-      <img src="images/6.png" />
+      <img src="images/6.png" alt=""/>
       <div className="media-link-title">
         Klassifikation nach Cawood und Howell
       </div>
@@ -195,7 +195,7 @@ function Praeprothetische_chirurgie_augmentation(props) {
     </p>
     <p>&nbsp;</p>
     <div className="startGallery imageContainer" data-gallery-item={1}>
-      <img src="thumbs/irritationsfibrome_images.png" />
+      <img src="thumbs/irritationsfibrome_images.png" alt=""/>
     </div>
     <p>
       <br />
@@ -227,9 +227,9 @@ function Praeprothetische_chirurgie_augmentation(props) {
       einen kleinen chirurgischen Eingriff möglich.
     </p>
     <div className="startGallery" data-gallery-item={3}>
-      <img className="galleryPoster" src="thumbs/video14.png" />
+      <img className="galleryPoster" src="thumbs/video14.png" alt=""/>
       <p className="gallerieThumbDescription">Torus Mandibulae</p>
-      <img className="galleryPoster" src="thumbs/Play_experimentell.png" />
+    <img className="galleryPoster" src="thumbs/Play_experimentell.png" alt=""/>
     </div>
     <p>
       <br />
@@ -352,9 +352,9 @@ function Praeprothetische_chirurgie_augmentation(props) {
   <div className="links">
     <div data-media-id={1} data-media-type="image">
       <div className="data-media-thumbnail">
-        <img src="images/klinik.jpg" />
+        <img src="images/klinik.jpg" alt=""/>
       </div>
-      <img src="images/kalbas_p._030643_d11_2014.08.05-01.png" />
+      <img src="images/kalbas_p._030643_d11_2014.08.05-01.png" alt=""/>
       <div className="media-link-title">Irritationsfibrom</div>
       <div className="media-link-description">
         Irritationsfibrome im zahnlosen Abschnitt des Oberkiefers.
@@ -362,9 +362,9 @@ function Praeprothetische_chirurgie_augmentation(props) {
     </div>
     <div data-media-id={2} data-media-type="image">
       <div className="data-media-thumbnail">
-        <img src="images/klinik.jpg" />
+        <img src="images/klinik.jpg" alt=""/>
       </div>
-      <img src="images/kalbas_p._030643_d11_2014.08.05-05.png" />
+      <img src="images/kalbas_p._030643_d11_2014.08.05-05.png" alt=""/>
       <div className="media-link-title">Irritationsfibrom</div>
       <div className="media-link-description">
         Irritationsfibrome am im zahnlosen Bereich des Oberkiefers.
@@ -458,7 +458,7 @@ function Praeprothetische_chirurgie_augmentation(props) {
     </ul>
     <p>&nbsp;</p>
     <div className="startGallery imageContainer" data-gallery-item={1}>
-      <img src="thumbs/onlay-augmentation.png" />
+      <img src="thumbs/onlay-augmentation.png" alt=""/>
     </div>
     <p>&nbsp;</p>
     <p>
@@ -497,16 +497,16 @@ function Praeprothetische_chirurgie_augmentation(props) {
     </ul>
     <p>&nbsp;</p>
     <div className="startGallery" data-gallery-item={15}>
-      <img className="galleryPoster" src="thumbs/video14.png" />
+      <img className="galleryPoster" src="thumbs/video14.png" alt=""/>
       <p className="gallerieThumbDescription">Augmentation</p>
-      <img className="galleryPoster" src="thumbs/Play_experimentell.png" />
+    <img className="galleryPoster" src="thumbs/Play_experimentell.png" alt=""/>
     </div>
     <div className="startGallery" data-gallery-item={16}>
-      <img className="galleryPoster" src="thumbs/video15.png" />
+      <img className="galleryPoster" src="thumbs/video15.png" alt=""/>
       <p className="gallerieThumbDescription">
         Augmentation mit kortikospongiösem Beckenkammtransplantat
       </p>
-      <img className="galleryPoster" src="thumbs/Play_experimentell.png" />
+      <img className="galleryPoster" src="thumbs/Play_experimentell.png" alt=""/>
     </div>
     <p>
       <br />
@@ -532,7 +532,7 @@ function Praeprothetische_chirurgie_augmentation(props) {
     </ul>
     <p>&nbsp;</p>
     <div className="startGallery imageContainer" data-gallery-item={1}>
-      <img src="thumbs/spenderregionen.png" />
+      <img src="thumbs/spenderregionen.png" alt=""/>
     </div>
     <p>&nbsp;</p>
     <p>
@@ -629,19 +629,19 @@ function Praeprothetische_chirurgie_augmentation(props) {
     </p>
     <p>&nbsp;</p>
     <div className="startGallery" data-gallery-item={17}>
-      <img className="galleryPoster" src="thumbs/video16.png" />
+      <img className="galleryPoster" src="thumbs/video16.png" alt=""/>
       <p className="gallerieThumbDescription">
         Individuelles Implantat Oberkiefer
       </p>
-      <img className="galleryPoster" src="thumbs/Play_experimentell.png" />
+      <img className="galleryPoster" src="thumbs/Play_experimentell.png" alt=""/>
     </div>
   </div>
   <div className="links">
     <div data-media-id={1} data-media-type="image">
       <div className="data-media-thumbnail">
-        <img src="images/klinik.jpg" />
+        <img src="images/klinik.jpg" alt=""/>
       </div>
-      <img src="images/onlay-augmentation.png" />
+      <img src="images/onlay-augmentation.png" alt=""/>
       <div className="media-link-title">Onlayaugmentation</div>
       <div className="media-link-description">
         Schematische Darstellung einer Onlayaugmentation in 3 Schritten bis hin
@@ -650,9 +650,9 @@ function Praeprothetische_chirurgie_augmentation(props) {
     </div>
     <div data-media-id={2} data-media-type="image">
       <div className="data-media-thumbnail">
-        <img src="images/klinik.jpg" />
+        <img src="images/klinik.jpg" alt=""/>
       </div>
-      <img src="images/7.png" />
+      <img src="images/7.png" alt=""/>
       <div className="media-link-title">Onlayagmentation</div>
       <div className="media-link-description">
         Atrophierter Knochen in regio 036.
@@ -660,9 +660,9 @@ function Praeprothetische_chirurgie_augmentation(props) {
     </div>
     <div data-media-id={3} data-media-type="image">
       <div className="data-media-thumbnail">
-        <img src="images/klinik.jpg" />
+        <img src="images/klinik.jpg" alt=""/>
       </div>
-      <img src="images/8.png" />
+      <img src="images/8.png" alt=""/>
       <div className="media-link-title">Onlayaugmentation</div>
       <div className="media-link-description">
         Atrophierter Knochen in regio 046.
@@ -670,9 +670,9 @@ function Praeprothetische_chirurgie_augmentation(props) {
     </div>
     <div data-media-id={4} data-media-type="image">
       <div className="data-media-thumbnail">
-        <img src="images/klinik.jpg" />
+        <img src="images/klinik.jpg" alt=""/>
       </div>
-      <img src="images/9.png" />
+      <img src="images/9.png" alt=""/>
       <div className="media-link-title">Onlayaugmentation</div>
       <div className="media-link-description">
         Sägen des Knochens im Bereich des Kinns.
@@ -680,9 +680,9 @@ function Praeprothetische_chirurgie_augmentation(props) {
     </div>
     <div data-media-id={5} data-media-type="image">
       <div className="data-media-thumbnail">
-        <img src="images/klinik.jpg" />
+        <img src="images/klinik.jpg" alt=""/>
       </div>
-      <img src="images/10.png" />
+      <img src="images/10.png" alt=""/>
       <div className="media-link-title">Onlayaugmentation</div>
       <div className="media-link-description">
         Vollständig gesägter Knochen für die Knochenentnahme.
@@ -690,9 +690,9 @@ function Praeprothetische_chirurgie_augmentation(props) {
     </div>
     <div data-media-id={6} data-media-type="image">
       <div className="data-media-thumbnail">
-        <img src="images/klinik.jpg" />
+        <img src="images/klinik.jpg" alt=""/>
       </div>
-      <img src="images/11.png" />
+      <img src="images/11.png" alt=""/>
       <div className="media-link-title">Onlayaugmentation</div>
       <div className="media-link-description">
         Mit einem Hammer und Meißel wird der zuvor gesägte Knochen heraus
@@ -701,9 +701,9 @@ function Praeprothetische_chirurgie_augmentation(props) {
     </div>
     <div data-media-id={7} data-media-type="image">
       <div className="data-media-thumbnail">
-        <img src="images/klinik.jpg" />
+        <img src="images/klinik.jpg" alt=""/>
       </div>
-      <img src="images/12.png" />
+      <img src="images/12.png" alt=""/>
       <div className="media-link-title">Onlayaugmentation</div>
       <div className="media-link-description">
         Der Unterkiefer wird mit einer Osteosyntheseplatte stabilisiert.
@@ -711,9 +711,9 @@ function Praeprothetische_chirurgie_augmentation(props) {
     </div>
     <div data-media-id={8} data-media-type="image">
       <div className="data-media-thumbnail">
-        <img src="images/klinik.jpg" />
+        <img src="images/klinik.jpg" alt=""/>
       </div>
-      <img src="images/13.png" />
+      <img src="images/13.png" alt=""/>
       <div className="media-link-title">Onlayaugmentation</div>
       <div className="media-link-description">
         Die entnommene Kortikalis des Kinns wird in der Defekregion eingesetzt
@@ -722,9 +722,9 @@ function Praeprothetische_chirurgie_augmentation(props) {
     </div>
     <div data-media-id={9} data-media-type="image">
       <div className="data-media-thumbnail">
-        <img src="images/klinik.jpg" />
+        <img src="images/klinik.jpg" alt=""/>
       </div>
-      <img src="images/14.png" />
+      <img src="images/14.png" alt=""/>
       <div className="media-link-title">Onlayaugmentation</div>
       <div className="media-link-description">
         Anschließend wird über den augmentierten Knochen eine Membran gelegt.
@@ -732,9 +732,9 @@ function Praeprothetische_chirurgie_augmentation(props) {
     </div>
     <div data-media-id={10} data-media-type="image">
       <div className="data-media-thumbnail">
-        <img src="images/klinik.jpg" />
+        <img src="images/klinik.jpg" alt=""/>
       </div>
-      <img src="images/15.png" />
+      <img src="images/15.png" alt=""/>
       <div className="media-link-title">Onlayaugmentation</div>
       <div className="media-link-description">
         Die Schleimhaut wird zurück geklappt und speicheldicht verschlossen.
@@ -742,9 +742,9 @@ function Praeprothetische_chirurgie_augmentation(props) {
     </div>
     <div data-media-id={11} data-media-type="image">
       <div className="data-media-thumbnail">
-        <img src="images/klinik.jpg" />
+        <img src="images/klinik.jpg" alt=""/>
       </div>
-      <img src="images/16.png" />
+      <img src="images/16.png" alt=""/>
       <div className="media-link-title">Onlayaugmentation</div>
       <div className="media-link-description">
         In der Defektregion wird die am Kinn entnommene Kortikalis eingesetzt
@@ -753,9 +753,9 @@ function Praeprothetische_chirurgie_augmentation(props) {
     </div>
     <div data-media-id={12} data-media-type="image">
       <div className="data-media-thumbnail">
-        <img src="images/klinik.jpg" />
+        <img src="images/klinik.jpg" alt=""/>
       </div>
-      <img src="images/17.png" />
+      <img src="images/17.png" alt=""/>
       <div className="media-link-title">Onlayaugmentation</div>
       <div className="media-link-description">
         Auch hier wird eine Membran über dem Augmentat platziert.
@@ -763,9 +763,9 @@ function Praeprothetische_chirurgie_augmentation(props) {
     </div>
     <div data-media-id={13} data-media-type="image">
       <div className="data-media-thumbnail">
-        <img src="images/klinik.jpg" />
+        <img src="images/klinik.jpg" alt=""/>
       </div>
-      <img src="images/18.png" />
+      <img src="images/18.png" alt=""/>
       <div className="media-link-title">Onlayaugmentation</div>
       <div className="media-link-description">
         Zum Schluss wird die Schleimhaut überall wieder speicheldicht vernäht.
@@ -773,9 +773,9 @@ function Praeprothetische_chirurgie_augmentation(props) {
     </div>
     <div data-media-id={14} data-media-type="image">
       <div className="data-media-thumbnail">
-        <img src="images/klinik.jpg" />
+        <img src="images/klinik.jpg" alt=""/>
       </div>
-      <img src="images/extraorale_spenderregionen.png" />
+      <img src="images/extraorale_spenderregionen.png" alt=""/>
       <div className="media-link-title">Extraorale Spenderregionen</div>
       <div className="media-link-description" />
     </div>

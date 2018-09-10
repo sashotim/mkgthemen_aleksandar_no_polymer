@@ -28,9 +28,9 @@ function Mikrochirurgie(props) {
           </p>
           <p>&nbsp;</p>
           <div className="startGallery" data-gallery-item={1}>
-            <img className="galleryPoster" src="thumbs/video15.png" />
+            <img className="galleryPoster" src="thumbs/video15.png" alt=""/>
             <p className="gallerieThumbDescription">Anastomose</p>
-            <img className="galleryPoster" src="thumbs/Play_experimentell.png" />
+          <img className="galleryPoster" src="thumbs/Play_experimentell.png" alt=""/>
           </div>
           <p>
             <br />
@@ -86,7 +86,7 @@ function Mikrochirurgie(props) {
           </p>
           <p>&nbsp;</p>
           <div className="startGallery imageContainer" data-gallery-item={1}>
-            <img src="thumbs/allentest_images.png" />
+            <img src="thumbs/allentest_images.png" alt=""/>
           </div>
           <p>
             <br />
@@ -124,23 +124,23 @@ function Mikrochirurgie(props) {
           </ul>
           <p>&nbsp;</p>
           <div className="startGallery imageContainer" data-gallery-item={4}>
-            <img src="thumbs/radialis_images.png" />
+            <img src="thumbs/radialis_images.png" alt=""/>
           </div>
         </div>
         <div className="links">
           <div data-media-id={1} data-media-type="image">
             <div className="data-media-thumbnail">
-              <img src="images/klinik.jpg" />
+              <img src="images/klinik.jpg" alt=""/>
             </div>
-            <img src="images/allen.png" />
+            <img src="images/allen.png" alt=""/>
             <div className="media-link-title">Allen-Test</div>
             <div className="media-link-description">Normal durchblutete Hand.</div>
           </div>
           <div data-media-id={2} data-media-type="image">
             <div className="data-media-thumbnail">
-              <img src="images/klinik.jpg" />
+              <img src="images/klinik.jpg" alt=""/>
             </div>
-            <img src="images/allen1.png" />
+            <img src="images/allen1.png" alt=""/>
             <div className="media-link-title">Allen-Test</div>
             <div className="media-link-description">
               Abdrücken der A. radialis und A. ulnaris.
@@ -148,9 +148,9 @@ function Mikrochirurgie(props) {
           </div>
           <div data-media-id={3} data-media-type="image">
             <div className="data-media-thumbnail">
-              <img src="images/klinik.jpg" />
+              <img src="images/klinik.jpg" alt=""/>
             </div>
-            <img src="images/allen2.png" />
+            <img src="images/allen2.png" alt=""/>
             <div className="media-link-title">Allen-Test</div>
             <div className="media-link-description">
               Unter Abdrücken der A. radialis wird nur die ulnare Hälfte der Hand von
@@ -160,9 +160,9 @@ function Mikrochirurgie(props) {
           </div>
           <div data-media-id={4} data-media-type="image">
             <div className="data-media-thumbnail">
-              <img src="images/klinik.jpg" />
+              <img src="images/klinik.jpg" alt=""/>
             </div>
-            <img src="images/dsd_7202.png" />
+            <img src="images/dsd_7202.png" alt=""/>
             <div className="media-link-title">Radialis-Lappen</div>
             <div className="media-link-description">
               Präparation des Radilaislappens.
@@ -170,9 +170,9 @@ function Mikrochirurgie(props) {
           </div>
           <div data-media-id={5} data-media-type="image">
             <div className="data-media-thumbnail">
-              <img src="images/klinik.jpg" />
+              <img src="images/klinik.jpg" alt=""/>
             </div>
-            <img src="images/dsd_7370.png" />
+            <img src="images/dsd_7370.png" alt=""/>
             <div className="media-link-title">Radialis-Lappen</div>
             <div className="media-link-description">
               Komplett gehobener Radialis-Lappen vor Durchtrennung der Gefäße.
@@ -180,9 +180,9 @@ function Mikrochirurgie(props) {
           </div>
           <div data-media-id={6} data-media-type="image">
             <div className="data-media-thumbnail">
-              <img src="images/klinik.jpg" />
+              <img src="images/klinik.jpg" alt=""/>
             </div>
-            <img src="images/dsd_7378.png" />
+            <img src="images/dsd_7378.png" alt=""/>
             <div className="media-link-title">Radialis-Lappen</div>
             <div className="media-link-description">
               Situs nach Entfernung des Radilais-Lappens. Der Defekt kann nun mit
@@ -191,9 +191,9 @@ function Mikrochirurgie(props) {
           </div>
           <div data-media-id={7} data-media-type="image">
             <div className="data-media-thumbnail">
-              <img src="images/klinik.jpg" />
+              <img src="images/klinik.jpg" alt=""/>
             </div>
-            <img src="images/dsd_7382.png" />
+            <img src="images/dsd_7382.png" alt=""/>
             <div className="media-link-title">Radialis-Lappen</div>
             <div className="media-link-description">
               Gehobener Radialis-Lappen vor dem mikrochirurgischen Anschluss.
@@ -201,9 +201,9 @@ function Mikrochirurgie(props) {
           </div>
           <div data-media-id={8} data-media-type="image">
             <div className="data-media-thumbnail">
-              <img src="images/klinik.jpg" />
+              <img src="images/klinik.jpg" alt=""/>
             </div>
-            <img src="images/radialis.png" />
+            <img src="images/radialis.png" alt=""/>
             <div className="media-link-title">Radialis-Lappen</div>
             <div className="media-link-description">
               Transplantierter Radialis-Lappen am Weich- bzw. Hartgaumen.
@@ -297,15 +297,15 @@ function Mikrochirurgie(props) {
           </ul>
           <p>&nbsp;</p>
           <div className="startGallery imageContainer" data-gallery-item={1}>
-            <img src="thumbs/lateraleroberarmlappen_images.png" />
+            <img src="thumbs/lateraleroberarmlappen_images.png" alt=""/>
           </div>
         </div>
         <div className="links">
           <div data-media-id={1} data-media-type="image">
             <div className="data-media-thumbnail">
-              <img src="images/klinik.jpg" />
+              <img src="images/klinik.jpg" alt=""/>
             </div>
-            <img src="images/lateraler_oberarm-lappen.png" />
+            <img src="images/lateraler_oberarm-lappen.png" alt=""/>
             <div className="media-link-title">Lateraler Oberarmlappen</div>
             <div className="media-link-description">
               Schematische Darstellung der Schnittführung des lateralen
@@ -314,9 +314,9 @@ function Mikrochirurgie(props) {
           </div>
           <div data-media-id={2} data-media-type="image">
             <div className="data-media-thumbnail">
-              <img src="images/klinik.jpg" />
+              <img src="images/klinik.jpg" alt=""/>
             </div>
-            <img src="images/lateraler_oberarm-lappen2.png" />
+            <img src="images/lateraler_oberarm-lappen2.png" alt=""/>
             <div className="media-link-title">Lateraler Oberarmlappen</div>
             <div className="media-link-description">
               Gehobenes Transplantat vor Absetzten des Gefäßsstiels.
@@ -388,9 +388,9 @@ function Mikrochirurgie(props) {
           </p>
           <p>&nbsp;</p>
           <div className="startGallery" data-gallery-item={5}>
-            <img className="galleryPoster" src="thumbs/video16.png" />
+            <img className="galleryPoster" src="thumbs/video16.png" alt=""/>
             <p className="gallerieThumbDescription">Rectus Abdominis Lappen</p>
-            <img className="galleryPoster" src="thumbs/Play_experimentell.png" />
+          <img className="galleryPoster" src="thumbs/Play_experimentell.png" alt=""/>
           </div>
           <p>
             <br />
@@ -415,15 +415,15 @@ function Mikrochirurgie(props) {
           </p>
           <p>&nbsp;</p>
           <div className="startGallery imageContainer" data-gallery-item={1}>
-            <img src="thumbs/rectus_images.png" />
+            <img src="thumbs/rectus_images.png" alt=""/>
           </div>
         </div>
         <div className="links">
           <div data-media-id={1} data-media-type="image">
             <div className="data-media-thumbnail">
-              <img src="images/klinik.jpg" />
+              <img src="images/klinik.jpg" alt=""/>
             </div>
-            <img src="images/dsc_2730.png" />
+            <img src="images/dsc_2730.png" alt=""/>
             <div className="media-link-title">Rectus-Abdominis-Lappen</div>
             <div className="media-link-description">
               Präparation der oberen Schichten des Rectus-Abdominis-Lappens.
@@ -431,9 +431,9 @@ function Mikrochirurgie(props) {
           </div>
           <div data-media-id={2} data-media-type="image">
             <div className="data-media-thumbnail">
-              <img src="images/klinik.jpg" />
+              <img src="images/klinik.jpg" alt=""/>
             </div>
-            <img src="images/dsc_2837.png" />
+            <img src="images/dsc_2837.png" alt=""/>
             <div className="media-link-title">Rectus-Abdominis-Lappen</div>
             <div className="media-link-description">
               Präparation der Unterseite des Lappens. Sichtbar sind die versorgenden
@@ -442,9 +442,9 @@ function Mikrochirurgie(props) {
           </div>
           <div data-media-id={3} data-media-type="image">
             <div className="data-media-thumbnail">
-              <img src="images/klinik.jpg" />
+              <img src="images/klinik.jpg" alt=""/>
             </div>
-            <img src="images/dsc_2938.png" />
+            <img src="images/dsc_2938.png" alt=""/>
             <div className="media-link-title">Rectus-Abdominis-Lappen</div>
             <div className="media-link-description">
               Vollständig gehobenes Transplantat bevor die versorgenden Gefäße
@@ -453,9 +453,9 @@ function Mikrochirurgie(props) {
           </div>
           <div data-media-id={4} data-media-type="image">
             <div className="data-media-thumbnail">
-              <img src="images/klinik.jpg" />
+              <img src="images/klinik.jpg" alt=""/>
             </div>
-            <img src="images/dsc_2963.png" />
+            <img src="images/dsc_2963.png" alt=""/>
             <div className="media-link-title">Rectus-Abdominis-Lappen</div>
             <div className="media-link-description">
               Entferntes Transplantat und teilweise verschlossenes Transplantatlager.
@@ -524,15 +524,15 @@ function Mikrochirurgie(props) {
           </ul>
           <p>&nbsp;</p>
           <div className="startGallery imageContainer" data-gallery-item={1}>
-            <img src="thumbs/alt_images.png" />
+            <img src="thumbs/alt_images.png" alt=""/>
           </div>
         </div>
         <div className="links">
           <div data-media-id={1} data-media-type="image">
             <div className="data-media-thumbnail">
-              <img src="images/klinik.jpg" />
+              <img src="images/klinik.jpg" alt=""/>
             </div>
-            <img src="images/alt1.png" />
+            <img src="images/alt1.png" alt=""/>
             <div className="media-link-title">ALT-Lappen</div>
             <div className="media-link-description">
               Eingezeichnete Schnittführung zur Hebung des Transplantats.
@@ -540,9 +540,9 @@ function Mikrochirurgie(props) {
           </div>
           <div data-media-id={2} data-media-type="image">
             <div className="data-media-thumbnail">
-              <img src="images/klinik.jpg" />
+              <img src="images/klinik.jpg" alt=""/>
             </div>
-            <img src="images/alt2.png" />
+            <img src="images/alt2.png" alt=""/>
             <div className="media-link-title">ALT-Lappen</div>
             <div className="media-link-description">
               Gehobener ALT-Lappen vor Absetzen der Gefäße.
@@ -652,15 +652,15 @@ function Mikrochirurgie(props) {
             </li>
           </ul>
           <div className="startGallery imageContainer" data-gallery-item={1}>
-            <img src="thumbs/scapula.png" />
+            <img src="thumbs/scapula.png" alt=""/>
           </div>
         </div>
         <div className="links">
           <div data-media-id={1} data-media-type="image">
             <div className="data-media-thumbnail">
-              <img src="images/klinik.jpg" />
+              <img src="images/klinik.jpg" alt=""/>
             </div>
-            <img src="images/scapula.png" />
+            <img src="images/scapula.png" alt=""/>
             <div className="media-link-title">Scapula-Transplantat</div>
             <div className="media-link-description">
               Schematische Darstellung eines gehobenen Scapula-Transplantats.
@@ -716,15 +716,15 @@ function Mikrochirurgie(props) {
           </ul>
           <p>&nbsp;</p>
           <div className="startGallery imageContainer" data-gallery-item={1}>
-            <img src="thumbs/fibula_images.png" />
+            <img src="thumbs/fibula_images.png" alt=""/>
           </div>
         </div>
         <div className="links">
           <div data-media-id={1} data-media-type="image">
             <div className="data-media-thumbnail">
-              <img src="images/klinik.jpg" />
+              <img src="images/klinik.jpg" alt=""/>
             </div>
-            <img src="images/fibula1.png" />
+            <img src="images/fibula1.png" alt=""/>
             <div className="media-link-title">Fibula-Transplantat</div>
             <div className="media-link-description">
               Eingezeichnete Schnittführung für das Fibula-Transplantat.
@@ -732,9 +732,9 @@ function Mikrochirurgie(props) {
           </div>
           <div data-media-id={2} data-media-type="image">
             <div className="data-media-thumbnail">
-              <img src="images/klinik.jpg" />
+              <img src="images/klinik.jpg" alt=""/>
             </div>
-            <img src="images/fibula2.png" />
+            <img src="images/fibula2.png" alt=""/>
             <div className="media-link-title">Fibula-Transplantat</div>
             <div className="media-link-description">
               Gehobenes Fibula-Transplantat vor Absetzten der Gefäße.
@@ -742,9 +742,9 @@ function Mikrochirurgie(props) {
           </div>
           <div data-media-id={3} data-media-type="image">
             <div className="data-media-thumbnail">
-              <img src="images/klinik.jpg" />
+              <img src="images/klinik.jpg" alt=""/>
             </div>
-            <img src="images/fibula3.png" />
+            <img src="images/fibula3.png" alt=""/>
             <div className="media-link-title">Fibula-Transplantat</div>
             <div className="media-link-description">
               In den Defekt eingefügtes Fibula-Transplantat.
@@ -781,9 +781,9 @@ function Mikrochirurgie(props) {
           </ul>
           <p>&nbsp;</p>
           <div className="startGallery" data-gallery-item={6}>
-            <img className="galleryPoster" src="thumbs/video17.png" />
+            <img className="galleryPoster" src="thumbs/video17.png" alt=""/>
             <p className="gallerieThumbDescription">Rekonstruktion Mittelgesicht</p>
-            <img className="galleryPoster" src="thumbs/Play_experimentell.png" />
+          <img className="galleryPoster" src="thumbs/Play_experimentell.png" alt=""/>
           </div>
           <p>
             <br />
@@ -816,30 +816,30 @@ function Mikrochirurgie(props) {
             </li>
           </ul>
           <div className="startGallery imageContainer" data-gallery-item={1}>
-            <img src="thumbs/becken_images.png" />
+            <img src="thumbs/becken_images.png" alt=""/>
           </div>
           <p>
             <br />
             Fallbeispiel Beckenkammtransplantat mit Sofortimplantation
           </p>
           <div className="startGallery" data-gallery-item={5}>
-            <img className="galleryPoster" src="thumbs/video11.png" />
+            <img className="galleryPoster" src="thumbs/video11.png" alt=""/>
             <p className="gallerieThumbDescription">Beckenkamm Implantate</p>
-            <img className="galleryPoster" src="thumbs/Play_experimentell.png" />
+          <img className="galleryPoster" src="thumbs/Play_experimentell.png" alt=""/>
           </div>
           <div className="startGallery" data-gallery-item={7}>
-            <img className="galleryPoster" src="thumbs/video18.png" />
+            <img className="galleryPoster" src="thumbs/video18.png" alt=""/>
             <p className="gallerieThumbDescription">
               Metallentfernung Beckenkammtransplantat
             </p>
-            <img className="galleryPoster" src="thumbs/Play_experimentell.png" />
+            <img className="galleryPoster" src="thumbs/Play_experimentell.png" alt=""/>
           </div>
           <div className="startGallery" data-gallery-item={8}>
-            <img className="galleryPoster" src="thumbs/video19.png" />
+            <img className="galleryPoster" src="thumbs/video19.png" alt=""/>
             <p className="gallerieThumbDescription">
               Implantatfreilegung + Vestibulumplastik
             </p>
-            <img className="galleryPoster" src="thumbs/Play_experimentell.png" />
+            <img className="galleryPoster" src="thumbs/Play_experimentell.png" alt=""/>
           </div>
           <p>
             <br />
@@ -848,11 +848,11 @@ function Mikrochirurgie(props) {
             kombiniert werden.
           </p>
           <div className="startGallery" data-gallery-item={9}>
-            <img className="galleryPoster" src="thumbs/video20.png" />
+            <img className="galleryPoster" src="thumbs/video20.png" alt=""/>
             <p className="gallerieThumbDescription">
               Beckenkammtransplantat mit Kiefergelenk
             </p>
-            <img className="galleryPoster" src="thumbs/Play_experimentell.png" />
+            <img className="galleryPoster" src="thumbs/Play_experimentell.png" alt=""/>
           </div>
           <p>
             <br />
@@ -861,19 +861,19 @@ function Mikrochirurgie(props) {
             Mandibula befestigt werden.
           </p>
           <div className="startGallery" data-gallery-item={10}>
-            <img className="galleryPoster" src="thumbs/video21.png" />
+            <img className="galleryPoster" src="thumbs/video21.png" alt=""/>
             <p className="gallerieThumbDescription">
               Beckenkammtransplantat mit Kiefergelenk
             </p>
-            <img className="galleryPoster" src="thumbs/Play_experimentell.png" />
+            <img className="galleryPoster" src="thumbs/Play_experimentell.png" alt=""/>
           </div>
         </div>
         <div className="links">
           <div data-media-id={1} data-media-type="image">
             <div className="data-media-thumbnail">
-              <img src="images/klinik.jpg" />
+              <img src="images/klinik.jpg" alt=""/>
             </div>
-            <img src="images/becken1.png" />
+            <img src="images/becken1.png" alt=""/>
             <div className="media-link-title">Beckenkamm-Transplantat</div>
             <div className="media-link-description">
               Präparation der oberflächlichen Hautschicht bis zur Darstellung des
@@ -882,9 +882,9 @@ function Mikrochirurgie(props) {
           </div>
           <div data-media-id={2} data-media-type="image">
             <div className="data-media-thumbnail">
-              <img src="images/klinik.jpg" />
+              <img src="images/klinik.jpg" alt=""/>
             </div>
-            <img src="images/becken2.png" />
+            <img src="images/becken2.png" alt=""/>
             <div className="media-link-title">Beckenkamm-Transplantat</div>
             <div className="media-link-description">
               Darstellung des Beckens und der Gefäße für das Beckenkamm-Transplantat.
@@ -892,9 +892,9 @@ function Mikrochirurgie(props) {
           </div>
           <div data-media-id={3} data-media-type="image">
             <div className="data-media-thumbnail">
-              <img src="images/klinik.jpg" />
+              <img src="images/klinik.jpg" alt=""/>
             </div>
-            <img src="images/becken3.png" />
+            <img src="images/becken3.png" alt=""/>
             <div className="media-link-title">Beckenkamm-Transplantat</div>
             <div className="media-link-description">
               Gehobenes Beckenkamm-Transplantat vor Absetzten des Gefäßstiels.
@@ -902,9 +902,9 @@ function Mikrochirurgie(props) {
           </div>
           <div data-media-id={4} data-media-type="image">
             <div className="data-media-thumbnail">
-              <img src="images/klinik.jpg" />
+              <img src="images/klinik.jpg" alt=""/>
             </div>
-            <img src="images/becken4.png" />
+            <img src="images/becken4.png" alt=""/>
             <div className="media-link-title">Beckenkamm-Transplantat</div>
             <div className="media-link-description">
               Transplantiertes Beckenkammtransplantat im Defekbereich des
@@ -1059,7 +1059,7 @@ function Mikrochirurgie(props) {
             <strong>Perforansgefäße mit Venae comitantes aus der A. peronea</strong>.
           </p>
           <div className="startGallery imageContainer" data-gallery-item={1}>
-            <img src="thumbs/perforator_images.png" />
+            <img src="thumbs/perforator_images.png" alt=""/>
           </div>
           <p>
             <br />
@@ -1078,9 +1078,9 @@ function Mikrochirurgie(props) {
         <div className="links">
           <div data-media-id={1} data-media-type="image">
             <div className="data-media-thumbnail">
-              <img src="images/klinik.jpg" />
+              <img src="images/klinik.jpg" alt=""/>
             </div>
-            <img src="images/dsd_7404.png" />
+            <img src="images/dsd_7404.png" alt=""/>
             <div className="media-link-title">Soleus-Lappen</div>
             <div className="media-link-description">
               Darstellung der Perorator-Gefäße am Unterschenkel.
@@ -1088,9 +1088,9 @@ function Mikrochirurgie(props) {
           </div>
           <div data-media-id={2} data-media-type="image">
             <div className="data-media-thumbnail">
-              <img src="images/klinik.jpg" />
+              <img src="images/klinik.jpg" alt=""/>
             </div>
-            <img src="images/dsd_7477.png" />
+            <img src="images/dsd_7477.png" alt=""/>
             <div className="media-link-title">Soleus-Lappen</div>
             <div className="media-link-description">
               Vollständig gehobener Perforator-Lappen vor Durchtrennung des
@@ -1099,9 +1099,9 @@ function Mikrochirurgie(props) {
           </div>
           <div data-media-id={3} data-media-type="image">
             <div className="data-media-thumbnail">
-              <img src="images/klinik.jpg" />
+              <img src="images/klinik.jpg" alt=""/>
             </div>
-            <img src="images/dsd_7493.png" />
+            <img src="images/dsd_7493.png" alt=""/>
             <div className="media-link-title">Soleus-Lappen</div>
             <div className="media-link-description">
               Perforator-Lappen und Entnahmestelle nach Lappenstieldurchtrennung.

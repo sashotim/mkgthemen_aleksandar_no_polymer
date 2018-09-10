@@ -151,9 +151,9 @@ function Entzuendungen_abszesse(props) {
         <div className="links">
           <div data-media-id={1} data-media-type="image">
             <div className="data-media-thumbnail">
-              <img src="images/klinik.jpg" />
+              <img src="images/klinik.jpg" alt=""/>
             </div>
-            <img src="images/butoi_a._230277_d01_2014.06.07-02.png" />
+            <img src="images/butoi_a._230277_d01_2014.06.07-02.png" alt=""/>
             <div className="media-link-title">Entzündungszeichen</div>
             <div className="media-link-description">
               Klassiche Entzündungszeichen bei einem submandibulären Abszess:
@@ -423,9 +423,9 @@ function Entzuendungen_abszesse(props) {
         <div className="links">
           <div data-media-id={1} data-media-type="image">
             <div className="data-media-thumbnail">
-              <img src="images/klinik.jpg" />
+              <img src="images/klinik.jpg" alt=""/>
             </div>
-            <img src="images/parotisabszess.png" />
+            <img src="images/parotisabszess.png" alt=""/>
             <div className="media-link-title">Abszess Glandula parotis</div>
             <div className="media-link-description">
               Abszess der Glandula parotis.
@@ -433,9 +433,9 @@ function Entzuendungen_abszesse(props) {
           </div>
           <div data-media-id={2} data-media-type="image">
             <div className="data-media-thumbnail">
-              <img src="images/klinik.jpg" />
+              <img src="images/klinik.jpg" alt=""/>
             </div>
-            <img src="images/perimandibul%C3%A4rerabszess1.png" />
+            <img src="images/perimandibul%C3%A4rerabszess1.png" alt=""/>
             <div className="media-link-title">Perimandibulärer Abszess</div>
             <div className="media-link-description">
               Perimandibulärer Abszess
@@ -443,17 +443,17 @@ function Entzuendungen_abszesse(props) {
           </div>
           <div data-media-id={3} data-media-type="image">
             <div className="data-media-thumbnail">
-              <img src="images/klinik.jpg" />
+              <img src="images/klinik.jpg" alt=""/>
             </div>
-            <img src="images/sanduhrenph%C3%A4nomen.png" />
+            <img src="images/sanduhrenph%C3%A4nomen.png" alt=""/>
             <div className="media-link-title">Abszess der Temporalisloge</div>
             <div className="media-link-description">Temporaler Abszess</div>
           </div>
           <div data-media-id={4} data-media-type="image">
             <div className="data-media-thumbnail">
-              <img src="images/klinik.jpg" />
+              <img src="images/klinik.jpg" alt=""/>
             </div>
-            <img src="images/perimandibul%C3%A4rerabszess2.png" />
+            <img src="images/perimandibul%C3%A4rerabszess2.png" alt=""/>
             <div className="media-link-title">
               Perimandibulärer Abszess postoperativ
             </div>
@@ -464,9 +464,9 @@ function Entzuendungen_abszesse(props) {
           </div>
           <div data-media-id={5} data-media-type="image">
             <div className="data-media-thumbnail">
-              <img src="images/klinik.jpg" />
+              <img src="images/klinik.jpg" alt=""/>
             </div>
-            <img src="images/fossacanina_1.png" />
+            <img src="images/fossacanina_1.png" alt=""/>
             <div className="media-link-title">Abszess der Fossa canina</div>
             <div className="media-link-description">
               Abzess der Fossa canina
@@ -474,9 +474,9 @@ function Entzuendungen_abszesse(props) {
           </div>
           <div data-media-id={6} data-media-type="image">
             <div className="data-media-thumbnail">
-              <img src="images/klinik.jpg" />
+              <img src="images/klinik.jpg" alt=""/>
             </div>
-            <img src="images/submandibul%C3%A4rerabszess.png" />
+            <img src="images/submandibul%C3%A4rerabszess.png" alt=""/>
             <div className="media-link-title">Submandibulärer Abszess</div>
             <div className="media-link-description">
               Submandibulärer Abszess
@@ -516,9 +516,9 @@ function Entzuendungen_abszesse(props) {
         <div className="links">
           <div data-media-id={1} data-media-type="image">
             <div className="data-media-thumbnail">
-              <img src="images/klinik.jpg" />
+              <img src="images/klinik.jpg" alt=""/>
             </div>
-            <img src="images/phlegmone_1.png" />
+            <img src="images/phlegmone_1.png" alt=""/>
             <div className="media-link-title">Phlegmone</div>
             <div className="media-link-description">
               Phlegmonöse Entzündung des Mittelgesichts.
@@ -820,16 +820,16 @@ function Entzuendungen_abszesse(props) {
           <p>&nbsp;</p>
           <p>
             <span className="startGallery" data-gallery-item={8}>
-              <img src="thumbs/bronj.png" alt="Einseitige LKG Spalte Galerie" />
+              <img src="thumbs/bronj.png" alt="Einseitige LKG Spalte Galerie"/>
             </span>
           </p>
         </div>
         <div className="links">
           <div data-media-id={1} data-media-type="image">
             <div className="data-media-thumbnail">
-              <img src="images/klinik.jpg" />
+              <img src="images/klinik.jpg" alt=""/>
             </div>
-            <img src="images/bronj.png" />
+            <img src="images/bronj.png" alt=""/>
             <div className="media-link-title">
               Bisphosphonat-assoziierte Nekrose des Unterkiefers
             </div>
@@ -1019,19 +1019,20 @@ function Entzuendungen_abszesse(props) {
             </span>
           </p>
           <div className="startGallery" data-gallery-item={1}>
-            <img className="galleryPoster" src="thumbs/video0.png" />
+            <img className="galleryPoster" src="thumbs/video0.png" alt=""/>
             <p className="gallerieThumbDescription">Abszess</p>
             <img
               className="galleryPoster"
               src="thumbs/Play_experimentell.png"
+              alt=""
             />
           </div>
           <div className="links">
             <div data-media-id={1} data-media-type="image">
               <div className="data-media-thumbnail">
-                <img src="images/klinik.jpg" />
+                <img src="images/klinik.jpg" alt=""/>
               </div>
-              <img src="images/abszess_extraoraler_zugang.png" />
+              <img src="images/abszess_extraoraler_zugang.png" alt=""/>
               <div className="media-link-title">Perimandibulärer Abszess</div>
               <div className="media-link-description">
                 Von extraoral eröffneter perimandibulärer Abszess.
@@ -1047,9 +1048,9 @@ function Entzuendungen_abszesse(props) {
           </div>
           <div data-media-id={2} data-media-type="image">
             <div className="data-media-thumbnail">
-              <img src="images/klinik.jpg" />
+              <img src="images/klinik.jpg" alt=""/>
             </div>
-            <img src="images/abszess_extraoraler_zugang.png" />
+            <img src="images/abszess_extraoraler_zugang.png" alt=""/>
             <div className="media-link-title">Perimandibulärer Abszess</div>
             <div className="media-link-description">
               Von extraoral eröffneter perimandibulärer Abszess

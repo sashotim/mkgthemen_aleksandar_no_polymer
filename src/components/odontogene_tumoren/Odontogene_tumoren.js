@@ -287,9 +287,9 @@ function Odontogene_tumoren(props) {
           </li>
         </ul>
         <div className="startGallery" data-gallery-item={1}>
-          <img className="galleryPoster" src="thumbs/video10.png" />
+          <img className="galleryPoster" src="thumbs/video10.png" alt=""/>
           <p className="gallerieThumbDescription">Trepanbohrung</p>
-          <img className="galleryPoster" src="thumbs/Play_experimentell.png" />
+        <img className="galleryPoster" src="thumbs/Play_experimentell.png" alt=""/>
         </div>
       </div>
       <div className="links">
@@ -367,9 +367,9 @@ function Odontogene_tumoren(props) {
 
     <p>&nbsp;</p>;
     <div className="startGallery" data-gallery-item={19}>
-      <img className="galleryPoster" src="thumbs/video8.png" />
+      <img className="galleryPoster" src="thumbs/video8.png" alt=""/>
       <p className="gallerieThumbDescription">Beckenkammtransplantat</p>
-      <img className="galleryPoster" src="thumbs/Play_experimentell.png" />
+    <img className="galleryPoster" src="thumbs/Play_experimentell.png" alt=""/>
     </div>;
     <p>2. Extraossäres oder peripheres Ameloblastom</p>;
     <ul>
@@ -434,7 +434,7 @@ function Odontogene_tumoren(props) {
     <p>&nbsp;</p>;
     <p>
       <span className="startGallery" data-gallery-item={1}>
-        <img src="thumbs/ameloblastom_images.png" alt="Ameloblastom" />
+        <img src="thumbs/ameloblastom_images.png" alt="Ameloblastom"/>
       </span>
     </p>;
     <p>&nbsp;</p>;
@@ -749,7 +749,7 @@ function Odontogene_tumoren(props) {
     <p>&nbsp;</p>;
     <p>
       <span className="startGallery" data-gallery-item={12}>
-        <img src="thumbs/odontogenes_fibrom_images.png" alt="Odontogenes Fibrom" />
+        <img src="thumbs/odontogenes_fibrom_images.png" alt="Odontogenes Fibrom"/>
       </span>
     </p>;
     <p>&nbsp;</p>;
@@ -776,7 +776,7 @@ function Odontogene_tumoren(props) {
     <p>&nbsp;</p>;
     <p>
       <span className="startGallery" data-gallery-item={7}>
-        <img src="thumbs/odontogenes_myxom.png" alt="Odontogenes Myxom" />
+        <img src="thumbs/odontogenes_myxom.png" alt="Odontogenes Myxom"/>
       </span>
     </p>;
     <p>&nbsp;</p>;
@@ -801,9 +801,9 @@ function Odontogene_tumoren(props) {
     <div className="links">
       <div data-media-id={1} data-media-type="image">
         <div className="data-media-thumbnail">
-          <img src="thumbs/klinik.jpg" />
+          <img src="thumbs/klinik.jpg" alt=""/>
         </div>
-        <img src="images/ameloblastom.png" />
+        <img src="images/ameloblastom.png" alt=""/>
         <div className="media-link-title">Ameloblastom</div>
         <div className="media-link-description">
           OPT eines Ameloblastoms des linken aufsteigenden Unterkieferastes.
@@ -811,9 +811,9 @@ function Odontogene_tumoren(props) {
       </div>
       <div data-media-id={2} data-media-type="image">
         <div className="data-media-thumbnail">
-          <img src="thumbs/klinik.jpg" />
+          <img src="thumbs/klinik.jpg" alt=""/>
         </div>
-        <img src="images/ameloblastom1.png" />
+        <img src="images/ameloblastom1.png" alt=""/>
         <div className="media-link-title">Ameloblastom</div>
         <div className="media-link-description">
           DVT eines Ameloblastoms im Unterkieferfrontzahnbereich.
@@ -821,9 +821,9 @@ function Odontogene_tumoren(props) {
       </div>
       <div data-media-id={3} data-media-type="image">
         <div className="data-media-thumbnail">
-          <img src="thumbs/klinik.jpg" />
+          <img src="thumbs/klinik.jpg" alt=""/>
         </div>
-        <img src="images/ameloblastom2.png" />
+        <img src="images/ameloblastom2.png" alt=""/>
         <div className="media-link-title">Ameloblastom</div>
         <div className="media-link-description">
           CT eines Ameloblastoms im anterioren Unterkiefer.
@@ -831,9 +831,9 @@ function Odontogene_tumoren(props) {
       </div>
       <div data-media-id={4} data-media-type="image">
         <div className="data-media-thumbnail">
-          <img src="thumbs/klinik.jpg" />
+          <img src="thumbs/klinik.jpg" alt=""/>
         </div>
-        <img src="images/ameloblastom3.png" />
+        <img src="images/ameloblastom3.png" alt=""/>
         <div className="media-link-title">Ameloblastom</div>
         <div className="media-link-description">
           OPT eines Ameloblastoms im 3. Quadranten.Scharf begrenzte, mehrkammerige
@@ -843,9 +843,9 @@ function Odontogene_tumoren(props) {
       </div>
       <div data-media-id={5} data-media-type="image">
         <div className="data-media-thumbnail">
-          <img src="thumbs/klinik.jpg" />
+          <img src="thumbs/klinik.jpg" alt=""/>
         </div>
-        <img src="images/ameloblastom4.png" />
+        <img src="images/ameloblastom4.png" alt=""/>
         <div className="media-link-title">Ameloblastom</div>
         <div className="media-link-description">
           Halbseiten-OPT des Unterkiefers mit Ameloblastom im Bereich des
@@ -854,9 +854,9 @@ function Odontogene_tumoren(props) {
       </div>
       <div data-media-id={6} data-media-type="image">
         <div className="data-media-thumbnail">
-          <img src="thumbs/klinik.jpg" />
+          <img src="thumbs/klinik.jpg" alt=""/>
         </div>
-        <img src="images/ameloblastom5.png" />
+        <img src="images/ameloblastom5.png" alt=""/>
         <div className="media-link-title">Ameloblastom</div>
         <div className="media-link-description">
           Postoperatives OPT nach Entfernung des Ameloblastoms und Stabilisierung
@@ -865,9 +865,9 @@ function Odontogene_tumoren(props) {
       </div>
       <div data-media-id={7} data-media-type="image">
         <div className="data-media-thumbnail">
-          <img src="thumbs/klinik.jpg" />
+          <img src="thumbs/klinik.jpg" alt=""/>
         </div>
-        <img src="images/ameloblastom6.png" />
+        <img src="images/ameloblastom6.png" alt=""/>
         <div className="media-link-title">Odontogenes Myxom</div>
         <div className="media-link-description">
           Odontogenes Myxom im 4. Quadranten mit deutlicher Verschiebung der Zähne
@@ -877,9 +877,9 @@ function Odontogene_tumoren(props) {
       </div>
       <div data-media-id={8} data-media-type="image">
         <div className="data-media-thumbnail">
-          <img src="thumbs/klinik.jpg" />
+          <img src="thumbs/klinik.jpg" alt=""/>
         </div>
-        <img src="images/ameloblastom7.png" />
+        <img src="images/ameloblastom7.png" alt=""/>
         <div className="media-link-title">Ameloblastom</div>
         <div className="media-link-description">
           DVT in dem sich im vorderen Abschnitt des Unterkiefers ein Ameloblastom
@@ -888,9 +888,9 @@ function Odontogene_tumoren(props) {
       </div>
       <div data-media-id={9} data-media-type="image">
         <div className="data-media-thumbnail">
-          <img src="thumbs/klinik.jpg" />
+          <img src="thumbs/klinik.jpg" alt=""/>
         </div>
-        <img src="images/keratozyste.png" />
+        <img src="images/keratozyste.png" alt=""/>
         <div className="media-link-title">Keratozystischer odontogener Tumor</div>
         <div className="media-link-description">
           Keratozystischer odontogener Tumor im Bereich des aufsteigenden
@@ -899,9 +899,9 @@ function Odontogene_tumoren(props) {
       </div>
       <div data-media-id={10} data-media-type="image">
         <div className="data-media-thumbnail">
-          <img src="thumbs/klinik.jpg" />
+          <img src="thumbs/klinik.jpg" alt=""/>
         </div>
-        <img src="images/kot.png" />
+        <img src="images/kot.png" alt=""/>
         <div className="media-link-title">Keratozystischer odontogener Tumor</div>
         <div className="media-link-description">
           Keratozystischer odontogener Tumor distal des Zahnes 37.
@@ -909,9 +909,9 @@ function Odontogene_tumoren(props) {
       </div>
       <div data-media-id={11} data-media-type="image">
         <div className="data-media-thumbnail">
-          <img src="thumbs/klinik.jpg" />
+          <img src="thumbs/klinik.jpg" alt=""/>
         </div>
-        <img src="images/kot2.png" />
+        <img src="images/kot2.png" alt=""/>
         <div className="media-link-title">Keratozystischer odontogener Tumor</div>
         <div className="media-link-description">
           Keratozystischer odontogener Tumor in regio 32 bis 036.
@@ -919,9 +919,9 @@ function Odontogene_tumoren(props) {
       </div>
       <div data-media-id={12} data-media-type="image">
         <div className="data-media-thumbnail">
-          <img src="thumbs/klinik.jpg" />
+          <img src="thumbs/klinik.jpg" alt=""/>
         </div>
-        <img src="images/odontogenes_fibrom.png" />
+        <img src="images/odontogenes_fibrom.png" alt=""/>
         <div className="media-link-title">Odontogenes Fibrom</div>
         <div className="media-link-description">
           Odontogenes Fibrom im 4. Quadranten.
@@ -929,9 +929,9 @@ function Odontogene_tumoren(props) {
       </div>
       <div data-media-id={13} data-media-type="image">
         <div className="data-media-thumbnail">
-          <img src="thumbs/klinik.jpg" />
+          <img src="thumbs/klinik.jpg" alt=""/>
         </div>
-        <img src="images/odontogenes_fibrom2.png" />
+        <img src="images/odontogenes_fibrom2.png" alt=""/>
         <div className="media-link-title">Odontogenes Fibrom</div>
         <div className="media-link-description">
           Odontogenes Fibrom im Bereich der Unterkieferfrontzähne.
@@ -939,9 +939,9 @@ function Odontogene_tumoren(props) {
       </div>
       <div data-media-id={14} data-media-type="image">
         <div className="data-media-thumbnail">
-          <img src="thumbs/klinik.jpg" />
+          <img src="thumbs/klinik.jpg" alt=""/>
         </div>
-        <img src="images/odontogenes_myxom.png" />
+        <img src="images/odontogenes_myxom.png" alt=""/>
         <div className="media-link-title">Odontogenes Myxom</div>
         <div className="media-link-description">
           CT in allen 3 Ebenen mit einem odontogenem Myxom im 4. Quadranten. Quelle:
@@ -950,9 +950,9 @@ function Odontogene_tumoren(props) {
       </div>
       <div data-media-id={15} data-media-type="image">
         <div className="data-media-thumbnail">
-          <img src="thumbs/klinik.jpg" />
+          <img src="thumbs/klinik.jpg" alt=""/>
         </div>
-        <img src="images/odontom.png" />
+        <img src="images/odontom.png" alt=""/>
         <div className="media-link-title">Odontom</div>
         <div className="media-link-description">
           Odontom in in Region des retinierten Zahnes 24.
@@ -960,9 +960,9 @@ function Odontogene_tumoren(props) {
       </div>
       <div data-media-id={16} data-media-type="image">
         <div className="data-media-thumbnail">
-          <img src="thumbs/klinik.jpg" />
+          <img src="thumbs/klinik.jpg" alt=""/>
         </div>
-        <img src="images/odontom2.png" />
+        <img src="images/odontom2.png" alt=""/>
         <div className="media-link-title">Odontom</div>
         <div className="media-link-description">
           Komplexes Odontom in regio 24. Retiniert und verlagerte Zähne 23, 24.
@@ -972,9 +972,9 @@ function Odontogene_tumoren(props) {
       </div>
       <div data-media-id={17} data-media-type="image">
         <div className="data-media-thumbnail">
-          <img src="thumbs/klinik.jpg" />
+          <img src="thumbs/klinik.jpg" alt=""/>
         </div>
-        <img src="images/odontom3.png" />
+        <img src="images/odontom3.png" alt=""/>
         <div className="media-link-title">Odontom</div>
         <div className="media-link-description">
           Komplexes Odontom in regio 36-37.
@@ -982,9 +982,9 @@ function Odontogene_tumoren(props) {
       </div>
       <div data-media-id={18} data-media-type="image">
         <div className="data-media-thumbnail">
-          <img src="thumbs/klinik.jpg" />
+          <img src="thumbs/klinik.jpg" alt=""/>
         </div>
-        <img src="images/odontom4.png" />
+        <img src="images/odontom4.png" alt=""/>
         <div className="media-link-title">Odontom</div>
         <div className="media-link-description">
           Konventionelles Röntgenbild mit odontom im anterioren Unterkieferbereich.

@@ -43,7 +43,7 @@ function Implantologie_und_epithetik(props) {
             </ul>
             <p>Hierbei handelt es sich um eine subjektive Einteilung aufgrund des Widerstandes bei der Bohrung.</p>
             <p>&nbsp;</p>
-            <p><span className="startGallery" data-gallery-item={1}><img src="thumbs/histologie.png" alt="Histologie" /> </span>
+          <p><span className="startGallery" data-gallery-item={1}><img src="thumbs/histologie.png" alt="Histologie" /> </span>
             </p>
             <p>&nbsp;</p>
             <p>Die unterschiedlichen Atrophieformen des Knochens werden im Kapitel&nbsp;<a href="#/praeprothetische_chirurgie_augmentation/index.html">„Präprothetische Chirurgie und
@@ -51,8 +51,8 @@ function Implantologie_und_epithetik(props) {
             <p>&nbsp;</p></div>
           <div className="links">
             <div data-media-id={1} data-media-type="image">
-              <div className="data-media-thumbnail"><img src="thumbs/klinik.jpg" /></div>
-              <img src="images/histologie.png" />
+              <div className="data-media-thumbnail"><img src="thumbs/klinik.jpg" alt=""/></div>
+            <img src="images/histologie.png" alt=""/>
               <div className="media-link-title">Histologie</div>
               <div className="media-link-description">Histologischer Schnitt eines gesunden Knochens.</div>
             </div>
@@ -75,7 +75,7 @@ function Implantologie_und_epithetik(props) {
               </li>
             </ul>
             <p>&nbsp;</p>
-            <p><span className="startGallery" data-gallery-item={1}><img src="thumbs/implantat.png" alt="Implantat" /> </span></p>
+          <p><span className="startGallery" data-gallery-item={1}><img src="thumbs/implantat.png" alt="Implantat" /> </span></p>
             <p>&nbsp;</p>
             <p><span style={{textDecoration: 'underline'}}>Material:</span></p>
             <p>Zur Herstellung von Implantaten wird heutzutage Titan oder Zirkonoxid verwendet. Die Nutzung von Implantaten
@@ -227,8 +227,8 @@ function Implantologie_und_epithetik(props) {
             <p>&nbsp;</p></div>
           <div className="links">
             <div data-media-id={1} data-media-type="image">
-              <div className="data-media-thumbnail"><img src="thumbs/klinik.jpg" /></div>
-              <img src="images/implantat.png" />
+              <div className="data-media-thumbnail"><img src="thumbs/klinik.jpg" alt=""/></div>
+            <img src="images/implantat.png" alt=""/>
               <div className="media-link-title">Implantat</div>
               <div className="media-link-description" />
             </div>
@@ -358,32 +358,32 @@ function Implantologie_und_epithetik(props) {
             <p>Quelle: Strub et al. "Curriculum Prothetik" Band III, 4. Auflage, Quintessenz Verlag</p></div>
           <div className="links">
             <div data-media-id={1} data-media-type="image">
-              <div className="data-media-thumbnail"><img src="thumbs/klinik.jpg" /></div>
-              <img src="images/opt_bohrschablone.png" />
+              <div className="data-media-thumbnail"><img src="thumbs/klinik.jpg" alt=""/></div>
+            <img src="images/opt_bohrschablone.png" alt=""/>
               <div className="media-link-title">Planung</div>
               <div className="media-link-description">Orthopanthomogramm mit eingesetzter Röntgenschablone.</div>
             </div>
             <div data-media-id={2} data-media-type="image">
-              <div className="data-media-thumbnail"><img src="thumbs/klinik.jpg" /></div>
-              <img src="images/planung_2.png" />
+              <div className="data-media-thumbnail"><img src="thumbs/klinik.jpg" alt=""/></div>
+            <img src="images/planung_2.png" alt=""/>
               <div className="media-link-title">Planung</div>
               <div className="media-link-description">Bohrschablone auf dem Modell des Patienten.</div>
             </div>
             <div data-media-id={3} data-media-type="image">
-              <div className="data-media-thumbnail"><img src="thumbs/klinik.jpg" /></div>
-              <img src="images/planung.png" />
+              <div className="data-media-thumbnail"><img src="thumbs/klinik.jpg" alt=""/></div>
+            <img src="images/planung.png" alt=""/>
               <div className="media-link-title">Planung</div>
               <div className="media-link-description">Präoperative Situation im Mund des Patienten.</div>
             </div>
             <div data-media-id={4} data-media-type="image">
-              <div className="data-media-thumbnail"><img src="thumbs/klinik.jpg" /></div>
-              <img src="images/planung_4.png" />
+              <div className="data-media-thumbnail"><img src="thumbs/klinik.jpg" alt=""/></div>
+            <img src="images/planung_4.png" alt=""/>
               <div className="media-link-title">Planung</div>
               <div className="media-link-description">Röntgenkontrolle nach Implantation im 3. Quadranten.</div>
             </div>
             <div data-media-id={5} data-media-type="image">
-              <div className="data-media-thumbnail"><img src="thumbs/klinik.jpg" /></div>
-              <img src="images/planung_3.png" />
+              <div className="data-media-thumbnail"><img src="thumbs/klinik.jpg" alt=""/></div>
+            <img src="images/planung_3.png" alt=""/>
               <div className="media-link-title">Planung</div>
               <div className="media-link-description">Prothetische Versorgung nach Implantation.</div>
             </div>
@@ -496,93 +496,93 @@ function Implantologie_und_epithetik(props) {
               </li>
               <li>Eingliederung des Zahnersatzes nach 3 Monaten Einheildauer</li>
             </ul>
-            <div className="startGallery" data-gallery-item={14}><img className="galleryPoster" src="thumbs/video0.png"/>
+            <div className="startGallery" data-gallery-item={14}><img className="galleryPoster" src="thumbs/video0.png"alt=""/>
               <p className="gallerieThumbDescription">Beckenkamm Implantate</p>
-              <img className="galleryPoster" src="thumbs/Play_experimentell.png"/></div>
-            <p><span className="startGallery" data-gallery-item={8}><img src="thumbs/1_1_images.png" alt="Implantation nach Beckenkammtransplantat" /> </span>
+            <img className="galleryPoster" src="thumbs/Play_experimentell.png"alt=""/></div>
+          <p><span className="startGallery" data-gallery-item={8}><img src="thumbs/1_1_images.png" alt="Implantation nach Beckenkammtransplantat" /> </span>
             </p>
             <p>Quelle: Strub et al. "Curriculum Prothetik" Band III, 4. Auflage, Quintessenz Verlag</p></div>
           <div className="links">
             <div data-media-id={1} data-media-type="image">
-              <div className="data-media-thumbnail"><img src="thumbs/klinik.jpg" /></div>
-              <img src="images/op1.png" />
+              <div className="data-media-thumbnail"><img src="thumbs/klinik.jpg" alt=""/></div>
+            <img src="images/op1.png" alt=""/>
               <div className="media-link-title">Implantation</div>
               <div className="media-link-description">Präoperativer Situs mit den fehlenden Zähne 11 und 21.</div>
             </div>
             <div data-media-id={2} data-media-type="image">
-              <div className="data-media-thumbnail"><img src="thumbs/klinik.jpg" /></div>
-              <img src="images/op2.png" />
+              <div className="data-media-thumbnail"><img src="thumbs/klinik.jpg" alt=""/></div>
+            <img src="images/op2.png" alt=""/>
               <div className="media-link-title">Implantation</div>
               <div className="media-link-description">Situs nach Freilegung des Knochens und mit eingebrachter Bohrschablone,
                 welche an den Nachbarzähnen abgestützt ist.
               </div>
             </div>
             <div data-media-id={3} data-media-type="image">
-              <div className="data-media-thumbnail"><img src="thumbs/klinik.jpg" /></div>
-              <img src="images/op3.png" />
+              <div className="data-media-thumbnail"><img src="thumbs/klinik.jpg" alt=""/></div>
+            <img src="images/op3.png" alt=""/>
               <div className="media-link-title">Implantation</div>
               <div className="media-link-description">Vorbohrung in regio 11 und eingesetzter Implantatpfosten in regio 21.
               </div>
             </div>
             <div data-media-id={4} data-media-type="image">
-              <div className="data-media-thumbnail"><img src="thumbs/klinik.jpg" /></div>
-              <img src="images/op4.png" />
+              <div className="data-media-thumbnail"><img src="thumbs/klinik.jpg" alt=""/></div>
+            <img src="images/op4.png" alt=""/>
               <div className="media-link-title">Implantation</div>
               <div className="media-link-description">Druckloses Einsetzten der Implantate.</div>
             </div>
             <div data-media-id={5} data-media-type="image">
-              <div className="data-media-thumbnail"><img src="thumbs/klinik.jpg" /></div>
-              <img src="images/op5.png" />
+              <div className="data-media-thumbnail"><img src="thumbs/klinik.jpg" alt=""/></div>
+            <img src="images/op5.png" alt=""/>
               <div className="media-link-title">Implantation</div>
               <div className="media-link-description">Vollständig eingesetzte Implantate in regio 11 und 21.</div>
             </div>
             <div data-media-id={6} data-media-type="image">
-              <div className="data-media-thumbnail"><img src="thumbs/klinik.jpg" /></div>
-              <img src="images/op6.png" />
+              <div className="data-media-thumbnail"><img src="thumbs/klinik.jpg" alt=""/></div>
+            <img src="images/op6.png" alt=""/>
               <div className="media-link-title">Implantation</div>
               <div className="media-link-description">Speicheldichter Verschluss der Schleimhaut über den Implantaten.</div>
             </div>
             <div data-media-id={7} data-media-type="image">
-              <div className="data-media-thumbnail"><img src="thumbs/klinik.jpg" /></div>
-              <img src="images/op7.png" />
+              <div className="data-media-thumbnail"><img src="thumbs/klinik.jpg" alt=""/></div>
+            <img src="images/op7.png" alt=""/>
               <div className="media-link-title">Implantation</div>
               <div className="media-link-description">Eingesetzte Interims nach Implantation.</div>
             </div>
             <div data-media-id={8} data-media-type="image">
-              <div className="data-media-thumbnail"><img src="thumbs/klinik.jpg" /></div>
-              <img src="images/1_1.png" />
+              <div className="data-media-thumbnail"><img src="thumbs/klinik.jpg" alt=""/></div>
+            <img src="images/1_1.png" alt=""/>
               <div className="media-link-title">Implantation nach Beckenkammtransplantat</div>
               <div className="media-link-description">Insertion der Implantate in das freigelegte und eingeheilte
                 Beckenkammtransplantat.
               </div>
             </div>
             <div data-media-id={9} data-media-type="image">
-              <div className="data-media-thumbnail"><img src="thumbs/klinik.jpg" /></div>
-              <img src="images/2_1.png" />
+              <div className="data-media-thumbnail"><img src="thumbs/klinik.jpg" alt=""/></div>
+            <img src="images/2_1.png" alt=""/>
               <div className="media-link-title">Implantation Beckenkammtransplantat</div>
               <div className="media-link-description">6 inserierte Implantate mit Einbringpfosten im Unterkiefer.</div>
             </div>
             <div data-media-id={10} data-media-type="image">
-              <div className="data-media-thumbnail"><img src="thumbs/klinik.jpg" /></div>
-              <img src="images/3.png" />
+              <div className="data-media-thumbnail"><img src="thumbs/klinik.jpg" alt=""/></div>
+            <img src="images/3.png" alt=""/>
               <div className="media-link-title">Implantation nach Beckenkammtransplantat</div>
               <div className="media-link-description">Modell mit den individuellen Teleskopen.</div>
             </div>
             <div data-media-id={11} data-media-type="image">
-              <div className="data-media-thumbnail"><img src="thumbs/klinik.jpg" /></div>
-              <img src="images/4.png" />
+              <div className="data-media-thumbnail"><img src="thumbs/klinik.jpg" alt=""/></div>
+            <img src="images/4.png" alt=""/>
               <div className="media-link-title">Implantation nach Beckenkammtransplantat</div>
               <div className="media-link-description">Prothetische Versorgung des Unterkiefers.</div>
             </div>
             <div data-media-id={12} data-media-type="image">
-              <div className="data-media-thumbnail"><img src="thumbs/klinik.jpg" /></div>
-              <img src="images/5.png" />
+              <div className="data-media-thumbnail"><img src="thumbs/klinik.jpg" alt=""/></div>
+            <img src="images/5.png" alt=""/>
               <div className="media-link-title">Implantation nach Beckenkammtransplantat</div>
               <div className="media-link-description">Nach der Einheilphase intraorale Situation mit Gingivaformern.</div>
             </div>
             <div data-media-id={13} data-media-type="image">
-              <div className="data-media-thumbnail"><img src="thumbs/klinik.jpg" /></div>
-              <img src="images/6.png" />
+              <div className="data-media-thumbnail"><img src="thumbs/klinik.jpg" alt=""/></div>
+            <img src="images/6.png" alt=""/>
               <div className="media-link-title">Implantation nach Beckenkammtransplantat</div>
               <div className="media-link-description">Eingegliederte Teleskope kurz vor Einsetzten der prothetischen
                 Versorgung.
@@ -662,58 +662,58 @@ function Implantologie_und_epithetik(props) {
               Implantatfreilegung.</p></div>
           <div className="links">
             <div data-media-id={1} data-media-type="image">
-              <div className="data-media-thumbnail"><img src="thumbs/klinik.jpg" /></div>
-              <img src="images/bone1.png" />
+              <div className="data-media-thumbnail"><img src="thumbs/klinik.jpg" alt=""/></div>
+            <img src="images/bone1.png" alt=""/>
               <div className="media-link-title">Bone-Splitting</div>
               <div className="media-link-description">Stark atrophierter Unterkieferknochen, bei dem keine herkömmlichen
                 Implantate möglich sind.
               </div>
             </div>
             <div data-media-id={2} data-media-type="image">
-              <div className="data-media-thumbnail"><img src="thumbs/klinik.jpg" /></div>
-              <img src="images/bone2.png" />
+              <div className="data-media-thumbnail"><img src="thumbs/klinik.jpg" alt=""/></div>
+            <img src="images/bone2.png" alt=""/>
               <div className="media-link-title">Bone-Splitting</div>
               <div className="media-link-description">Gespaltener Knochen, der mittels einer Miniplatte in Position gehalten
                 wird.
               </div>
             </div>
             <div data-media-id={3} data-media-type="image">
-              <div className="data-media-thumbnail"><img src="thumbs/klinik.jpg" /></div>
-              <img src="images/bone3.png" />
+              <div className="data-media-thumbnail"><img src="thumbs/klinik.jpg" alt=""/></div>
+            <img src="images/bone3.png" alt=""/>
               <div className="media-link-title">Bone-Splitting</div>
               <div className="media-link-description">Inserierte Implantete nach Bone-Splitting.</div>
             </div>
             <div data-media-id={4} data-media-type="image">
-              <div className="data-media-thumbnail"><img src="thumbs/klinik.jpg" /></div>
-              <img src="images/bone4.png" />
+              <div className="data-media-thumbnail"><img src="thumbs/klinik.jpg" alt=""/></div>
+            <img src="images/bone4.png" alt=""/>
               <div className="media-link-title">Bone-Splitting</div>
               <div className="media-link-description">Nach Einsetzten der Implantate Auffüllung des Defekts mit
                 Knochenersatzmaterial (Norian).
               </div>
             </div>
             <div data-media-id={5} data-media-type="image">
-              <div className="data-media-thumbnail"><img src="thumbs/klinik.jpg" /></div>
-              <img src="images/bone5.png" />
+              <div className="data-media-thumbnail"><img src="thumbs/klinik.jpg" alt=""/></div>
+            <img src="images/bone5.png" alt=""/>
               <div className="media-link-title">Bone-Splitting</div>
               <div className="media-link-description">Vollständige Defektauffällung mit Knochenersatzmaterial (Norian).</div>
             </div>
             <div data-media-id={6} data-media-type="image">
-              <div className="data-media-thumbnail"><img src="thumbs/klinik.jpg" /></div>
-              <img src="images/bone6.png" />
+              <div className="data-media-thumbnail"><img src="thumbs/klinik.jpg" alt=""/></div>
+            <img src="images/bone6.png" alt=""/>
               <div className="media-link-title">Bone-Splitting</div>
               <div className="media-link-description">Nach Einheilphase Einbringung eines Stegs für einen herausnehmbaren
                 Zahnersatz.
               </div>
             </div>
             <div data-media-id={7} data-media-type="image">
-              <div className="data-media-thumbnail"><img src="thumbs/klinik.jpg" /></div>
-              <img src="images/bone7.png" />
+              <div className="data-media-thumbnail"><img src="thumbs/klinik.jpg" alt=""/></div>
+            <img src="images/bone7.png" alt=""/>
               <div className="media-link-title">Bone-Splitting</div>
               <div className="media-link-description">Röntgenkontrolle nach Implantation und Einsetzen des Stegs.</div>
             </div>
             <div data-media-id={8} data-media-type="image">
-              <div className="data-media-thumbnail"><img src="thumbs/klinik.jpg" /></div>
-              <img src="images/bone8.png" />
+              <div className="data-media-thumbnail"><img src="thumbs/klinik.jpg" alt=""/></div>
+            <img src="images/bone8.png" alt=""/>
               <div className="media-link-title">Bone-Splitting</div>
               <div className="media-link-description">Prothetische Versorgung nach Bone-Splitting.</div>
             </div>
@@ -748,63 +748,63 @@ function Implantologie_und_epithetik(props) {
               <li>Aber: oft mehrere operative Eingriffe notwendig</li>
             </ul>
             <p>&nbsp;</p>
-            <p><span className="startGallery" data-gallery-item={1}><img src="thumbs/epithese-a_images.png" alt="Epithetik" /> </span></p>
+          <p><span className="startGallery" data-gallery-item={1}><img src="thumbs/epithese-a_images.png" alt="Epithetik" /> </span></p>
           </div>
           <div className="links">
             <div data-media-id={1} data-media-type="image">
-              <div className="data-media-thumbnail"><img src="thumbs/klinik.jpg" /></div>
-              <img src="images/epithese-a.png" />
+              <div className="data-media-thumbnail"><img src="thumbs/klinik.jpg" alt=""/></div>
+            <img src="images/epithese-a.png" alt=""/>
               <div className="media-link-title">Epithese Nase</div>
               <div className="media-link-description">Präoperatives Foto von einer Patientin mit einem Plattenepithelkarzinom
                 in der Nasenhaupthöhle.
               </div>
             </div>
             <div data-media-id={2} data-media-type="image">
-              <div className="data-media-thumbnail"><img src="thumbs/klinik.jpg" /></div>
-              <img src="images/epithese-b.png" />
+              <div className="data-media-thumbnail"><img src="thumbs/klinik.jpg" alt=""/></div>
+            <img src="images/epithese-b.png" alt=""/>
               <div className="media-link-title">Epithese Nase</div>
               <div className="media-link-description">Zustand nach Entfernung des Tumors. Diese Nase musste fast vollständig
                 entfernt werden.
               </div>
             </div>
             <div data-media-id={3} data-media-type="image">
-              <div className="data-media-thumbnail"><img src="thumbs/klinik.jpg" /></div>
-              <img src="images/epithese-c.png" />
+              <div className="data-media-thumbnail"><img src="thumbs/klinik.jpg" alt=""/></div>
+            <img src="images/epithese-c.png" alt=""/>
               <div className="media-link-title">Epithese Nase</div>
               <div className="media-link-description">Abformung der Nase zur Planung der weiteren Rekonstruktion.</div>
             </div>
             <div data-media-id={4} data-media-type="image">
-              <div className="data-media-thumbnail"><img src="thumbs/klinik.jpg" /></div>
-              <img src="images/epithese-d.png" />
+              <div className="data-media-thumbnail"><img src="thumbs/klinik.jpg" alt=""/></div>
+            <img src="images/epithese-d.png" alt=""/>
               <div className="media-link-title">Epithese Nase</div>
               <div className="media-link-description">Intraoperatives Bild der eingebrachten Metallplatte mit Magneten für die
                 spätere Epithese.
               </div>
             </div>
             <div data-media-id={5} data-media-type="image">
-              <div className="data-media-thumbnail"><img src="thumbs/klinik.jpg" /></div>
-              <img src="images/epithese-f.png" />
+              <div className="data-media-thumbnail"><img src="thumbs/klinik.jpg" alt=""/></div>
+            <img src="images/epithese-f.png" alt=""/>
               <div className="media-link-title">Epithese Nase</div>
               <div className="media-link-description">Eingesetzte Epithese der Nase.</div>
             </div>
             <div data-media-id={6} data-media-type="image">
-              <div className="data-media-thumbnail"><img src="thumbs/klinik.jpg" /></div>
-              <img src="images/epithese-g.png" />
+              <div className="data-media-thumbnail"><img src="thumbs/klinik.jpg" alt=""/></div>
+            <img src="images/epithese-g.png" alt=""/>
               <div className="media-link-title">Epithese Nase</div>
               <div className="media-link-description">Postoperatives Bild der Nase mit eingeheilter Metallplatte und den
                 Magneten.
               </div>
             </div>
             <div data-media-id={7} data-media-type="image">
-              <div className="data-media-thumbnail"><img src="thumbs/klinik.jpg" /></div>
-              <img src="images/epithetik_1.png" />
+              <div className="data-media-thumbnail"><img src="thumbs/klinik.jpg" alt=""/></div>
+            <img src="images/epithetik_1.png" alt=""/>
               <div className="media-link-title">Epithese Auge</div>
               <div className="media-link-description">Zustand nach Exenteratio orbitae und einbringen der Magnetimplantate.
               </div>
             </div>
             <div data-media-id={8} data-media-type="image">
-              <div className="data-media-thumbnail"><img src="thumbs/klinik.jpg" /></div>
-              <img src="images/epithetik2.png" />
+              <div className="data-media-thumbnail"><img src="thumbs/klinik.jpg" alt=""/></div>
+            <img src="images/epithetik2.png" alt=""/>
               <div className="media-link-title">Epithese Auge</div>
               <div className="media-link-description">Patient mit eingesetzter Epithese am linken Auge.</div>
             </div>

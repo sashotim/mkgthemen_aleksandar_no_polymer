@@ -16,7 +16,7 @@ function Speicheldruesen(props) {
             submandibularis und sublingualis.
           </p>
           <div className="startGallery imageContainer" data-gallery-item={1}>
-            <img src="thumbs/Speicheldruesen2.png" alt width={262} height={147} />
+            <img src="thumbs/Speicheldruesen2.png" width={262} height={147} alt=""/>
           </div>
           <p>
             <br />
@@ -231,9 +231,9 @@ function Speicheldruesen(props) {
         <div className="links">
           <div data-media-id={1} data-media-type="image">
             <div className="data-media-thumbnail">
-              <img src="images/klinik.jpg" />
+              <img src="images/klinik.jpg" alt=""/>
             </div>
-            <img src="images/speicheldruesen.png" />
+            <img src="images/speicheldruesen.png" alt=""/>
             <div className="media-link-title">Speicheldrüsen</div>
             <div className="media-link-description" />
           </div>
@@ -595,7 +595,7 @@ function Speicheldruesen(props) {
             Narbenzüge, auf.
           </p>
           <div className="startGallery imageContainer" data-gallery-item={1}>
-            <img src="thumbs/retentionszyste.png" />
+            <img src="thumbs/retentionszyste.png" alt=""/>
           </div>
           <p>
             <strong>Extravasationszyste</strong>
@@ -640,9 +640,9 @@ function Speicheldruesen(props) {
         <div className="links">
           <div data-media-id={1} data-media-type="image">
             <div className="data-media-thumbnail">
-              <img src="images/klinik.jpg" />
+              <img src="images/klinik.jpg" alt=""/>
             </div>
-            <img src="images/retentionszyste.png" />
+            <img src="images/retentionszyste.png" alt=""/>
             <div className="media-link-title">Retentionszyste</div>
             <div className="media-link-description">
               Retentionszyste im Bereich des vorderen Mundbodens.
@@ -737,7 +737,7 @@ function Speicheldruesen(props) {
             </li>
           </ul>
           <div className="startGallery imageContainer" data-gallery-item={2}>
-            <img src="thumbs/parotitis.png" />
+            <img src="thumbs/parotitis.png" alt=""/>
           </div>
           <p>
             <span style={{ textDecoration: "underline" }}>
@@ -1067,9 +1067,9 @@ function Speicheldruesen(props) {
         <div className="links">
           <div data-media-id={1} data-media-type="image">
             <div className="data-media-thumbnail">
-              <img src="images/klinik.jpg" />
+              <img src="images/klinik.jpg" alt=""/>
             </div>
-            <img src="images/parotitis.png" />
+            <img src="images/parotitis.png" alt=""/>
             <div className="media-link-title">Parotitis</div>
             <div className="media-link-description">
               Entzündung der rechten Speicheldrüse mit deutlicher Schwellung
@@ -1201,7 +1201,7 @@ function Speicheldruesen(props) {
           </p>
           <p>&nbsp;</p>
           <div className="startGallery imageContainer" data-gallery-item={1}>
-            <img src="thumbs/speichelstein_images.png" />
+            <img src="thumbs/speichelstein_images.png" alt=""/>
           </div>
           <p>
             <br />
@@ -1233,9 +1233,9 @@ function Speicheldruesen(props) {
         <div className="links">
           <div data-media-id={1} data-media-type="image">
             <div className="data-media-thumbnail">
-              <img src="images/klinik.jpg" />
+              <img src="images/klinik.jpg" alt=""/>
             </div>
-            <img src="images/sialolithiasis_(entwicklung_spiechelstein).png" />
+            <img src="images/sialolithiasis_(entwicklung_spiechelstein).png" alt=""/>
             <div className="media-link-title">
               Operative Entfernung eines Spiechelsteins
             </div>
@@ -1246,9 +1246,9 @@ function Speicheldruesen(props) {
           </div>
           <div data-media-id={2} data-media-type="image">
             <div className="data-media-thumbnail">
-              <img src="images/klinik.jpg" />
+              <img src="images/klinik.jpg" alt=""/>
             </div>
-            <img src="images/speichelstein.png" />
+            <img src="images/speichelstein.png" alt=""/>
             <div className="media-link-title">Speichelstein</div>
             <div className="media-link-description">
               Speichelstein der Glandula submandibularis.
@@ -1256,9 +1256,9 @@ function Speicheldruesen(props) {
           </div>
           <div data-media-id={3} data-media-type="image">
             <div className="data-media-thumbnail">
-              <img src="images/klinik.jpg" />
+              <img src="images/klinik.jpg" alt=""/>
             </div>
-            <img src="images/sialolithiasis_(sondierung_ausf%C3%BCrhungsgang).png" />
+            <img src="images/sialolithiasis_(sondierung_ausf%C3%BCrhungsgang).png" alt=""/>
             <div className="media-link-title">Sondierung Wharton-Gang</div>
             <div className="media-link-description">
               Sondierung des Ausführungsgangs der Glandula submandibularis beim
@@ -1488,20 +1488,20 @@ function Speicheldruesen(props) {
           </ul>
           <p>&nbsp;</p>
           <div className="startGallery imageContainer" data-gallery-item={11}>
-            <img src="thumbs/parotidektomie_images.png" />
+            <img src="thumbs/parotidektomie_images.png" alt=""/>
           </div>
           <div className="startGallery" data-gallery-item={5}>
-            <img className="galleryPoster" src="thumbs/video15.png" />
+            <img className="galleryPoster" src="thumbs/video15.png" alt=""/>
             <p className="gallerieThumbDescription">Parotidektomie</p>
-            <img className="galleryPoster" src="thumbs/Poster_Parotidektomie.png" />
+          <img className="galleryPoster" src="thumbs/Poster_Parotidektomie.png" alt=""/>
           </div>
         </div>
         <div className="links">
           <div data-media-id={1} data-media-type="image">
             <div className="data-media-thumbnail">
-              <img src="images/klinik.jpg" />
+              <img src="images/klinik.jpg" alt=""/>
             </div>
-            <img src="images/parotidektomie1.png" />
+            <img src="images/parotidektomie1.png" alt=""/>
             <div className="media-link-title">Parotidektomie</div>
             <div className="media-link-description">
               Eingezeichnete Schnittführung für eine laterale Parotidektomie.
@@ -1509,9 +1509,9 @@ function Speicheldruesen(props) {
           </div>
           <div data-media-id={2} data-media-type="image">
             <div className="data-media-thumbnail">
-              <img src="images/klinik.jpg" />
+              <img src="images/klinik.jpg" alt=""/>
             </div>
-            <img src="images/parotidektomie2.png" />
+            <img src="images/parotidektomie2.png" alt=""/>
             <div className="media-link-title">Parotidektomie</div>
             <div className="media-link-description">
               Präparation des Zugangs zur Glandula parotis.
@@ -1519,9 +1519,9 @@ function Speicheldruesen(props) {
           </div>
           <div data-media-id={3} data-media-type="image">
             <div className="data-media-thumbnail">
-              <img src="images/klinik.jpg" />
+              <img src="images/klinik.jpg" alt=""/>
             </div>
-            <img src="images/parotidektomie3.png" />
+            <img src="images/parotidektomie3.png" alt=""/>
             <div className="media-link-title">Parotidektomie</div>
             <div className="media-link-description">
               Vollständige laterale Parotidektomie mit Darstellung des N. facialis.
@@ -1529,9 +1529,9 @@ function Speicheldruesen(props) {
           </div>
           <div data-media-id={4} data-media-type="image">
             <div className="data-media-thumbnail">
-              <img src="images/klinik.jpg" />
+              <img src="images/klinik.jpg" alt=""/>
             </div>
-            <img src="images/parotidektomie4.png" />
+            <img src="images/parotidektomie4.png" alt=""/>
             <div className="media-link-title">Parotidektomie</div>
             <div className="media-link-description">
               Verschluss der Haut nach Parotidektomie.
@@ -1590,31 +1590,31 @@ function Speicheldruesen(props) {
           </p>
           <p>&nbsp;</p>
           <div className="startGallery imageContainer" data-gallery-item={1}>
-            <img src="thumbs/frey_images.png" />
+            <img src="thumbs/frey_images.png" alt=""/>
           </div>
         </div>
         <div className="links">
           <div data-media-id={1} data-media-type="image">
             <div className="data-media-thumbnail">
-              <img src="images/klinik.jpg" />
+              <img src="images/klinik.jpg" alt=""/>
             </div>
-            <img src="images/frey1.png" />
+            <img src="images/frey1.png" alt=""/>
             <div className="media-link-title">Jod-Stärke-Test nach Minor</div>
             <div className="media-link-description">Auftragen der Jodlösung.</div>
           </div>
           <div data-media-id={2} data-media-type="image">
             <div className="data-media-thumbnail">
-              <img src="images/klinik.jpg" />
+              <img src="images/klinik.jpg" alt=""/>
             </div>
-            <img src="images/frey3.png" />
+            <img src="images/frey3.png" alt=""/>
             <div className="media-link-title">Jof-Stärke-Test nach Minor</div>
             <div className="media-link-description">Auftragen des Stärkemehls.</div>
           </div>
           <div data-media-id={3} data-media-type="image">
             <div className="data-media-thumbnail">
-              <img src="images/klinik.jpg" />
+              <img src="images/klinik.jpg" alt=""/>
             </div>
-            <img src="images/frey5.png" />
+            <img src="images/frey5.png" alt=""/>
             <div className="media-link-title">Jod-Stärke-Test nach Minor</div>
             <div className="media-link-description">
               Sekretagoge Stimulation durch Essen eines Apfels.
@@ -1622,9 +1622,9 @@ function Speicheldruesen(props) {
           </div>
           <div data-media-id={4} data-media-type="image">
             <div className="data-media-thumbnail">
-              <img src="images/klinik.jpg" />
+              <img src="images/klinik.jpg" alt=""/>
             </div>
-            <img src="images/frey6.png" />
+            <img src="images/frey6.png" alt=""/>
             <div className="media-link-title">Jod-Stärke-Test nach Minor</div>
             <div className="media-link-description">
               Farbliche Markierung des betroffenen Areals.
@@ -1632,9 +1632,9 @@ function Speicheldruesen(props) {
           </div>
           <div data-media-id={5} data-media-type="image">
             <div className="data-media-thumbnail">
-              <img src="images/klinik.jpg" />
+              <img src="images/klinik.jpg" alt=""/>
             </div>
-            <img src="images/frey7.png" />
+            <img src="images/frey7.png" alt=""/>
             <div className="media-link-title">Jod-Stärke-Test nach Minor</div>
             <div className="media-link-description">
               Markierung des Ausbreitungsgebiets mit einem Stift.
@@ -1642,9 +1642,9 @@ function Speicheldruesen(props) {
           </div>
           <div data-media-id={6} data-media-type="image">
             <div className="data-media-thumbnail">
-              <img src="images/klinik.jpg" />
+              <img src="images/klinik.jpg" alt=""/>
             </div>
-            <img src="images/frey8.png" />
+            <img src="images/frey8.png" alt=""/>
             <div className="media-link-title">Jod-Stärke-Test nach Minor</div>
             <div className="media-link-description">
               Säuberung des Areals von Jod und dem Stärkemehl.
@@ -1652,9 +1652,9 @@ function Speicheldruesen(props) {
           </div>
           <div data-media-id={7} data-media-type="image">
             <div className="data-media-thumbnail">
-              <img src="images/klinik.jpg" />
+              <img src="images/klinik.jpg" alt=""/>
             </div>
-            <img src="images/frey10.png" />
+            <img src="images/frey10.png" alt=""/>
             <div className="media-link-title">Jod-Stärke-test nach Minor</div>
             <div className="media-link-description">
               Subkutane Injektion von Botulinumtoxin A im betroffen Hautareal.

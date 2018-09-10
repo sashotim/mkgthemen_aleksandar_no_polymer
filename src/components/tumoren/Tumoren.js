@@ -113,7 +113,7 @@ function Tumoren(props) {
             </li>
           </ul>
           <div className="startGallery imageContainer">
-            <img src="thumbs/grundlagen_images.png" />
+            <img src="thumbs/grundlagen_images.png" alt=""/>
           </div>
           <p>&nbsp;</p>
           <p>
@@ -166,17 +166,17 @@ function Tumoren(props) {
         <div className="links">
           <div data-media-id={1} data-media-type="image">
             <div className="data-media-thumbnail">
-              <img src="images/klinik.jpg" />
+              <img src="images/klinik.jpg" alt=""/>
             </div>
-            <img src="images/13.png" />
+            <img src="images/13.png" alt=""/>
             <div className="media-link-title">Benigner Tumor</div>
             <div className="media-link-description">Fibrom der Unterlippe</div>
           </div>
           <div data-media-id={2} data-media-type="image">
             <div className="data-media-thumbnail">
-              <img src="images/klinik.jpg" />
+              <img src="images/klinik.jpg" alt=""/>
             </div>
-            <img src="images/14.png" />
+            <img src="images/14.png" alt=""/>
             <div className="media-link-title">Maligner Tumor</div>
             <div className="media-link-description">
               Plattenepithelkarzinom der Unterlippe.
@@ -184,9 +184,9 @@ function Tumoren(props) {
           </div>
           <div data-media-id={3} data-media-type="image">
             <div className="data-media-thumbnail">
-              <img src="images/klinik.jpg" />
+              <img src="images/klinik.jpg" alt=""/>
             </div>
-            <img src="images/15.png" />
+            <img src="images/15.png" alt=""/>
             <div className="media-link-title">
               Schleimhautveränderung am Planum buccale
             </div>
@@ -228,15 +228,15 @@ function Tumoren(props) {
             </li>
           </ul>
           <div className="startGallery imageContainer">
-            <img src="thumbs/definitionen_images.png" />
+            <img src="thumbs/definitionen_images.png" alt=""/>
           </div>
         </div>
         <div className="links">
           <div data-media-id={1} data-media-type="image">
             <div className="data-media-thumbnail">
-              <img src="images/klinik.jpg" />
+              <img src="images/klinik.jpg" alt=""/>
             </div>
-            <img src="images/16.png" />
+            <img src="images/16.png" alt=""/>
             <div className="media-link-title">Zweittumor</div>
             <div className="media-link-description">
               Metachroner Zweittumor des Zungengrundes nach Resektion eines Tumors in
@@ -245,9 +245,9 @@ function Tumoren(props) {
           </div>
           <div data-media-id={2} data-media-type="image">
             <div className="data-media-thumbnail">
-              <img src="images/klinik.jpg" />
+              <img src="images/klinik.jpg" alt=""/>
             </div>
-            <img src="images/7.png" />
+            <img src="images/7.png" alt=""/>
             <div className="media-link-title">Primärtumor</div>
             <div className="media-link-description">
               Erstmalig auftretender Tumor am Zungengrund.
@@ -421,7 +421,7 @@ function Tumoren(props) {
             </li>
           </ul>
           <div className="startGallery imageContainer">
-            <img src="thumbs/diagnostik_images.png" />
+            <img src="thumbs/diagnostik_images.png" alt=""/>
           </div>
           <p>
             <span style={{ textDecoration: "underline" }}>Staging</span>
@@ -660,9 +660,9 @@ function Tumoren(props) {
         <div className="links">
           <div data-media-id={1} data-media-type="image">
             <div className="data-media-thumbnail">
-              <img src="images/klinik.jpg" />
+              <img src="images/klinik.jpg" alt=""/>
             </div>
-            <img src="images/17.png" />
+            <img src="images/17.png" alt=""/>
             <div className="media-link-title">CT Plattenepithelkarzinom</div>
             <div className="media-link-description">
               Tumor der linksseitigen Tonsillenregion mit Ausläufern in die Zunge und
@@ -671,9 +671,9 @@ function Tumoren(props) {
           </div>
           <div data-media-id={2} data-media-type="image">
             <div className="data-media-thumbnail">
-              <img src="images/klinik.jpg" />
+              <img src="images/klinik.jpg" alt=""/>
             </div>
-            <img src="images/18.png" />
+            <img src="images/18.png" alt=""/>
             <div className="media-link-title">MRT-Plattenepithelkarzinom</div>
             <div className="media-link-description">
               Raumforderung des Mundbodens auf der rechten Seite mit osteolytischer
@@ -682,9 +682,9 @@ function Tumoren(props) {
           </div>
           <div data-media-id={3} data-media-type="image">
             <div className="data-media-thumbnail">
-              <img src="images/klinik.jpg" />
+              <img src="images/klinik.jpg" alt=""/>
             </div>
-            <img src="images/19.png" />
+            <img src="images/19.png" alt=""/>
             <div className="media-link-title">CT-PLattenpeithelkarzinom</div>
             <div className="media-link-description">
               Raumforderung im Bereich der rechten Kieferhöhle mit Destruktion des
@@ -693,9 +693,9 @@ function Tumoren(props) {
           </div>
           <div data-media-id={4} data-media-type="image">
             <div className="data-media-thumbnail">
-              <img src="images/klinik.jpg" />
+              <img src="images/klinik.jpg" alt=""/>
             </div>
-            <img src="images/20.png" />
+            <img src="images/20.png" alt=""/>
             <div className="media-link-title">CT- Plattenepithelkarzinom</div>
             <div className="media-link-description">
               Linksseitige Raumforderung des Mundbodens mit Infiltration des Knochens.
@@ -772,14 +772,14 @@ function Tumoren(props) {
       </ul>;
 
       <div className="startGallery" data-gallery-item={18}>
-        <img className="galleryPoster" src="thumbs/video8.png" />
+        <img className="galleryPoster" src="thumbs/video8.png" alt=""/>
         <p className="gallerieThumbDescription">Beckenkammtransplantat</p>
-        <img className="galleryPoster" src="thumbs/Play_experimentell.png" />
+      <img className="galleryPoster" src="thumbs/Play_experimentell.png" alt=""/>
       </div>;
 
       <p>
         <span className="startGallery imageContainer" data-gallery-item={14}>
-          <img src="thumbs/therapie1_images.png" />
+          <img src="thumbs/therapie1_images.png" alt=""/>
         </span>
       </p>;
 
@@ -1021,9 +1021,9 @@ function Tumoren(props) {
         </li>
       </ol>;
       <div className="startGallery" data-gallery-item={19}>
-        <img className="galleryPoster" src="thumbs/video10.png" />
+        <img className="galleryPoster" src="thumbs/video10.png" alt=""/>
         <p className="gallerieThumbDescription">Neck Dissection</p>
-        <img className="galleryPoster" src="thumbs/Play_experimentell.png" />
+      <img className="galleryPoster" src="thumbs/Play_experimentell.png" alt=""/>
       </div>;
       <p>Weitere Formen der Neck Dissection sind:</p>;
       <ul>
@@ -1051,7 +1051,7 @@ function Tumoren(props) {
         </li>
       </ul>;
       <div className="startGallery imageContainer" data-gallery-item={1}>
-        <img src="thumbs/therapie2_images.png" />
+        <img src="thumbs/therapie2_images.png" alt=""/>
       </div>;
       <p>&nbsp;</p>;
       <p>
@@ -1146,9 +1146,9 @@ function Tumoren(props) {
       <div className="links">
         <div data-media-id={1} data-media-type="image">
           <div className="data-media-thumbnail">
-            <img src="images/klinik.jpg" />
+            <img src="images/klinik.jpg" alt=""/>
           </div>
-          <img src="images/nd1.png" />
+          <img src="images/nd1.png" alt=""/>
           <div className="media-link-title">Neck dissection</div>
           <div className="media-link-description">
             Hals mit der eingezeichneten Schnittführung der geplanten Neck dissection.
@@ -1156,9 +1156,9 @@ function Tumoren(props) {
         </div>
         <div data-media-id={2} data-media-type="image">
           <div className="data-media-thumbnail">
-            <img src="images/klinik.jpg" />
+            <img src="images/klinik.jpg" alt=""/>
           </div>
-          <img src="images/nd2.png" />
+          <img src="images/nd2.png" alt=""/>
           <div className="media-link-title">Neck dissection</div>
           <div className="media-link-description">
             Eröffneter und präparierter Hals unter Schonung der V. jugularis externa.
@@ -1166,9 +1166,9 @@ function Tumoren(props) {
         </div>
         <div data-media-id={3} data-media-type="image">
           <div className="data-media-thumbnail">
-            <img src="images/klinik.jpg" />
+            <img src="images/klinik.jpg" alt=""/>
           </div>
-          <img src="images/nd3.png" />
+          <img src="images/nd3.png" alt=""/>
           <div className="media-link-title">Neck dissection</div>
           <div className="media-link-description">
             Darstellung des Nervus accessorius intraoperativ.
@@ -1176,9 +1176,9 @@ function Tumoren(props) {
         </div>
         <div data-media-id={4} data-media-type="image">
           <div className="data-media-thumbnail">
-            <img src="images/klinik.jpg" />
+            <img src="images/klinik.jpg" alt=""/>
           </div>
-          <img src="images/nd4.png" />
+          <img src="images/nd4.png" alt=""/>
           <div className="media-link-title">Neck dissection</div>
           <div className="media-link-description">
             Absetzen des M. sternocleidomastoideus.
@@ -1186,9 +1186,9 @@ function Tumoren(props) {
         </div>
         <div data-media-id={5} data-media-type="image">
           <div className="data-media-thumbnail">
-            <img src="images/klinik.jpg" />
+            <img src="images/klinik.jpg" alt=""/>
           </div>
-          <img src="images/nd5.png" />
+          <img src="images/nd5.png" alt=""/>
           <div className="media-link-title">Neck dissection</div>
           <div className="media-link-description">
             Absetzten des M. sternocleidomastoideus mit einem Monopolar.
@@ -1196,9 +1196,9 @@ function Tumoren(props) {
         </div>
         <div data-media-id={6} data-media-type="image">
           <div className="data-media-thumbnail">
-            <img src="images/klinik.jpg" />
+            <img src="images/klinik.jpg" alt=""/>
           </div>
-          <img src="images/nd6.png" />
+          <img src="images/nd6.png" alt=""/>
           <div className="media-link-title">Neck dissection</div>
           <div className="media-link-description">
             Identifikation des N. vagus und Unterbindung der V. jugularis interna.
@@ -1206,9 +1206,9 @@ function Tumoren(props) {
         </div>
         <div data-media-id={7} data-media-type="image">
           <div className="data-media-thumbnail">
-            <img src="images/klinik.jpg" />
+            <img src="images/klinik.jpg" alt=""/>
           </div>
-          <img src="images/nd7.png" />
+          <img src="images/nd7.png" alt=""/>
           <div className="media-link-title">Neck dissection</div>
           <div className="media-link-description">
             Identifikation des N. vagus und Unterbindung der V. jugularis interna.
@@ -1216,9 +1216,9 @@ function Tumoren(props) {
         </div>
         <div data-media-id={8} data-media-type="image">
           <div className="data-media-thumbnail">
-            <img src="images/klinik.jpg" />
+            <img src="images/klinik.jpg" alt=""/>
           </div>
-          <img src="images/nd8.png" />
+          <img src="images/nd8.png" alt=""/>
           <div className="media-link-title">Neck dissection</div>
           <div className="media-link-description">
             Präparation bis auf die tiefe Halsfaszie und Identifikation des N.
@@ -1227,9 +1227,9 @@ function Tumoren(props) {
         </div>
         <div data-media-id={9} data-media-type="image">
           <div className="data-media-thumbnail">
-            <img src="images/klinik.jpg" />
+            <img src="images/klinik.jpg" alt=""/>
           </div>
-          <img src="images/nd9.png" />
+          <img src="images/nd9.png" alt=""/>
           <div className="media-link-title">Neck dissection</div>
           <div className="media-link-description">
             Als nächster Schritt erfolgt das Absetzten sensibler Plexusfasern, die
@@ -1238,9 +1238,9 @@ function Tumoren(props) {
         </div>
         <div data-media-id={10} data-media-type="image">
           <div className="data-media-thumbnail">
-            <img src="images/klinik.jpg" />
+            <img src="images/klinik.jpg" alt=""/>
           </div>
-          <img src="images/nd10.png" />
+          <img src="images/nd10.png" alt=""/>
           <div className="media-link-title">Neck dissection</div>
           <div className="media-link-description">
             Dann erfolgt die Unterbindung der V. jugularis an der Schädelbasis.
@@ -1248,9 +1248,9 @@ function Tumoren(props) {
         </div>
         <div data-media-id={11} data-media-type="image">
           <div className="data-media-thumbnail">
-            <img src="images/klinik.jpg" />
+            <img src="images/klinik.jpg" alt=""/>
           </div>
-          <img src="images/nd11.png" />
+          <img src="images/nd11.png" alt=""/>
           <div className="media-link-title">Neck dissection</div>
           <div className="media-link-description">
             Dann wird die Fossa submandibularis von dorsal ausgeräumt.
@@ -1258,9 +1258,9 @@ function Tumoren(props) {
         </div>
         <div data-media-id={12} data-media-type="image">
           <div className="data-media-thumbnail">
-            <img src="images/klinik.jpg" />
+            <img src="images/klinik.jpg" alt=""/>
           </div>
-          <img src="images/nd12.png" />
+          <img src="images/nd12.png" alt=""/>
           <div className="media-link-title">Neck dissection</div>
           <div className="media-link-description">
             Als nächstes erfolgt die Darstellung des Ramus marginalis mandibulae und
@@ -1269,9 +1269,9 @@ function Tumoren(props) {
         </div>
         <div data-media-id={13} data-media-type="image">
           <div className="data-media-thumbnail">
-            <img src="images/klinik.jpg" />
+            <img src="images/klinik.jpg" alt=""/>
           </div>
-          <img src="images/nd13.png" />
+          <img src="images/nd13.png" alt=""/>
           <div className="media-link-title">Neck dissection</div>
           <div className="media-link-description">
             Dargestellt ist der Hals nach einer Modifizierten radikalen Neck
@@ -1281,9 +1281,9 @@ function Tumoren(props) {
         </div>
         <div data-media-id={14} data-media-type="image">
           <div className="data-media-thumbnail">
-            <img src="images/klinik.jpg" />
+            <img src="images/klinik.jpg" alt=""/>
           </div>
-          <img src="images/2b.png" />
+          <img src="images/2b.png" alt=""/>
           <div className="media-link-title">Radialistransplantat</div>
           <div className="media-link-description">
             Zustand nach Tumorresektion im Oberkiefer und Rekonstruktion der
@@ -1292,9 +1292,9 @@ function Tumoren(props) {
         </div>
         <div data-media-id={15} data-media-type="image">
           <div className="data-media-thumbnail">
-            <img src="images/klinik.jpg" />
+            <img src="images/klinik.jpg" alt=""/>
           </div>
-          <img src="images/2e.png" />
+          <img src="images/2e.png" alt=""/>
           <div className="media-link-title">Eingeheiltes Radialistransplantat</div>
           <div className="media-link-description">
             Bild eines eingeheilten Radialistransplantats, dass 3 Monate zuvor
@@ -1303,9 +1303,9 @@ function Tumoren(props) {
         </div>
         <div data-media-id={16} data-media-type="image">
           <div className="data-media-thumbnail">
-            <img src="images/klinik.jpg" />
+            <img src="images/klinik.jpg" alt=""/>
           </div>
-          <img src="images/2k.png" />
+          <img src="images/2k.png" alt=""/>
           <div className="media-link-title">Beckentransplantat</div>
           <div className="media-link-description">
             Bild eines eingebrachten und festgeschraubten Beckentransplantats, welches
@@ -1316,9 +1316,9 @@ function Tumoren(props) {
         </div>
         <div data-media-id={17} data-media-type="image">
           <div className="data-media-thumbnail">
-            <img src="images/klinik.jpg" />
+            <img src="images/klinik.jpg" alt=""/>
           </div>
-          <img src="images/2dd.png" />
+          <img src="images/2dd.png" alt=""/>
           <div className="media-link-title">
             Patient vor und nach Fibulatransplantation
           </div>

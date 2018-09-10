@@ -478,7 +478,7 @@ function Mronj_und_orn(props) {
 
 <p>
   <span className="startGallery" data-gallery-item={1}>
-    <img src="thumbs/stadium1b_images.png" alt="Stadium I" />
+    <img src="thumbs/stadium1b_images.png" alt="Stadium I"/>
   </span>
 </p>;
 
@@ -499,7 +499,7 @@ function Mronj_und_orn(props) {
 
 <p>
   <span className="startGallery" data-gallery-item={9}>
-    <img src="thumbs/stadium_2_images.png" alt="Stadium II" />
+    <img src="thumbs/stadium_2_images.png" alt="Stadium II"/>
   </span>
 </p>;
 
@@ -534,7 +534,7 @@ function Mronj_und_orn(props) {
 
 <p>
   <span className="startGallery" data-gallery-item={12}>
-    <img src="thumbs/stadium3_images.png" alt="Stadium III" />
+    <img src="thumbs/stadium3_images.png" alt="Stadium III"/>
   </span>
 </p>;
 
@@ -603,9 +603,9 @@ function Mronj_und_orn(props) {
 
 <p>&nbsp;</p>
 <div className="startGallery" data-gallery-item={21}>
-  <img className="galleryPoster" src="thumbs/video10.png" />
+  <img className="galleryPoster" src="thumbs/video10.png" alt=""/>
   <p className="gallerieThumbDescription">Dekortikation bei MRONJ</p>
-  <img className="galleryPoster" src="thumbs/Play_experimentell.png" />
+<img className="galleryPoster" src="thumbs/Play_experimentell.png" alt=""/>
 </div>;
 
 <p>&nbsp;</p>
@@ -744,17 +744,17 @@ function Mronj_und_orn(props) {
 <div className="links">
   <div data-media-id={1} data-media-type="image">
     <div className="data-media-thumbnail">
-      <img src="thumbs/klinik.jpg" />
+      <img src="thumbs/klinik.jpg" alt=""/>
     </div>
-    <img src="images/stadium1b.png" />
+    <img src="images/stadium1b.png" alt=""/>
     <div className="media-link-title">Stadium I</div>
     <div className="media-link-description">Freiliegender Knochen regio 17</div>
   </div>
   <div data-media-id={2} data-media-type="image">
     <div className="data-media-thumbnail">
-      <img src="thumbs/klinik.jpg" />
+      <img src="thumbs/klinik.jpg" alt=""/>
     </div>
-    <img src="images/stadium_1.png" />
+    <img src="images/stadium_1.png" alt=""/>
     <div className="media-link-title">Stadium I</div>
     <div className="media-link-description">
       Entzündliche Schleimhaut mir freiliegendem Knochen regio 026.
@@ -762,9 +762,9 @@ function Mronj_und_orn(props) {
   </div>
   <div data-media-id={3} data-media-type="image">
     <div className="data-media-thumbnail">
-      <img src="thumbs/klinik.jpg" />
+      <img src="thumbs/klinik.jpg" alt=""/>
     </div>
-    <img src="images/stadium_1c.png" />
+    <img src="images/stadium_1c.png" alt=""/>
     <div className="media-link-title">Stadium I</div>
     <div className="media-link-description">
       Freiliegender asymptomatischer Knochen regio 014.
@@ -772,9 +772,9 @@ function Mronj_und_orn(props) {
   </div>
   <div data-media-id={4} data-media-type="image">
     <div className="data-media-thumbnail">
-      <img src="thumbs/klinik.jpg" />
+      <img src="thumbs/klinik.jpg" alt=""/>
     </div>
-    <img src="images/stadium_1d.png" />
+    <img src="images/stadium_1d.png" alt=""/>
     <div className="media-link-title">Stadium I</div>
     <div className="media-link-description">
       Freliegender Knochen lingual regio 016.
@@ -782,9 +782,9 @@ function Mronj_und_orn(props) {
   </div>
   <div data-media-id={5} data-media-type="image">
     <div className="data-media-thumbnail">
-      <img src="thumbs/klinik.jpg" />
+      <img src="thumbs/klinik.jpg" alt=""/>
     </div>
-    <img src="images/stadium_1e.png" />
+    <img src="images/stadium_1e.png" alt=""/>
     <div className="media-link-title">Stadium I</div>
     <div className="media-link-description">
       Freliegender Knochen regio 044.
@@ -792,17 +792,17 @@ function Mronj_und_orn(props) {
   </div>
   <div data-media-id={6} data-media-type="image">
     <div className="data-media-thumbnail">
-      <img src="thumbs/klinik.jpg" />
+      <img src="thumbs/klinik.jpg" alt=""/>
     </div>
-    <img src="images/stadium1e.png" />
+    <img src="images/stadium1e.png" alt=""/>
     <div className="media-link-title">Stadium I</div>
     <div className="media-link-description">Putrider Ausfluss regio 035.</div>
   </div>
   <div data-media-id={7} data-media-type="image">
     <div className="data-media-thumbnail">
-      <img src="thumbs/klinik.jpg" />
+      <img src="thumbs/klinik.jpg" alt=""/>
     </div>
-    <img src="images/stadium_1f.png" />
+    <img src="images/stadium_1f.png" alt=""/>
     <div className="media-link-title">Stadium I</div>
     <div className="media-link-description">
       Freiliegender Knochen regio 045.
@@ -810,9 +810,9 @@ function Mronj_und_orn(props) {
   </div>
   <div data-media-id={8} data-media-type="image">
     <div className="data-media-thumbnail">
-      <img src="thumbs/klinik.jpg" />
+      <img src="thumbs/klinik.jpg" alt=""/>
     </div>
-    <img src="images/stadium1g.png" />
+    <img src="images/stadium1g.png" alt=""/>
     <div className="media-link-title">Stadium I</div>
     <div className="media-link-description">
       Freiliegender Knochen lingual regio 036.
@@ -820,9 +820,9 @@ function Mronj_und_orn(props) {
   </div>
   <div data-media-id={9} data-media-type="image">
     <div className="data-media-thumbnail">
-      <img src="thumbs/klinik.jpg" />
+      <img src="thumbs/klinik.jpg" alt=""/>
     </div>
-    <img src="images/stadium_2.png" />
+    <img src="images/stadium_2.png" alt=""/>
     <div className="media-link-title">Stadium II</div>
     <div className="media-link-description">
       Freiliegender, infizierter Knochen regio 046.
@@ -830,9 +830,9 @@ function Mronj_und_orn(props) {
   </div>
   <div data-media-id={10} data-media-type="image">
     <div className="data-media-thumbnail">
-      <img src="thumbs/klinik.jpg" />
+      <img src="thumbs/klinik.jpg" alt=""/>
     </div>
-    <img src="images/stadium2b.png" />
+    <img src="images/stadium2b.png" alt=""/>
     <div className="media-link-title">Stadium II</div>
     <div className="media-link-description">
       Freiliegender infizierter Knochen regio 035-037.
@@ -840,9 +840,9 @@ function Mronj_und_orn(props) {
   </div>
   <div data-media-id={11} data-media-type="image">
     <div className="data-media-thumbnail">
-      <img src="thumbs/klinik.jpg" />
+      <img src="thumbs/klinik.jpg" alt=""/>
     </div>
-    <img src="images/stadium_2c.png" />
+    <img src="images/stadium_2c.png" alt=""/>
     <div className="media-link-title">Stadium II</div>
     <div className="media-link-description">
       Entfernter Knochensequester regio 035-037.
@@ -850,9 +850,9 @@ function Mronj_und_orn(props) {
   </div>
   <div data-media-id={12} data-media-type="image">
     <div className="data-media-thumbnail">
-      <img src="thumbs/klinik.jpg" />
+      <img src="thumbs/klinik.jpg" alt=""/>
     </div>
-    <img src="images/stadium3.png" />
+    <img src="images/stadium3.png" alt=""/>
     <div className="media-link-title">Stadium III</div>
     <div className="media-link-description">
       Zirkulär freiliegender Knochen im Unterkiefer.
@@ -860,9 +860,9 @@ function Mronj_und_orn(props) {
   </div>
   <div data-media-id={13} data-media-type="image">
     <div className="data-media-thumbnail">
-      <img src="thumbs/klinik.jpg" />
+      <img src="thumbs/klinik.jpg" alt=""/>
     </div>
-    <img src="images/stadium3b.png" />
+    <img src="images/stadium3b.png" alt=""/>
     <div className="media-link-title">Stadium III</div>
     <div className="media-link-description">
       Darstellung einer pathologische Fraktur bei ausgeprägter MRONJ über einen
@@ -871,9 +871,9 @@ function Mronj_und_orn(props) {
   </div>
   <div data-media-id={14} data-media-type="image">
     <div className="data-media-thumbnail">
-      <img src="thumbs/klinik.jpg" />
+      <img src="thumbs/klinik.jpg" alt=""/>
     </div>
-    <img src="images/stadium3c.png" />
+    <img src="images/stadium3c.png" alt=""/>
     <div className="media-link-title">Stadium III</div>
     <div className="media-link-description">
       Freiliegender und infizierter Knochen regio 34-37.
@@ -881,9 +881,9 @@ function Mronj_und_orn(props) {
   </div>
   <div data-media-id={15} data-media-type="image">
     <div className="data-media-thumbnail">
-      <img src="thumbs/klinik.jpg" />
+      <img src="thumbs/klinik.jpg" alt=""/>
     </div>
-    <img src="images/stadium_3c.png" />
+    <img src="images/stadium_3c.png" alt=""/>
     <div className="media-link-title">Stadium III</div>
     <div className="media-link-description">
       Nach extraoral perforierter Fistelgang.
@@ -891,9 +891,9 @@ function Mronj_und_orn(props) {
   </div>
   <div data-media-id={16} data-media-type="image">
     <div className="data-media-thumbnail">
-      <img src="thumbs/klinik.jpg" />
+      <img src="thumbs/klinik.jpg" alt=""/>
     </div>
-    <img src="images/stadium_3d.png" />
+    <img src="images/stadium_3d.png" alt=""/>
     <div className="media-link-title">Stadium III</div>
     <div className="media-link-description">
       Stark destruierter und infizierter Unterkieferknochen im 3. Quadranten.
@@ -901,9 +901,9 @@ function Mronj_und_orn(props) {
   </div>
   <div data-media-id={17} data-media-type="image">
     <div className="data-media-thumbnail">
-      <img src="thumbs/klinik.jpg" />
+      <img src="thumbs/klinik.jpg" alt=""/>
     </div>
-    <img src="images/unterkieferkastenresektion.png" />
+    <img src="images/unterkieferkastenresektion.png" alt=""/>
     <div className="media-link-title">Unterkieferkastenresektion</div>
     <div className="media-link-description">
       Unterkieferkastenresektion eines nekrotischen Unterkieferabschnitts.
@@ -911,9 +911,9 @@ function Mronj_und_orn(props) {
   </div>
   <div data-media-id={18} data-media-type="image">
     <div className="data-media-thumbnail">
-      <img src="thumbs/klinik.jpg" />
+      <img src="thumbs/klinik.jpg" alt=""/>
     </div>
-    <img src="images/rekonstruktion_2.png" />
+    <img src="images/rekonstruktion_2.png" alt=""/>
     <div className="media-link-title">Unterkieferkastenresektion</div>
     <div className="media-link-description">
       Rekonstruktion mittels mikrovaskulären Beckenkammtransplantat nach
@@ -922,9 +922,9 @@ function Mronj_und_orn(props) {
   </div>
   <div data-media-id={19} data-media-type="image">
     <div className="data-media-thumbnail">
-      <img src="thumbs/klinik.jpg" />
+      <img src="thumbs/klinik.jpg" alt=""/>
     </div>
-    <img src="images/fluoreszenz1.png" />
+    <img src="images/fluoreszenz1.png" alt=""/>
     <div className="media-link-title">Fluoreszenz</div>
     <div className="media-link-description">
       Intraoperative Darstellung des nekrotischen Knochenareals am aufsteigendem
@@ -933,9 +933,9 @@ function Mronj_und_orn(props) {
   </div>
   <div data-media-id={20} data-media-type="image">
     <div className="data-media-thumbnail">
-      <img src="thumbs/klinik.jpg" />
+      <img src="thumbs/klinik.jpg" alt=""/>
     </div>
-    <img src="images/fluoreszenz2.png" />
+    <img src="images/fluoreszenz2.png" alt=""/>
     <div className="media-link-title">Fluoreszenz</div>
     <div className="media-link-description">
       Nach präoperative Tetrazyklin-Gabe, intraoperative Darstellung des
@@ -1075,9 +1075,9 @@ function Mronj_und_orn(props) {
   <div className="links">
     <div data-media-id={1} data-media-type="image">
       <div className="data-media-thumbnail">
-        <img src="thumbs/klinik.jpg" />
+        <img src="thumbs/klinik.jpg" alt=""/>
       </div>
-      <img src="images/img_9221.png" />
+      <img src="images/img_9221.png" alt=""/>
       <div className="media-link-title">Infizierte ORN</div>
       <div className="media-link-description">
         Infizierte ORN des Oberkiefers.
@@ -1085,9 +1085,9 @@ function Mronj_und_orn(props) {
     </div>
     <div data-media-id={2} data-media-type="image">
       <div className="data-media-thumbnail">
-        <img src="thumbs/klinik.jpg" />
+        <img src="thumbs/klinik.jpg" alt=""/>
       </div>
-      <img src="images/infizierte_orn.png" />
+      <img src="images/infizierte_orn.png" alt=""/>
       <div className="media-link-title">Infizierte ORN</div>
       <div className="media-link-description">
         Infizierte ORN des Unterkiefers.
@@ -1095,9 +1095,9 @@ function Mronj_und_orn(props) {
     </div>
     <div data-media-id={3} data-media-type="image">
       <div className="data-media-thumbnail">
-        <img src="thumbs/klinik.jpg" />
+        <img src="thumbs/klinik.jpg" alt=""/>
       </div>
-      <img src="images/pathologische_fraktur.png" />
+      <img src="images/pathologische_fraktur.png" alt=""/>
       <div className="media-link-title">Pathologische Fraktur</div>
       <div className="media-link-description">
         Pathologische Fraktur des Unterkiefers nach Osteoradionekrose des
@@ -1106,9 +1106,9 @@ function Mronj_und_orn(props) {
     </div>
     <div data-media-id={4} data-media-type="image">
       <div className="data-media-thumbnail">
-        <img src="thumbs/klinik.jpg" />
+        <img src="thumbs/klinik.jpg" alt=""/>
       </div>
-      <img src="images/mikrochirurgische_rekonstruktion.png" />
+      <img src="images/mikrochirurgische_rekonstruktion.png" alt=""/>
       <div className="media-link-title">Mikrochirurgische Rekonstruktion</div>
       <div className="media-link-description">
         Mikrochirurgische Rekonstruktion des Unterkiefers nach einer
@@ -1117,9 +1117,9 @@ function Mronj_und_orn(props) {
     </div>
     <div data-media-id={5} data-media-type="image">
       <div className="data-media-thumbnail">
-        <img src="thumbs/klinik.jpg" />
+        <img src="thumbs/klinik.jpg" alt=""/>
       </div>
-      <img src="images/osteomyelitis.png" />
+      <img src="images/osteomyelitis.png" alt=""/>
       <div className="media-link-title">OPT</div>
       <div className="media-link-description">
         Deutlich erkennbare Osteolysen des Unterkiefers im 4. Quadranten bei

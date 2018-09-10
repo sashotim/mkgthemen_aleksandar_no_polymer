@@ -83,7 +83,7 @@ function Spezifische_infektionen(props) {
         </ul>
         <p>
           <span className="startGallery" data-gallery-item={2}>
-            <img src="thumbs/aktinomykose_images.png" alt="Aktinomykose" />
+            <img src="thumbs/aktinomykose_images.png" alt="Aktinomykose"/>
           </span>
         </p>
         <p>
@@ -99,7 +99,7 @@ function Spezifische_infektionen(props) {
         </p>
         <p>
           <span className="startGallery" data-gallery-item={1}>
-            <img src="thumbs/strahlenpilz.png" alt="Strahlenpilz" />
+            <img src="thumbs/strahlenpilz.png" alt="Strahlenpilz"/>
           </span>
         </p>
         <p>
@@ -122,9 +122,9 @@ function Spezifische_infektionen(props) {
       <div className="links">
         <div data-media-id={1} data-media-type="image">
           <div className="data-media-thumbnail">
-            <img src="images/klinik.png" />
+            <img src="images/klinik.png" alt=""/>
           </div>
-          <img src="images/strahlenpilz.png" />
+          <img src="images/strahlenpilz.png" alt=""/>
           <div className="media-link-title">Strahlenpilz</div>
           <div className="media-link-description">
             Mikroskopische Darstellung des Strahlenpilzes.
@@ -132,9 +132,9 @@ function Spezifische_infektionen(props) {
         </div>
         <div data-media-id={2} data-media-type="image">
           <div className="data-media-thumbnail">
-            <img src="images/klinik.png" />
+            <img src="images/klinik.png" alt=""/>
           </div>
-          <img src="images/aktinomykose.png" />
+          <img src="images/aktinomykose.png" alt=""/>
           <div className="media-link-title">Aktinomykose</div>
           <div className="media-link-description">
             Läsion der Schleimhaut mit putriden Flüssigkeitsaustritt.
@@ -142,9 +142,9 @@ function Spezifische_infektionen(props) {
         </div>
         <div data-media-id={3} data-media-type="image">
           <div className="data-media-thumbnail">
-            <img src="images/klinik.png" />
+            <img src="images/klinik.png" alt=""/>
           </div>
-          <img src="images/aktinomykose2.png" />
+          <img src="images/aktinomykose2.png" alt=""/>
           <div className="media-link-title">Aktinomykose</div>
           <div className="media-link-description">
             Läsion der Haut, welche blau-livide verfärbt ist.
@@ -346,9 +346,9 @@ function Spezifische_infektionen(props) {
       <div className="links">
         <div data-media-id={1} data-media-type="image">
           <div className="data-media-thumbnail">
-            <img src="images/klinik.png" />
+            <img src="images/klinik.png" alt=""/>
           </div>
-          <img src="images/tuberculosis_ulcerosa.png" />
+          <img src="images/tuberculosis_ulcerosa.png" alt=""/>
           <div className="media-link-title">Tuberculosis ulcerosa</div>
           <div className="media-link-description">
             Ulzerierende Tuberkulose am Zungenrand rechts und Mundwinkel links.
@@ -356,9 +356,9 @@ function Spezifische_infektionen(props) {
         </div>
         <div data-media-id={2} data-media-type="image">
           <div className="data-media-thumbnail">
-            <img src="images/klinik.png" />
+            <img src="images/klinik.png" alt=""/>
           </div>
-          <img src="images/tuberculosis_colliquativa.png" />
+          <img src="images/tuberculosis_colliquativa.png" alt=""/>
           <div className="media-link-title">Tuberculosis colliquativa</div>
           <div className="media-link-description">
             Hauttuberkulose mit einzelne schmerzlosen, subkutanen Knoten, die
@@ -368,9 +368,9 @@ function Spezifische_infektionen(props) {
         </div>
         <div data-media-id={3} data-media-type="image">
           <div className="data-media-thumbnail">
-            <img src="images/klinik.png" />
+            <img src="images/klinik.png" alt=""/>
           </div>
-          <img src="images/zellkultur.png" />
+          <img src="images/zellkultur.png" alt=""/>
           <div className="media-link-title">Tuberkulose</div>
           <div className="media-link-description">
             Mikrobiologische Zellkultur der Tuberkulose.
@@ -378,9 +378,9 @@ function Spezifische_infektionen(props) {
         </div>
         <div data-media-id={4} data-media-type="image">
           <div className="data-media-thumbnail">
-            <img src="images/klinik.png" />
+            <img src="images/klinik.png" alt=""/>
           </div>
-          <img src="images/mikroskopie_tbc_1.png" />
+          <img src="images/mikroskopie_tbc_1.png" alt=""/>
           <div className="media-link-title">Tuberkulose</div>
           <div className="media-link-description">
             Mikroskopisches Präparat einer Tuberkulose mit einer
@@ -556,7 +556,7 @@ function Spezifische_infektionen(props) {
         </table>
         <p>
           <span className="startGallery" data-gallery-item={2}>
-            <img src="thumbs/lupus_vulgaris.png" alt="Lupus Vulgaris" />
+            <img src="thumbs/lupus_vulgaris.png" alt="Lupus Vulgaris"/>
           </span>
         </p>
         <p>
@@ -672,12 +672,12 @@ function Spezifische_infektionen(props) {
         </p>
         <p>
           <span className="startGallery" data-gallery-item={5}>
-            <img src="thumbs/t%C3%B6nnchenz%C3%A4hne.png" alt="Tönnchenzähne" />
+            <img src="thumbs/t%C3%B6nnchenz%C3%A4hne.png" alt="Tönnchenzähne"/>
           </span>
         </p>
         <p>
           <span className="startGallery" data-gallery-item={4}>
-            <img src="thumbs/hornhauttr%C3%BCbung.png" alt="Hornhauttrübung" />
+            <img src="thumbs/hornhauttr%C3%BCbung.png" alt="Hornhauttrübung"/>
           </span>
         </p>
         <p>Quelle: www.rki.de</p>
@@ -685,9 +685,9 @@ function Spezifische_infektionen(props) {
       <div className="links">
         <div data-media-id={1} data-media-type="image">
           <div className="data-media-thumbnail">
-            <img src="images/klinik.png" />
+            <img src="images/klinik.png" alt=""/>
           </div>
-          <img src="images/elektronenmikroskopie_lues.png" />
+          <img src="images/elektronenmikroskopie_lues.png" alt=""/>
           <div className="media-link-title">Lues</div>
           <div className="media-link-description">
             Elektronenmikroskopische Aufnnahme des Erregers Treponema pallidum.
@@ -695,9 +695,9 @@ function Spezifische_infektionen(props) {
         </div>
         <div data-media-id={2} data-media-type="image">
           <div className="data-media-thumbnail">
-            <img src="images/klinik.png" />
+            <img src="images/klinik.png" alt=""/>
           </div>
-          <img src="images/lupus_vulgaris.png" />
+          <img src="images/lupus_vulgaris.png" alt=""/>
           <div className="media-link-title">Lupus vulgaris</div>
           <div className="media-link-description">
             Manifestation an der Haut einer chronischen, schwer progredienten Form
@@ -706,9 +706,9 @@ function Spezifische_infektionen(props) {
         </div>
         <div data-media-id={3} data-media-type="image">
           <div className="data-media-thumbnail">
-            <img src="images/klinik.png" />
+            <img src="images/klinik.png" alt=""/>
           </div>
-          <img src="images/choryza_syphilitica.png" />
+          <img src="images/choryza_syphilitica.png" alt=""/>
           <div className="media-link-title">Choryza syphilitica</div>
           <div className="media-link-description">
             Teils blutiger Schnupfen bei einem Neugeborenen.
@@ -716,9 +716,9 @@ function Spezifische_infektionen(props) {
         </div>
         <div data-media-id={4} data-media-type="image">
           <div className="data-media-thumbnail">
-            <img src="images/klinik.png" />
+            <img src="images/klinik.png" alt=""/>
           </div>
-          <img src="images/hornhauttr%C3%BCbung.png" />
+          <img src="images/hornhauttr%C3%BCbung.png" alt=""/>
           <div className="media-link-title">Hornhauttrübung</div>
           <div className="media-link-description">
             Im Rahmen der Hutchinson'schen Trias Trübung der Hornhaut.
@@ -726,9 +726,9 @@ function Spezifische_infektionen(props) {
         </div>
         <div data-media-id={5} data-media-type="image">
           <div className="data-media-thumbnail">
-            <img src="images/klinik.png" />
+            <img src="images/klinik.png" alt=""/>
           </div>
-          <img src="images/t%C3%B6nnchenz%C3%A4hne.png" />
+          <img src="images/t%C3%B6nnchenz%C3%A4hne.png" alt=""/>
           <div className="media-link-title">Tönnchenzähne</div>
           <div className="media-link-description">
             Im Rahmen der Hutchinson'schen Trias halbmondförmige Einziehungen an den
@@ -850,9 +850,9 @@ function Spezifische_infektionen(props) {
       <div className="links">
         <div data-media-id={1} data-media-type="image">
           <div className="data-media-thumbnail">
-            <img src="images/klinik.png" />
+            <img src="images/klinik.png" alt=""/>
           </div>
-          <img src="images/clostridium_tetani.png" />
+          <img src="images/clostridium_tetani.png" alt=""/>
           <div className="media-link-title">Clostridium tetani</div>
           <div className="media-link-description">
             Lichtmikroskopischer Nachweis von Clostridium tetani.
@@ -860,9 +860,9 @@ function Spezifische_infektionen(props) {
         </div>
         <div data-media-id={2} data-media-type="image">
           <div className="data-media-thumbnail">
-            <img src="images/klinik.png" />
+            <img src="images/klinik.png" alt=""/>
           </div>
-          <img src="images/risus_sardonicus2.png" />
+          <img src="images/risus_sardonicus2.png" alt=""/>
           <div className="media-link-title">Risus sardonicus</div>
           <div className="media-link-description">
             Krämpfe der Fazialismuskulatur im Rahmen einer Tetanusinfektion werden
@@ -872,9 +872,9 @@ function Spezifische_infektionen(props) {
         </div>
         <div data-media-id={3} data-media-type="image">
           <div className="data-media-thumbnail">
-            <img src="images/klinik.png" />
+            <img src="images/klinik.png" alt=""/>
           </div>
-          <img src="images/risus_sardonicus.png" />
+          <img src="images/risus_sardonicus.png" alt=""/>
           <div className="media-link-title">Trimus</div>
           <div className="media-link-description">
             Verkrampfung der Kaumuskulatur mit Kieferklemme werden bei einer
@@ -884,9 +884,9 @@ function Spezifische_infektionen(props) {
         </div>
         <div data-media-id={4} data-media-type="image">
           <div className="data-media-thumbnail">
-            <img src="images/klinik.png" />
+            <img src="images/klinik.png" alt=""/>
           </div>
-          <img src="images/opistotonus.png" />
+          <img src="images/opistotonus.png" alt=""/>
           <div className="media-link-title">Opisthotonus</div>
           <div className="media-link-description">
             Dorsalflexion des Kopfes mit Lordose der Wirbelsäule bei der
@@ -950,7 +950,7 @@ function Spezifische_infektionen(props) {
           <p>&nbsp;</p>
           <p>
             <span className="startGallery" data-gallery-item={2}>
-              <img src="thumbs/candidiasis.png" alt="Candidiasis" />
+              <img src="thumbs/candidiasis.png" alt="Candidiasis"/>
             </span>
           </p>
           <p>&nbsp;</p>
@@ -1135,9 +1135,9 @@ function Spezifische_infektionen(props) {
       <div className="links">
         <div data-media-id={1} data-media-type="image">
           <div className="data-media-thumbnail">
-            <img src="images/klinik.png" />
+            <img src="images/klinik.png" alt=""/>
           </div>
-          <img src="images/candida_albicans.png" />
+          <img src="images/candida_albicans.png" alt=""/>
           <div className="media-link-title">Candida albicans</div>
           <div className="media-link-description">
             Mikroskopische Aufnahme des Pilzes Candida albicans.
@@ -1145,9 +1145,9 @@ function Spezifische_infektionen(props) {
         </div>
         <div data-media-id={2} data-media-type="image">
           <div className="data-media-thumbnail">
-            <img src="images/klinik.png" />
+            <img src="images/klinik.png" alt=""/>
           </div>
-          <img src="images/candidiasis.png" />
+          <img src="images/candidiasis.png" alt=""/>
           <div className="media-link-title">Candida albicans</div>
           <div className="media-link-description">
             Weißlich abwischbarer Belag auf der Schleimhaut. Darunter ist die Haut
@@ -1156,9 +1156,9 @@ function Spezifische_infektionen(props) {
         </div>
         <div data-media-id={3} data-media-type="image">
           <div className="data-media-thumbnail">
-            <img src="images/klinik.png" />
+            <img src="images/klinik.png" alt=""/>
           </div>
-          <img src="images/aspergillus_fumigatus.png" />
+          <img src="images/aspergillus_fumigatus.png" alt=""/>
           <div className="media-link-title">Aspergillose</div>
           <div className="media-link-description">
             Aspergillus fumigatus auf einer Zellkultur.
@@ -1166,9 +1166,9 @@ function Spezifische_infektionen(props) {
         </div>
         <div data-media-id={4} data-media-type="image">
           <div className="data-media-thumbnail">
-            <img src="images/klinik.png" />
+            <img src="images/klinik.png" alt=""/>
           </div>
-          <img src="images/aspergillom.png" />
+          <img src="images/aspergillom.png" alt=""/>
           <div className="media-link-title">Aspergillose</div>
           <div className="media-link-description">
             Aspergillom der linken Kieferhöhle.
@@ -1176,9 +1176,9 @@ function Spezifische_infektionen(props) {
         </div>
         <div data-media-id={5} data-media-type="image">
           <div className="data-media-thumbnail">
-            <img src="images/klinik.png" />
+            <img src="images/klinik.png" alt=""/>
           </div>
-          <img src="images/aspergillom2.png" />
+          <img src="images/aspergillom2.png" alt=""/>
           <div className="media-link-title">Aspergillom</div>
           <div className="media-link-description">
             Aspergillom der linken Kieferhöhle im CT.
@@ -1186,9 +1186,9 @@ function Spezifische_infektionen(props) {
         </div>
         <div data-media-id={6} data-media-type="image">
           <div className="data-media-thumbnail">
-            <img src="images/klinik.png" />
+            <img src="images/klinik.png" alt=""/>
           </div>
-          <img src="images/aspergillom.png" />
+          <img src="images/aspergillom.png" alt=""/>
           <div className="media-link-title">Aspergillom</div>
           <div className="media-link-description">
             Aspergillom in der linken Nasenhaupthöhle im CT.
@@ -1196,9 +1196,9 @@ function Spezifische_infektionen(props) {
         </div>
         <div data-media-id={7} data-media-type="image">
           <div className="data-media-thumbnail">
-            <img src="images/klinik.png" />
+            <img src="images/klinik.png" alt=""/>
           </div>
-          <img src="images/kryptokokkus.png" />
+          <img src="images/kryptokokkus.png" alt=""/>
           <div className="media-link-title">Kryptokokkose</div>
           <div className="media-link-description">
             Cryptococcus neoformans lichtmikroskopisch vergörßert auf einer

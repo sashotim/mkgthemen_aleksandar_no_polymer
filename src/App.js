@@ -6,6 +6,7 @@ import Grundlagen from './components/Grundlagen';
 import Galerie from './components/Galerie';
 import Quiz from './components/Quiz';
 import Lernziele from './components/Lernziele';
+import Modal from 'react-modal';
 
 // import logo from './logo.svg';
 import './App.css';
@@ -33,6 +34,9 @@ class App extends Component {
   }
 
   render() {
+    if (typeof(window) !== 'undefined') {
+    Modal.setAppElement('body')
+    }
     let componentForChosenPage;
     switch (this.state.chosenPage) {
       case 'Grundlagen':
