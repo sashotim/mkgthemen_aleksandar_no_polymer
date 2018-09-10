@@ -11,7 +11,8 @@
     "react-iframe": "^1.2.0",
     "react-modal": "^3.5.1",
     "react-scripts": "1.1.5",
-    "reactstrap": "^6.4.0"
+    "reactstrap": "^6.4.0",
+    "video.js": "^7.1.0"
   },
   "scripts": {
     "start": "react-scripts start",

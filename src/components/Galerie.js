@@ -5,6 +5,7 @@ import MyTabs from './MyTabs';
 // import ReactDOM from 'react-dom';
 import Modal from 'react-modal';
 import { IoIosArrowBack } from "react-icons/io";
+import MyVideoPlayer from "./MyVideoPlayer";
 
 import DysgnathieGallery from './dysgnathie/DysgnathieGallery';
 import Entzuendungen_abszesseGallery from './entzuendungen_abszesse/Entzuendungen_abszesseGallery';
@@ -58,7 +59,11 @@ export default class Galerie extends React.Component {
         TraumaGallery,
         TumorenGallery,
         ZystenGallery
-    ]
+    ],
+      listOfMedia: DysgnathieGallery.media,
+      activeTab: '1',
+      imageIndexList: [],
+      videoIndexList: []
     };
 
     this.openModal = this.openModal.bind(this);
@@ -66,13 +71,15 @@ export default class Galerie extends React.Component {
     this.closeModal = this.closeModal.bind(this);
     this.previousObjectHandler = this.previousObjectHandler.bind(this);
     this.nextObjectHandler = this.nextObjectHandler.bind(this);
+    this.chooseTabHandler = this.chooseTabHandler.bind(this);
   }
   openModal(e) {
     this.setState({modalIsOpen: true,
                     openedObject: this.state.galleryContent[this.props.chosenSubjectIndex].media[e.target.id],
-                    nextObject: this.state.galleryContent[this.props.chosenSubjectIndex].media[e.target.id+1],
+                    nextObject: this.state.galleryContent[this.props.chosenSubjectIndex].media[parseInt(e.target.id, 10)+1],
                     previousObject: this.state.galleryContent[this.props.chosenSubjectIndex].media[parseInt(e.target.id, 10)-1],
                     openedObjectIndex: parseInt(e.target.id, 10)});
+    console.log(e.target.id);
   }
 
   // afterOpenModal() {
@@ -99,11 +106,63 @@ export default class Galerie extends React.Component {
                   });
   }
 
+  chooseTabHandler(tab, e) {
+    if (this.state.activeTab !== tab) {
+      this.setState({
+        activeTab: tab
+      });
+    }
+    let images = [];
+    let videos = [];
+    this.setState({imageIndexList: []},()=>{
+      this.setState({videoIndexList: []}, ()=>{
+        for (var i = 0; i < this.state.galleryContent[this.props.chosenSubjectIndex].media.length; i++) {
+          if (this.state.galleryContent[this.props.chosenSubjectIndex].media[i].type === "image") {
+            this.setState({imageIndexList: this.state.imageIndexList.push(i)});
+            images.push(this.state.galleryContent[this.props.chosenSubjectIndex].media[i]);
+          } else if (this.state.galleryContent[this.props.chosenSubjectIndex].media[i].type === "video") {
+            this.setState({videoIndexList: this.state.videoIndexList.push(i)});
+            videos.push(this.state.galleryContent[this.props.chosenSubjectIndex].media[i]);
+          }
+        }
+      });
+    });
+
+    // console.log(this.state.imageIndexList);
+    // console.log(this.state.videoIndexList);
+    switch (tab) {
+      case '1':
+        this.setState({listOfMedia: this.state.galleryContent[this.props.chosenSubjectIndex].media})
+        break;
+      case '2':
+        this.setState({listOfMedia: videos})
+        break;
+      case '3':
+        this.setState({listOfMedia: images})
+        break;
+      default:
+        this.setState({listOfMedia: this.state.galleryContent[this.props.chosenSubjectIndex].media})
+
+    }
+  }
+
 
   render() {
+    let indexList=[];
+    for (var i = 0; i < this.state.listOfMedia.length; i++) {
+      indexList.push(i);
+    }
     return (
       <Container>
-        <MyTabs openModal={this.openModal} galleryContent={this.state.galleryContent[this.props.chosenSubjectIndex]}></MyTabs>
+        <MyTabs openModal={this.openModal}
+          galleryContent={this.state.galleryContent[this.props.chosenSubjectIndex].media}
+          activeTab={this.state.activeTab}
+          chooseTabHandler={this.chooseTabHandler}
+          listOfMedia={this.state.listOfMedia}
+          imageIndexList={this.state.imageIndexList}
+          videoIndexList={this.state.videoIndexList}
+          wholeIndexList={indexList}
+          ></MyTabs>
         <Modal
           isOpen={this.state.modalIsOpen}
           // onAfterOpen={this.afterOpenModal}
@@ -123,6 +182,7 @@ export default class Galerie extends React.Component {
           {this.state.openedObject.type === "video" &&
           <div id="videoContent">
             {/* TODO videos have to be linked */}
+            <MyVideoPlayer></MyVideoPlayer>
           </div>
           }
 
@@ -131,7 +191,7 @@ export default class Galerie extends React.Component {
              <div className="left">
                <Button color="primary" className="mediaBtns" onClick={this.previousObjectHandler}>Zurück</Button>
              </div>
-            <div id="position">{this.state.openedObjectIndex+1}/{this.state.galleryContent.length}</div>
+            <div id="position">{this.state.openedObjectIndex+1}/{this.state.listOfMedia.length}</div>
           <div className="right">
               <Button color="primary" className="mediaBtns" onClick={this.nextObjectHandler}>Weiter</Button>
             </div>
