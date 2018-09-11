@@ -46,6 +46,13 @@ body {
 }
 nav.navbar.navbar-expand-md.navbar-light.bg-light {
     background-color: #66bacb !important;
+    position: fixed;
+    z-index: 200;
+    width: 100%;
+}
+.navbar-light .navbar-toggler {
+  color: white !important;
+  border-color: white !important;
 }
 .navItem {
     text-align: center;
@@ -72,6 +79,25 @@ nav.navbar.navbar-expand-md.navbar-light.bg-light {
     font-weight: 300;
     text-transform: uppercase;
 }
+.navbar-nav .dropdown-menu {
+  font-family: "Lato", sans-serif !important;
+  color: #FFF;
+  background-color: #66bbcc;
+  user-select: none;
+  cursor: pointer;
+}
+.navbar-nav .dropdown-menu .dropdown-item {
+  color: #FFF;
+  user-select: none;
+  cursor: pointer;
+}
+.navbar-nav .dropdown-menu .dropdown-item:hover {
+  background-color: rgba(102, 204, 221, 0.7);
+}
+.dropdown-item.active, .dropdown-item:active {
+    text-decoration: none;
+    background-color: rgba(102, 204, 221, 0.7);
+}
 .navbar-brand {
   color: white !important;
 }
@@ -81,6 +107,9 @@ nav.navbar.navbar-expand-md.navbar-light.bg-light {
 #contentContainer {
     padding-top: 65px;
     padding-bottom: 30px;
+}
+.container {
+  margin-top: 70px;
 }
 .chapterTitle {
     font-size: 24px;
@@ -110,6 +139,7 @@ nav.navbar.navbar-expand-md.navbar-light.bg-light {
     box-shadow: none;
     -webkit-box-shadow: none;
     position: fixed;
+    text-align: left;
 }
 .panel h4 {
     font-size: 18px;
@@ -118,11 +148,13 @@ nav.navbar.navbar-expand-md.navbar-light.bg-light {
     margin-bottom: 0 !important;
     color: #0189A4;
     background-color: #ffffff;
+    padding: 0 20px;
 }
 .chapter-item {
     cursor: pointer;
     color: #66b9ca !important;
     font-weight: 400;
+    border: none !important;
 }
 .chapter-item.active {
     color: #0189B6;
@@ -132,6 +164,28 @@ nav.navbar.navbar-expand-md.navbar-light.bg-light {
     color: white !important;
     background-color: #66bbcc !important;
 }
+.chapterDropdownTrigger {
+  background-color: #0189A4 !important;
+  position: fixed !important;
+  bottom: 30px;
+  right: 10px;
+  z-index: 200;
+
+}
+.btn-group, .btn-group-vertical {
+    display: none !important;
+}
+
+@media (max-width: 575px) {
+    .btn-group, .btn-group-vertical {
+        display: block !important;
+    }
+    .panel.list-group {
+      display: none !important;
+    }
+
+}
+
 .nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
     /* color: initial !important; */
     background-color: initial !important;

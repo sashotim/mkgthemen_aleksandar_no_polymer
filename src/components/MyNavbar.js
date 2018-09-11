@@ -52,16 +52,16 @@ export default class MyNavbar extends React.Component {
           <NavbarToggler onClick={this.toggle} />
           <Collapse isOpen={this.state.isOpen} navbar>
             <Nav className="ml-auto" navbar>
-              <NavItem className={ "navItem " + (this.props.chosenPage==='Grundlagen' && 'active')} >
+              <NavItem className={ "navItem " + (this.props.chosenPage==='Grundlagen' && 'active')} onClick={this.toggle}>
                 <NavLink href="#" onClick={this.props.changePage}>Grundlagen</NavLink>
               </NavItem>
-              <NavItem className={ "navItem " + (this.props.chosenPage==='Galerie' && 'active')}>
+              <NavItem className={ "navItem " + (this.props.chosenPage==='Galerie' && 'active')} onClick={this.toggle}>
                 <NavLink href="#" onClick={this.props.changePage}>Galerie</NavLink>
               </NavItem>
-              <NavItem className={ "navItem " + (this.props.chosenPage==='Quiz' && 'active')}>
+              <NavItem className={ "navItem " + (this.props.chosenPage==='Quiz' && 'active')} onClick={this.toggle}>
                 <NavLink href="#" onClick={this.props.changePage}>Quiz</NavLink>
               </NavItem>
-              <NavItem className={ "navItem " + (this.props.chosenPage==='Lernziele' && 'active')}>
+              <NavItem className={ "navItem " + (this.props.chosenPage==='Lernziele' && 'active')} onClick={this.toggle}>
                 <NavLink href="#" onClick={this.props.changePage}>Lernziele</NavLink>
               </NavItem>
               {/* <UncontrolledDropdown nav inNavbar>
