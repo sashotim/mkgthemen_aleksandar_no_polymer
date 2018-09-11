@@ -61,8 +61,8 @@ export default class MyTabs extends React.Component {
         </Nav>
         <TabContent activeTab={this.props.activeTab} id="galleryCollection">
           <TabPane tabId="1">
-            <Row >
-              <Col sm="4">
+            <Row className="text-lg-left">
+              <Col lg="3" md="4" xs="6">
                 <MyImageCard openModal={this.props.openModal} galleryContent={this.props.listOfMedia} indexList={this.props.wholeIndexList}></MyImageCard>
               </Col>
             </Row>

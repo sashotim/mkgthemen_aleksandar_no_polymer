@@ -45,10 +45,10 @@ function Grundlagen(props) {
   return (
     <Container>
     <Row >
-      <Col sm="4">
-        <MyListGroup chapters={props.subjects[props.chosenSubjectIndex].chapters} ></MyListGroup>
+      <Col sm="4" lg="2">
+        <MyListGroup chapters={props.subjects[props.chosenSubjectIndex].chapters} scrollToChapterHandler={props.scrollToChapterHandler}></MyListGroup>
       </Col>
-      <Col sm="8">
+      <Col sm="8" lg="10">
         {subjectsContent[props.chosenSubjectIndex]}
       </Col>
     </Row>

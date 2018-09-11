@@ -62,8 +62,8 @@ nav.navbar.navbar-expand-md.navbar-light.bg-light {
     cursor: pointer !important;
     color: #ffffff !important;
     background-color: #66bbcc !important;
-    padding: 10px 0 7px 0;
-    margin: 0 15px;
+    /* padding: 10px 0 7px 0; */
+    margin: 0 5px;
     border-bottom: 2px solid transparent;
 }
 .navItem.active {
@@ -197,4 +197,18 @@ nav.navbar.navbar-expand-md.navbar-light.bg-light {
     grid-row-gap: 25px;
     user-select: none;
     width: 100%;
+}
+
+th {
+    border: none !important;
+    background-color: #66bbcc;
+    color: #ffffff;
+    text-align: left;
+    padding: 5px 10px;
+}
+th + th {
+    border-left: 1px solid #dddddd !important;
+}
+.table td + td {
+    border-left: 1px solid #dddddd !important;
 }

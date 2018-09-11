@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+// import ReactDOM from 'react-dom';
 
 import MyNavbar from './components/MyNavbar';
 import subjects from './subjects';
@@ -19,6 +20,7 @@ class App extends Component {
       chosenSubjectIndex: 0,
       chosenPage: 'Grundlagen'
     };
+    this.scrollToChapterHandler = this.scrollToChapterHandler.bind(this);
   }
   changeChosenSubjectIndexHandler = (e) => {
     this.setState({
@@ -36,6 +38,15 @@ class App extends Component {
   componentWillMount() {
     document.title = 'Lernanwendung MKG Hauptvorlesung'
   }
+  scrollToChapterHandler(e) {
+    // console.log(e.target.id);
+    // // e.preventDefault();
+    // document.querySelector("#" + e.target.id).scrollIntoView({
+    //   behavior: 'smooth'
+    // });
+    // // const domNode = ReactDOM.findDOMNode(this.domRef.current)
+    // // domNode.scrollIntoView()
+  }
 
   render() {
     if (typeof(window) !== 'undefined') {
@@ -44,7 +55,11 @@ class App extends Component {
     let componentForChosenPage;
     switch (this.state.chosenPage) {
       case 'Grundlagen':
-        componentForChosenPage = <Grundlagen subjects={subjects.subjects} chosenSubjectIndex={this.state.chosenSubjectIndex}></Grundlagen>;
+        componentForChosenPage = <Grundlagen
+                                  subjects={subjects.subjects}
+                                  chosenSubjectIndex={this.state.chosenSubjectIndex}
+                                  scrollToChapterHandler={this.scrollToChapterHandler}
+                                  ></Grundlagen>;
         break;
       case 'Galerie':
         componentForChosenPage = <Galerie chosenSubjectIndex={this.state.chosenSubjectIndex}></Galerie>;
