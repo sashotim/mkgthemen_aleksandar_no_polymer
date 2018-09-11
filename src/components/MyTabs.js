@@ -1,6 +1,6 @@
 import React from 'react';
 // import ReactDOM from "react-dom";
-import { TabContent, TabPane, Nav, NavItem, NavLink, Row, Col, Container} from 'reactstrap';
+import { TabContent, TabPane, Nav, NavItem, NavLink, Container} from 'reactstrap';
 import classnames from 'classnames';
 import MyImageCard from './MyImageCard';
 
@@ -8,29 +8,10 @@ export default class MyTabs extends React.Component {
   constructor(props) {
     super(props);
 
-    // this.toggle = this.toggle.bind(this);
     this.state = {
-      // activeTab: '1'
     };
   }
-
-  // toggle(tab) {
-  //   if (this.state.activeTab !== tab) {
-  //     this.setState({
-  //       activeTab: tab
-  //     });
-  //   }
-  // }
   render() {
-    // let images = [];
-    // let videos = [];
-    // for (var i = 0; i < this.props.galleryContent.length; i++) {
-    //   if (this.props.galleryContent[i].type === "image") {
-    //     images.push(this.props.galleryContent[i]);
-    //   } else if (this.props.galleryContent[i].type === "video") {
-    //     videos.push(this.props.galleryContent[i]);
-    //   }
-    // }
     return (
       <Container>
         <Nav tabs>
@@ -61,25 +42,13 @@ export default class MyTabs extends React.Component {
         </Nav>
         <TabContent activeTab={this.props.activeTab} id="galleryCollection">
           <TabPane tabId="1">
-            <Row className="text-lg-left">
-              <Col lg="3" md="4" xs="6">
-                <MyImageCard openModal={this.props.openModal} galleryContent={this.props.listOfMedia} indexList={this.props.wholeIndexList}></MyImageCard>
-              </Col>
-            </Row>
+            <MyImageCard openModal={this.props.openModal} galleryContent={this.props.listOfMedia} indexList={this.props.wholeIndexList}></MyImageCard>
           </TabPane>
           <TabPane tabId="2" >
-            <Row >
-              <Col sm="4">
-                <MyImageCard openModal={this.props.openModal} galleryContent={this.props.listOfMedia} indexList={this.props.videoIndexList}></MyImageCard>
-              </Col>
-            </Row>
+            <MyImageCard openModal={this.props.openModal} galleryContent={this.props.listOfMedia} indexList={this.props.videoIndexList}></MyImageCard>
           </TabPane>
           <TabPane tabId="3">
-            <Row >
-              <Col sm="4">
-                <MyImageCard openModal={this.props.openModal} galleryContent={this.props.listOfMedia} indexList={this.props.imageIndexList}></MyImageCard>
-              </Col>
-            </Row>
+            <MyImageCard openModal={this.props.openModal} galleryContent={this.props.listOfMedia} indexList={this.props.imageIndexList}></MyImageCard>
           </TabPane>
         </TabContent>
       </Container>

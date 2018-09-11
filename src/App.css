@@ -198,6 +198,13 @@ nav.navbar.navbar-expand-md.navbar-light.bg-light {
     user-select: none;
     width: 100%;
 }
+.card {
+  margin: 5px 0;
+}
+.card-img-overlay {
+  display: none;
+  background-color: rgba(102, 204, 221, 0.7);
+}
 
 th {
     border: none !important;

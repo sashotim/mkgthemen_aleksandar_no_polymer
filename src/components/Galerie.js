@@ -72,12 +72,13 @@ export default class Galerie extends React.Component {
     this.chooseTabHandler = this.chooseTabHandler.bind(this);
   }
   openModal(e) {
-    this.setState({modalIsOpen: true,
-                    openedObject: this.state.listOfMedia[parseInt(e.target.id, 10)],
-                    nextObject: this.state.listOfMedia[parseInt(e.target.id, 10)+1],
-                    previousObject: this.state.listOfMedia[parseInt(e.target.id, 10)-1],
-                    openedObjectIndex: parseInt(e.target.id, 10)});
-
+    while (!(this.state.openedObject == undefined)) {
+      this.setState({modalIsOpen: true,
+                      openedObject: this.state.listOfMedia[parseInt(e.target.id, 10)],
+                      nextObject: this.state.listOfMedia[parseInt(e.target.id, 10)+1],
+                      previousObject: this.state.listOfMedia[parseInt(e.target.id, 10)-1],
+                      openedObjectIndex: parseInt(e.target.id, 10)});
+    }
   }
 
   // afterOpenModal() {
