@@ -39,33 +39,29 @@ export default class MyNavbar extends React.Component {
       <div>
         <Navbar color="light" light expand="md">
           <NavbarBrand href="/"><IoIosArrowBack/></NavbarBrand>
-          <Nav navbar>
+        <Nav navbar>
             <UncontrolledDropdown nav inNavbar>
-              <DropdownToggle nav caret>
+              <DropdownToggle nav caret id="subjectDropdown">
                 {chosenSubject.title}
               </DropdownToggle>
               <DropdownMenu>
                 {dropdownItems}
-                <DropdownItem divider />
-                <DropdownItem>
-                  Reset
-                </DropdownItem>
               </DropdownMenu>
             </UncontrolledDropdown>
           </Nav>
           <NavbarToggler onClick={this.toggle} />
           <Collapse isOpen={this.state.isOpen} navbar>
             <Nav className="ml-auto" navbar>
-              <NavItem>
+              <NavItem className={ "navItem " + (this.props.chosenPage==='Grundlagen' && 'active')} >
                 <NavLink href="#" onClick={this.props.changePage}>Grundlagen</NavLink>
               </NavItem>
-              <NavItem>
+              <NavItem className={ "navItem " + (this.props.chosenPage==='Galerie' && 'active')}>
                 <NavLink href="#" onClick={this.props.changePage}>Galerie</NavLink>
               </NavItem>
-              <NavItem>
+              <NavItem className={ "navItem " + (this.props.chosenPage==='Quiz' && 'active')}>
                 <NavLink href="#" onClick={this.props.changePage}>Quiz</NavLink>
               </NavItem>
-              <NavItem>
+              <NavItem className={ "navItem " + (this.props.chosenPage==='Lernziele' && 'active')}>
                 <NavLink href="#" onClick={this.props.changePage}>Lernziele</NavLink>
               </NavItem>
               {/* <UncontrolledDropdown nav inNavbar>

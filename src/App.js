@@ -33,6 +33,10 @@ class App extends Component {
     });
   }
 
+  componentWillMount() {
+    document.title = 'Lernanwendung MKG Hauptvorlesung'
+  }
+
   render() {
     if (typeof(window) !== 'undefined') {
     Modal.setAppElement('body')
@@ -60,9 +64,16 @@ class App extends Component {
           <MyNavbar subjects={subjects.subjects}
                     chosenSubject={subjects.subjects[this.state.chosenSubjectIndex]}
                     changeSubjectIndex={this.changeChosenSubjectIndexHandler}
-                    changePage={this.changePageHandler}></MyNavbar>
+                    changePage={this.changePageHandler}
+                    chosenPage={this.state.chosenPage}
+                    id="navRow"></MyNavbar>
         {/* </header> */}
-        {componentForChosenPage}
+        <div className="background">
+          <div id="contentContainer">
+            {componentForChosenPage}
+          </div>
+        </div>
+
       </div>
     );
   }

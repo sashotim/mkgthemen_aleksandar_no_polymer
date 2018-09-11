@@ -7,11 +7,11 @@ export default class MyListGroup extends React.Component {
   render() {
     var rows = [];
     for (var i = 0; i < this.props.chapters.length; i++) {
-      rows.push(<ListGroupItem tag="a" href={"#" + this.props.chapters[i].id} action key={i}>{this.props.chapters[i].title}</ListGroupItem>);
+      rows.push(<ListGroupItem tag="a" href={"#" + this.props.chapters[i].id} action key={i} className="chapter-item" >{this.props.chapters[i].title}</ListGroupItem>);
     }
     return (
       <div>
-        <ListGroup>
+        <ListGroup className="panel">
           <h4>Kapiteln :</h4>
           {rows}
         </ListGroup>

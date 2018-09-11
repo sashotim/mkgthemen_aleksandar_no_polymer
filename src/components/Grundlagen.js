@@ -46,7 +46,7 @@ function Grundlagen(props) {
     <Container>
     <Row >
       <Col sm="4">
-        <MyListGroup chapters={props.subjects[props.chosenSubjectIndex].chapters}></MyListGroup>
+        <MyListGroup chapters={props.subjects[props.chosenSubjectIndex].chapters} ></MyListGroup>
       </Col>
       <Col sm="8">
         {subjectsContent[props.chosenSubjectIndex]}

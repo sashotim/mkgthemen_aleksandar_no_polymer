@@ -34,7 +34,7 @@ export default class MyTabs extends React.Component {
     return (
       <Container>
         <Nav tabs>
-          <NavItem>
+          <NavItem className="galleryNav">
             <NavLink
               className={classnames({ active: this.props.activeTab === '1' })}
               onClick={this.props.chooseTabHandler.bind(this, '1')}
@@ -42,7 +42,7 @@ export default class MyTabs extends React.Component {
               Alle Medien
             </NavLink>
           </NavItem>
-          <NavItem>
+          <NavItem className="galleryNav">
             <NavLink
               className={classnames({ active: this.props.activeTab === '2' })}
               onClick={this.props.chooseTabHandler.bind(this, '2')}
@@ -50,7 +50,7 @@ export default class MyTabs extends React.Component {
               Videos
             </NavLink>
           </NavItem>
-          <NavItem>
+          <NavItem className="galleryNav">
             <NavLink
               className={classnames({ active: this.props.activeTab === '3' })}
               onClick={this.props.chooseTabHandler.bind(this, '3')}
@@ -59,7 +59,7 @@ export default class MyTabs extends React.Component {
             </NavLink>
           </NavItem>
         </Nav>
-        <TabContent activeTab={this.props.activeTab}>
+        <TabContent activeTab={this.props.activeTab} id="galleryCollection">
           <TabPane tabId="1">
             <Row >
               <Col sm="4">
@@ -67,7 +67,7 @@ export default class MyTabs extends React.Component {
               </Col>
             </Row>
           </TabPane>
-          <TabPane tabId="2">
+          <TabPane tabId="2" >
             <Row >
               <Col sm="4">
                 <MyImageCard openModal={this.props.openModal} galleryContent={this.props.listOfMedia} indexList={this.props.videoIndexList}></MyImageCard>
