@@ -13,7 +13,9 @@
     "react-iframe": "^1.2.0",
     "react-modal": "^3.5.1",
     "react-scripts": "1.1.5",
+    "react-swipe": "^5.1.1",
     "reactstrap": "^6.4.0",
+    "swipe-js-iso": "^2.0.4",
     "video.js": "^7.1.0"
   },
   "scripts": {

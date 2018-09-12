@@ -7,6 +7,7 @@ import Modal from 'react-modal';
 import { IoIosCloseCircleOutline } from "react-icons/io";
 import MyVideoPlayer from "./MyVideoPlayer";
 import ArrowKeysReact from 'arrow-keys-react';
+// import ReactSwipe from 'react-swipe';
 
 import DysgnathieGallery from './dysgnathie/DysgnathieGallery';
 import Entzuendungen_abszesseGallery from './entzuendungen_abszesse/Entzuendungen_abszesseGallery';
@@ -26,6 +27,25 @@ import Spezifische_infektionenGallery from './spezifische_infektionen/Spezifisch
 import TraumaGallery from './trauma/TraumaGallery';
 import TumorenGallery from './tumoren/TumorenGallery';
 import ZystenGallery from './zysten/ZystenGallery';
+
+import DysgnathieVideos from './dysgnathie/video.json';
+import EntzuendungenAbszesseVideos from './entzuendungen_abszesse/video.json';
+import GesichtshauttumorenVideos from './gesichtshauttumoren/video.json';
+import ImplantologieUndEpithetikVideos from './implantologie_und_epithetik/video.json';
+import KomplikationenVideos from './komplikationen/video.json';
+import KraniosynostosenVideos from './kraniosynostosen/video.json';
+import LkgVideos from './lkg/video.json';
+import LokaleLappenplastikenVideos from './lokale_lappenplastiken/video.json';
+import MikrochirurgieVideos from './mikrochirurgie/video.json';
+import MronjUndOrnVideos from './mronj_und_orn/video.json';
+import NasennebenhoehlenVideos from './nasennebenhoehlen/video.json';
+import OdontogeneTumorenVideos from './odontogene_tumoren/video.json';
+import PraeprothetischeChirurgieAugmentationVideos from './praeprothetische_chirurgie_augmentation/video.json';
+import SpeicheldruesenVideos from './speicheldruesen/video.json';
+import SpezifischeInfektionenVideos from './spezifische_infektionen/video.json';
+import TraumaVideos from './trauma/video.json';
+import TumorenVideos from './tumoren/video.json';
+import ZystenVideos from './zysten/video.json';
 
 function mod(n, m) {
   return ((n % m) + m) % m;
@@ -62,7 +82,10 @@ export default class Galerie extends React.Component {
         ZystenGallery
     ],
       listOfMedia: DysgnathieGallery.media,
-      activeTab: '1'
+      activeTab: '1',
+      error: null,
+      isLoaded: false,
+      items: []
     };
 
     ArrowKeysReact.config({
@@ -149,8 +172,36 @@ export default class Galerie extends React.Component {
             this.setState({listOfMedia: this.state.galleryContent[this.props.chosenSubjectIndex].media})
           }
   }
+  componentDidMount() {
+    fetch("https://wms-avmz.klinikum.rwth-aachen.de:443/mkg/mp4:lkg_doppelseitige_spalte.mp4/playlist.m3u8")
+      // .then(res => res.json())
+      .then(
+        (result) => {
+          console.log(result);
+        },
+        // Note: it's important to handle errors here
+        // instead of a catch() block so that we don't swallow
+        // exceptions from actual bugs in components.
+        (error) => {
+          this.setState({
+            isLoaded: true,
+            error
+          });
+        }
+      )
+  }
 
   render() {
+    const videoJsOptions = {
+      autoplay: true,
+      controls: true,
+      sources: [{
+        src: 'https://wms-avmz.klinikum.rwth-aachen.de:443/mkg/mp4:lkg_doppelseitige_spalte.mp4/playlist.m3u8',
+        type: 'video/mp4'
+      }]
+    }
+    // console.log(DysgnathieVideos);
+    console.log(this.state.items);
     return (
       <Container {...ArrowKeysReact.events}>
         <MyTabs openModal={this.openModal}
@@ -178,7 +229,7 @@ export default class Galerie extends React.Component {
           {this.state.openedObject.type === "video" &&
           <div id="videoContent">
             {/* TODO videos have to be linked */}
-            <MyVideoPlayer></MyVideoPlayer>
+            <MyVideoPlayer {...videoJsOptions}></MyVideoPlayer>
           </div>
           }
 
