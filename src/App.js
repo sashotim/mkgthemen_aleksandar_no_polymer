@@ -20,7 +20,6 @@ class App extends Component {
       chosenSubjectIndex: 0,
       chosenPage: 'Grundlagen'
     };
-    this.scrollToChapterHandler = this.scrollToChapterHandler.bind(this);
   }
   changeChosenSubjectIndexHandler = (e) => {
     this.setState({
@@ -37,15 +36,6 @@ class App extends Component {
 
   componentWillMount() {
     document.title = 'Lernanwendung MKG Hauptvorlesung'
-  }
-  scrollToChapterHandler(e) {
-    // console.log(e.target.id);
-    // // e.preventDefault();
-    // document.querySelector("#" + e.target.id).scrollIntoView({
-    //   behavior: 'smooth'
-    // });
-    // // const domNode = ReactDOM.findDOMNode(this.domRef.current)
-    // // domNode.scrollIntoView()
   }
 
   render() {

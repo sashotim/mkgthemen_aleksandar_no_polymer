@@ -4,8 +4,9 @@ import { Container, Button } from 'reactstrap';
 import MyTabs from './MyTabs';
 // import ReactDOM from 'react-dom';
 import Modal from 'react-modal';
-import { IoIosArrowBack, IoIosCloseCircleOutline } from "react-icons/io";
+import { IoIosCloseCircleOutline } from "react-icons/io";
 import MyVideoPlayer from "./MyVideoPlayer";
+import ArrowKeysReact from 'arrow-keys-react';
 
 import DysgnathieGallery from './dysgnathie/DysgnathieGallery';
 import Entzuendungen_abszesseGallery from './entzuendungen_abszesse/Entzuendungen_abszesseGallery';
@@ -64,6 +65,14 @@ export default class Galerie extends React.Component {
       activeTab: '1'
     };
 
+    ArrowKeysReact.config({
+      left: () => {
+        this.previousObjectHandler();
+      },
+      right: () => {
+        this.nextObjectHandler();
+      }
+    });
     this.openModal = this.openModal.bind(this);
     // this.afterOpenModal = this.afterOpenModal.bind(this);
     this.closeModal = this.closeModal.bind(this);
@@ -74,22 +83,15 @@ export default class Galerie extends React.Component {
   openModal(e) {
     // while (this.state.openedObject == undefined) {
       this.setState({
-                      openedObject: this.state.listOfMedia[parseInt(e.target.id, 10)],
-                      nextObject: this.state.listOfMedia[parseInt(e.target.id, 10)+1],
-                      previousObject: this.state.listOfMedia[parseInt(e.target.id, 10)-1],
-                      openedObjectIndex: parseInt(e.target.id, 10)}, () =>{
-                        if (this.state.openedObject) {
-                          this.setState({modalIsOpen: true});
-                        }
-                      });
-
-    // }
+          openedObject: this.state.listOfMedia[parseInt(e.target.id, 10)],
+          nextObject: this.state.listOfMedia[parseInt(e.target.id, 10)+1],
+          previousObject: this.state.listOfMedia[parseInt(e.target.id, 10)-1],
+          openedObjectIndex: parseInt(e.target.id, 10)}, () =>{
+            if (this.state.openedObject) {
+              this.setState({modalIsOpen: true});
+            }
+          });
   }
-
-  // afterOpenModal() {
-  //   // references are now sync'd and can be accessed.
-  //   this.subtitle.style.color = '#f00';
-  // }
 
   closeModal() {
     this.setState({modalIsOpen: false,
@@ -148,14 +150,9 @@ export default class Galerie extends React.Component {
           }
   }
 
-
   render() {
-    let indexList=[];
-    for (var i = 0; i < this.state.listOfMedia.length; i++) {
-      indexList.push(i);
-    }
     return (
-      <Container>
+      <Container {...ArrowKeysReact.events}>
         <MyTabs openModal={this.openModal}
           galleryContent={this.state.listOfMedia}
           activeTab={this.state.activeTab}
