@@ -81,11 +81,31 @@ export default class Galerie extends React.Component {
         TumorenGallery,
         ZystenGallery
     ],
+      videoContent: [
+        DysgnathieVideos,
+        EntzuendungenAbszesseVideos,
+        GesichtshauttumorenVideos,
+        ImplantologieUndEpithetikVideos,
+        KomplikationenVideos,
+        KraniosynostosenVideos,
+        LkgVideos,
+        LokaleLappenplastikenVideos,
+        MikrochirurgieVideos,
+        MronjUndOrnVideos,
+        NasennebenhoehlenVideos,
+        OdontogeneTumorenVideos,
+        PraeprothetischeChirurgieAugmentationVideos,
+        SpeicheldruesenVideos,
+        SpezifischeInfektionenVideos,
+        TraumaVideos,
+        TumorenVideos,
+        ZystenVideos,
+        TumorenGallery
+    ],
       listOfMedia: DysgnathieGallery.media,
       activeTab: '1',
-      error: null,
-      isLoaded: false,
-      items: []
+      sourceOfLoadedVideo: "",
+      posterOfLoadedVideo: ""
     };
 
     ArrowKeysReact.config({
@@ -113,9 +133,36 @@ export default class Galerie extends React.Component {
             if (this.state.openedObject) {
               this.setState({modalIsOpen: true});
             }
+            console.log(this.state.openedObject.videoId);
+            if (this.state.openedObject.type === "video") {
+              let poster = this.state.videoContent[this.props.chosenSubjectIndex].videos[
+                parseInt(this.state.openedObject.videoId)
+              ].poster
+              let source =
+                "https://" +
+                this.state.videoContent[this.props.chosenSubjectIndex].videos[
+                  parseInt(this.state.openedObject.videoId)
+                ].host +
+                ":" +
+                this.state.videoContent[this.props.chosenSubjectIndex].videos[
+                  parseInt(this.state.openedObject.videoId)
+                ].port +
+                "/" +
+                this.state.videoContent[this.props.chosenSubjectIndex].videos[
+                  parseInt(this.state.openedObject.videoId)
+                ].path +
+                "/mp4:" +
+                this.state.videoContent[this.props.chosenSubjectIndex].videos[
+                  parseInt(this.state.openedObject.videoId)
+                ].file +
+                "/playlist.m3u8";
+                console.log(source);
+                this.setState({sourceOfLoadedVideo: source,
+                                posterOfLoadedVideo: poster});
+            }
           });
-  }
 
+  }
   closeModal() {
     this.setState({modalIsOpen: false,
                   openedObject: DysgnathieGallery.media[0],
@@ -172,32 +219,17 @@ export default class Galerie extends React.Component {
             this.setState({listOfMedia: this.state.galleryContent[this.props.chosenSubjectIndex].media})
           }
   }
-  componentDidMount() {
-    fetch("https://wms-avmz.klinikum.rwth-aachen.de:443/mkg/mp4:lkg_doppelseitige_spalte.mp4/playlist.m3u8")
-      // .then(res => res.json())
-      .then(
-        (result) => {
-          console.log(result);
-        },
-        // Note: it's important to handle errors here
-        // instead of a catch() block so that we don't swallow
-        // exceptions from actual bugs in components.
-        (error) => {
-          this.setState({
-            isLoaded: true,
-            error
-          });
-        }
-      )
-  }
 
   render() {
-    const videoJsOptions = {
-      autoplay: true,
+    let videoJsOptions = {
+      autoplay: false,
       controls: true,
+      fluid: false,
+      width: 500,
+      poster: this.state.posterOfLoadedVideo,
       sources: [{
-        src: 'https://wms-avmz.klinikum.rwth-aachen.de:443/mkg/mp4:lkg_doppelseitige_spalte.mp4/playlist.m3u8',
-        type: 'video/mp4'
+        src: this.state.sourceOfLoadedVideo,
+        // type: 'video/mp4'
       }]
     }
     // console.log(DysgnathieVideos);
