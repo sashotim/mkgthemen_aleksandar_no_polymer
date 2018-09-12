@@ -28,10 +28,10 @@ export default class MyImageCard extends React.Component {
   for (var i = 0; i < this.props.galleryContent.length; i++) {
     listOfMedia.push(
       <Col sm="4" key={i} onMouseEnter={this.showOverlayHandler} onMouseLeave={this.hideOverlayHandler}>
-        <Card inverse onClick={this.props.openModal} key={i} style={{float: "left"}}>
-          <CardImg width="100%" src="https://placeholdit.imgix.net/~text?txtsize=33&txt=318%C3%97180&w=318&h=180" alt="" /> {/*{this.props.galleryContent[i].image}*/}
+        <Card inverse onClick={this.props.openModal} key={i} style={{float: "left"}} id={i}>
+          <CardImg width="100%" src="https://placeholdit.imgix.net/~text?txtsize=33&txt=318%C3%97180&w=318&h=180" alt="" id={i}/> {/*{this.props.galleryContent[i].image}*/}
           <CardImgOverlay key={i} id={i}>  {/* id={this.props.galleryContent[i].id} */}
-            <CardTitle>{this.props.galleryContent[i].title}</CardTitle>
+            <CardTitle id={i}>{this.props.galleryContent[i].title}</CardTitle>
           </CardImgOverlay>
         </Card>
       </Col>

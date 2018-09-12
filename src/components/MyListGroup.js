@@ -1,5 +1,6 @@
 import React from 'react';
 import { ListGroup, ListGroupItem, ButtonDropdown, DropdownToggle, DropdownMenu, DropdownItem } from 'reactstrap';
+import AnchorLink from 'react-anchor-link-smooth-scroll'
 
 
 
@@ -20,7 +21,13 @@ export default class MyListGroup extends React.Component {
   render() {
     var rows = [];
     for (var i = 0; i < this.props.chapters.length; i++) {
-      rows.push(<ListGroupItem tag="a" href={"#" + this.props.chapters[i].id} action key={i} className="chapter-item" >{this.props.chapters[i].title}</ListGroupItem>);
+      rows.push(<ListGroupItem
+        tag="div"
+
+        action
+        key={i}
+        className="chapter-item"
+        ><AnchorLink href={"#" + this.props.chapters[i].id} offset='100' className="chapter-item">{this.props.chapters[i].title}</AnchorLink></ListGroupItem>);
     }
     var rowsDropdown = [];
     for (var i = 0; i < this.props.chapters.length; i++) {

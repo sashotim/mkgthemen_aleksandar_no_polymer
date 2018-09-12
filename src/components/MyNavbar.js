@@ -37,7 +37,7 @@ export default class MyNavbar extends React.Component {
     }
     return (
       <div>
-        <Navbar color="light" light expand="md">
+        <Navbar color="light" light expand="md" fixed={`top`} className="sticky-nav">
           <NavbarBrand href="/"><IoIosArrowBack/></NavbarBrand>
         <Nav navbar>
             <UncontrolledDropdown nav inNavbar>

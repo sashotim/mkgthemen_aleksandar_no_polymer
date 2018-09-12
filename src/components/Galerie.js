@@ -72,13 +72,18 @@ export default class Galerie extends React.Component {
     this.chooseTabHandler = this.chooseTabHandler.bind(this);
   }
   openModal(e) {
-    while (!(this.state.openedObject == undefined)) {
-      this.setState({modalIsOpen: true,
+    // while (this.state.openedObject == undefined) {
+      this.setState({
                       openedObject: this.state.listOfMedia[parseInt(e.target.id, 10)],
                       nextObject: this.state.listOfMedia[parseInt(e.target.id, 10)+1],
                       previousObject: this.state.listOfMedia[parseInt(e.target.id, 10)-1],
-                      openedObjectIndex: parseInt(e.target.id, 10)});
-    }
+                      openedObjectIndex: parseInt(e.target.id, 10)}, () =>{
+                        if (this.state.openedObject) {
+                          this.setState({modalIsOpen: true});
+                        }
+                      });
+
+    // }
   }
 
   // afterOpenModal() {
@@ -87,7 +92,10 @@ export default class Galerie extends React.Component {
   // }
 
   closeModal() {
-    this.setState({modalIsOpen: false});
+    this.setState({modalIsOpen: false,
+                  openedObject: DysgnathieGallery.media[0],
+                  nextObject: DysgnathieGallery.media[mod(-1, DysgnathieGallery.media.length)],
+                  previousObject: DysgnathieGallery.media[1]});
   }
 
   previousObjectHandler() {
@@ -157,6 +165,7 @@ export default class Galerie extends React.Component {
         <Modal
           isOpen={this.state.modalIsOpen}
           onRequestClose={this.closeModal}
+          id="overlayContent"
         >
           <div id="overlayContent">
 
