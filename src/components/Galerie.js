@@ -4,7 +4,7 @@ import { Container, Button } from 'reactstrap';
 import MyTabs from './MyTabs';
 // import ReactDOM from 'react-dom';
 import Modal from 'react-modal';
-import { IoIosArrowBack } from "react-icons/io";
+import { IoIosArrowBack, IoIosCloseCircleOutline } from "react-icons/io";
 import MyVideoPlayer from "./MyVideoPlayer";
 
 import DysgnathieGallery from './dysgnathie/DysgnathieGallery';
@@ -171,7 +171,7 @@ export default class Galerie extends React.Component {
 
           <div id="header">
             {this.state.openedObject.title}
-            <IoIosArrowBack onClick={this.closeModal} />
+            <IoIosCloseCircleOutline onClick={this.closeModal} />
           </div>
           {this.state.openedObject.type === "image" &&
           <div id="imageContent">
