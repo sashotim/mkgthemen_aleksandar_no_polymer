@@ -115,6 +115,7 @@ nav.navbar.navbar-expand-md.navbar-light.bg-light {
 }
 .container {
   margin-top: 70px;
+  padding: 30px 0;
 }
 .chapterTitle {
     font-size: 24px;
@@ -209,6 +210,9 @@ nav.navbar.navbar-expand-md.navbar-light.bg-light {
 .card-img-overlay {
   display: none;
   background-color: rgba(102, 204, 221, 0.7);
+}
+.nav-tabs {
+    margin-top: -85px;
 }
 
 th {

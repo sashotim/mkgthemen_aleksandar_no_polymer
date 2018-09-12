@@ -1,5 +1,5 @@
 import React from 'react';
-import { Container, Table } from 'reactstrap';
+import { Container, Table, Row, Col } from 'reactstrap';
 // import MyTabs from './MyTabs';
 
 import DysgnathieLernziele from './dysgnathie/DysgnathieLernziele.js';
@@ -45,9 +45,13 @@ function Lernziele(props) {
 ];
   return (
     <Container>
-      <Table>
-        {lernzieleContent[props.chosenSubjectIndex]}
-      </Table>
+      <Row>
+        <Col>
+          <Table>
+            {lernzieleContent[props.chosenSubjectIndex]}
+          </Table>
+        </Col>
+      </Row>
     </Container>);
 }
 
