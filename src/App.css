@@ -206,6 +206,7 @@ nav.navbar.navbar-expand-md.navbar-light.bg-light {
 }
 .card {
   margin: 5px 0;
+  cursor: pointer;
 }
 .card-img-overlay {
   display: none;
@@ -259,6 +260,7 @@ th + th {
     position: absolute;
     top: 7px;
     right: 7px;
+    cursor: pointer;
 }
 #footer {
     width: 100%;
