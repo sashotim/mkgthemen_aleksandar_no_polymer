@@ -23,7 +23,6 @@ export default class MyListGroup extends React.Component {
     for (var i = 0; i < this.props.chapters.length; i++) {
       rows.push(<ListGroupItem
         tag="div"
-
         action
         key={i}
         className="chapter-item"
@@ -31,7 +30,10 @@ export default class MyListGroup extends React.Component {
     }
     var rowsDropdown = [];
     for (var i = 0; i < this.props.chapters.length; i++) {
-      rowsDropdown.push(<DropdownItem tag="a" href={"#" + this.props.chapters[i].id} key={i} className="chapter-item" >{this.props.chapters[i].title}</DropdownItem>);
+      rowsDropdown.push(<DropdownItem tag="div"
+      key={i}
+      className="chapter-item"
+      ><AnchorLink href={"#" + this.props.chapters[i].id} offset='100' className="chapter-item">{this.props.chapters[i].title}</AnchorLink></DropdownItem>);
     }
     return (
       <div>
