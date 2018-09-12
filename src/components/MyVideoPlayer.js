@@ -3,6 +3,14 @@ import videojs from 'video.js';
 import 'video.js/dist/video-js.min.css'
 
 export default class MyVideoPlayer extends React.Component {
+  // componentDidUpdate() {
+  //   // instantiate Video.js
+  //   console.log(this.props);
+  //   this.player.load();
+  //   // this.player = videojs(this.videoNode, this.props, function onPlayerReady() {
+  //   //   console.log('onPlayerReady', this)
+  //   // });
+  // }
   componentDidMount() {
     // instantiate Video.js
     this.player = videojs(this.videoNode, this.props, function onPlayerReady() {

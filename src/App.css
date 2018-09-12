@@ -274,3 +274,7 @@ th + th {
     box-sizing: border-box;
     padding: 7px;
 }
+.btn-primary {
+  background-color: #66bbcc !important;
+  border-color: #66bbcc !important;
+}
